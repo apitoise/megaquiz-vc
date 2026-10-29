@@ -118,18 +118,25 @@ kbd {
 .setup fieldset {
   border: 2px solid var(--panel-2);
   border-radius: var(--radius);
-  padding: 0.8em;
+  padding: 0.6em 0.8em 0.8em;
+}
+.setup legend {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0 0.4em;
 }
 .theme-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 12em), 1fr));
-  gap: 0.5em;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 11em), 1fr));
+  gap: 0.4em;
 }
 .theme-choice {
   display: flex;
   align-items: center;
-  gap: 0.6em;
-  padding: 0.45em 0.8em;
+  gap: 0.5em;
+  padding: 0.3em 0.7em;
+  font-size: 0.85em;
   border-radius: 10px;
   background: var(--panel);
   cursor: pointer;
@@ -140,7 +147,7 @@ kbd {
 }
 .setup-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 12em), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 8em), 1fr));
   gap: 1em;
 }
 .setup-row label {

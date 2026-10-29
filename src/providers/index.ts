@@ -4,6 +4,7 @@ import { covers } from "./covers.ts";
 import { flags } from "./flags.ts";
 import { music } from "./music.ts";
 import { filmMusic, ost, seriesMusic } from "./ost.ts";
+import { filmImages, filmPosters, seriesImages, seriesPosters } from "./screen.ts";
 import { screenshots } from "./screenshots.ts";
 import { shapes } from "./shapes.ts";
 import { trivia } from "./trivia.ts";
@@ -18,6 +19,10 @@ export const providers: QuestionProvider[] = [
   covers,
   screenshots,
   ost,
+  filmPosters,
+  filmImages,
   filmMusic,
+  seriesPosters,
+  seriesImages,
   seriesMusic,
 ];

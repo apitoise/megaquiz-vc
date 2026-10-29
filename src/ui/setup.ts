@@ -27,6 +27,7 @@ export function renderSetup(root: HTMLElement, providers: QuestionProvider[], in
       h("span", {}, p.label),
     ),
   );
+  const setAll = (value: boolean) => themeBoxes.forEach((label) => (label.querySelector("input")!.checked = value));
   const count = h("input", { type: "number", name: "count", min: 1, max: 500, value: initial.questionCount, required: true });
   const timer = h("input", { type: "number", name: "timer", min: 3, max: 120, value: initial.timerSeconds, required: true });
   const p1 = h("input", { type: "text", name: "p1", value: initial.players[0], maxlength: 20, required: true });
@@ -36,14 +37,26 @@ export function renderSetup(root: HTMLElement, providers: QuestionProvider[], in
     "form",
     { class: "setup" },
     h("h1", {}, "MégaQuiz"),
-    h("fieldset", {}, h("legend", {}, "Thèmes"), h("div", { class: "theme-grid" }, ...themeBoxes)),
+    h(
+      "fieldset",
+      {},
+      h(
+        "legend",
+        {},
+        "Thèmes ",
+        actionButton(null, "Tout cocher", () => setAll(true), "small ghost"),
+        actionButton(null, "Tout décocher", () => setAll(false), "small ghost"),
+      ),
+      h("div", { class: "theme-grid" }, ...themeBoxes),
+    ),
     h(
       "div",
       { class: "setup-row" },
-      h("label", {}, "Nombre de questions", count),
-      h("label", {}, "Durée du timer (s)", timer),
+      h("label", {}, "Questions", count),
+      h("label", {}, "Timer (s)", timer),
+      h("label", {}, "Joueur [A]", p1),
+      h("label", {}, "Joueur [M]", p2),
     ),
-    h("div", { class: "setup-row" }, h("label", {}, "Joueur [A]", p1), h("label", {}, "Joueur [M]", p2)),
     error,
     h("button", { class: "action primary big", type: "submit" }, "Lancer la partie"),
     h(

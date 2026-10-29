@@ -69,7 +69,7 @@ export const filmMusic = soundtrackProvider({
 
 export const seriesMusic = soundtrackProvider({
   id: "series-music",
-  label: "Séries : générique et musique",
+  label: "Séries : musique",
   prompt: "De quelle série vient cette musique ?",
   answerLabel: "Série",
   load: async () => (await import("../../data/series_music.json")).default as Soundtrack[],

@@ -34,12 +34,15 @@ Les pools stables sont versionnés dans `data/` ; `npm run build-pools` les rég
 | `data/countries.json` | 193 membres de l'ONU + Vatican et Palestine, avec leur continent | [mledoze/countries](https://github.com/mledoze/countries) + fichier curé |
 | `data/shapes.json` | silhouettes SVG pré-projetées | `world-atlas` (Natural Earth 50m), `d3-geo` |
 | `data/games.json` | ~440 jeux connus (≥ 400 notes IGDB, jeux principaux et remakes), ids de jaquette et de screenshots | IGDB (token Twitch) |
+| `data/films.json`, `data/series.json` | 300 films et 150 séries les plus votés, titre français, affiche **sans texte** et images de scène sans texte | TMDB (`TMDB_READ_TOKEN`) |
 | `data/ost_games.json` | **curé à la main** : jeux candidats au thème OST (`match` pour préciser le titre attendu, `album` pour imposer un album Deezer) | — |
 | `data/ost.json` / `data/ost_coverage.json` | albums d'OST validés et pistes ; rapport de couverture (ok / douteux / absent) | recherche d'albums Deezer |
 | `data/music.json` | ~3 400 tubes en 7 styles (rap, rock, dance, soul, variété, rétro, tubes) | chart + playlists éditoriales Deezer (liste dans `scripts/pools/music.ts`) |
 | `data/trivia_fr.json` | **rédigé à la main** : ~240 questions de culture générale en 9 catégories | — |
 | `data/ost_films.json`, `data/ost_series.json` | **curés à la main** : films et séries candidats (`match`, `album`, ou `track` pour un générique précis) | — |
 | `data/film_music.json`, `data/series_music.json` (+ `_coverage`) | musiques de films et séries validées, rapport de couverture | recherche Deezer |
+
+Films et séries : TMDB n'est appelé que par `npm run build-pools -- films series` (jeton `TMDB_READ_TOKEN` du `.env`, à créer sur themoviedb.org → Paramètres → API). TMDB classe « sans langue » les affiches et images sans texte : le thème affiches n'utilise que celles-là (pas besoin d'anonymisation). Les séries jeunesse, téléréalité, talk-shows, soaps et l'anime sont écartés. En partie, les images viennent directement de `image.tmdb.org`, sans clé ; à la révélation, l'affiche officielle s'affiche en vignette.
 
 Jeux vidéo : IGDB n'est appelé que par `npm run build-pools -- games` (identifiants Twitch du `.env`, token mis en cache et renouvelé dans `server/igdb.ts`). En partie, les images viennent directement de `images.igdb.com`, sans clé. Le seuil est `MIN_RATING_COUNT` dans `scripts/pools/games.ts`. Beaucoup de jaquettes affichent le nom du jeu : défaut accepté.
 
