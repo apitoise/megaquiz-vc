@@ -53,12 +53,14 @@ describe("capitales sans les tout petits pays", () => {
 describe("villes de France", () => {
   const map = franceData as FranceMap;
 
-  it("des villes connues, bien réparties, toutes dans la carte", () => {
-    expect(map.cities.length).toBeGreaterThanOrEqual(70);
+  it("les 2 plus grandes villes de chaque région, toutes dans la carte", () => {
+    // 13 régions × 2, moins Boulogne-Billancourt (collée à Paris sur la carte).
+    expect(map.cities).toHaveLength(25);
     const names = map.cities.map((c) => c.name);
-    for (const city of ["Paris", "Lyon", "Marseille", "Brest", "Ajaccio", "Strasbourg"]) expect(names).toContain(city);
-    expect(names).not.toContain("Villeurbanne"); // collée à Lyon
-    expect(names).not.toContain("Nanterre"); // collée à Paris
+    for (const city of ["Paris", "Lyon", "Saint-Étienne", "Marseille", "Nice", "Brest", "Rennes", "Ajaccio", "Bastia", "Strasbourg", "Reims"]) {
+      expect(names).toContain(city);
+    }
+    for (const city of ["Boulogne-Billancourt", "Cergy", "Villeurbanne", "Grenoble", "Toulon", "Perpignan"]) expect(names).not.toContain(city);
     for (const c of map.cities) {
       expect(c.x).toBeGreaterThan(0);
       expect(c.x).toBeLessThan(map.size);
@@ -67,10 +69,10 @@ describe("villes de France", () => {
     }
   });
 
-  it("Brest à l'ouest, Strasbourg à l'est, Lille au nord, Perpignan au sud", () => {
+  it("Brest à l'ouest, Strasbourg à l'est, Lille au nord, Marseille au sud", () => {
     const at = (n: string) => map.cities.find((c) => c.name === n)!;
     expect(at("Brest").x).toBeLessThan(at("Strasbourg").x);
-    expect(at("Lille").y).toBeLessThan(at("Perpignan").y);
+    expect(at("Lille").y).toBeLessThan(at("Marseille").y);
   });
 
   it("question : carte muette avec un point, réponse = ville (département)", async () => {

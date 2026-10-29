@@ -43,7 +43,7 @@ Les pools stables sont versionnés dans `data/` ; `npm run build-pools` les rég
 | `data/art_curated.json`, `data/landmarks_curated.json` | **curés à la main** : œuvres (titre, artiste) et lieux (nom, ville/pays), avec l'article Wikipédia ; `exclude` écarte une image jugée inutilisable | — |
 | `data/juste_prix_curated.json` | **curé à la main** : ~45 prix (lancements, records d'enchères et de transferts) et ~150 chiffres à estimer | — |
 | `data/juste_prix.json` | + populations légales des 100 plus grandes villes, images Wikipédia | API Géo + Wikipédia |
-| `data/france_map.json` | contour de la France pré-projeté (conique conforme) et ~90 villes (préfectures ≥ 20 000 hab., villes ≥ 60 000 hab., hors petite couronne) | world-atlas 10m + API Géo (geo.api.gouv.fr) |
+| `data/france_map.json` | contour de la France pré-projeté (conique conforme) et 25 villes : les 2 plus peuplées de chaque région (Paris seule en Île-de-France, Boulogne-Billancourt s'y superposant) | world-atlas 10m + API Géo (geo.api.gouv.fr) |
 | `data/art.json`, `data/landmarks.json` | ~150 œuvres et ~150 lieux célèbres, images vérifiées (créateur Wikidata = artiste attendu ; coordonnées pour un lieu) | Wikipédia FR + Wikidata (sans clé) |
 | `data/ost_films.json`, `data/ost_series.json` | **curés à la main** : films et séries candidats (`match`, `album`, ou `track` pour un générique précis) | — |
 | `data/film_music.json`, `data/series_music.json` (+ `_coverage`) | musiques de films et séries validées, rapport de couverture | recherche Deezer |

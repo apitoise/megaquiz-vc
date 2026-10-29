@@ -12,14 +12,13 @@ import { fetchJson, writeJson } from "./http.ts";
 
 const SIZE = 600;
 const PADDING = 24;
-/** Préfectures plus petites écartées (Privas, Foix, Mende… trop peu connues). */
-const MIN_PREFECTURE_POPULATION = 20_000;
-/** Autres villes retenues au-delà de ce seuil (Reims, Le Havre, Brest…). */
-const MIN_CITY_POPULATION = 60_000;
-/** Deux villes plus proches que ça seraient confondues sur la carte : on garde la plus peuplée. */
+/** Les villes les plus peuplées de chaque région de métropole : les plus connues, bien réparties. */
+const CITIES_PER_REGION = 2;
+/**
+ * Deux villes plus proches que ça seraient confondues sur la carte : la moins peuplée est écartée,
+ * sans la remplacer (l'Île-de-France n'a que Paris, Boulogne-Billancourt s'y superposerait).
+ */
 const MIN_DISTANCE_KM = 20;
-/** Île-de-France hors Paris : tout se superpose à Paris à cette échelle. */
-const EXCLUDED_DEPARTMENTS = new Set(["77", "78", "91", "92", "93", "94", "95"]);
 const MIN_STEP_PX = 0.6;
 
 interface Commune {
@@ -27,6 +26,7 @@ interface Commune {
   code: string;
   population?: number;
   codeDepartement: string;
+  codeRegion: string;
   centre?: { coordinates: [number, number] };
 }
 
@@ -36,16 +36,18 @@ const isMetropole = (dep: string) => /^(\d{2}|2A|2B)$/.test(dep);
 
 export async function buildFrance(): Promise<void> {
   const departments = await fetchJson<{ code: string; nom: string; chefLieu: string }[]>("https://geo.api.gouv.fr/departements?fields=nom,code,chefLieu");
-  const communes = await fetchJson<Commune[]>("https://geo.api.gouv.fr/communes?fields=nom,code,centre,population,codeDepartement&format=json");
+  const communes = await fetchJson<Commune[]>("https://geo.api.gouv.fr/communes?fields=nom,code,centre,population,codeDepartement,codeRegion&format=json");
   const depName = new Map(departments.map((d) => [d.code, d.nom]));
-  const prefectures = new Set(departments.map((d) => d.chefLieu));
 
   const candidates = communes
-    .filter((c) => c.centre && c.population && isMetropole(c.codeDepartement) && !EXCLUDED_DEPARTMENTS.has(c.codeDepartement))
-    .filter((c) => c.population! >= (prefectures.has(c.code) ? MIN_PREFECTURE_POPULATION : MIN_CITY_POPULATION))
+    .filter((c) => c.centre && c.population && isMetropole(c.codeDepartement))
     .sort((a, b) => b.population! - a.population!);
   const kept: Commune[] = [];
+  const perRegion = new Map<string, number>();
   for (const c of candidates) {
+    const rank = (perRegion.get(c.codeRegion) ?? 0) + 1;
+    if (rank > CITIES_PER_REGION) continue;
+    perRegion.set(c.codeRegion, rank);
     const near = kept.some((k) => geoDistance(k.centre!.coordinates, c.centre!.coordinates) * 6371 < MIN_DISTANCE_KM);
     if (!near) kept.push(c);
   }
@@ -79,7 +81,8 @@ export async function buildFrance(): Promise<void> {
   });
   const map: FranceMap = { size: SIZE, outline: svgPath(mainland, projection), cities };
   await writeJson("data/france_map.json", map);
-  console.log(`  ${cities.length} villes (${cities.filter((c) => prefectures.has(c.code)).length} préfectures), contour ${(map.outline.length / 1024).toFixed(0)} Ko`);
+  console.log(`  ${cities.length} villes (${perRegion.size} régions), contour ${(map.outline.length / 1024).toFixed(0)} Ko`);
+  console.log(`  ${cities.map((c) => c.name).join(", ")}`);
 }
 
 const round = (n: number) => Math.round(n * 10) / 10;
