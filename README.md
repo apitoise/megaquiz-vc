@@ -34,17 +34,17 @@ Les pools stables sont versionnés dans `data/` ; `npm run build-pools` les rég
 | `data/countries.json` | 193 membres de l'ONU + Vatican et Palestine, avec leur continent | [mledoze/countries](https://github.com/mledoze/countries) + fichier curé |
 | `data/shapes.json` | silhouettes SVG pré-projetées | `world-atlas` (Natural Earth 50m), `d3-geo` |
 | `data/games.json` | ~440 jeux connus (≥ 400 notes IGDB, jeux principaux et remakes), ids de jaquette et de screenshots | IGDB (token Twitch) |
-| `data/films.json`, `data/series.json` | 300 films et 150 séries les plus votés, titre français, affiche **sans texte** et images de scène sans texte | TMDB (`TMDB_READ_TOKEN`) |
+| `data/films.json`, `data/series.json` | 600 films et 300 séries les plus votés, titre français, affiche **sans texte** et images de scène sans texte | TMDB (`TMDB_READ_TOKEN`) |
 | `data/ost_games.json` | **curé à la main** : jeux candidats au thème OST (`match` pour préciser le titre attendu, `album` pour imposer un album Deezer) | — |
 | `data/ost.json` / `data/ost_coverage.json` | albums d'OST validés et pistes ; rapport de couverture (ok / douteux / absent) | recherche d'albums Deezer |
 | `data/music.json` | ~3 400 tubes en 7 styles (rap, rock, dance, soul, variété, rétro, tubes) | chart + playlists éditoriales Deezer (liste dans `scripts/pools/music.ts`) |
-| `data/trivia_fr.json` | **rédigé à la main** : ~380 questions de culture générale en 9 catégories | — |
-| `data/summaries_fr.json` | **rédigé à la main** : 100 résumés de livres, films, séries et jeux vidéo | — |
+| `data/trivia_fr.json` | **rédigé à la main** : ~1 000 questions de culture générale en 9 catégories | — |
+| `data/summaries_fr.json` | **rédigé à la main** : ~300 résumés de livres, films, séries et jeux vidéo | — |
 | `data/art_curated.json`, `data/landmarks_curated.json` | **curés à la main** : œuvres (titre, artiste) et lieux (nom, ville/pays), avec l'article Wikipédia ; `exclude` écarte une image jugée inutilisable | — |
-| `data/juste_prix_curated.json` | **curé à la main** : prix (lancements, records d'enchères et de transferts) et chiffres à estimer | — |
-| `data/juste_prix.json` | + populations légales des 20 plus grandes villes, images Wikipédia | API Géo + Wikipédia |
+| `data/juste_prix_curated.json` | **curé à la main** : ~45 prix (lancements, records d'enchères et de transferts) et ~150 chiffres à estimer | — |
+| `data/juste_prix.json` | + populations légales des 100 plus grandes villes, images Wikipédia | API Géo + Wikipédia |
 | `data/france_map.json` | contour de la France pré-projeté (conique conforme) et ~90 villes (préfectures ≥ 20 000 hab., villes ≥ 60 000 hab., hors petite couronne) | world-atlas 10m + API Géo (geo.api.gouv.fr) |
-| `data/art.json`, `data/landmarks.json` | images vérifiées (créateur Wikidata = artiste attendu ; coordonnées pour un lieu) | Wikipédia FR + Wikidata (sans clé) |
+| `data/art.json`, `data/landmarks.json` | ~150 œuvres et ~150 lieux célèbres, images vérifiées (créateur Wikidata = artiste attendu ; coordonnées pour un lieu) | Wikipédia FR + Wikidata (sans clé) |
 | `data/ost_films.json`, `data/ost_series.json` | **curés à la main** : films et séries candidats (`match`, `album`, ou `track` pour un générique précis) | — |
 | `data/film_music.json`, `data/series_music.json` (+ `_coverage`) | musiques de films et séries validées, rapport de couverture | recherche Deezer |
 

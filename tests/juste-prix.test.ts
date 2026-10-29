@@ -89,7 +89,7 @@ describe("le juste prix", () => {
 
   it("prix, chiffres et habitants, sans doublon", () => {
     expect(new Set(items.map((q) => q.id)).size).toBe(items.length);
-    for (const cat of ["prix", "chiffres", "habitants"]) expect(items.filter((q) => q.category === cat).length, cat).toBeGreaterThanOrEqual(15);
+    for (const cat of ["prix", "chiffres", "habitants"]) expect(items.filter((q) => q.category === cat).length, cat).toBeGreaterThanOrEqual(40);
     for (const q of items) {
       expect(q.question, q.id).toMatch(/\?$/);
       expect(q.answer, q.id).toMatch(/\d/);

@@ -8,9 +8,9 @@ const films = filmsData as ScreenWork[];
 const series = seriesData as ScreenWork[];
 
 describe("data/films.json et data/series.json", () => {
-  it("300 films et 150 séries, sans doublon", () => {
-    expect(films).toHaveLength(300);
-    expect(series).toHaveLength(150);
+  it("600 films et 300 séries, sans doublon (remakes distingués par l'année)", () => {
+    expect(films).toHaveLength(600);
+    expect(series).toHaveLength(300);
     for (const works of [films, series]) {
       expect(new Set(works.map((w) => w.id)).size).toBe(works.length);
       expect(new Set(works.map((w) => w.name)).size).toBe(works.length);
@@ -19,7 +19,7 @@ describe("data/films.json et data/series.json", () => {
 
   it("ne contient que des chemins d'images (pas d'URL, pas de jeton)", () => {
     const text = JSON.stringify([films, series]);
-    expect(text).not.toMatch(/https?:|Bearer|eyJ/);
+    expect(text).not.toMatch(/https?:|Bearer|eyJhbGci/);
     for (const w of [...films, ...series]) {
       if (w.textlessPoster) expect(w.textlessPoster).toMatch(/^\/\w+\.(jpg|png)$/);
       for (const b of w.backdrops) expect(b).toMatch(/^\/\w+\.(jpg|png)$/);

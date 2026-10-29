@@ -47,15 +47,15 @@ describe("culture générale toutes les 5 questions", () => {
   });
 
   it("le pool compte assez de questions pour plusieurs parties de 50 sans répétition", () => {
-    expect(triviaData.questions.length).toBeGreaterThanOrEqual(350);
+    expect(triviaData.questions.length).toBeGreaterThanOrEqual(1000);
     expect(new Set(triviaData.questions.map((q) => q.id)).size).toBe(triviaData.questions.length);
   });
 });
 
 describe("résumés d'œuvres", () => {
-  it("100 résumés en 4 catégories, sans titre de l'œuvre dans le résumé", () => {
-    expect(summariesData.items).toHaveLength(100);
-    expect(new Set(summariesData.items.map((s) => s.id)).size).toBe(100);
+  it("~300 résumés en 4 catégories, sans titre de l'œuvre dans le résumé", () => {
+    expect(summariesData.items).toHaveLength(303);
+    expect(new Set(summariesData.items.map((s) => s.id)).size).toBe(303);
     for (const s of summariesData.items) {
       const title = s.answer.replace(/\s*\(.*\)$/, "").toLowerCase();
       expect(s.summary.toLowerCase().includes(title), `${s.id} contient « ${title} »`).toBe(false);
@@ -76,8 +76,8 @@ describe("art et monuments", () => {
   const places = landmarksData as Landmark[];
 
   it("pools vérifiés : images Wikimédia, sans doublon", () => {
-    expect(artworks.length).toBeGreaterThanOrEqual(40);
-    expect(places.length).toBeGreaterThanOrEqual(50);
+    expect(artworks.length).toBeGreaterThanOrEqual(140);
+    expect(places.length).toBeGreaterThanOrEqual(140);
     for (const x of [...artworks, ...places]) expect(x.image).toMatch(/^https:\/\/[a-z.]*wikimedia\.org\/.+\.(jpe?g|png)$/i);
     expect(new Set(artworks.map((a) => a.slug)).size).toBe(artworks.length);
     expect(new Set(places.map((p) => p.slug)).size).toBe(places.length);

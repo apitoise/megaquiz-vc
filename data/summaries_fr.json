@@ -605,6 +605,1224 @@
    "category": "jeu",
    "summary": "Après avoir souscrit à un forfait d'évasion, on s'installe sur une île déserte peuplée d'animaux qui parlent, et on rembourse ses prêts à un raton laveur entrepreneur.",
    "answer": "Animal Crossing: New Horizons"
+  },
+  {
+   "id": "liv-26",
+   "category": "livre",
+   "summary": "Un jeune ambitieux de province, fils de charpentier, gravit les échelons de la société grâce à ses conquêtes amoureuses, de la femme du maire à la fille d'un marquis, avant de finir sur l'échafaud.",
+   "answer": "Le Rouge et le Noir (Stendhal)"
+  },
+  {
+   "id": "liv-27",
+   "category": "livre",
+   "summary": "Un naïf jeune homme, chassé d'un château westphalien, parcourt le monde et ses malheurs en répétant que tout est pour le mieux dans le meilleur des mondes possibles, avant de conclure qu'il faut cultiver son jardin.",
+   "answer": "Candide (Voltaire)"
+  },
+  {
+   "id": "liv-28",
+   "category": "livre",
+   "summary": "Un journaliste séduisant mais sans scrupule fait fortune à Paris en séduisant des femmes influentes du monde de la presse.",
+   "answer": "Bel-Ami (Guy de Maupassant)"
+  },
+  {
+   "id": "liv-29",
+   "category": "livre",
+   "summary": "Un vieux père se ruine pour ses deux filles ingrates dans une pension parisienne miteuse, sous les yeux d'un jeune étudiant ambitieux, Rastignac.",
+   "answer": "Le Père Goriot (Honoré de Balzac)"
+  },
+  {
+   "id": "liv-30",
+   "category": "livre",
+   "summary": "Une marquise et un vicomte libertins échangent des lettres pour manipuler et séduire une jeune fille et une femme vertueuse, jusqu'à leur propre perte.",
+   "answer": "Les Liaisons dangereuses (Choderlos de Laclos)"
+  },
+  {
+   "id": "liv-31",
+   "category": "livre",
+   "summary": "Une épidémie frappe la ville d'Oran, mise en quarantaine ; un médecin lutte jour après jour contre le fléau aux côtés de quelques hommes.",
+   "answer": "La Peste (Albert Camus)"
+  },
+  {
+   "id": "liv-32",
+   "category": "livre",
+   "summary": "Une jeune gouvernante orpheline tombe amoureuse de son mystérieux employeur, M. Rochester, qui cache un terrible secret dans le grenier de son manoir.",
+   "answer": "Jane Eyre (Charlotte Brontë)"
+  },
+  {
+   "id": "liv-33",
+   "category": "livre",
+   "summary": "Sur les landes du Yorkshire, l'amour destructeur entre un orphelin recueilli, Heathcliff, et Catherine Earnshaw, qui épouse un autre homme.",
+   "answer": "Les Hauts de Hurlevent (Emily Brontë)"
+  },
+  {
+   "id": "liv-34",
+   "category": "livre",
+   "summary": "Un orphelin s'enfuit à Londres où il tombe entre les mains d'une bande de jeunes pickpockets dirigée par le vieux Fagin.",
+   "answer": "Oliver Twist (Charles Dickens)"
+  },
+  {
+   "id": "liv-35",
+   "category": "livre",
+   "summary": "Un vieil avare détestant Noël reçoit, la nuit du réveillon, la visite de trois fantômes qui lui montrent son passé, son présent et son avenir.",
+   "answer": "Un chant de Noël (Charles Dickens)"
+  },
+  {
+   "id": "liv-36",
+   "category": "livre",
+   "summary": "Un jeune garçon découvre la carte d'un pirate et embarque sur l'Hispaniola, où le cuisinier unijambiste Long John Silver se révèle être un redoutable mutin.",
+   "answer": "L'Île au trésor (Robert Louis Stevenson)"
+  },
+  {
+   "id": "liv-37",
+   "category": "livre",
+   "summary": "Un médecin naufragé se réveille ligoté par des hommes minuscules hauts de six pouces, avant de découvrir d'autres contrées encore plus étranges, dont une peuplée de géants.",
+   "answer": "Les Voyages de Gulliver (Jonathan Swift)"
+  },
+  {
+   "id": "liv-38",
+   "category": "livre",
+   "summary": "Un jeune homme d'une grande beauté reste éternellement jeune tandis que son image peinte sur une toile vieillit et s'enlaidit à chacun de ses vices.",
+   "answer": "Le Portrait de Dorian Gray (Oscar Wilde)"
+  },
+  {
+   "id": "liv-39",
+   "category": "livre",
+   "summary": "Un « petit d'homme » élevé par des loups dans la forêt indienne est protégé par une panthère noire et un ours, et menacé par un tigre.",
+   "answer": "Le Livre de la jungle (Rudyard Kipling)"
+  },
+  {
+   "id": "liv-40",
+   "category": "livre",
+   "summary": "Un garçon qui refuse de grandir emmène trois enfants londoniens au Pays imaginaire, où ils affrontent le capitaine Crochet.",
+   "answer": "Peter Pan (James Matthew Barrie)"
+  },
+  {
+   "id": "liv-41",
+   "category": "livre",
+   "summary": "Dans une société future, les humains sont conçus en éprouvette et conditionnés dès la naissance, et le bonheur est assuré par une drogue appelée le soma.",
+   "answer": "Le Meilleur des mondes (Aldous Huxley)"
+  },
+  {
+   "id": "liv-42",
+   "category": "livre",
+   "summary": "Les bêtes d'une exploitation agricole chassent leur propriétaire et prennent le pouvoir, mais les cochons qui les dirigent finissent par se comporter comme des humains : « certains sont plus égaux que d'autres ».",
+   "answer": "La Ferme des animaux (George Orwell)"
+  },
+  {
+   "id": "liv-43",
+   "category": "livre",
+   "summary": "Un vieux pêcheur cubain malchanceux lutte pendant trois jours contre un espadon géant au large, avant que des requins ne dévorent sa prise.",
+   "answer": "Le Vieil Homme et la Mer (Ernest Hemingway)"
+  },
+  {
+   "id": "liv-44",
+   "category": "livre",
+   "summary": "Un mystérieux millionnaire organise de somptueuses fêtes à Long Island dans l'espoir de reconquérir Daisy, son amour de jeunesse, dans l'Amérique des années 1920.",
+   "answer": "Gatsby le Magnifique (Francis Scott Fitzgerald)"
+  },
+  {
+   "id": "liv-45",
+   "category": "livre",
+   "summary": "Pendant la Grande Dépression, une famille de fermiers chassée de l'Oklahoma prend la route vers la Californie, terre promise qui se révèle hostile.",
+   "answer": "Les Raisins de la colère (John Steinbeck)"
+  },
+  {
+   "id": "liv-46",
+   "category": "livre",
+   "summary": "Un garçon espiègle du Mississippi repeint une palissade en faisant croire que c'est un privilège, et assiste à un meurtre dans un cimetière avec son ami Huck.",
+   "answer": "Les Aventures de Tom Sawyer (Mark Twain)"
+  },
+  {
+   "id": "liv-47",
+   "category": "livre",
+   "summary": "Un professeur de symbologie enquête sur un meurtre au Louvre et découvre des secrets cachés dans les œuvres d'un grand maître de la Renaissance italienne.",
+   "answer": "Da Vinci Code (Dan Brown)"
+  },
+  {
+   "id": "liv-48",
+   "category": "livre",
+   "summary": "Dans un pays divisé en districts, une adolescente se porte volontaire à la place de sa petite sœur pour participer à des jeux télévisés où les candidats doivent s'entretuer.",
+   "answer": "Hunger Games (Suzanne Collins)"
+  },
+  {
+   "id": "liv-49",
+   "category": "livre",
+   "summary": "Une lycéenne s'installe dans une petite ville pluvieuse de l'État de Washington et tombe amoureuse d'un camarade de classe qui s'avère être un vampire.",
+   "answer": "Twilight (Stephenie Meyer)"
+  },
+  {
+   "id": "liv-50",
+   "category": "livre",
+   "summary": "Quatre enfants découvrent un royaume magique en traversant une armoire, et aident le lion Aslan à vaincre la Sorcière blanche.",
+   "answer": "Le Monde de Narnia (C. S. Lewis)"
+  },
+  {
+   "id": "liv-51",
+   "category": "livre",
+   "summary": "Un garçon pauvre trouve un ticket d'or qui lui permet de visiter l'usine de confiserie d'un excentrique, gardée par des Oompa-Loompas.",
+   "answer": "Charlie et la Chocolaterie (Roald Dahl)"
+  },
+  {
+   "id": "liv-52",
+   "category": "livre",
+   "summary": "Un étudiant pauvre de Saint-Pétersbourg assassine une vieille usurière à coups de hache, persuadé d'être un homme supérieur, puis est rongé par la culpabilité.",
+   "answer": "Crime et Châtiment (Fiodor Dostoïevski)"
+  },
+  {
+   "id": "liv-53",
+   "category": "livre",
+   "summary": "Une aristocrate russe mariée tombe amoureuse du comte Vronski ; rejetée par la société, elle finit par se jeter sous un train.",
+   "answer": "Anna Karénine (Léon Tolstoï)"
+  },
+  {
+   "id": "liv-54",
+   "category": "livre",
+   "summary": "Sur plusieurs générations, la famille Buendía vit dans le village imaginaire de Macondo, entre prodiges, guerres civiles et malédiction.",
+   "answer": "Cent ans de solitude (Gabriel García Márquez)"
+  },
+  {
+   "id": "liv-55",
+   "category": "livre",
+   "summary": "Un jeune berger andalou part à la recherche d'un trésor près des pyramides d'Égypte et apprend à suivre sa « Légende personnelle ».",
+   "answer": "L'Alchimiste (Paulo Coelho)"
+  },
+  {
+   "id": "liv-56",
+   "category": "livre",
+   "summary": "En 1327, dans une abbaye bénédictine italienne, un moine franciscain et son novice enquêtent sur des morts mystérieuses liées à un livre interdit de la bibliothèque.",
+   "answer": "Le Nom de la rose (Umberto Eco)"
+  },
+  {
+   "id": "liv-57",
+   "category": "livre",
+   "summary": "Guidé par le poète Virgile, le narrateur traverse les neuf cercles de l'Enfer, puis le Purgatoire, avant d'atteindre le Paradis avec Béatrice.",
+   "answer": "La Divine Comédie (Dante Alighieri)"
+  },
+  {
+   "id": "liv-58",
+   "category": "livre",
+   "summary": "Un écrivain raconte son enfance provençale, les vacances dans les collines et la fierté qu'il éprouve lorsque son père, instituteur, abat deux bartavelles d'un coup.",
+   "answer": "La Gloire de mon père (Marcel Pagnol)"
+  },
+  {
+   "id": "liv-59",
+   "category": "livre",
+   "summary": "Un écolier raconte avec naïveté son quotidien avec ses copains Alceste, Clotaire, Rufus et Agnan le chouchou de la maîtresse.",
+   "answer": "Le Petit Nicolas (Goscinny et Sempé)"
+  },
+  {
+   "id": "liv-60",
+   "category": "livre",
+   "summary": "Une jeune fille insolente venue de province découvre Paris pendant deux jours, avec un seul rêve : emprunter le train souterrain de la capitale, paralysé par une grève.",
+   "answer": "Zazie dans le métro (Raymond Queneau)"
+  },
+  {
+   "id": "liv-61",
+   "category": "livre",
+   "summary": "Colin épouse Chloé, mais un nénuphar se met à pousser dans le poumon de la jeune femme, dans un Paris poétique et absurde.",
+   "answer": "L'Écume des jours (Boris Vian)"
+  },
+  {
+   "id": "liv-62",
+   "category": "livre",
+   "summary": "Une adolescente de dix-sept ans, en vacances sur la Côte d'Azur avec son père volage, manigance pour empêcher le remariage de celui-ci.",
+   "answer": "Bonjour tristesse (Françoise Sagan)"
+  },
+  {
+   "id": "liv-63",
+   "category": "livre",
+   "summary": "Dans l'Indochine des années 1920, une adolescente française de quinze ans vit une liaison avec un riche Chinois plus âgé.",
+   "answer": "L'Amant (Marguerite Duras)"
+  },
+  {
+   "id": "liv-64",
+   "category": "livre",
+   "summary": "Un lycéen de Sologne est fasciné par un camarade mystérieux qui a découvert, lors d'une fête étrange dans un domaine perdu, la jeune fille qu'il aimera toute sa vie.",
+   "answer": "Le Grand Meaulnes (Alain-Fournier)"
+  },
+  {
+   "id": "liv-65",
+   "category": "livre",
+   "summary": "Un géant glouton et son fils naissent au milieu de festins rabelaisiens ; le fils fonde l'abbaye de Thélème, où la devise est « Fais ce que voudras ».",
+   "answer": "Gargantua (François Rabelais)"
+  },
+  {
+   "id": "liv-66",
+   "category": "livre",
+   "summary": "Un riche marchand parvenu veut à tout prix devenir un homme de qualité et prend des leçons de danse, d'escrime et de philosophie, découvrant qu'il fait de la prose sans le savoir.",
+   "answer": "Le Bourgeois gentilhomme (Molière)"
+  },
+  {
+   "id": "liv-67",
+   "category": "livre",
+   "summary": "Un hypocondriaque veut marier sa fille à un médecin pour être soigné gratuitement, tandis que sa servante Toinette se déguise en docteur.",
+   "answer": "Le Malade imaginaire (Molière)"
+  },
+  {
+   "id": "liv-68",
+   "category": "livre",
+   "summary": "Rodrigue doit venger l'honneur de son père en tuant le père de Chimène, la femme qu'il aime.",
+   "answer": "Le Cid (Pierre Corneille)"
+  },
+  {
+   "id": "liv-69",
+   "category": "livre",
+   "summary": "Deux vagabonds attendent au bord d'une route, près d'un arbre, un certain personnage qui ne vient jamais.",
+   "answer": "En attendant Godot (Samuel Beckett)"
+  },
+  {
+   "id": "liv-70",
+   "category": "livre",
+   "summary": "Trois personnages morts se retrouvent enfermés pour l'éternité dans un salon Second Empire et comprennent que l'enfer, c'est les autres.",
+   "answer": "Huis clos (Jean-Paul Sartre)"
+  },
+  {
+   "id": "liv-71",
+   "category": "livre",
+   "summary": "Un professeur allemand, son neveu et un guide islandais descendent dans le cratère d'un volcan éteint et découvrent un monde souterrain peuplé de créatures préhistoriques.",
+   "answer": "Voyage au centre de la Terre (Jules Verne)"
+  },
+  {
+   "id": "liv-72",
+   "category": "livre",
+   "summary": "Un gentleman cambrioleur à l'élégance légendaire affronte un célèbre détective anglais au nom à peine déguisé.",
+   "answer": "Arsène Lupin contre Herlock Sholmès (Maurice Leblanc)"
+  },
+  {
+   "id": "liv-73",
+   "category": "livre",
+   "summary": "Dix inconnus sont invités sur une île au large du Devon et meurent un à un selon les couplets d'une comptine.",
+   "answer": "Ils étaient dix (Agatha Christie)"
+  },
+  {
+   "id": "liv-74",
+   "category": "livre",
+   "summary": "Un détective et son ami médecin enquêtent sur la malédiction d'une bête démoniaque qui hanterait la lande du Devon.",
+   "answer": "Le Chien des Baskerville (Arthur Conan Doyle)"
+  },
+  {
+   "id": "liv-75",
+   "category": "livre",
+   "summary": "Un adolescent new-yorkais renvoyé de son lycée erre trois jours dans Manhattan en jugeant tous les adultes « bidons ».",
+   "answer": "L'Attrape-cœurs (J. D. Salinger)"
+  },
+  {
+   "id": "liv-76",
+   "category": "livre",
+   "summary": "Un écrivain devient gardien d'un hôtel isolé du Colorado pour l'hiver avec sa femme et son fils doté de pouvoirs psychiques, et sombre dans la folie.",
+   "answer": "Shining (Stephen King)"
+  },
+  {
+   "id": "fil-26",
+   "category": "film",
+   "summary": "Deux tueurs à gages philosophent sur les hamburgers, un boxeur refuse de se coucher et la femme d'un gangster fait une overdose, dans un récit en désordre chronologique.",
+   "answer": "Pulp Fiction"
+  },
+  {
+   "id": "fil-27",
+   "category": "film",
+   "summary": "Un pianiste de jazz et une aspirante actrice tombent amoureux à Los Angeles, entre numéros chantés et ambitions qui finissent par les séparer.",
+   "answer": "La La Land"
+  },
+  {
+   "id": "fil-28",
+   "category": "film",
+   "summary": "Un acteur de cinéma muet voit sa carrière s'effondrer avec l'arrivée du parlant, tandis qu'une jeune figurante qu'il a aidée devient une star.",
+   "answer": "The Artist"
+  },
+  {
+   "id": "fil-29",
+   "category": "film",
+   "summary": "Un rat qui rêve de devenir chef cuisinier s'installe dans un grand restaurant parisien et cuisine en tirant les cheveux d'un jeune commis maladroit.",
+   "answer": "Ratatouille"
+  },
+  {
+   "id": "fil-30",
+   "category": "film",
+   "summary": "Un poisson-clown traverse l'océan pour retrouver son fils capturé par un plongeur, aidé d'une poissonne bleue qui oublie tout.",
+   "answer": "Le Monde de Nemo"
+  },
+  {
+   "id": "fil-31",
+   "category": "film",
+   "summary": "Un vieux veuf grincheux attache des milliers de ballons à sa maison pour s'envoler vers l'Amérique du Sud, avec un jeune scout passager clandestin.",
+   "answer": "Là-haut"
+  },
+  {
+   "id": "fil-32",
+   "category": "film",
+   "summary": "Dans la tête d'une petite fille qui déménage à San Francisco, Joie, Tristesse, Colère, Peur et Dégoût pilotent ses émotions.",
+   "answer": "Vice-versa"
+  },
+  {
+   "id": "fil-33",
+   "category": "film",
+   "summary": "Un petit robot resté seul sur une Terre couverte de déchets tombe amoureux d'une sonde venue de l'espace.",
+   "answer": "WALL-E"
+  },
+  {
+   "id": "fil-34",
+   "category": "film",
+   "summary": "Une jeune fille se fait passer pour un homme pour prendre la place de son père dans l'armée impériale chinoise.",
+   "answer": "Mulan"
+  },
+  {
+   "id": "fil-35",
+   "category": "film",
+   "summary": "Un garçon des rues trouve une lampe magique dont le génie lui accorde trois vœux, pour séduire la princesse Jasmine.",
+   "answer": "Aladdin"
+  },
+  {
+   "id": "fil-36",
+   "category": "film",
+   "summary": "Une jeune fille de dix ans, dont les parents sont transformés en cochons, travaille dans un établissement de bains pour esprits.",
+   "answer": "Le Voyage de Chihiro"
+  },
+  {
+   "id": "fil-37",
+   "category": "film",
+   "summary": "Deux sœurs s'installent à la campagne et se lient d'amitié avec un gros esprit de la forêt qui voyage en Chatbus.",
+   "answer": "Mon voisin Totoro"
+  },
+  {
+   "id": "fil-38",
+   "category": "film",
+   "summary": "Un archéologue au fouet et au chapeau mou court après une relique biblique légendaire pour empêcher les nazis de s'en emparer.",
+   "answer": "Les Aventuriers de l'arche perdue"
+  },
+  {
+   "id": "fil-39",
+   "category": "film",
+   "summary": "Un cyborg tueur venu du futur doit éliminer Sarah Connor, la mère du futur chef de la résistance humaine contre les machines.",
+   "answer": "Terminator"
+  },
+  {
+   "id": "fil-40",
+   "category": "film",
+   "summary": "L'équipage d'un vaisseau cargo spatial répond à un signal de détresse et ramène à bord une créature qui les élimine un à un ; seule Ripley lui tient tête.",
+   "answer": "Alien, le huitième passager"
+  },
+  {
+   "id": "fil-41",
+   "category": "film",
+   "summary": "Des scientifiques new-yorkais chasseurs de spectres équipés d'aspirateurs à particules affrontent un gigantesque bonhomme en guimauve.",
+   "answer": "S.O.S. Fantômes"
+  },
+  {
+   "id": "fil-42",
+   "category": "film",
+   "summary": "Un homme découvre peu à peu que sa vie est une émission de télé-réalité diffusée en direct et que la ville où il vit est un immense décor.",
+   "answer": "The Truman Show"
+  },
+  {
+   "id": "fil-43",
+   "category": "film",
+   "summary": "Un employé de bureau insomniaque crée avec un vendeur de savon un club clandestin où des hommes se battent à mains nues.",
+   "answer": "Fight Club"
+  },
+  {
+   "id": "fil-44",
+   "category": "film",
+   "summary": "Un psychologue pour enfants tente d'aider un petit garçon qui affirme voir des personnes mortes.",
+   "answer": "Sixième Sens"
+  },
+  {
+   "id": "fil-45",
+   "category": "film",
+   "summary": "Un astronaute est laissé pour mort sur Mars et doit survivre en cultivant des pommes de terre en attendant les secours.",
+   "answer": "Seul sur Mars"
+  },
+  {
+   "id": "fil-46",
+   "category": "film",
+   "summary": "Pendant une mission de sauvetage, une ingénieure médicale se retrouve seule à dériver dans l'espace après la destruction de sa navette par des débris.",
+   "answer": "Gravity"
+  },
+  {
+   "id": "fil-47",
+   "category": "film",
+   "summary": "Un homme atteint d'amnésie antérograde traque l'assassin de sa femme en se tatouant des indices, dans un récit raconté à rebours.",
+   "answer": "Memento"
+  },
+  {
+   "id": "fil-48",
+   "category": "film",
+   "summary": "Deux magiciens rivaux du Londres victorien s'affrontent pour réaliser le tour ultime de l'homme transporté.",
+   "answer": "Le Prestige"
+  },
+  {
+   "id": "fil-49",
+   "category": "film",
+   "summary": "Un milliardaire orphelin devient justicier masqué à Gotham et affronte un criminel au visage maquillé qui veut semer le chaos.",
+   "answer": "The Dark Knight"
+  },
+  {
+   "id": "fil-50",
+   "category": "film",
+   "summary": "Un homme d'affaires allemand membre du parti nazi sauve plus d'un millier de juifs en les employant dans ses usines.",
+   "answer": "La Liste de Schindler"
+  },
+  {
+   "id": "fil-51",
+   "category": "film",
+   "summary": "Après le débarquement en Normandie, un capitaine et ses hommes partent à la recherche d'un parachutiste dont les trois frères ont été tués au combat.",
+   "answer": "Il faut sauver le soldat Ryan"
+  },
+  {
+   "id": "fil-52",
+   "category": "film",
+   "summary": "Un banquier condamné à tort pour le meurtre de sa femme passe des années dans une prison du Maine en creusant patiemment un tunnel derrière une affiche.",
+   "answer": "Les Évadés"
+  },
+  {
+   "id": "fil-53",
+   "category": "film",
+   "summary": "Un vétéran du Vietnam insomniaque devient chauffeur de taxi de nuit à New York et sombre dans la violence : « You talkin' to me ? ».",
+   "answer": "Taxi Driver"
+  },
+  {
+   "id": "fil-54",
+   "category": "film",
+   "summary": "Un jeune homme fasciné par la mafia raconte son ascension dans la pègre new-yorkaise aux côtés de Jimmy et de l'imprévisible Tommy, des années 1950 aux années 1980.",
+   "answer": "Les Affranchis"
+  },
+  {
+   "id": "fil-55",
+   "category": "film",
+   "summary": "Une famille pauvre de Séoul s'infiltre petit à petit au service d'une famille riche, jusqu'à découvrir un secret enfoui au sous-sol de la luxueuse maison.",
+   "answer": "Parasite"
+  },
+  {
+   "id": "fil-56",
+   "category": "film",
+   "summary": "Un sergent instructeur hurle sur ses recrues dans un camp d'entraînement des Marines, avant que l'une d'elles ne parte pour la guerre du Vietnam.",
+   "answer": "Full Metal Jacket"
+  },
+  {
+   "id": "fil-57",
+   "category": "film",
+   "summary": "Deux policiers de Los Angeles, un vétéran prudent proche de la retraite et un sergent suicidaire, font équipe contre des trafiquants de drogue.",
+   "answer": "L'Arme fatale"
+  },
+  {
+   "id": "fil-58",
+   "category": "film",
+   "summary": "Un flic new-yorkais en vacances à Los Angeles se retrouve seul face à des terroristes qui ont pris le contrôle d'une tour de bureaux le soir de Noël.",
+   "answer": "Piège de cristal"
+  },
+  {
+   "id": "fil-59",
+   "category": "film",
+   "summary": "Un faux médecin, faux pilote et faux avocat de dix-sept ans signe des chèques frauduleux, poursuivi par un agent du FBI.",
+   "answer": "Arrête-moi si tu peux"
+  },
+  {
+   "id": "fil-60",
+   "category": "film",
+   "summary": "Un trader new-yorkais sans scrupule bâtit une fortune grâce à la fraude boursière dans les années 1990, entre excès et drogues.",
+   "answer": "Le Loup de Wall Street"
+  },
+  {
+   "id": "fil-61",
+   "category": "film",
+   "summary": "Un étudiant de Harvard crée un site communautaire qui conquiert le monde, mais se brouille avec son meilleur ami et cofondateur.",
+   "answer": "The Social Network"
+  },
+  {
+   "id": "fil-62",
+   "category": "film",
+   "summary": "Un roi du Royaume-Uni, bègue, prend des cours avec un orthophoniste australien peu conventionnel avant une allocution radiophonique cruciale au début de la guerre.",
+   "answer": "Le Discours d'un roi"
+  },
+  {
+   "id": "fil-63",
+   "category": "film",
+   "summary": "Un jeune batteur de jazz est poussé jusqu'au sang par un professeur tyrannique dans un prestigieux conservatoire new-yorkais.",
+   "answer": "Whiplash"
+  },
+  {
+   "id": "fil-64",
+   "category": "film",
+   "summary": "Un ancien tueur à gages sort de sa retraite pour venger la mort de son chien, cadeau de sa défunte femme.",
+   "answer": "John Wick"
+  },
+  {
+   "id": "fil-65",
+   "category": "film",
+   "summary": "Sur une planète désertique, le jeune héritier d'une grande maison noble survit à une trahison et rejoint le peuple des Fremen.",
+   "answer": "Dune"
+  },
+  {
+   "id": "fil-66",
+   "category": "film",
+   "summary": "Un physicien dirige le projet Manhattan à Los Alamos pour mettre au point la première bombe atomique.",
+   "answer": "Oppenheimer"
+  },
+  {
+   "id": "fil-67",
+   "category": "film",
+   "summary": "Une poupée vivant dans un monde parfait tout rose commence à penser à la mort et part dans le monde réel.",
+   "answer": "Barbie"
+  },
+  {
+   "id": "fil-68",
+   "category": "film",
+   "summary": "Un comédien raté de Gotham, malade et méprisé, bascule dans la folie et devient un criminel au maquillage de clown.",
+   "answer": "Joker"
+  },
+  {
+   "id": "fil-69",
+   "category": "film",
+   "summary": "Pendant l'Occupation, un chef d'orchestre anglais et un peintre en bâtiment français aident des aviateurs britanniques à rejoindre la zone libre.",
+   "answer": "La Grande Vadrouille"
+  },
+  {
+   "id": "fil-70",
+   "category": "film",
+   "summary": "Un ancien truand rangé hérite des affaires d'un ami gangster et doit gérer la fille de celui-ci et des concurrents bien décidés à l'éliminer, entre deux répliques cultes.",
+   "answer": "Les Tontons flingueurs"
+  },
+  {
+   "id": "fil-71",
+   "category": "film",
+   "summary": "Un petit garçon délaissé, Antoine Doinel, fait l'école buissonnière et finit en maison de redressement, avant de courir vers la mer.",
+   "answer": "Les Quatre Cents Coups"
+  },
+  {
+   "id": "fil-72",
+   "category": "film",
+   "summary": "Une écrivaine allemande est accusée du meurtre de son mari, tombé d'un chalet de montagne ; leur fils malvoyant est le seul témoin.",
+   "answer": "Anatomie d'une chute"
+  },
+  {
+   "id": "fil-73",
+   "category": "film",
+   "summary": "Un tueur à gages solitaire de Little Italy, qui soigne sa plante verte, prend sous son aile une fillette de douze ans dont la famille a été massacrée.",
+   "answer": "Léon"
+  },
+  {
+   "id": "fil-74",
+   "category": "film",
+   "summary": "Deux plongeurs en apnée rivaux depuis l'enfance s'affrontent pour descendre toujours plus profond.",
+   "answer": "Le Grand Bleu"
+  },
+  {
+   "id": "fil-75",
+   "category": "film",
+   "summary": "Un as du volant marseillais, fou de vitesse, aide un policier maladroit à arrêter un gang de braqueurs allemands.",
+   "answer": "Taxi"
+  },
+  {
+   "id": "ser-26",
+   "category": "serie",
+   "summary": "Un physicien surdoué et maniaque partage un appartement de Pasadena avec un collègue, tandis que leur voisine serveuse et leurs amis geeks complètent la bande.",
+   "answer": "The Big Bang Theory"
+  },
+  {
+   "id": "ser-27",
+   "category": "serie",
+   "summary": "En 2030, un père raconte à ses enfants, sur neuf saisons, les péripéties qui l'ont mené à rencontrer leur mère à New York.",
+   "answer": "How I Met Your Mother"
+  },
+  {
+   "id": "ser-28",
+   "category": "serie",
+   "summary": "Une interne en chirurgie d'un hôpital de Seattle mène de front sa formation, ses histoires d'amour et les drames de ses collègues.",
+   "answer": "Grey's Anatomy"
+  },
+  {
+   "id": "ser-29",
+   "category": "serie",
+   "summary": "Un parrain de la mafia du New Jersey consulte en secret une psychiatre pour soigner ses crises de panique.",
+   "answer": "Les Soprano"
+  },
+  {
+   "id": "ser-30",
+   "category": "serie",
+   "summary": "Un chasseur de monstres aux cheveux blancs, mutant et solitaire, voit son destin lié à celui d'une princesse en fuite.",
+   "answer": "The Witcher"
+  },
+  {
+   "id": "ser-31",
+   "category": "serie",
+   "summary": "À Baltimore, une unité de police mène des écoutes pour démanteler des réseaux de drogue, en montrant aussi le port, la mairie, l'école et la presse de la ville.",
+   "answer": "The Wire (Sur écoute)"
+  },
+  {
+   "id": "ser-32",
+   "category": "serie",
+   "summary": "Deux détectives de Louisiane enquêtent sur un meurtre rituel, et sont interrogés dix-sept ans plus tard sur leur enquête.",
+   "answer": "True Detective"
+  },
+  {
+   "id": "ser-33",
+   "category": "serie",
+   "summary": "Un publicitaire séducteur et mystérieux de Madison Avenue cache son vrai passé dans le New York des années 1960.",
+   "answer": "Mad Men"
+  },
+  {
+   "id": "ser-34",
+   "category": "serie",
+   "summary": "Une famille riche, propriétaire d'un empire médiatique, se déchire pour hériter de l'empire de son patriarche vieillissant.",
+   "answer": "Succession"
+  },
+  {
+   "id": "ser-35",
+   "category": "serie",
+   "summary": "Dans un futur dystopique, les femmes fertiles sont réduites en esclavage et portent des robes rouges pour enfanter au service des dirigeants.",
+   "answer": "The Handmaid's Tale (La Servante écarlate)"
+  },
+  {
+   "id": "ser-36",
+   "category": "serie",
+   "summary": "Une jeune orpheline prodige des échecs grandit dans le Kentucky des années 1950 et 1960, en luttant contre ses addictions.",
+   "answer": "Le Jeu de la dame"
+  },
+  {
+   "id": "ser-37",
+   "category": "serie",
+   "summary": "Dans une petite ville allemande, la disparition d'enfants révèle les liens entre quatre familles à travers plusieurs époques, grâce à une grotte qui permet de voyager dans le temps.",
+   "answer": "Dark"
+  },
+  {
+   "id": "ser-38",
+   "category": "serie",
+   "summary": "Un chef cuisinier de haute gastronomie revient à Chicago reprendre la sandwicherie familiale de son frère défunt, avec une équipe chaotique.",
+   "answer": "The Bear"
+  },
+  {
+   "id": "ser-39",
+   "category": "serie",
+   "summary": "Des employés d'une entreprise ont accepté de séparer chirurgicalement leurs souvenirs de travail de leur vie privée.",
+   "answer": "Severance"
+  },
+  {
+   "id": "ser-40",
+   "category": "serie",
+   "summary": "Des androïdes qui prennent conscience d'eux-mêmes peuplent un parc d'attractions sur le thème du Far West, fréquenté par de riches visiteurs.",
+   "answer": "Westworld"
+  },
+  {
+   "id": "ser-41",
+   "category": "serie",
+   "summary": "Une ménagère des années 1950 quitte son mari pour se lancer dans le stand-up à New York.",
+   "answer": "Madame Maisel, femme fabuleuse"
+  },
+  {
+   "id": "ser-42",
+   "category": "serie",
+   "summary": "Un entraîneur de football américain, optimiste à toute épreuve, est engagé pour diriger un club de football anglais alors qu'il ne connaît rien à ce sport.",
+   "answer": "Ted Lasso"
+  },
+  {
+   "id": "ser-43",
+   "category": "serie",
+   "summary": "Des inspecteurs d'un commissariat de New York, dont un enquêteur immature et un capitaine impassible, résolvent des affaires dans la bonne humeur.",
+   "answer": "Brooklyn Nine-Nine"
+  },
+  {
+   "id": "ser-44",
+   "category": "serie",
+   "summary": "Une fonctionnaire enthousiaste du service des parcs d'une petite ville de l'Indiana veut transformer une fosse en jardin public.",
+   "answer": "Parks and Recreation"
+  },
+  {
+   "id": "ser-45",
+   "category": "serie",
+   "summary": "Dans une famille modeste et bruyante, un garçon surdoué raconte son quotidien entre les colères de sa mère et les bêtises de ses frères.",
+   "answer": "Malcolm"
+  },
+  {
+   "id": "ser-46",
+   "category": "serie",
+   "summary": "Une jeune Américaine s'installe dans la capitale française pour travailler dans une agence de marketing et collectionne les tenues, les prétendants et les clichés.",
+   "answer": "Emily in Paris"
+  },
+  {
+   "id": "ser-47",
+   "category": "serie",
+   "summary": "Dans un lycée britannique, un adolescent, fils d'une sexologue, ouvre un cabinet de conseils clandestin pour ses camarades.",
+   "answer": "Sex Education"
+  },
+  {
+   "id": "ser-48",
+   "category": "serie",
+   "summary": "Au début du XIXe siècle, une famille aristocratique de Londres cherche à marier ses enfants pendant la saison mondaine, sous la plume d'une mystérieuse lady qui publie des ragots.",
+   "answer": "La Chronique des Bridgerton"
+  },
+  {
+   "id": "ser-49",
+   "category": "serie",
+   "summary": "Au début du XXe siècle, une famille aristocratique et ses domestiques vivent dans un grand domaine anglais, du naufrage du Titanic aux années 1920.",
+   "answer": "Downton Abbey"
+  },
+  {
+   "id": "ser-50",
+   "category": "serie",
+   "summary": "Une lycéenne s'est suicidée en laissant treize cassettes audio expliquant à chacun pourquoi il est responsable de son geste.",
+   "answer": "13 Reasons Why"
+  },
+  {
+   "id": "ser-51",
+   "category": "serie",
+   "summary": "Sur une planète lointaine, un chasseur de primes casqué protège un mystérieux enfant vert doté de la Force.",
+   "answer": "The Mandalorian"
+  },
+  {
+   "id": "ser-52",
+   "category": "serie",
+   "summary": "Des super-héros corrompus et arrogants, au service d'une multinationale, sont combattus par une bande de justiciers sans pouvoirs.",
+   "answer": "The Boys"
+  },
+  {
+   "id": "ser-53",
+   "category": "serie",
+   "summary": "Un dieu nordique de la malice, échappé de sa ligne temporelle, est arrêté par une agence qui surveille le flux du temps.",
+   "answer": "Loki"
+  },
+  {
+   "id": "ser-54",
+   "category": "serie",
+   "summary": "Un petit avocat roublard d'Albuquerque, frère d'un associé respecté, se transforme peu à peu en avocat véreux des criminels.",
+   "answer": "Better Call Saul"
+  },
+  {
+   "id": "ser-55",
+   "category": "serie",
+   "summary": "Une lycéenne de Sunnydale, l'Élue, combat les créatures de la nuit et les démons avec l'aide de ses amis et de son observateur.",
+   "answer": "Buffy contre les vampires"
+  },
+  {
+   "id": "ser-56",
+   "category": "serie",
+   "summary": "Deux agents du FBI, un croyant et une sceptique, enquêtent sur des affaires paranormales et des complots extraterrestres.",
+   "answer": "X-Files"
+  },
+  {
+   "id": "ser-57",
+   "category": "serie",
+   "summary": "Un agent de la cellule antiterroriste de Los Angeles déjoue des menaces en temps réel, chaque saison couvrant une seule journée.",
+   "answer": "24 heures chrono"
+  },
+  {
+   "id": "ser-58",
+   "category": "serie",
+   "summary": "Un ancien faux médium devenu consultant aide la police de Californie grâce à son sens de l'observation, tout en traquant le tueur qui a assassiné sa famille.",
+   "answer": "Mentalist"
+  },
+  {
+   "id": "ser-59",
+   "category": "serie",
+   "summary": "Une équipe de la police scientifique de Las Vegas analyse les indices des scènes de crime en laboratoire.",
+   "answer": "Les Experts"
+  },
+  {
+   "id": "ser-60",
+   "category": "serie",
+   "summary": "Une chorale de lycée composée de marginaux reprend des tubes pop pour remporter des compétitions.",
+   "answer": "Glee"
+  },
+  {
+   "id": "ser-61",
+   "category": "serie",
+   "summary": "Deux frères chasseurs de démons parcourent les États-Unis dans une Chevrolet Impala de 1967 à la recherche de leur père.",
+   "answer": "Supernatural"
+  },
+  {
+   "id": "ser-62",
+   "category": "serie",
+   "summary": "Un groupe d'adolescents est envoyé sur une Terre devenue radioactive, près d'un siècle après une apocalypse nucléaire, et doit affronter les survivants restés au sol.",
+   "answer": "Les 100"
+  },
+  {
+   "id": "ser-63",
+   "category": "serie",
+   "summary": "Des étudiants en droit d'une professeure redoutable se retrouvent impliqués dans un meurtre et doivent couvrir leurs traces.",
+   "answer": "Murder (How to Get Away with Murder)"
+  },
+  {
+   "id": "ser-64",
+   "category": "serie",
+   "summary": "Dans une petite ville, des adolescents tirés de bandes dessinées des années 1940 enquêtent sur la mort d'un camarade retrouvé au bord de la rivière.",
+   "answer": "Riverdale"
+  },
+  {
+   "id": "ser-65",
+   "category": "serie",
+   "summary": "Dans une prison pour femmes de l'État de New York, une bourgeoise condamnée pour une vieille affaire de trafic de drogue apprend à survivre.",
+   "answer": "Orange Is the New Black"
+  },
+  {
+   "id": "ser-66",
+   "category": "serie",
+   "summary": "Un cabinet d'avocats new-yorkais engage un jeune surdoué sans diplôme doté d'une mémoire photographique.",
+   "answer": "Suits"
+  },
+  {
+   "id": "ser-67",
+   "category": "serie",
+   "summary": "Une famille emménage dans un vieux manoir hanté ; des années plus tard, les frères et sœurs devenus adultes sont rattrapés par leurs traumatismes.",
+   "answer": "The Haunting of Hill House"
+  },
+  {
+   "id": "ser-68",
+   "category": "serie",
+   "summary": "Deux cents ans avant la naissance de Daenerys, la famille Targaryen se déchire pour la succession au Trône de fer.",
+   "answer": "House of the Dragon"
+  },
+  {
+   "id": "ser-69",
+   "category": "serie",
+   "summary": "Une infirmière de 1945, en voyage en Écosse, traverse un cercle de pierres dressées et se retrouve en 1743, en pleine rébellion jacobite.",
+   "answer": "Outlander"
+  },
+  {
+   "id": "ser-70",
+   "category": "serie",
+   "summary": "Des guerriers scandinaves du IXe siècle, menés par le fermier devenu roi Ragnar Lothbrok, partent piller l'Angleterre.",
+   "answer": "Vikings"
+  },
+  {
+   "id": "ser-71",
+   "category": "serie",
+   "summary": "Dans un lycée privé espagnol pour enfants de riches, l'arrivée de trois boursiers est suivie de la mort d'une élève.",
+   "answer": "Élite"
+  },
+  {
+   "id": "ser-72",
+   "category": "serie",
+   "summary": "Des femmes identiques découvrent qu'elles sont des clones et enquêtent sur leurs origines.",
+   "answer": "Orphan Black"
+  },
+  {
+   "id": "ser-73",
+   "category": "serie",
+   "summary": "Une veuve de banlieue californienne se met à vendre du cannabis pour faire vivre ses enfants et garder son train de vie.",
+   "answer": "Weeds"
+  },
+  {
+   "id": "ser-74",
+   "category": "serie",
+   "summary": "À Hawaï, une unité d'élite de la police d'État traque les criminels avec ses propres méthodes.",
+   "answer": "Hawaii 5-0"
+  },
+  {
+   "id": "ser-75",
+   "category": "serie",
+   "summary": "Une famille de la classe moyenne américaine, dont la fille aînée est populaire et le fils cadet décalé, vit son quotidien raconté face caméra comme dans un documentaire.",
+   "answer": "Modern Family"
+  },
+  {
+   "id": "jeu-26",
+   "category": "jeu",
+   "summary": "Un plombier moustachu explore des planètes miniatures à la gravité changeante pour sauver une princesse retenue au centre de l'univers.",
+   "answer": "Super Mario Galaxy"
+  },
+  {
+   "id": "jeu-27",
+   "category": "jeu",
+   "summary": "Un plombier part à la recherche de sa princesse dans plusieurs royaumes, aidé d'une casquette vivante qui lui permet de prendre le contrôle des ennemis.",
+   "answer": "Super Mario Odyssey"
+  },
+  {
+   "id": "jeu-28",
+   "category": "jeu",
+   "summary": "Un jeune héros en tunique verte voyage dans le temps grâce à un instrument de musique pour empêcher un roi voleur de s'emparer de la Triforce.",
+   "answer": "The Legend of Zelda: Ocarina of Time"
+  },
+  {
+   "id": "jeu-29",
+   "category": "jeu",
+   "summary": "Un hérisson bleu supersonique court à travers des loopings pour libérer des animaux enfermés dans des robots par un savant fou.",
+   "answer": "Sonic the Hedgehog"
+  },
+  {
+   "id": "jeu-30",
+   "category": "jeu",
+   "summary": "Des pilotes de karts issus d'un univers de plombiers s'affrontent sur des circuits à coups de carapaces et de bananes.",
+   "answer": "Mario Kart"
+  },
+  {
+   "id": "jeu-31",
+   "category": "jeu",
+   "summary": "Des combattants de franchises Nintendo s'affrontent pour éjecter leurs adversaires hors de l'arène.",
+   "answer": "Super Smash Bros."
+  },
+  {
+   "id": "jeu-32",
+   "category": "jeu",
+   "summary": "Un espion au bandeau infiltre seul une base militaire en Alaska, souvent caché sous un carton, pour neutraliser un robot porteur d'armes nucléaires.",
+   "answer": "Metal Gear Solid"
+  },
+  {
+   "id": "jeu-33",
+   "category": "jeu",
+   "summary": "Un super-soldat en armure verte et une intelligence artificielle combattent une alliance extraterrestre religieuse sur un monde-anneau.",
+   "answer": "Halo: Combat Evolved"
+  },
+  {
+   "id": "jeu-34",
+   "category": "jeu",
+   "summary": "Un marine solitaire affronte les hordes démoniaques qui ont envahi une base de recherche sur Mars.",
+   "answer": "Doom"
+  },
+  {
+   "id": "jeu-35",
+   "category": "jeu",
+   "summary": "Un ancien agent de police, dont la famille a été assassinée, cherche vengeance dans un New York enneigé, raconté comme un roman noir au ralenti.",
+   "answer": "Max Payne"
+  },
+  {
+   "id": "jeu-36",
+   "category": "jeu",
+   "summary": "Dans une métropole retirée du monde, un orphelin devenu chevalier noir combat le crime avec gadgets et intimidation, dans l'asile de la ville.",
+   "answer": "Batman: Arkham Asylum"
+  },
+  {
+   "id": "jeu-37",
+   "category": "jeu",
+   "summary": "Dans un manoir du Midwest, une équipe d'élite de la police affronte des zombies créés par une multinationale pharmaceutique.",
+   "answer": "Resident Evil"
+  },
+  {
+   "id": "jeu-38",
+   "category": "jeu",
+   "summary": "Un homme à la recherche de sa femme décédée arrive dans une ville brumeuse peuplée de créatures cauchemardesques.",
+   "answer": "Silent Hill 2"
+  },
+  {
+   "id": "jeu-39",
+   "category": "jeu",
+   "summary": "Un chevalier mort-vivant traverse un royaume en ruine, Lordran, en mourant encore et encore face à des boss impitoyables.",
+   "answer": "Dark Souls"
+  },
+  {
+   "id": "jeu-40",
+   "category": "jeu",
+   "summary": "Un Sans-éclat parcourt l'Entre-terre, un monde ouvert hostile façonné avec un célèbre romancier de fantasy, pour devenir le nouveau seigneur de ces terres.",
+   "answer": "Elden Ring"
+  },
+  {
+   "id": "jeu-41",
+   "category": "jeu",
+   "summary": "Un chasseur traque des bêtes dans la ville gothique de Yharnam, rongée par une épidémie et des horreurs cosmiques.",
+   "answer": "Bloodborne"
+  },
+  {
+   "id": "jeu-42",
+   "category": "jeu",
+   "summary": "Dans la Russie post-apocalyptique, des survivants vivent dans les tunnels du métro de Moscou après une guerre nucléaire.",
+   "answer": "Metro 2033"
+  },
+  {
+   "id": "jeu-43",
+   "category": "jeu",
+   "summary": "Un survivant d'un abri antiatomique sort explorer un Boston dévasté par la guerre nucléaire à la recherche de son fils enlevé.",
+   "answer": "Fallout 4"
+  },
+  {
+   "id": "jeu-44",
+   "category": "jeu",
+   "summary": "Une jeune fille étudiante en photographie découvre qu'elle peut remonter le temps et tente d'empêcher une tornade de détruire sa ville de l'Oregon.",
+   "answer": "Life Is Strange"
+  },
+  {
+   "id": "jeu-45",
+   "category": "jeu",
+   "summary": "Un écrivain en panne d'inspiration cherche sa femme disparue autour d'un lac, armé d'une lampe torche contre des ombres possédées.",
+   "answer": "Alan Wake"
+  },
+  {
+   "id": "jeu-46",
+   "category": "jeu",
+   "summary": "Un aventurier chasseur de trésors, plein d'humour, cherche l'Eldorado avec une journaliste dans la jungle.",
+   "answer": "Uncharted"
+  },
+  {
+   "id": "jeu-47",
+   "category": "jeu",
+   "summary": "Un vagabond solitaire chevauche à travers des terres désolées pour abattre seize colosses gigantesques et ramener à la vie une jeune fille.",
+   "answer": "Shadow of the Colossus"
+  },
+  {
+   "id": "jeu-48",
+   "category": "jeu",
+   "summary": "Un chasseur de primes répare des liens entre des villes isolées en livrant des colis à pied dans une Amérique post-apocalyptique hantée.",
+   "answer": "Death Stranding"
+  },
+  {
+   "id": "jeu-49",
+   "category": "jeu",
+   "summary": "Un samouraï résiste seul à l'invasion mongole d'une île japonaise, au XIIIe siècle.",
+   "answer": "Ghost of Tsushima"
+  },
+  {
+   "id": "jeu-50",
+   "category": "jeu",
+   "summary": "Une chasseuse de machines d'une tribu primitive explore un monde post-apocalyptique dominé par des créatures robotiques en forme d'animaux.",
+   "answer": "Horizon Zero Dawn"
+  },
+  {
+   "id": "jeu-51",
+   "category": "jeu",
+   "summary": "Le dieu de la guerre grec, trahi par l'Olympe, se venge de Zeus et des dieux.",
+   "answer": "God of War III"
+  },
+  {
+   "id": "jeu-52",
+   "category": "jeu",
+   "summary": "Un groupe de soldats d'élite britanniques et américains combat un leader ultranationaliste russe, avec une mission infiltrée à Tchernobyl.",
+   "answer": "Call of Duty 4: Modern Warfare"
+  },
+  {
+   "id": "jeu-53",
+   "category": "jeu",
+   "summary": "Deux équipes de cinq joueurs, terroristes contre antiterroristes, s'affrontent pour poser ou désamorcer une bombe.",
+   "answer": "Counter-Strike"
+  },
+  {
+   "id": "jeu-54",
+   "category": "jeu",
+   "summary": "Deux équipes de cinq champions s'affrontent dans une arène à trois voies pour détruire le Nexus adverse.",
+   "answer": "League of Legends"
+  },
+  {
+   "id": "jeu-55",
+   "category": "jeu",
+   "summary": "Des héros aux capacités uniques s'affrontent en équipes de cinq ou six sur des objectifs à escorter ou capturer.",
+   "answer": "Overwatch"
+  },
+  {
+   "id": "jeu-56",
+   "category": "jeu",
+   "summary": "Cent joueurs sautent d'un bus volant sur une île, construisent des structures et combattent jusqu'au dernier survivant.",
+   "answer": "Fortnite"
+  },
+  {
+   "id": "jeu-57",
+   "category": "jeu",
+   "summary": "Des équipes de voitures-fusées jouent au football géant avec un énorme ballon.",
+   "answer": "Rocket League"
+  },
+  {
+   "id": "jeu-58",
+   "category": "jeu",
+   "summary": "Dans un monde médiéval-fantastique en ligne, des millions de joueurs choisissent entre l'Alliance et la Horde pour explorer Azeroth.",
+   "answer": "World of Warcraft"
+  },
+  {
+   "id": "jeu-59",
+   "category": "jeu",
+   "summary": "Des humains, des Zergs et des Protoss s'affrontent pour la domination de la galaxie dans un jeu de stratégie en temps réel.",
+   "answer": "StarCraft"
+  },
+  {
+   "id": "jeu-60",
+   "category": "jeu",
+   "summary": "Un héros descend étage après étage dans les profondeurs d'une cathédrale de Tristram pour vaincre le Seigneur de la Terreur.",
+   "answer": "Diablo"
+  },
+  {
+   "id": "jeu-61",
+   "category": "jeu",
+   "summary": "On bâtit une civilisation de l'âge de pierre jusqu'à l'ère spatiale, tour par tour, en affrontant d'autres grands dirigeants historiques.",
+   "answer": "Civilization"
+  },
+  {
+   "id": "jeu-62",
+   "category": "jeu",
+   "summary": "Un fermier hérite de la ferme de son grand-père dans un village paisible et cultive, pêche et se lie avec les habitants.",
+   "answer": "Stardew Valley"
+  },
+  {
+   "id": "jeu-63",
+   "category": "jeu",
+   "summary": "Deux frères traversent un monde de conte pour trouver un remède pour leur père, chacun dirigé par une moitié de la manette.",
+   "answer": "Brothers: A Tale of Two Sons"
+  },
+  {
+   "id": "jeu-64",
+   "category": "jeu",
+   "summary": "Un couple au bord du divorce, transformé en poupées, doit coopérer pour retrouver sa forme humaine sous les conseils d'un livre de l'amour.",
+   "answer": "It Takes Two"
+  },
+  {
+   "id": "jeu-65",
+   "category": "jeu",
+   "summary": "Une petite créature en cape rouge parcourt un désert vers une montagne lointaine, accompagnée d'inconnus en ligne avec qui elle ne peut communiquer que par des notes.",
+   "answer": "Journey"
+  },
+  {
+   "id": "jeu-66",
+   "category": "jeu",
+   "summary": "Un petit garçon silencieux traverse un monde en noir et blanc, rempli de pièges mortels et d'une araignée géante.",
+   "answer": "Limbo"
+  },
+  {
+   "id": "jeu-67",
+   "category": "jeu",
+   "summary": "Un explorateur dans une boucle temporelle de vingt-deux minutes doit percer le mystère d'un système solaire avant que le soleil n'explose.",
+   "answer": "Outer Wilds"
+  },
+  {
+   "id": "jeu-68",
+   "category": "jeu",
+   "summary": "Un détective amnésique et alcoolique se réveille dans une chambre d'hôtel d'une ville en ruine et doit résoudre un meurtre, en dialoguant avec ses propres pensées.",
+   "answer": "Disco Elysium"
+  },
+  {
+   "id": "jeu-69",
+   "category": "jeu",
+   "summary": "Un avocat débutant à la mèche pointue crie « Objection ! » pour démasquer les vrais coupables au tribunal.",
+   "answer": "Phoenix Wright: Ace Attorney"
+  },
+  {
+   "id": "jeu-70",
+   "category": "jeu",
+   "summary": "Un archéologue en haut-de-forme et son jeune apprenti résolvent des énigmes dans une bourgade mystérieuse.",
+   "answer": "Professeur Layton et l'Étrange Village"
+  },
+  {
+   "id": "jeu-71",
+   "category": "jeu",
+   "summary": "Une équipe de cambrioleurs masqués, les Voleurs Fantômes, pénètre le Métavers pour changer le cœur des adultes corrompus de Tokyo.",
+   "answer": "Persona 5"
+  },
+  {
+   "id": "jeu-72",
+   "category": "jeu",
+   "summary": "Un jeune garçon aux cheveux en pointe, porteur d'une Keyblade, voyage dans les mondes de Disney avec Donald et Dingo.",
+   "answer": "Kingdom Hearts"
+  },
+  {
+   "id": "jeu-73",
+   "category": "jeu",
+   "summary": "Des chasseurs traquent des monstres gigantesques pour se fabriquer des armes et armures avec leurs matériaux.",
+   "answer": "Monster Hunter"
+  },
+  {
+   "id": "jeu-74",
+   "category": "jeu",
+   "summary": "On construit et on gère un parc d'attractions avec des montagnes russes, en veillant à ce que les visiteurs ne vomissent pas.",
+   "answer": "RollerCoaster Tycoon"
+  },
+  {
+   "id": "jeu-75",
+   "category": "jeu",
+   "summary": "Une équipe de cuisiniers doit préparer des commandes dans des cuisines absurdes et chaotiques, en coopération.",
+   "answer": "Overcooked"
+  },
+  {
+   "id": "jeu-76",
+   "category": "jeu",
+   "summary": "Un esprit gardien orphelin traverse une forêt mourante pour lui rendre la lumière.",
+   "answer": "Ori and the Blind Forest"
+  },
+  {
+   "id": "jeu-77",
+   "category": "jeu",
+   "summary": "Un petit chat errant se perd dans une cité cyberpunk peuplée de robots et aide un drone à s'échapper.",
+   "answer": "Stray"
   }
  ]
 }

@@ -87,11 +87,19 @@ async function toWork(kind: Kind, item: DiscoverItem): Promise<ScreenWork> {
   };
 }
 
+/** Remakes homonymes (« Aladdin » 1992 et 2019) : l'année les distingue dans la réponse. */
+export function disambiguate(works: ScreenWork[]): ScreenWork[] {
+  const count = new Map<string, number>();
+  for (const w of works) count.set(w.name, (count.get(w.name) ?? 0) + 1);
+  return works.map((w) => (count.get(w.name)! > 1 && w.year ? { ...w, name: `${w.name} — ${w.year}` } : w));
+}
+
 export async function buildScreen(kind: Kind): Promise<void> {
   const [count, output, label] = kind === "movie" ? [FILM_COUNT, "data/films.json", "films"] : [SERIES_COUNT, "data/series.json", "séries"];
   const items = await popular(kind, count);
-  const works: ScreenWork[] = [];
-  for (const item of items) works.push(await toWork(kind, item));
+  const fetched: ScreenWork[] = [];
+  for (const item of items) fetched.push(await toWork(kind, item));
+  const works = disambiguate(fetched);
   await writeJson(output, works);
   const withPoster = works.filter((w) => w.textlessPoster).length;
   const withBackdrops = works.filter((w) => w.backdrops.length).length;
