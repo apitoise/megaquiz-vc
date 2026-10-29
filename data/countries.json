@@ -1,0 +1,1573 @@
+[
+ {
+  "code": "AF",
+  "ccn3": "004",
+  "name": "Afghanistan",
+  "de": "de l'Afghanistan",
+  "capital": "Kaboul",
+  "area": 652230
+ },
+ {
+  "code": "ZA",
+  "ccn3": "710",
+  "name": "Afrique du Sud",
+  "de": "de l'Afrique du Sud",
+  "capital": "Pretoria (aussi Le Cap et Bloemfontein)",
+  "area": 1221037
+ },
+ {
+  "code": "AL",
+  "ccn3": "008",
+  "name": "Albanie",
+  "de": "de l'Albanie",
+  "capital": "Tirana",
+  "area": 28748
+ },
+ {
+  "code": "DZ",
+  "ccn3": "012",
+  "name": "Algérie",
+  "de": "de l'Algérie",
+  "capital": "Alger",
+  "area": 2381741
+ },
+ {
+  "code": "DE",
+  "ccn3": "276",
+  "name": "Allemagne",
+  "de": "de l'Allemagne",
+  "capital": "Berlin",
+  "area": 357114
+ },
+ {
+  "code": "AD",
+  "ccn3": "020",
+  "name": "Andorre",
+  "de": "d'Andorre",
+  "capital": "Andorre-la-Vieille",
+  "area": 468
+ },
+ {
+  "code": "AO",
+  "ccn3": "024",
+  "name": "Angola",
+  "de": "de l'Angola",
+  "capital": "Luanda",
+  "area": 1246700
+ },
+ {
+  "code": "AG",
+  "ccn3": "028",
+  "name": "Antigua-et-Barbuda",
+  "de": "d'Antigua-et-Barbuda",
+  "capital": "Saint John's",
+  "area": 442
+ },
+ {
+  "code": "SA",
+  "ccn3": "682",
+  "name": "Arabie saoudite",
+  "de": "de l'Arabie saoudite",
+  "capital": "Riyad",
+  "area": 2149690
+ },
+ {
+  "code": "AR",
+  "ccn3": "032",
+  "name": "Argentine",
+  "de": "de l'Argentine",
+  "capital": "Buenos Aires",
+  "area": 2780400
+ },
+ {
+  "code": "AM",
+  "ccn3": "051",
+  "name": "Arménie",
+  "de": "de l'Arménie",
+  "capital": "Erevan",
+  "area": 29743
+ },
+ {
+  "code": "AU",
+  "ccn3": "036",
+  "name": "Australie",
+  "de": "de l'Australie",
+  "capital": "Canberra",
+  "area": 7692024
+ },
+ {
+  "code": "AT",
+  "ccn3": "040",
+  "name": "Autriche",
+  "de": "de l'Autriche",
+  "capital": "Vienne",
+  "area": 83871
+ },
+ {
+  "code": "AZ",
+  "ccn3": "031",
+  "name": "Azerbaïdjan",
+  "de": "de l'Azerbaïdjan",
+  "capital": "Bakou",
+  "area": 86600
+ },
+ {
+  "code": "BS",
+  "ccn3": "044",
+  "name": "Bahamas",
+  "de": "des Bahamas",
+  "capital": "Nassau",
+  "area": 13943
+ },
+ {
+  "code": "BH",
+  "ccn3": "048",
+  "name": "Bahreïn",
+  "de": "de Bahreïn",
+  "capital": "Manama",
+  "area": 765
+ },
+ {
+  "code": "BD",
+  "ccn3": "050",
+  "name": "Bangladesh",
+  "de": "du Bangladesh",
+  "capital": "Dacca",
+  "area": 147570
+ },
+ {
+  "code": "BB",
+  "ccn3": "052",
+  "name": "Barbade",
+  "de": "de la Barbade",
+  "capital": "Bridgetown",
+  "area": 430
+ },
+ {
+  "code": "BE",
+  "ccn3": "056",
+  "name": "Belgique",
+  "de": "de la Belgique",
+  "capital": "Bruxelles",
+  "area": 30528
+ },
+ {
+  "code": "BZ",
+  "ccn3": "084",
+  "name": "Belize",
+  "de": "du Belize",
+  "capital": "Belmopan",
+  "area": 22966
+ },
+ {
+  "code": "BJ",
+  "ccn3": "204",
+  "name": "Bénin",
+  "de": "du Bénin",
+  "capital": "Porto-Novo (siège du gouvernement : Cotonou)",
+  "area": 112622
+ },
+ {
+  "code": "BT",
+  "ccn3": "064",
+  "name": "Bhoutan",
+  "de": "du Bhoutan",
+  "capital": "Thimphou",
+  "area": 38394
+ },
+ {
+  "code": "BY",
+  "ccn3": "112",
+  "name": "Biélorussie",
+  "aka": "Bélarus",
+  "de": "de la Biélorussie",
+  "capital": "Minsk",
+  "area": 207600
+ },
+ {
+  "code": "MM",
+  "ccn3": "104",
+  "name": "Birmanie",
+  "aka": "Myanmar",
+  "de": "de la Birmanie",
+  "capital": "Naypyidaw",
+  "area": 676578
+ },
+ {
+  "code": "BO",
+  "ccn3": "068",
+  "name": "Bolivie",
+  "de": "de la Bolivie",
+  "capital": "Sucre (siège du gouvernement : La Paz)",
+  "area": 1098581
+ },
+ {
+  "code": "BA",
+  "ccn3": "070",
+  "name": "Bosnie-Herzégovine",
+  "de": "de la Bosnie-Herzégovine",
+  "capital": "Sarajevo",
+  "area": 51209
+ },
+ {
+  "code": "BW",
+  "ccn3": "072",
+  "name": "Botswana",
+  "de": "du Botswana",
+  "capital": "Gaborone",
+  "area": 582000
+ },
+ {
+  "code": "BR",
+  "ccn3": "076",
+  "name": "Brésil",
+  "de": "du Brésil",
+  "capital": "Brasília",
+  "area": 8515767
+ },
+ {
+  "code": "BN",
+  "ccn3": "096",
+  "name": "Brunei",
+  "de": "du Brunei",
+  "capital": "Bandar Seri Begawan",
+  "area": 5765
+ },
+ {
+  "code": "BG",
+  "ccn3": "100",
+  "name": "Bulgarie",
+  "de": "de la Bulgarie",
+  "capital": "Sofia",
+  "area": 110879
+ },
+ {
+  "code": "BF",
+  "ccn3": "854",
+  "name": "Burkina Faso",
+  "de": "du Burkina Faso",
+  "capital": "Ouagadougou",
+  "area": 272967
+ },
+ {
+  "code": "BI",
+  "ccn3": "108",
+  "name": "Burundi",
+  "de": "du Burundi",
+  "capital": "Gitega (avant 2019 : Bujumbura)",
+  "area": 27834
+ },
+ {
+  "code": "KH",
+  "ccn3": "116",
+  "name": "Cambodge",
+  "de": "du Cambodge",
+  "capital": "Phnom Penh",
+  "area": 181035
+ },
+ {
+  "code": "CM",
+  "ccn3": "120",
+  "name": "Cameroun",
+  "de": "du Cameroun",
+  "capital": "Yaoundé",
+  "area": 475442
+ },
+ {
+  "code": "CA",
+  "ccn3": "124",
+  "name": "Canada",
+  "de": "du Canada",
+  "capital": "Ottawa",
+  "area": 9984670
+ },
+ {
+  "code": "CV",
+  "ccn3": "132",
+  "name": "Cap-Vert",
+  "de": "du Cap-Vert",
+  "capital": "Praia",
+  "area": 4033
+ },
+ {
+  "code": "CF",
+  "ccn3": "140",
+  "name": "Centrafrique",
+  "aka": "République centrafricaine",
+  "de": "de la Centrafrique",
+  "capital": "Bangui",
+  "area": 622984
+ },
+ {
+  "code": "CL",
+  "ccn3": "152",
+  "name": "Chili",
+  "de": "du Chili",
+  "capital": "Santiago",
+  "area": 756102
+ },
+ {
+  "code": "CN",
+  "ccn3": "156",
+  "name": "Chine",
+  "de": "de la Chine",
+  "capital": "Pékin",
+  "area": 9706961
+ },
+ {
+  "code": "CY",
+  "ccn3": "196",
+  "name": "Chypre",
+  "de": "de Chypre",
+  "capital": "Nicosie",
+  "area": 9251
+ },
+ {
+  "code": "CO",
+  "ccn3": "170",
+  "name": "Colombie",
+  "de": "de la Colombie",
+  "capital": "Bogota",
+  "area": 1141748
+ },
+ {
+  "code": "KM",
+  "ccn3": "174",
+  "name": "Comores",
+  "de": "des Comores",
+  "capital": "Moroni",
+  "area": 1862
+ },
+ {
+  "code": "KP",
+  "ccn3": "408",
+  "name": "Corée du Nord",
+  "de": "de la Corée du Nord",
+  "capital": "Pyongyang",
+  "area": 120538
+ },
+ {
+  "code": "KR",
+  "ccn3": "410",
+  "name": "Corée du Sud",
+  "de": "de la Corée du Sud",
+  "capital": "Séoul",
+  "area": 100210
+ },
+ {
+  "code": "CR",
+  "ccn3": "188",
+  "name": "Costa Rica",
+  "de": "du Costa Rica",
+  "capital": "San José",
+  "area": 51100
+ },
+ {
+  "code": "CI",
+  "ccn3": "384",
+  "name": "Côte d'Ivoire",
+  "de": "de la Côte d'Ivoire",
+  "capital": "Yamoussoukro (ville principale : Abidjan)",
+  "area": 322463
+ },
+ {
+  "code": "HR",
+  "ccn3": "191",
+  "name": "Croatie",
+  "de": "de la Croatie",
+  "capital": "Zagreb",
+  "area": 56594
+ },
+ {
+  "code": "CU",
+  "ccn3": "192",
+  "name": "Cuba",
+  "de": "de Cuba",
+  "capital": "La Havane",
+  "area": 109884
+ },
+ {
+  "code": "DK",
+  "ccn3": "208",
+  "name": "Danemark",
+  "de": "du Danemark",
+  "capital": "Copenhague",
+  "area": 43094
+ },
+ {
+  "code": "DJ",
+  "ccn3": "262",
+  "name": "Djibouti",
+  "de": "de Djibouti",
+  "capital": "Djibouti",
+  "area": 23200
+ },
+ {
+  "code": "DM",
+  "ccn3": "212",
+  "name": "Dominique",
+  "de": "de la Dominique",
+  "capital": "Roseau",
+  "area": 751
+ },
+ {
+  "code": "EG",
+  "ccn3": "818",
+  "name": "Égypte",
+  "de": "de l'Égypte",
+  "capital": "Le Caire",
+  "area": 1002450
+ },
+ {
+  "code": "AE",
+  "ccn3": "784",
+  "name": "Émirats arabes unis",
+  "de": "des Émirats arabes unis",
+  "capital": "Abou Dabi",
+  "area": 83600
+ },
+ {
+  "code": "EC",
+  "ccn3": "218",
+  "name": "Équateur",
+  "de": "de l'Équateur",
+  "capital": "Quito",
+  "area": 276841
+ },
+ {
+  "code": "ER",
+  "ccn3": "232",
+  "name": "Érythrée",
+  "de": "de l'Érythrée",
+  "capital": "Asmara",
+  "area": 117600
+ },
+ {
+  "code": "ES",
+  "ccn3": "724",
+  "name": "Espagne",
+  "de": "de l'Espagne",
+  "capital": "Madrid",
+  "area": 505992
+ },
+ {
+  "code": "EE",
+  "ccn3": "233",
+  "name": "Estonie",
+  "de": "de l'Estonie",
+  "capital": "Tallinn",
+  "area": 45227
+ },
+ {
+  "code": "SZ",
+  "ccn3": "748",
+  "name": "Eswatini",
+  "aka": "Swaziland",
+  "de": "de l'Eswatini",
+  "capital": "Mbabane (capitale royale : Lobamba)",
+  "area": 17364
+ },
+ {
+  "code": "US",
+  "ccn3": "840",
+  "name": "États-Unis",
+  "de": "des États-Unis",
+  "capital": "Washington",
+  "area": 9372610
+ },
+ {
+  "code": "ET",
+  "ccn3": "231",
+  "name": "Éthiopie",
+  "de": "de l'Éthiopie",
+  "capital": "Addis-Abeba",
+  "area": 1104300
+ },
+ {
+  "code": "FJ",
+  "ccn3": "242",
+  "name": "Fidji",
+  "de": "des Fidji",
+  "capital": "Suva",
+  "area": 18272
+ },
+ {
+  "code": "FI",
+  "ccn3": "246",
+  "name": "Finlande",
+  "de": "de la Finlande",
+  "capital": "Helsinki",
+  "area": 338424
+ },
+ {
+  "code": "FR",
+  "ccn3": "250",
+  "name": "France",
+  "de": "de la France",
+  "capital": "Paris",
+  "area": 551695
+ },
+ {
+  "code": "GA",
+  "ccn3": "266",
+  "name": "Gabon",
+  "de": "du Gabon",
+  "capital": "Libreville",
+  "area": 267668
+ },
+ {
+  "code": "GM",
+  "ccn3": "270",
+  "name": "Gambie",
+  "de": "de la Gambie",
+  "capital": "Banjul",
+  "area": 10689
+ },
+ {
+  "code": "GE",
+  "ccn3": "268",
+  "name": "Géorgie",
+  "de": "de la Géorgie",
+  "capital": "Tbilissi",
+  "area": 69700
+ },
+ {
+  "code": "GH",
+  "ccn3": "288",
+  "name": "Ghana",
+  "de": "du Ghana",
+  "capital": "Accra",
+  "area": 238533
+ },
+ {
+  "code": "GR",
+  "ccn3": "300",
+  "name": "Grèce",
+  "de": "de la Grèce",
+  "capital": "Athènes",
+  "area": 131990
+ },
+ {
+  "code": "GD",
+  "ccn3": "308",
+  "name": "Grenade",
+  "de": "de la Grenade",
+  "capital": "Saint-George's",
+  "area": 344
+ },
+ {
+  "code": "GT",
+  "ccn3": "320",
+  "name": "Guatemala",
+  "de": "du Guatemala",
+  "capital": "Guatemala (Ciudad de Guatemala)",
+  "area": 108889
+ },
+ {
+  "code": "GN",
+  "ccn3": "324",
+  "name": "Guinée",
+  "de": "de la Guinée",
+  "capital": "Conakry",
+  "area": 245857
+ },
+ {
+  "code": "GQ",
+  "ccn3": "226",
+  "name": "Guinée équatoriale",
+  "de": "de la Guinée équatoriale",
+  "capital": "Malabo (transfert vers Ciudad de la Paz)",
+  "area": 28051
+ },
+ {
+  "code": "GW",
+  "ccn3": "624",
+  "name": "Guinée-Bissau",
+  "de": "de la Guinée-Bissau",
+  "capital": "Bissau",
+  "area": 36125
+ },
+ {
+  "code": "GY",
+  "ccn3": "328",
+  "name": "Guyana",
+  "de": "du Guyana",
+  "capital": "Georgetown",
+  "area": 214969
+ },
+ {
+  "code": "HT",
+  "ccn3": "332",
+  "name": "Haïti",
+  "de": "d'Haïti",
+  "capital": "Port-au-Prince",
+  "area": 27750
+ },
+ {
+  "code": "HN",
+  "ccn3": "340",
+  "name": "Honduras",
+  "de": "du Honduras",
+  "capital": "Tegucigalpa",
+  "area": 112492
+ },
+ {
+  "code": "HU",
+  "ccn3": "348",
+  "name": "Hongrie",
+  "de": "de la Hongrie",
+  "capital": "Budapest",
+  "area": 93028
+ },
+ {
+  "code": "MH",
+  "ccn3": "584",
+  "name": "Îles Marshall",
+  "de": "des Îles Marshall",
+  "capital": "Majuro",
+  "area": 181
+ },
+ {
+  "code": "SB",
+  "ccn3": "090",
+  "name": "Îles Salomon",
+  "de": "des Îles Salomon",
+  "capital": "Honiara",
+  "area": 28896
+ },
+ {
+  "code": "IN",
+  "ccn3": "356",
+  "name": "Inde",
+  "de": "de l'Inde",
+  "capital": "New Delhi",
+  "area": 3287590
+ },
+ {
+  "code": "ID",
+  "ccn3": "360",
+  "name": "Indonésie",
+  "de": "de l'Indonésie",
+  "capital": "Jakarta (transfert en cours vers Nusantara)",
+  "area": 1904569
+ },
+ {
+  "code": "IQ",
+  "ccn3": "368",
+  "name": "Irak",
+  "de": "de l'Irak",
+  "capital": "Bagdad",
+  "area": 438317
+ },
+ {
+  "code": "IR",
+  "ccn3": "364",
+  "name": "Iran",
+  "de": "de l'Iran",
+  "capital": "Téhéran",
+  "area": 1648195
+ },
+ {
+  "code": "IE",
+  "ccn3": "372",
+  "name": "Irlande",
+  "de": "de l'Irlande",
+  "capital": "Dublin",
+  "area": 70273
+ },
+ {
+  "code": "IS",
+  "ccn3": "352",
+  "name": "Islande",
+  "de": "de l'Islande",
+  "capital": "Reykjavik",
+  "area": 103000
+ },
+ {
+  "code": "IL",
+  "ccn3": "376",
+  "name": "Israël",
+  "de": "d'Israël",
+  "capital": "Jérusalem (non reconnue par la plupart des États ; Tel-Aviv)",
+  "area": 20770
+ },
+ {
+  "code": "IT",
+  "ccn3": "380",
+  "name": "Italie",
+  "de": "de l'Italie",
+  "capital": "Rome",
+  "area": 301336
+ },
+ {
+  "code": "JM",
+  "ccn3": "388",
+  "name": "Jamaïque",
+  "de": "de la Jamaïque",
+  "capital": "Kingston",
+  "area": 10991
+ },
+ {
+  "code": "JP",
+  "ccn3": "392",
+  "name": "Japon",
+  "de": "du Japon",
+  "capital": "Tokyo",
+  "area": 377930
+ },
+ {
+  "code": "JO",
+  "ccn3": "400",
+  "name": "Jordanie",
+  "de": "de la Jordanie",
+  "capital": "Amman",
+  "area": 89342
+ },
+ {
+  "code": "KZ",
+  "ccn3": "398",
+  "name": "Kazakhstan",
+  "de": "du Kazakhstan",
+  "capital": "Astana",
+  "area": 2724900
+ },
+ {
+  "code": "KE",
+  "ccn3": "404",
+  "name": "Kenya",
+  "de": "du Kenya",
+  "capital": "Nairobi",
+  "area": 580367
+ },
+ {
+  "code": "KG",
+  "ccn3": "417",
+  "name": "Kirghizistan",
+  "de": "du Kirghizistan",
+  "capital": "Bichkek",
+  "area": 199951
+ },
+ {
+  "code": "KI",
+  "ccn3": "296",
+  "name": "Kiribati",
+  "de": "des Kiribati",
+  "capital": "Tarawa-Sud",
+  "area": 811
+ },
+ {
+  "code": "KW",
+  "ccn3": "414",
+  "name": "Koweït",
+  "de": "du Koweït",
+  "capital": "Koweït",
+  "area": 17818
+ },
+ {
+  "code": "LA",
+  "ccn3": "418",
+  "name": "Laos",
+  "de": "du Laos",
+  "capital": "Vientiane",
+  "area": 236800
+ },
+ {
+  "code": "LS",
+  "ccn3": "426",
+  "name": "Lesotho",
+  "de": "du Lesotho",
+  "capital": "Maseru",
+  "area": 30355
+ },
+ {
+  "code": "LV",
+  "ccn3": "428",
+  "name": "Lettonie",
+  "de": "de la Lettonie",
+  "capital": "Riga",
+  "area": 64559
+ },
+ {
+  "code": "LB",
+  "ccn3": "422",
+  "name": "Liban",
+  "de": "du Liban",
+  "capital": "Beyrouth",
+  "area": 10452
+ },
+ {
+  "code": "LR",
+  "ccn3": "430",
+  "name": "Liberia",
+  "de": "du Liberia",
+  "capital": "Monrovia",
+  "area": 111369
+ },
+ {
+  "code": "LY",
+  "ccn3": "434",
+  "name": "Libye",
+  "de": "de la Libye",
+  "capital": "Tripoli",
+  "area": 1759540
+ },
+ {
+  "code": "LI",
+  "ccn3": "438",
+  "name": "Liechtenstein",
+  "de": "du Liechtenstein",
+  "capital": "Vaduz",
+  "area": 160
+ },
+ {
+  "code": "LT",
+  "ccn3": "440",
+  "name": "Lituanie",
+  "de": "de la Lituanie",
+  "capital": "Vilnius",
+  "area": 65300
+ },
+ {
+  "code": "LU",
+  "ccn3": "442",
+  "name": "Luxembourg",
+  "de": "du Luxembourg",
+  "capital": "Luxembourg",
+  "area": 2586
+ },
+ {
+  "code": "MK",
+  "ccn3": "807",
+  "name": "Macédoine du Nord",
+  "de": "de la Macédoine du Nord",
+  "capital": "Skopje",
+  "area": 25713
+ },
+ {
+  "code": "MG",
+  "ccn3": "450",
+  "name": "Madagascar",
+  "de": "de Madagascar",
+  "capital": "Antananarivo",
+  "area": 587041
+ },
+ {
+  "code": "MY",
+  "ccn3": "458",
+  "name": "Malaisie",
+  "de": "de la Malaisie",
+  "capital": "Kuala Lumpur (siège du gouvernement : Putrajaya)",
+  "area": 330803
+ },
+ {
+  "code": "MW",
+  "ccn3": "454",
+  "name": "Malawi",
+  "de": "du Malawi",
+  "capital": "Lilongwe",
+  "area": 118484
+ },
+ {
+  "code": "MV",
+  "ccn3": "462",
+  "name": "Maldives",
+  "de": "des Maldives",
+  "capital": "Malé",
+  "area": 300
+ },
+ {
+  "code": "ML",
+  "ccn3": "466",
+  "name": "Mali",
+  "de": "du Mali",
+  "capital": "Bamako",
+  "area": 1240192
+ },
+ {
+  "code": "MT",
+  "ccn3": "470",
+  "name": "Malte",
+  "de": "de Malte",
+  "capital": "La Valette",
+  "area": 316
+ },
+ {
+  "code": "MA",
+  "ccn3": "504",
+  "name": "Maroc",
+  "de": "du Maroc",
+  "capital": "Rabat",
+  "area": 446550
+ },
+ {
+  "code": "MU",
+  "ccn3": "480",
+  "name": "Maurice",
+  "aka": "Île Maurice",
+  "de": "de Maurice",
+  "capital": "Port-Louis",
+  "area": 2040
+ },
+ {
+  "code": "MR",
+  "ccn3": "478",
+  "name": "Mauritanie",
+  "de": "de la Mauritanie",
+  "capital": "Nouakchott",
+  "area": 1030700
+ },
+ {
+  "code": "MX",
+  "ccn3": "484",
+  "name": "Mexique",
+  "de": "du Mexique",
+  "capital": "Mexico",
+  "area": 1964375
+ },
+ {
+  "code": "FM",
+  "ccn3": "583",
+  "name": "Micronésie",
+  "de": "de la Micronésie",
+  "capital": "Palikir",
+  "area": 702
+ },
+ {
+  "code": "MD",
+  "ccn3": "498",
+  "name": "Moldavie",
+  "de": "de la Moldavie",
+  "capital": "Chișinău",
+  "area": 33846
+ },
+ {
+  "code": "MC",
+  "ccn3": "492",
+  "name": "Monaco",
+  "de": "de Monaco",
+  "capital": "Monaco",
+  "area": 2.02
+ },
+ {
+  "code": "MN",
+  "ccn3": "496",
+  "name": "Mongolie",
+  "de": "de la Mongolie",
+  "capital": "Oulan-Bator",
+  "area": 1564110
+ },
+ {
+  "code": "ME",
+  "ccn3": "499",
+  "name": "Monténégro",
+  "de": "du Monténégro",
+  "capital": "Podgorica",
+  "area": 13812
+ },
+ {
+  "code": "MZ",
+  "ccn3": "508",
+  "name": "Mozambique",
+  "de": "du Mozambique",
+  "capital": "Maputo",
+  "area": 801590
+ },
+ {
+  "code": "NA",
+  "ccn3": "516",
+  "name": "Namibie",
+  "de": "de la Namibie",
+  "capital": "Windhoek",
+  "area": 825615
+ },
+ {
+  "code": "NR",
+  "ccn3": "520",
+  "name": "Nauru",
+  "de": "de Nauru",
+  "capital": "Yaren (pas de capitale officielle)",
+  "area": 21
+ },
+ {
+  "code": "NP",
+  "ccn3": "524",
+  "name": "Népal",
+  "de": "du Népal",
+  "capital": "Katmandou",
+  "area": 147181
+ },
+ {
+  "code": "NI",
+  "ccn3": "558",
+  "name": "Nicaragua",
+  "de": "du Nicaragua",
+  "capital": "Managua",
+  "area": 130373
+ },
+ {
+  "code": "NE",
+  "ccn3": "562",
+  "name": "Niger",
+  "de": "du Niger",
+  "capital": "Niamey",
+  "area": 1267000
+ },
+ {
+  "code": "NG",
+  "ccn3": "566",
+  "name": "Nigeria",
+  "de": "du Nigeria",
+  "capital": "Abuja",
+  "area": 923768
+ },
+ {
+  "code": "NO",
+  "ccn3": "578",
+  "name": "Norvège",
+  "de": "de la Norvège",
+  "capital": "Oslo",
+  "area": 323802
+ },
+ {
+  "code": "NZ",
+  "ccn3": "554",
+  "name": "Nouvelle-Zélande",
+  "de": "de la Nouvelle-Zélande",
+  "capital": "Wellington",
+  "area": 270467
+ },
+ {
+  "code": "OM",
+  "ccn3": "512",
+  "name": "Oman",
+  "de": "d'Oman",
+  "capital": "Mascate",
+  "area": 309500
+ },
+ {
+  "code": "UG",
+  "ccn3": "800",
+  "name": "Ouganda",
+  "de": "de l'Ouganda",
+  "capital": "Kampala",
+  "area": 241550
+ },
+ {
+  "code": "UZ",
+  "ccn3": "860",
+  "name": "Ouzbékistan",
+  "de": "de l'Ouzbékistan",
+  "capital": "Tachkent",
+  "area": 447400
+ },
+ {
+  "code": "PK",
+  "ccn3": "586",
+  "name": "Pakistan",
+  "de": "du Pakistan",
+  "capital": "Islamabad",
+  "area": 881912
+ },
+ {
+  "code": "PW",
+  "ccn3": "585",
+  "name": "Palaos",
+  "aka": "Palau",
+  "de": "des Palaos",
+  "capital": "Ngerulmud",
+  "area": 459
+ },
+ {
+  "code": "PS",
+  "ccn3": "275",
+  "name": "Palestine",
+  "de": "de la Palestine",
+  "capital": "Jérusalem-Est (revendiquée ; siège : Ramallah)",
+  "area": 6220
+ },
+ {
+  "code": "PA",
+  "ccn3": "591",
+  "name": "Panama",
+  "de": "du Panama",
+  "capital": "Panama",
+  "area": 75417
+ },
+ {
+  "code": "PG",
+  "ccn3": "598",
+  "name": "Papouasie-Nouvelle-Guinée",
+  "de": "de la Papouasie-Nouvelle-Guinée",
+  "capital": "Port Moresby",
+  "area": 462840
+ },
+ {
+  "code": "PY",
+  "ccn3": "600",
+  "name": "Paraguay",
+  "de": "du Paraguay",
+  "capital": "Asunción",
+  "area": 406752
+ },
+ {
+  "code": "NL",
+  "ccn3": "528",
+  "name": "Pays-Bas",
+  "de": "des Pays-Bas",
+  "capital": "Amsterdam (siège du gouvernement : La Haye)",
+  "area": 41850
+ },
+ {
+  "code": "PE",
+  "ccn3": "604",
+  "name": "Pérou",
+  "de": "du Pérou",
+  "capital": "Lima",
+  "area": 1285216
+ },
+ {
+  "code": "PH",
+  "ccn3": "608",
+  "name": "Philippines",
+  "de": "des Philippines",
+  "capital": "Manille",
+  "area": 342353
+ },
+ {
+  "code": "PL",
+  "ccn3": "616",
+  "name": "Pologne",
+  "de": "de la Pologne",
+  "capital": "Varsovie",
+  "area": 312679
+ },
+ {
+  "code": "PT",
+  "ccn3": "620",
+  "name": "Portugal",
+  "de": "du Portugal",
+  "capital": "Lisbonne",
+  "area": 92090
+ },
+ {
+  "code": "QA",
+  "ccn3": "634",
+  "name": "Qatar",
+  "de": "du Qatar",
+  "capital": "Doha",
+  "area": 11586
+ },
+ {
+  "code": "CD",
+  "ccn3": "180",
+  "name": "République démocratique du Congo",
+  "aka": "RDC",
+  "de": "de la République démocratique du Congo",
+  "capital": "Kinshasa",
+  "area": 2344858
+ },
+ {
+  "code": "DO",
+  "ccn3": "214",
+  "name": "République dominicaine",
+  "de": "de la République dominicaine",
+  "capital": "Saint-Domingue",
+  "area": 48671
+ },
+ {
+  "code": "CG",
+  "ccn3": "178",
+  "name": "République du Congo",
+  "aka": "Congo-Brazzaville",
+  "de": "de la République du Congo",
+  "capital": "Brazzaville",
+  "area": 342000
+ },
+ {
+  "code": "RO",
+  "ccn3": "642",
+  "name": "Roumanie",
+  "de": "de la Roumanie",
+  "capital": "Bucarest",
+  "area": 238391
+ },
+ {
+  "code": "GB",
+  "ccn3": "826",
+  "name": "Royaume-Uni",
+  "de": "du Royaume-Uni",
+  "capital": "Londres",
+  "area": 242900
+ },
+ {
+  "code": "RU",
+  "ccn3": "643",
+  "name": "Russie",
+  "de": "de la Russie",
+  "capital": "Moscou",
+  "area": 17098242
+ },
+ {
+  "code": "RW",
+  "ccn3": "646",
+  "name": "Rwanda",
+  "de": "du Rwanda",
+  "capital": "Kigali",
+  "area": 26338
+ },
+ {
+  "code": "KN",
+  "ccn3": "659",
+  "name": "Saint-Christophe-et-Niévès",
+  "aka": "Saint-Kitts-et-Nevis",
+  "de": "de Saint-Christophe-et-Niévès",
+  "capital": "Basseterre",
+  "area": 261
+ },
+ {
+  "code": "SM",
+  "ccn3": "674",
+  "name": "Saint-Marin",
+  "de": "de Saint-Marin",
+  "capital": "Saint-Marin",
+  "area": 61
+ },
+ {
+  "code": "VC",
+  "ccn3": "670",
+  "name": "Saint-Vincent-et-les-Grenadines",
+  "de": "de Saint-Vincent-et-les-Grenadines",
+  "capital": "Kingstown",
+  "area": 389
+ },
+ {
+  "code": "LC",
+  "ccn3": "662",
+  "name": "Sainte-Lucie",
+  "de": "de Sainte-Lucie",
+  "capital": "Castries",
+  "area": 616
+ },
+ {
+  "code": "SV",
+  "ccn3": "222",
+  "name": "Salvador",
+  "de": "du Salvador",
+  "capital": "San Salvador",
+  "area": 21041
+ },
+ {
+  "code": "WS",
+  "ccn3": "882",
+  "name": "Samoa",
+  "de": "des Samoa",
+  "capital": "Apia",
+  "area": 2842
+ },
+ {
+  "code": "ST",
+  "ccn3": "678",
+  "name": "Sao Tomé-et-Principe",
+  "de": "de Sao Tomé-et-Principe",
+  "capital": "Sao Tomé",
+  "area": 964
+ },
+ {
+  "code": "SN",
+  "ccn3": "686",
+  "name": "Sénégal",
+  "de": "du Sénégal",
+  "capital": "Dakar",
+  "area": 196722
+ },
+ {
+  "code": "RS",
+  "ccn3": "688",
+  "name": "Serbie",
+  "de": "de la Serbie",
+  "capital": "Belgrade",
+  "area": 88361
+ },
+ {
+  "code": "SC",
+  "ccn3": "690",
+  "name": "Seychelles",
+  "de": "des Seychelles",
+  "capital": "Victoria",
+  "area": 452
+ },
+ {
+  "code": "SL",
+  "ccn3": "694",
+  "name": "Sierra Leone",
+  "de": "de la Sierra Leone",
+  "capital": "Freetown",
+  "area": 71740
+ },
+ {
+  "code": "SG",
+  "ccn3": "702",
+  "name": "Singapour",
+  "de": "de Singapour",
+  "capital": "Singapour",
+  "area": 710
+ },
+ {
+  "code": "SK",
+  "ccn3": "703",
+  "name": "Slovaquie",
+  "de": "de la Slovaquie",
+  "capital": "Bratislava",
+  "area": 49037
+ },
+ {
+  "code": "SI",
+  "ccn3": "705",
+  "name": "Slovénie",
+  "de": "de la Slovénie",
+  "capital": "Ljubljana",
+  "area": 20273
+ },
+ {
+  "code": "SO",
+  "ccn3": "706",
+  "name": "Somalie",
+  "de": "de la Somalie",
+  "capital": "Mogadiscio",
+  "area": 637657
+ },
+ {
+  "code": "SD",
+  "ccn3": "729",
+  "name": "Soudan",
+  "de": "du Soudan",
+  "capital": "Khartoum",
+  "area": 1886068
+ },
+ {
+  "code": "SS",
+  "ccn3": "728",
+  "name": "Soudan du Sud",
+  "de": "du Soudan du Sud",
+  "capital": "Djouba",
+  "area": 619745
+ },
+ {
+  "code": "LK",
+  "ccn3": "144",
+  "name": "Sri Lanka",
+  "de": "du Sri Lanka",
+  "capital": "Sri Jayawardenepura Kotte (ville principale : Colombo)",
+  "area": 65610
+ },
+ {
+  "code": "SE",
+  "ccn3": "752",
+  "name": "Suède",
+  "de": "de la Suède",
+  "capital": "Stockholm",
+  "area": 450295
+ },
+ {
+  "code": "CH",
+  "ccn3": "756",
+  "name": "Suisse",
+  "de": "de la Suisse",
+  "capital": "Berne",
+  "area": 41284
+ },
+ {
+  "code": "SR",
+  "ccn3": "740",
+  "name": "Suriname",
+  "de": "du Suriname",
+  "capital": "Paramaribo",
+  "area": 163820
+ },
+ {
+  "code": "SY",
+  "ccn3": "760",
+  "name": "Syrie",
+  "de": "de la Syrie",
+  "capital": "Damas",
+  "area": 185180
+ },
+ {
+  "code": "TJ",
+  "ccn3": "762",
+  "name": "Tadjikistan",
+  "de": "du Tadjikistan",
+  "capital": "Douchanbé",
+  "area": 143100
+ },
+ {
+  "code": "TZ",
+  "ccn3": "834",
+  "name": "Tanzanie",
+  "de": "de la Tanzanie",
+  "capital": "Dodoma (ville principale : Dar es Salaam)",
+  "area": 945087
+ },
+ {
+  "code": "TD",
+  "ccn3": "148",
+  "name": "Tchad",
+  "de": "du Tchad",
+  "capital": "N'Djaména",
+  "area": 1284000
+ },
+ {
+  "code": "CZ",
+  "ccn3": "203",
+  "name": "Tchéquie",
+  "aka": "République tchèque",
+  "de": "de la Tchéquie",
+  "capital": "Prague",
+  "area": 78865
+ },
+ {
+  "code": "TH",
+  "ccn3": "764",
+  "name": "Thaïlande",
+  "de": "de la Thaïlande",
+  "capital": "Bangkok",
+  "area": 513120
+ },
+ {
+  "code": "TL",
+  "ccn3": "626",
+  "name": "Timor oriental",
+  "aka": "Timor-Leste",
+  "de": "du Timor oriental",
+  "capital": "Dili",
+  "area": 14874
+ },
+ {
+  "code": "TG",
+  "ccn3": "768",
+  "name": "Togo",
+  "de": "du Togo",
+  "capital": "Lomé",
+  "area": 56785
+ },
+ {
+  "code": "TO",
+  "ccn3": "776",
+  "name": "Tonga",
+  "de": "des Tonga",
+  "capital": "Nuku'alofa",
+  "area": 747
+ },
+ {
+  "code": "TT",
+  "ccn3": "780",
+  "name": "Trinité-et-Tobago",
+  "de": "de Trinité-et-Tobago",
+  "capital": "Port-d'Espagne",
+  "area": 5130
+ },
+ {
+  "code": "TN",
+  "ccn3": "788",
+  "name": "Tunisie",
+  "de": "de la Tunisie",
+  "capital": "Tunis",
+  "area": 163610
+ },
+ {
+  "code": "TM",
+  "ccn3": "795",
+  "name": "Turkménistan",
+  "de": "du Turkménistan",
+  "capital": "Achgabat",
+  "area": 488100
+ },
+ {
+  "code": "TR",
+  "ccn3": "792",
+  "name": "Turquie",
+  "de": "de la Turquie",
+  "capital": "Ankara",
+  "area": 783562
+ },
+ {
+  "code": "TV",
+  "ccn3": "798",
+  "name": "Tuvalu",
+  "de": "des Tuvalu",
+  "capital": "Funafuti",
+  "area": 26
+ },
+ {
+  "code": "UA",
+  "ccn3": "804",
+  "name": "Ukraine",
+  "de": "de l'Ukraine",
+  "capital": "Kiev (Kyiv)",
+  "area": 603500
+ },
+ {
+  "code": "UY",
+  "ccn3": "858",
+  "name": "Uruguay",
+  "de": "de l'Uruguay",
+  "capital": "Montevideo",
+  "area": 181034
+ },
+ {
+  "code": "VU",
+  "ccn3": "548",
+  "name": "Vanuatu",
+  "de": "du Vanuatu",
+  "capital": "Port-Vila",
+  "area": 12189
+ },
+ {
+  "code": "VA",
+  "ccn3": "336",
+  "name": "Vatican",
+  "de": "du Vatican",
+  "capital": "Cité du Vatican",
+  "area": 0.44
+ },
+ {
+  "code": "VE",
+  "ccn3": "862",
+  "name": "Venezuela",
+  "de": "du Venezuela",
+  "capital": "Caracas",
+  "area": 916445
+ },
+ {
+  "code": "VN",
+  "ccn3": "704",
+  "name": "Viêt Nam",
+  "de": "du Viêt Nam",
+  "capital": "Hanoï",
+  "area": 331212
+ },
+ {
+  "code": "YE",
+  "ccn3": "887",
+  "name": "Yémen",
+  "de": "du Yémen",
+  "capital": "Sanaa (gouvernement reconnu : Aden)",
+  "area": 527968
+ },
+ {
+  "code": "ZM",
+  "ccn3": "894",
+  "name": "Zambie",
+  "de": "de la Zambie",
+  "capital": "Lusaka",
+  "area": 752612
+ },
+ {
+  "code": "ZW",
+  "ccn3": "716",
+  "name": "Zimbabwe",
+  "de": "du Zimbabwe",
+  "capital": "Harare",
+  "area": 390757
+ }
+]

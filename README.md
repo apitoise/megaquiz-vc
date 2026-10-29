@@ -16,6 +16,18 @@ npm run dev            # http://127.0.0.1:5173
 
 Autres commandes : `npm test` (Vitest), `npm run typecheck`.
 
+## Données
+
+Les pools stables sont versionnés dans `data/` ; `npm run build-pools` les régénère (réponses HTTP en cache dans `.cache/`). On peut cibler une partie : `npm run build-pools -- shapes`.
+
+| Fichier | Contenu | Source |
+|---|---|---|
+| `data/capitals_fr.json` | **curé à la main** : noms, « de… », capitales en français ; champ `doubt` pour les cas litigieux | — |
+| `data/countries.json` | 193 membres de l'ONU + Vatican et Palestine | [mledoze/countries](https://github.com/mledoze/countries) + fichier curé |
+| `data/shapes.json` | silhouettes SVG pré-projetées | `world-atlas` (Natural Earth 50m), `d3-geo` |
+
+Drapeaux : `https://flagcdn.com/w640/{code}.png`, chargés en direct. Le seuil de superficie des silhouettes est `MIN_SHAPE_AREA_KM2` dans `src/providers/shapes.ts`.
+
 ## Contrôles
 
 | Action | Touche |
