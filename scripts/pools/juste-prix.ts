@@ -8,7 +8,7 @@ import { fetchJson, writeJson } from "./http.ts";
 import { imageUrl, pageProblem, pages } from "./wiki.ts";
 
 /** Villes les plus peuplées utilisées pour les questions d'habitants. */
-const CITY_COUNT = 20;
+const CITY_COUNT = 100;
 
 interface Curated {
   question: string;

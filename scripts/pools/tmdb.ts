@@ -7,8 +7,8 @@ import { fetchJson, writeJson } from "./http.ts";
 const API = "https://api.themoviedb.org/3";
 /** TMDB tolère ~50 requêtes/s : on reste très en dessous. */
 const INTERVAL_MS = 60;
-export const FILM_COUNT = 300;
-export const SERIES_COUNT = 150;
+export const FILM_COUNT = 600;
+export const SERIES_COUNT = 300;
 /** Images de scène gardées par œuvre (une tirée au hasard par question). */
 const BACKDROPS_PER_WORK = 8;
 /** Genres de séries écartés : jeunesse, actualités, téléréalité, soap, talk-show. */

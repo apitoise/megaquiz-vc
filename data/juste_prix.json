@@ -126,6 +126,202 @@
   "image": null
  },
  {
+  "id": "prix-19",
+  "category": "prix",
+  "question": "Combien coûtait la Wii à sa sortie en France, en 2006 ?",
+  "answer": "249 €",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Wii-Console.png/1280px-Wii-Console.png"
+ },
+ {
+  "id": "prix-20",
+  "category": "prix",
+  "question": "Combien coûtait la PlayStation 4 à sa sortie en France, en 2013 ?",
+  "answer": "399 €",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/PS4-Console-wDS4.png/1280px-PS4-Console-wDS4.png"
+ },
+ {
+  "id": "prix-21",
+  "category": "prix",
+  "question": "Combien coûtait la PlayStation 3 à sa sortie en Europe, en 2007 ?",
+  "answer": "599 €",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/PS3Versions.png/1280px-PS3Versions.png"
+ },
+ {
+  "id": "prix-22",
+  "category": "prix",
+  "question": "Combien coûtait la Xbox 360 (version Premium) à sa sortie en Europe, en 2005 ?",
+  "answer": "399 €",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Xbox-360-Consoles-Infobox.png/1280px-Xbox-360-Consoles-Infobox.png"
+ },
+ {
+  "id": "prix-23",
+  "category": "prix",
+  "question": "Combien coûtait la Nintendo DS à sa sortie en Europe, en 2005 ?",
+  "answer": "Environ 150 €",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Nintendo-DS-Fat-Blue.png/1280px-Nintendo-DS-Fat-Blue.png"
+ },
+ {
+  "id": "prix-24",
+  "category": "prix",
+  "question": "Combien coûtait la Nintendo Switch 2 à sa sortie en France, en 2025 ?",
+  "answer": "Environ 470 €",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Nintendo_Switch_2-Spieleequipment_20250605.png/1280px-Nintendo_Switch_2-Spieleequipment_20250605.png"
+ },
+ {
+  "id": "prix-25",
+  "category": "prix",
+  "question": "Combien coûtait le premier Macintosh à sa sortie aux États-Unis, en 1984 ?",
+  "answer": "2 495 $",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Macintosh_128k_transparency.png"
+ },
+ {
+  "id": "prix-26",
+  "category": "prix",
+  "question": "Combien coûtait le premier iPod à sa sortie aux États-Unis, en 2001 ?",
+  "answer": "399 $",
+  "image": null
+ },
+ {
+  "id": "prix-27",
+  "category": "prix",
+  "question": "Combien coûtait la Ford T à son lancement, en 1908 ?",
+  "answer": "Environ 850 $",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/1919_Ford_Model_T_Highboy_Coupe.jpg"
+ },
+ {
+  "id": "prix-28",
+  "category": "prix",
+  "question": "Combien le Real Madrid a-t-il payé pour recruter Zinédine Zidane en 2001 ?",
+  "answer": "Environ 75 millions €",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg"
+ },
+ {
+  "id": "prix-29",
+  "category": "prix",
+  "question": "Combien le Real Madrid a-t-il payé pour recruter Jude Bellingham en 2023 ?",
+  "answer": "103 millions €",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Jude_Bellingham_England_v_Ghana_23_June_2026-015.jpg/1280px-Jude_Bellingham_England_v_Ghana_23_June_2026-015.jpg"
+ },
+ {
+  "id": "prix-30",
+  "category": "prix",
+  "question": "Combien Manchester United a-t-il payé pour recruter Paul Pogba en 2016 ?",
+  "answer": "105 millions €",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Paul_Pogba_in_2018.jpg"
+ },
+ {
+  "id": "prix-31",
+  "category": "prix",
+  "question": "Combien le FC Barcelone a-t-il payé pour recruter Antoine Griezmann en 2019 ?",
+  "answer": "120 millions €",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Antoine_Griezmann_World_Cup_Trophy.jpg"
+ },
+ {
+  "id": "prix-32",
+  "category": "prix",
+  "question": "Combien le Real Madrid a-t-il payé pour recruter Gareth Bale en 2013 ?",
+  "answer": "Environ 100 millions €",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Gareth_Bale_2015_%2810%29.jpg"
+ },
+ {
+  "id": "prix-33",
+  "category": "prix",
+  "question": "Combien l'Atlético de Madrid a-t-il payé pour recruter João Félix en 2019 ?",
+  "answer": "Environ 126 millions €",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Joao_Felix_Croatia_v_Portugal_2_July_2026-007.jpg/1280px-Joao_Felix_Croatia_v_Portugal_2_July_2026-007.jpg"
+ },
+ {
+  "id": "prix-34",
+  "category": "prix",
+  "question": "Quel est le montant d'un prix Nobel (depuis 2023) ?",
+  "answer": "11 millions de couronnes suédoises (environ 1 million €)",
+  "image": null
+ },
+ {
+  "id": "prix-35",
+  "category": "prix",
+  "question": "Combien a touché le vainqueur du simple messieurs de Roland-Garros en 2024 ?",
+  "answer": "2,4 millions €",
+  "image": null
+ },
+ {
+  "id": "prix-36",
+  "category": "prix",
+  "question": "Combien a coûté le télescope spatial James-Webb ?",
+  "answer": "Environ 10 milliards $",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/James_Webb_Space_Telescope.jpg/1280px-James_Webb_Space_Telescope.jpg"
+ },
+ {
+  "id": "prix-37",
+  "category": "prix",
+  "question": "Combien a coûté la Station spatiale internationale ?",
+  "answer": "Environ 150 milliards $",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg/1280px-The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg"
+ },
+ {
+  "id": "prix-38",
+  "category": "prix",
+  "question": "Quel a été le budget du film « Titanic » (1997) ?",
+  "answer": "Environ 200 millions $",
+  "image": null
+ },
+ {
+  "id": "prix-39",
+  "category": "prix",
+  "question": "Combien le film « Avatar » (2009) a-t-il rapporté dans le monde ?",
+  "answer": "Environ 2,9 milliards $ (record mondial)",
+  "image": null
+ },
+ {
+  "id": "prix-40",
+  "category": "prix",
+  "question": "Quel est le salaire brut mensuel du président de la République française ?",
+  "answer": "Environ 15 000 €",
+  "image": null
+ },
+ {
+  "id": "prix-41",
+  "category": "prix",
+  "question": "Quel est le montant du SMIC net mensuel à temps plein (2025) ?",
+  "answer": "Environ 1 430 €",
+  "image": null
+ },
+ {
+  "id": "prix-42",
+  "category": "prix",
+  "question": "À combien le diamant « Pink Star » a-t-il été vendu aux enchères en 2017 ?",
+  "answer": "71,2 millions $",
+  "image": null
+ },
+ {
+  "id": "prix-43",
+  "category": "prix",
+  "question": "À combien le Stradivarius « Lady Blunt » a-t-il été vendu en 2011 ?",
+  "answer": "15,9 millions $",
+  "image": null
+ },
+ {
+  "id": "prix-44",
+  "category": "prix",
+  "question": "À combien la carte Pokémon « Pikachu Illustrator » a-t-elle été vendue en 2022 ?",
+  "answer": "5,275 millions $",
+  "image": null
+ },
+ {
+  "id": "prix-45",
+  "category": "prix",
+  "question": "Quel est le gros lot maximal de l'EuroMillions ?",
+  "answer": "250 millions € (plafond)",
+  "image": null
+ },
+ {
+  "id": "prix-46",
+  "category": "prix",
+  "question": "À combien le tableau « Interchange » de Willem de Kooning a-t-il été vendu en 2015 ?",
+  "answer": "Environ 300 millions $",
+  "image": null
+ },
+ {
   "id": "chiffres-01",
   "category": "chiffres",
   "question": "Quelle est la distance moyenne entre la Terre et la Lune ?",
@@ -350,6 +546,839 @@
   "image": null
  },
  {
+  "id": "chiffres-33",
+  "category": "chiffres",
+  "question": "Quelle est la longueur du Nil ?",
+  "answer": "Environ 6 650 km",
+  "image": null
+ },
+ {
+  "id": "chiffres-34",
+  "category": "chiffres",
+  "question": "Quelle est la longueur de la Seine ?",
+  "answer": "777 km",
+  "image": null
+ },
+ {
+  "id": "chiffres-35",
+  "category": "chiffres",
+  "question": "Quelle est la superficie de la France métropolitaine ?",
+  "answer": "Environ 550 000 km²",
+  "image": null
+ },
+ {
+  "id": "chiffres-36",
+  "category": "chiffres",
+  "question": "Quelle est la superficie de la Russie ?",
+  "answer": "Environ 17 millions de km²",
+  "image": null
+ },
+ {
+  "id": "chiffres-37",
+  "category": "chiffres",
+  "question": "Quelle est la hauteur de la statue de la Liberté, socle compris ?",
+  "answer": "93 m",
+  "image": null
+ },
+ {
+  "id": "chiffres-38",
+  "category": "chiffres",
+  "question": "Quelle est la hauteur de l'Empire State Building, jusqu'au toit ?",
+  "answer": "381 m (443 m avec l'antenne)",
+  "image": null
+ },
+ {
+  "id": "chiffres-39",
+  "category": "chiffres",
+  "question": "Quelle était la hauteur d'origine de la pyramide de Khéops ?",
+  "answer": "Environ 146 m",
+  "image": null
+ },
+ {
+  "id": "chiffres-40",
+  "category": "chiffres",
+  "question": "Quelle est la longueur du tunnel sous la Manche ?",
+  "answer": "Environ 50 km",
+  "image": null
+ },
+ {
+  "id": "chiffres-41",
+  "category": "chiffres",
+  "question": "Quelle est la longueur du viaduc de Millau ?",
+  "answer": "2 460 m",
+  "image": null
+ },
+ {
+  "id": "chiffres-42",
+  "category": "chiffres",
+  "question": "Quelle est la hauteur de la plus haute pile du viaduc de Millau ?",
+  "answer": "245 m (343 m avec le pylône)",
+  "image": null
+ },
+ {
+  "id": "chiffres-43",
+  "category": "chiffres",
+  "question": "À quelle vitesse maximale un guépard peut-il courir ?",
+  "answer": "Environ 110 km/h",
+  "image": null
+ },
+ {
+  "id": "chiffres-44",
+  "category": "chiffres",
+  "question": "Combien d'os compte une main humaine ?",
+  "answer": "27",
+  "image": null
+ },
+ {
+  "id": "chiffres-45",
+  "category": "chiffres",
+  "question": "Combien de muscles compte le corps humain ?",
+  "answer": "Environ 600",
+  "image": null
+ },
+ {
+  "id": "chiffres-46",
+  "category": "chiffres",
+  "question": "Combien de cellules compte le corps humain ?",
+  "answer": "Environ 30 000 milliards",
+  "image": null
+ },
+ {
+  "id": "chiffres-47",
+  "category": "chiffres",
+  "question": "Combien de neurones compte le cerveau humain ?",
+  "answer": "Environ 86 milliards",
+  "image": null
+ },
+ {
+  "id": "chiffres-48",
+  "category": "chiffres",
+  "question": "Combien de fois le cœur bat-il par minute, au repos, chez un adulte ?",
+  "answer": "Environ 70",
+  "image": null
+ },
+ {
+  "id": "chiffres-49",
+  "category": "chiffres",
+  "question": "Combien pèse un cerveau humain adulte ?",
+  "answer": "Environ 1,4 kg",
+  "image": null
+ },
+ {
+  "id": "chiffres-50",
+  "category": "chiffres",
+  "question": "À quelle vitesse tourne la surface de la Terre à l'équateur ?",
+  "answer": "Environ 1 670 km/h",
+  "image": null
+ },
+ {
+  "id": "chiffres-51",
+  "category": "chiffres",
+  "question": "À quelle vitesse la Terre tourne-t-elle autour du Soleil ?",
+  "answer": "Environ 107 000 km/h (30 km/s)",
+  "image": null
+ },
+ {
+  "id": "chiffres-52",
+  "category": "chiffres",
+  "question": "Quelle est la distance minimale entre la Terre et Mars ?",
+  "answer": "Environ 55 millions de km",
+  "image": null
+ },
+ {
+  "id": "chiffres-53",
+  "category": "chiffres",
+  "question": "Quel est le diamètre du Soleil ?",
+  "answer": "Environ 1,4 million de km",
+  "image": null
+ },
+ {
+  "id": "chiffres-54",
+  "category": "chiffres",
+  "question": "Quel est le diamètre de la Lune ?",
+  "answer": "Environ 3 474 km",
+  "image": null
+ },
+ {
+  "id": "chiffres-55",
+  "category": "chiffres",
+  "question": "Quelle est la température au centre du Soleil ?",
+  "answer": "Environ 15 millions de °C",
+  "image": null
+ },
+ {
+  "id": "chiffres-56",
+  "category": "chiffres",
+  "question": "Combien de temps mettaient les missions Apollo pour rejoindre la Lune ?",
+  "answer": "Environ 3 jours",
+  "image": null
+ },
+ {
+  "id": "chiffres-57",
+  "category": "chiffres",
+  "question": "À quelle altitude orbite la Station spatiale internationale ?",
+  "answer": "Environ 400 km",
+  "image": null
+ },
+ {
+  "id": "chiffres-58",
+  "category": "chiffres",
+  "question": "À quelle vitesse la Station spatiale internationale tourne-t-elle autour de la Terre ?",
+  "answer": "Environ 28 000 km/h",
+  "image": null
+ },
+ {
+  "id": "chiffres-59",
+  "category": "chiffres",
+  "question": "Combien de communes compte la France ?",
+  "answer": "Environ 35 000",
+  "image": null
+ },
+ {
+  "id": "chiffres-60",
+  "category": "chiffres",
+  "question": "Combien d'habitants compte l'agglomération de Tokyo ?",
+  "answer": "Environ 37 millions",
+  "image": null
+ },
+ {
+  "id": "chiffres-61",
+  "category": "chiffres",
+  "question": "Combien d'habitants compte l'Inde ?",
+  "answer": "Environ 1,4 milliard",
+  "image": null
+ },
+ {
+  "id": "chiffres-62",
+  "category": "chiffres",
+  "question": "Combien d'habitants comptent les États-Unis ?",
+  "answer": "Environ 335 millions",
+  "image": null
+ },
+ {
+  "id": "chiffres-63",
+  "category": "chiffres",
+  "question": "Combien d'habitants compte le Canada ?",
+  "answer": "Environ 40 millions",
+  "image": null
+ },
+ {
+  "id": "chiffres-64",
+  "category": "chiffres",
+  "question": "Combien d'habitants compte l'Allemagne ?",
+  "answer": "Environ 84 millions",
+  "image": null
+ },
+ {
+  "id": "chiffres-65",
+  "category": "chiffres",
+  "question": "Combien de pays compte l'Afrique ?",
+  "answer": "54",
+  "image": null
+ },
+ {
+  "id": "chiffres-66",
+  "category": "chiffres",
+  "question": "Combien de cantons compte la Suisse ?",
+  "answer": "26",
+  "image": null
+ },
+ {
+  "id": "chiffres-67",
+  "category": "chiffres",
+  "question": "Combien de régions compte la France métropolitaine ?",
+  "answer": "13",
+  "image": null
+ },
+ {
+  "id": "chiffres-68",
+  "category": "chiffres",
+  "question": "Combien de cartes compte un jeu de tarot ?",
+  "answer": "78",
+  "image": null
+ },
+ {
+  "id": "chiffres-69",
+  "category": "chiffres",
+  "question": "Combien de cartes compte un jeu classique, sans les jokers ?",
+  "answer": "52",
+  "image": null
+ },
+ {
+  "id": "chiffres-70",
+  "category": "chiffres",
+  "question": "Combien de pièces compte un jeu de dominos classique (double-six) ?",
+  "answer": "28",
+  "image": null
+ },
+ {
+  "id": "chiffres-71",
+  "category": "chiffres",
+  "question": "Combien de pièces y a-t-il sur un échiquier au début d'une partie ?",
+  "answer": "32",
+  "image": null
+ },
+ {
+  "id": "chiffres-72",
+  "category": "chiffres",
+  "question": "Combien de Pokémon comptait la première génération ?",
+  "answer": "151",
+  "image": null
+ },
+ {
+  "id": "chiffres-73",
+  "category": "chiffres",
+  "question": "Combien de films compte la saga Harry Potter ?",
+  "answer": "8",
+  "image": null
+ },
+ {
+  "id": "chiffres-74",
+  "category": "chiffres",
+  "question": "Combien de films compte la saga principale Star Wars (épisodes I à IX) ?",
+  "answer": "9",
+  "image": null
+ },
+ {
+  "id": "chiffres-75",
+  "category": "chiffres",
+  "question": "Combien d'épisodes compte la série « Friends » ?",
+  "answer": "236",
+  "image": null
+ },
+ {
+  "id": "chiffres-76",
+  "category": "chiffres",
+  "question": "Combien de Ballons d'or Lionel Messi a-t-il remportés ?",
+  "answer": "8",
+  "image": null
+ },
+ {
+  "id": "chiffres-77",
+  "category": "chiffres",
+  "question": "Combien de médailles d'or olympiques Michael Phelps a-t-il remportées ?",
+  "answer": "23",
+  "image": null
+ },
+ {
+  "id": "chiffres-78",
+  "category": "chiffres",
+  "question": "À quelle hauteur se trouve un panier de basket ?",
+  "answer": "3,05 m",
+  "image": null
+ },
+ {
+  "id": "chiffres-79",
+  "category": "chiffres",
+  "question": "Quelle est la longueur standard d'un terrain de football international ?",
+  "answer": "Environ 105 m",
+  "image": null
+ },
+ {
+  "id": "chiffres-80",
+  "category": "chiffres",
+  "question": "Quelle est la longueur d'un court de tennis ?",
+  "answer": "23,77 m",
+  "image": null
+ },
+ {
+  "id": "chiffres-81",
+  "category": "chiffres",
+  "question": "Quelle est la longueur d'un tour de piste d'athlétisme ?",
+  "answer": "400 m",
+  "image": null
+ },
+ {
+  "id": "chiffres-82",
+  "category": "chiffres",
+  "question": "Combien de temps dure une mi-temps au rugby ?",
+  "answer": "40 minutes",
+  "image": null
+ },
+ {
+  "id": "chiffres-83",
+  "category": "chiffres",
+  "question": "Quel est le record de vitesse d'un service au tennis ?",
+  "answer": "Environ 263 km/h",
+  "image": null
+ },
+ {
+  "id": "chiffres-84",
+  "category": "chiffres",
+  "question": "En quelle année Gutenberg a-t-il mis au point l'imprimerie à caractères mobiles ?",
+  "answer": "Vers 1450",
+  "image": null
+ },
+ {
+  "id": "chiffres-85",
+  "category": "chiffres",
+  "question": "En quelle année les frères Wright ont-ils réussi le premier vol motorisé ?",
+  "answer": "1903",
+  "image": null
+ },
+ {
+  "id": "chiffres-86",
+  "category": "chiffres",
+  "question": "En quelle année l'Empire romain d'Occident est-il tombé ?",
+  "answer": "476",
+  "image": null
+ },
+ {
+  "id": "chiffres-87",
+  "category": "chiffres",
+  "question": "En quelle année Google a-t-il été fondé ?",
+  "answer": "1998",
+  "image": null
+ },
+ {
+  "id": "chiffres-88",
+  "category": "chiffres",
+  "question": "En quelle année les frères Lumière ont-ils organisé la première projection publique de cinéma ?",
+  "answer": "1895",
+  "image": null
+ },
+ {
+  "id": "chiffres-89",
+  "category": "chiffres",
+  "question": "Combien d'années la guerre de Cent Ans a-t-elle réellement duré ?",
+  "answer": "116 ans",
+  "image": null
+ },
+ {
+  "id": "chiffres-90",
+  "category": "chiffres",
+  "question": "À quel âge Mozart est-il mort ?",
+  "answer": "35 ans",
+  "image": null
+ },
+ {
+  "id": "chiffres-91",
+  "category": "chiffres",
+  "question": "Combien de tableaux Vincent van Gogh a-t-il peints ?",
+  "answer": "Environ 900",
+  "image": null
+ },
+ {
+  "id": "chiffres-92",
+  "category": "chiffres",
+  "question": "Combien pèse la tour Eiffel ?",
+  "answer": "Environ 10 100 tonnes",
+  "image": null
+ },
+ {
+  "id": "chiffres-93",
+  "category": "chiffres",
+  "question": "Combien de rivets compte la tour Eiffel ?",
+  "answer": "Environ 2,5 millions",
+  "image": null
+ },
+ {
+  "id": "chiffres-94",
+  "category": "chiffres",
+  "question": "Combien de visiteurs le musée du Louvre accueille-t-il par an ?",
+  "answer": "Environ 9 millions",
+  "image": null
+ },
+ {
+  "id": "chiffres-95",
+  "category": "chiffres",
+  "question": "Quel est le record de vitesse d'un TGV (2007) ?",
+  "answer": "574,8 km/h",
+  "image": null
+ },
+ {
+  "id": "chiffres-96",
+  "category": "chiffres",
+  "question": "À quelle vitesse vole un avion de ligne en croisière ?",
+  "answer": "Environ 900 km/h",
+  "image": null
+ },
+ {
+  "id": "chiffres-97",
+  "category": "chiffres",
+  "question": "Combien de passagers un Airbus A380 peut-il transporter au maximum ?",
+  "answer": "Environ 850",
+  "image": null
+ },
+ {
+  "id": "chiffres-98",
+  "category": "chiffres",
+  "question": "Quelle est la profondeur maximale du lac Baïkal ?",
+  "answer": "1 642 m",
+  "image": null
+ },
+ {
+  "id": "chiffres-99",
+  "category": "chiffres",
+  "question": "Quelle est la température la plus basse jamais mesurée sur Terre ?",
+  "answer": "−89,2 °C (Antarctique, 1983)",
+  "image": null
+ },
+ {
+  "id": "chiffres-100",
+  "category": "chiffres",
+  "question": "Quelle est la température la plus élevée jamais mesurée sur Terre ?",
+  "answer": "56,7 °C (Vallée de la Mort, 1913)",
+  "image": null
+ },
+ {
+  "id": "chiffres-101",
+  "category": "chiffres",
+  "question": "Quelle est la superficie du Sahara ?",
+  "answer": "Environ 9 millions de km²",
+  "image": null
+ },
+ {
+  "id": "chiffres-102",
+  "category": "chiffres",
+  "question": "À quelle altitude se trouve la ville de La Paz ?",
+  "answer": "Environ 3 600 m",
+  "image": null
+ },
+ {
+  "id": "chiffres-103",
+  "category": "chiffres",
+  "question": "Combien de fuseaux horaires couvre la Russie ?",
+  "answer": "11",
+  "image": null
+ },
+ {
+  "id": "chiffres-104",
+  "category": "chiffres",
+  "question": "Combien de langues officielles compte l'ONU ?",
+  "answer": "6",
+  "image": null
+ },
+ {
+  "id": "chiffres-105",
+  "category": "chiffres",
+  "question": "Combien de dents de lait a un enfant ?",
+  "answer": "20",
+  "image": null
+ },
+ {
+  "id": "chiffres-106",
+  "category": "chiffres",
+  "question": "Combien de km parcourt environ le Tour de France ?",
+  "answer": "Environ 3 400 km",
+  "image": null
+ },
+ {
+  "id": "chiffres-107",
+  "category": "chiffres",
+  "question": "Quelle est la longueur de la Loire ?",
+  "answer": "Environ 1 000 km (1 006 km)",
+  "image": null
+ },
+ {
+  "id": "chiffres-108",
+  "category": "chiffres",
+  "question": "Quelle est la longueur de l'Amazone ?",
+  "answer": "Environ 6 400 km",
+  "image": null
+ },
+ {
+  "id": "chiffres-109",
+  "category": "chiffres",
+  "question": "Quelle est la longueur du périphérique parisien ?",
+  "answer": "Environ 35 km",
+  "image": null
+ },
+ {
+  "id": "chiffres-110",
+  "category": "chiffres",
+  "question": "Quelle est la longueur des Champs-Élysées ?",
+  "answer": "Environ 1,9 km",
+  "image": null
+ },
+ {
+  "id": "chiffres-111",
+  "category": "chiffres",
+  "question": "Quelle est la hauteur de l'Arc de Triomphe ?",
+  "answer": "Environ 50 m",
+  "image": null
+ },
+ {
+  "id": "chiffres-112",
+  "category": "chiffres",
+  "question": "Quelle est la hauteur de la tour Montparnasse ?",
+  "answer": "210 m",
+  "image": null
+ },
+ {
+  "id": "chiffres-113",
+  "category": "chiffres",
+  "question": "Quelle est la hauteur de la tour de Pise ?",
+  "answer": "Environ 56 m",
+  "image": null
+ },
+ {
+  "id": "chiffres-114",
+  "category": "chiffres",
+  "question": "Quelle est la hauteur de Big Ben (la tour Elizabeth) ?",
+  "answer": "Environ 96 m",
+  "image": null
+ },
+ {
+  "id": "chiffres-115",
+  "category": "chiffres",
+  "question": "Combien de marches faut-il gravir pour atteindre le 2e étage de la tour Eiffel ?",
+  "answer": "674",
+  "image": null
+ },
+ {
+  "id": "chiffres-116",
+  "category": "chiffres",
+  "question": "Quelle est la superficie de l'océan Pacifique ?",
+  "answer": "Environ 165 millions de km²",
+  "image": null
+ },
+ {
+  "id": "chiffres-117",
+  "category": "chiffres",
+  "question": "Quelle part de la surface terrestre est recouverte d'eau ?",
+  "answer": "Environ 71 %",
+  "image": null
+ },
+ {
+  "id": "chiffres-118",
+  "category": "chiffres",
+  "question": "Quelle est la circonférence de la Terre à l'équateur ?",
+  "answer": "Environ 40 075 km",
+  "image": null
+ },
+ {
+  "id": "chiffres-119",
+  "category": "chiffres",
+  "question": "Combien de lunes connues compte Jupiter (2025) ?",
+  "answer": "Environ 95",
+  "image": null
+ },
+ {
+  "id": "chiffres-120",
+  "category": "chiffres",
+  "question": "Combien de temps dure une année sur Mars ?",
+  "answer": "Environ 687 jours terrestres",
+  "image": null
+ },
+ {
+  "id": "chiffres-121",
+  "category": "chiffres",
+  "question": "Quelle est la température à la surface de Vénus ?",
+  "answer": "Environ 465 °C",
+  "image": null
+ },
+ {
+  "id": "chiffres-122",
+  "category": "chiffres",
+  "question": "Combien d'éléments compte le tableau périodique ?",
+  "answer": "118",
+  "image": null
+ },
+ {
+  "id": "chiffres-123",
+  "category": "chiffres",
+  "question": "À quelle température l'eau bout-elle au sommet de l'Everest ?",
+  "answer": "Environ 70 °C",
+  "image": null
+ },
+ {
+  "id": "chiffres-124",
+  "category": "chiffres",
+  "question": "Quelle est la vitesse du son dans l'air ?",
+  "answer": "Environ 340 m/s (1 225 km/h)",
+  "image": null
+ },
+ {
+  "id": "chiffres-125",
+  "category": "chiffres",
+  "question": "Combien pèse une baleine bleue adulte ?",
+  "answer": "Environ 150 tonnes",
+  "image": null
+ },
+ {
+  "id": "chiffres-126",
+  "category": "chiffres",
+  "question": "Combien de temps dure la gestation d'un éléphant ?",
+  "answer": "Environ 22 mois",
+  "image": null
+ },
+ {
+  "id": "chiffres-127",
+  "category": "chiffres",
+  "question": "Combien de cheveux compte une tête humaine ?",
+  "answer": "Environ 100 000",
+  "image": null
+ },
+ {
+  "id": "chiffres-128",
+  "category": "chiffres",
+  "question": "Combien de vertèbres compte la colonne vertébrale humaine ?",
+  "answer": "33 (dont 24 mobiles)",
+  "image": null
+ },
+ {
+  "id": "chiffres-129",
+  "category": "chiffres",
+  "question": "Combien d'États membres compte l'ONU ?",
+  "answer": "193",
+  "image": null
+ },
+ {
+  "id": "chiffres-130",
+  "category": "chiffres",
+  "question": "Combien de députés siègent à l'Assemblée nationale ?",
+  "answer": "577",
+  "image": null
+ },
+ {
+  "id": "chiffres-131",
+  "category": "chiffres",
+  "question": "Combien de sénateurs siègent au Sénat français ?",
+  "answer": "348",
+  "image": null
+ },
+ {
+  "id": "chiffres-132",
+  "category": "chiffres",
+  "question": "Combien de joueurs compte une équipe de rugby à XV sur le terrain ?",
+  "answer": "15",
+  "image": null
+ },
+ {
+  "id": "chiffres-133",
+  "category": "chiffres",
+  "question": "Combien de buts Pelé revendique-t-il dans sa carrière ?",
+  "answer": "Plus de 1 200 (1 281 selon lui)",
+  "image": null
+ },
+ {
+  "id": "chiffres-134",
+  "category": "chiffres",
+  "question": "Combien de Grands Chelems Rafael Nadal a-t-il remportés ?",
+  "answer": "22",
+  "image": null
+ },
+ {
+  "id": "chiffres-135",
+  "category": "chiffres",
+  "question": "Combien de fois Rafael Nadal a-t-il remporté Roland-Garros ?",
+  "answer": "14",
+  "image": null
+ },
+ {
+  "id": "chiffres-136",
+  "category": "chiffres",
+  "question": "Combien de titres de champion du monde de Formule 1 Lewis Hamilton a-t-il remportés ?",
+  "answer": "7",
+  "image": null
+ },
+ {
+  "id": "chiffres-137",
+  "category": "chiffres",
+  "question": "Combien d'albums studio les Beatles ont-ils sortis ?",
+  "answer": "13",
+  "image": null
+ },
+ {
+  "id": "chiffres-138",
+  "category": "chiffres",
+  "question": "Combien de symphonies Beethoven a-t-il composées ?",
+  "answer": "9",
+  "image": null
+ },
+ {
+  "id": "chiffres-139",
+  "category": "chiffres",
+  "question": "Combien de livres compte la saga Harry Potter ?",
+  "answer": "7",
+  "image": null
+ },
+ {
+  "id": "chiffres-140",
+  "category": "chiffres",
+  "question": "Combien d'albums d'Astérix René Goscinny a-t-il scénarisés ?",
+  "answer": "24",
+  "image": null
+ },
+ {
+  "id": "chiffres-141",
+  "category": "chiffres",
+  "question": "Combien d'albums compte la série Tintin (achevés) ?",
+  "answer": "24 (dont « Tintin et l'Alph-Art » inachevé)",
+  "image": null
+ },
+ {
+  "id": "chiffres-142",
+  "category": "chiffres",
+  "question": "Combien d'exemplaires la Bible s'est-elle vendue ou distribuée, selon les estimations ?",
+  "answer": "Plus de 5 milliards",
+  "image": null
+ },
+ {
+  "id": "chiffres-143",
+  "category": "chiffres",
+  "question": "Combien d'exemplaires de la Nintendo Switch (première) ont été vendus ?",
+  "answer": "Plus de 150 millions",
+  "image": null
+ },
+ {
+  "id": "chiffres-144",
+  "category": "chiffres",
+  "question": "Combien d'exemplaires de la PlayStation 2 ont été vendus ?",
+  "answer": "Environ 160 millions",
+  "image": null
+ },
+ {
+  "id": "chiffres-145",
+  "category": "chiffres",
+  "question": "Combien d'exemplaires de Minecraft ont été vendus ?",
+  "answer": "Plus de 300 millions",
+  "image": null
+ },
+ {
+  "id": "chiffres-146",
+  "category": "chiffres",
+  "question": "Combien d'exemplaires l'album « Thriller » de Michael Jackson s'est-il vendu ?",
+  "answer": "Environ 70 millions",
+  "image": null
+ },
+ {
+  "id": "chiffres-147",
+  "category": "chiffres",
+  "question": "Combien de jours a duré la mission Apollo 11 ?",
+  "answer": "Environ 8 jours",
+  "image": null
+ },
+ {
+  "id": "chiffres-148",
+  "category": "chiffres",
+  "question": "En quelle année l'euro est-il entré en circulation sous forme de pièces et de billets ?",
+  "answer": "2002",
+  "image": null
+ },
+ {
+  "id": "chiffres-149",
+  "category": "chiffres",
+  "question": "En quelle année le premier iPhone a-t-il été présenté ?",
+  "answer": "2007",
+  "image": null
+ },
+ {
+  "id": "chiffres-150",
+  "category": "chiffres",
+  "question": "En quelle année est sorti le premier film « Star Wars » ?",
+  "answer": "1977",
+  "image": null
+ },
+ {
+  "id": "chiffres-151",
+  "category": "chiffres",
+  "question": "En quelle année la tour Eiffel a-t-elle été inaugurée ?",
+  "answer": "1889",
+  "image": null
+ },
+ {
   "id": "habitants-75056",
   "category": "habitants",
   "question": "Combien d'habitants compte la ville de Paris ?",
@@ -487,6 +1516,566 @@
   "category": "habitants",
   "question": "Combien d'habitants compte la ville de Nîmes ?",
   "answer": "151 839 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-13001",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Aix-en-Provence ?",
+  "answer": "149 695 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-93066",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Saint-Denis ?",
+  "answer": "149 077 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-63113",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Clermont-Ferrand ?",
+  "answer": "146 351 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-72181",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Le Mans ?",
+  "answer": "146 249 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-29019",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Brest ?",
+  "answer": "142 346 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-37261",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Tours ?",
+  "answer": "139 259 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-80021",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Amiens ?",
+  "answer": "136 449 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-74010",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Annecy ?",
+  "answer": "132 117 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-87085",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Limoges ?",
+  "answer": "129 937 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-57463",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Metz ?",
+  "answer": "122 572 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-66136",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Perpignan ?",
+  "answer": "121 616 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-92012",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Boulogne-Billancourt ?",
+  "answer": "119 019 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-25056",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Besançon ?",
+  "answer": "118 489 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-76540",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Rouen ?",
+  "answer": "117 662 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-45234",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Orléans ?",
+  "answer": "116 357 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-93048",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Montreuil ?",
+  "answer": "111 934 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-14118",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Caen ?",
+  "answer": "109 400 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-95018",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Argenteuil ?",
+  "answer": "106 130 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-68224",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Mulhouse ?",
+  "answer": "104 978 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-54395",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Nancy ?",
+  "answer": "103 671 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-59599",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Tourcoing ?",
+  "answer": "98 772 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-59512",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Roubaix ?",
+  "answer": "98 286 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-92050",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Nanterre ?",
+  "answer": "97 783 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-94081",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Vitry-sur-Seine ?",
+  "answer": "93 963 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-92004",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Asnières-sur-Seine ?",
+  "answer": "93 941 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-94028",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Créteil ?",
+  "answer": "93 397 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-84007",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Avignon ?",
+  "answer": "92 188 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-92025",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Colombes ?",
+  "answer": "91 053 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-86194",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Poitiers ?",
+  "answer": "89 916 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-93001",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Aubervilliers ?",
+  "answer": "88 365 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-93005",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Aulnay-sous-Bois ?",
+  "answer": "87 599 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-59183",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Dunkerque ?",
+  "answer": "86 263 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-78646",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Versailles ?",
+  "answer": "84 095 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-92026",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Courbevoie ?",
+  "answer": "82 902 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-92063",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Rueil-Malmaison ?",
+  "answer": "82 874 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-34032",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Béziers ?",
+  "answer": "81 545 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-64445",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Pau ?",
+  "answer": "80 441 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-17300",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de La Rochelle ?",
+  "answer": "79 851 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-50129",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Cherbourg-en-Cotentin ?",
+  "answer": "78 258 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-33281",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Mérignac ?",
+  "answer": "78 090 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-94017",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Champigny-sur-Marne ?",
+  "answer": "78 072 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-06004",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Antibes ?",
+  "answer": "77 637 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-94068",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Saint-Maur-des-Fossés ?",
+  "answer": "76 572 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-2A004",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Ajaccio ?",
+  "answer": "76 320 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-44184",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Saint-Nazaire ?",
+  "answer": "74 568 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-06029",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Cannes ?",
+  "answer": "74 350 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-93051",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Noisy-le-Grand ?",
+  "answer": "72 978 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-93029",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Drancy ?",
+  "answer": "72 390 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-95127",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Cergy ?",
+  "answer": "70 906 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-92044",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Levallois-Perret ?",
+  "answer": "68 092 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-92040",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Issy-les-Moulineaux ?",
+  "answer": "67 669 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-62193",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Calais ?",
+  "answer": "67 571 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-33318",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Pessac ?",
+  "answer": "67 339 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-68066",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Colmar ?",
+  "answer": "66 970 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-91228",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Évry-Courcouronnes ?",
+  "answer": "66 919 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-69259",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Vénissieux ?",
+  "answer": "65 502 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-94041",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Ivry-sur-Seine ?",
+  "answer": "65 064 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-26362",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Valence ?",
+  "answer": "64 458 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-92024",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Clichy ?",
+  "answer": "64 410 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-29232",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Quimper ?",
+  "answer": "64 385 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-92002",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Antony ?",
+  "answer": "64 263 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-18033",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Bourges ?",
+  "answer": "64 186 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-83126",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de La Seyne-sur-Mer ?",
+  "answer": "63 732 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-82121",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Montauban ?",
+  "answer": "62 945 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-59009",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Villeneuve-d'Ascq ?",
+  "answer": "62 868 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-93007",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Le Blanc-Mesnil ?",
+  "answer": "62 376 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-10387",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Troyes ?",
+  "answer": "62 088 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-93055",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Pantin ?",
+  "answer": "61 929 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-94076",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Villejuif ?",
+  "answer": "60 183 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-73065",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Chambéry ?",
+  "answer": "59 964 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-79191",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Niort ?",
+  "answer": "59 854 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-83061",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Fréjus ?",
+  "answer": "59 719 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-92051",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Neuilly-sur-Seine ?",
+  "answer": "59 538 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-95585",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Sarcelles ?",
+  "answer": "59 173 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-92023",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Clamart ?",
+  "answer": "58 576 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-56121",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Lorient ?",
+  "answer": "58 329 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-11262",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Narbonne ?",
+  "answer": "57 587 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-93008",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Bobigny ?",
+  "answer": "56 927 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-77284",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Meaux ?",
+  "answer": "56 905 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-94046",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Maisons-Alfort ?",
+  "answer": "56 799 (population légale)",
   "image": null
  }
 ]

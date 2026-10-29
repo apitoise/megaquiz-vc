@@ -304,5 +304,635 @@
   "title": "Le Scribe accroupi",
   "artist": null,
   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Le_Scribe_accroupi_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_%C3%A9gyptiennes_E_3023.jpg/1280px-Le_Scribe_accroupi_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_%C3%A9gyptiennes_E_3023.jpg"
+ },
+ {
+  "slug": "la-grande-odalisque",
+  "title": "La Grande Odalisque",
+  "artist": "Jean-Auguste-Dominique Ingres",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/La_grande_odalisque_-_Jean-Auguste_Dominique_Ingres_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1158.jpg/1280px-La_grande_odalisque_-_Jean-Auguste_Dominique_Ingres_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1158.jpg"
+ },
+ {
+  "slug": "un-enterrement-a-ornans",
+  "title": "Un enterrement à Ornans",
+  "artist": "Gustave Courbet",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Gustave_Courbet_-_A_Burial_at_Ornans_-_Google_Art_Project.jpg/1280px-Gustave_Courbet_-_A_Burial_at_Ornans_-_Google_Art_Project.jpg"
+ },
+ {
+  "slug": "l-atelier-du-peintre",
+  "title": "L'Atelier du peintre",
+  "artist": "Gustave Courbet",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Courbet_LAtelier_du_peintre.jpg/1280px-Courbet_LAtelier_du_peintre.jpg"
+ },
+ {
+  "slug": "le-fifre",
+  "title": "Le Fifre",
+  "artist": "Édouard Manet",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Manet%2C_Edouard_-_Young_Flautist%2C_or_The_Fifer%2C_1866_%282%29.jpg/1280px-Manet%2C_Edouard_-_Young_Flautist%2C_or_The_Fifer%2C_1866_%282%29.jpg"
+ },
+ {
+  "slug": "un-bar-aux-folies-bergere",
+  "title": "Un bar aux Folies Bergère",
+  "artist": "Édouard Manet",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Edouard_Manet%2C_A_Bar_at_the_Folies-Berg%C3%A8re.jpg/1280px-Edouard_Manet%2C_A_Bar_at_the_Folies-Berg%C3%A8re.jpg"
+ },
+ {
+  "slug": "le-balcon",
+  "title": "Le Balcon",
+  "artist": "Édouard Manet",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Edouard_Manet_-_The_Balcony_-_Google_Art_Project.jpg/1280px-Edouard_Manet_-_The_Balcony_-_Google_Art_Project.jpg"
+ },
+ {
+  "slug": "les-nympheas",
+  "title": "Les Nymphéas",
+  "artist": "Claude Monet",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Le_Bassin_aux_nymph%C3%A9as_%281917-1919%29_Claude_Monet_%28Wildenstein_revised_cat._raisonn%C3%A9%29.jpg"
+ },
+ {
+  "slug": "la-pie",
+  "title": "La Pie",
+  "artist": "Claude Monet",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/La_Pie_de_Monet.jpg/1280px-La_Pie_de_Monet.jpg"
+ },
+ {
+  "slug": "femme-a-l-ombrelle",
+  "title": "Femme à l'ombrelle",
+  "artist": "Claude Monet",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Monet_Umbrella.JPG/1280px-Monet_Umbrella.JPG"
+ },
+ {
+  "slug": "la-gare-saint-lazare",
+  "title": "La Gare Saint-Lazare",
+  "artist": "Claude Monet",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/La_Gare_Saint-Lazare_-_Claude_Monet.jpg/1280px-La_Gare_Saint-Lazare_-_Claude_Monet.jpg"
+ },
+ {
+  "slug": "la-japonaise",
+  "title": "La Japonaise",
+  "artist": "Claude Monet",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Claude_Monet-Madame_Monet_en_costume_japonais.jpg/1280px-Claude_Monet-Madame_Monet_en_costume_japonais.jpg"
+ },
+ {
+  "slug": "les-raboteurs-de-parquet",
+  "title": "Les Raboteurs de parquet",
+  "artist": "Gustave Caillebotte",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Gustave_Caillebotte_-_The_Floor_Planers_-_Google_Art_Project.jpg/1280px-Gustave_Caillebotte_-_The_Floor_Planers_-_Google_Art_Project.jpg"
+ },
+ {
+  "slug": "rue-de-paris-temps-de-pluie",
+  "title": "Rue de Paris, temps de pluie",
+  "artist": "Gustave Caillebotte",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Caillebotte_Rue_de_Paris.jpg/1280px-Caillebotte_Rue_de_Paris.jpg"
+ },
+ {
+  "slug": "la-classe-de-danse",
+  "title": "La Classe de danse",
+  "artist": "Edgar Degas",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Edgar_Degas_-_La_Classe_de_danse.jpg/1280px-Edgar_Degas_-_La_Classe_de_danse.jpg"
+ },
+ {
+  "slug": "l-absinthe",
+  "title": "L'Absinthe",
+  "artist": "Edgar Degas",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Edgar_Degas_-_In_a_Caf%C3%A9_-_Google_Art_Project_2.jpg/1280px-Edgar_Degas_-_In_a_Caf%C3%A9_-_Google_Art_Project_2.jpg"
+ },
+ {
+  "slug": "le-dejeuner-des-canotiers",
+  "title": "Le Déjeuner des canotiers",
+  "artist": "Auguste Renoir",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg/1280px-Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg"
+ },
+ {
+  "slug": "jeunes-filles-au-piano",
+  "title": "Jeunes Filles au piano",
+  "artist": "Auguste Renoir",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Auguste_Renoir_-_Young_Girls_at_the_Piano_-_Google_Art_Project.jpg/1280px-Auguste_Renoir_-_Young_Girls_at_the_Piano_-_Google_Art_Project.jpg"
+ },
+ {
+  "slug": "le-berceau",
+  "title": "Le Berceau",
+  "artist": "Berthe Morisot",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Berthe_Morisot_-_Le_berceau.jpg/1280px-Berthe_Morisot_-_Le_berceau.jpg"
+ },
+ {
+  "slug": "autoportrait-a-l-oreille-bandee",
+  "title": "Autoportrait à l'oreille bandée",
+  "artist": "Vincent van Gogh",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Self-Portrait_with_a_Bandaged_Ear_-_Vincent_van_Gogh.jpg/1280px-Self-Portrait_with_a_Bandaged_Ear_-_Vincent_van_Gogh.jpg"
+ },
+ {
+  "slug": "terrasse-du-cafe-le-soir",
+  "title": "Terrasse du café le soir",
+  "artist": "Vincent van Gogh",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Van_Gogh_-_Terrace_of_a_Caf%C3%A9_at_Night_%28Place_du_Forum%29_1888.jpg/1280px-Van_Gogh_-_Terrace_of_a_Caf%C3%A9_at_Night_%28Place_du_Forum%29_1888.jpg"
+ },
+ {
+  "slug": "les-mangeurs-de-pommes-de-terre",
+  "title": "Les Mangeurs de pommes de terre",
+  "artist": "Vincent van Gogh",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/De_aardappeleters_-_s0005V1962_-_Van_Gogh_Museum.jpg/1280px-De_aardappeleters_-_s0005V1962_-_Van_Gogh_Museum.jpg"
+ },
+ {
+  "slug": "champ-de-ble-aux-corbeaux",
+  "title": "Champ de blé aux corbeaux",
+  "artist": "Vincent van Gogh",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Korenveld_met_kraaien_-_s0149V1962_-_Van_Gogh_Museum.jpg/1280px-Korenveld_met_kraaien_-_s0149V1962_-_Van_Gogh_Museum.jpg"
+ },
+ {
+  "slug": "les-grandes-baigneuses",
+  "title": "Les Grandes Baigneuses",
+  "artist": "Paul Cézanne",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Les_Grandes_Baigneuses%2C_par_Paul_C%C3%A9zanne%2C_Yorck.jpg/1280px-Les_Grandes_Baigneuses%2C_par_Paul_C%C3%A9zanne%2C_Yorck.jpg"
+ },
+ {
+  "slug": "d-ou-venons-nous-que-sommes-nous-ou-allons-nous",
+  "title": "D'où venons-nous ? Que sommes-nous ? Où allons-nous ?",
+  "artist": "Paul Gauguin",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Gauguin_-_Where_Do_We_Come_From%3F_What_Are_We%3F_Where_Are_We_Going%3F_%281897-98%29.jpg/1280px-Gauguin_-_Where_Do_We_Come_From%3F_What_Are_We%3F_Where_Are_We_Going%3F_%281897-98%29.jpg"
+ },
+ {
+  "slug": "le-christ-jaune",
+  "title": "Le Christ jaune",
+  "artist": "Paul Gauguin",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Paul_Gauguin_-_The_Yellow_Christ_%28Le_Christ_jaune%29_1889.jpg/1280px-Paul_Gauguin_-_The_Yellow_Christ_%28Le_Christ_jaune%29_1889.jpg"
+ },
+ {
+  "slug": "arearea",
+  "title": "Arearea",
+  "artist": "Paul Gauguin",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Arearea%2C_by_Paul_Gauguin.jpg/1280px-Arearea%2C_by_Paul_Gauguin.jpg"
+ },
+ {
+  "slug": "le-cirque",
+  "title": "Le Cirque",
+  "artist": "Georges Seurat",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Georges_Seurat_019.jpg/1280px-Georges_Seurat_019.jpg"
+ },
+ {
+  "slug": "la-charmeuse-de-serpents",
+  "title": "La Charmeuse de serpents",
+  "artist": "Henri Rousseau",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/HENRI_ROUSSEAU_-_La_Encantadora_de_Serpientes_%28Museo_de_Orsay%2C_Par%C3%ADs%2C_1907._%C3%93leo_sobre_lienzo%2C_169_x_189.5_cm%29.jpg/1280px-HENRI_ROUSSEAU_-_La_Encantadora_de_Serpientes_%28Museo_de_Orsay%2C_Par%C3%ADs%2C_1907._%C3%93leo_sobre_lienzo%2C_169_x_189.5_cm%29.jpg"
+ },
+ {
+  "slug": "le-reve",
+  "title": "Le Rêve",
+  "artist": "Henri Rousseau",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/WLA_moma_Henri_Rousseau_The_Dream.jpg"
+ },
+ {
+  "slug": "au-moulin-rouge",
+  "title": "Au Moulin-Rouge",
+  "artist": "Henri de Toulouse-Lautrec",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Lautrec_at_the_moulin_rouge_1892.jpg/1280px-Lautrec_at_the_moulin_rouge_1892.jpg"
+ },
+ {
+  "slug": "portrait-d-adele-bloch-bauer-i",
+  "title": "Portrait d'Adele Bloch-Bauer I",
+  "artist": "Gustav Klimt",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Gustav_Klimt%2C_1907%2C_Adele_Bloch-Bauer_I%2C_Neue_Galerie_New_York.jpg/1280px-Gustav_Klimt%2C_1907%2C_Adele_Bloch-Bauer_I%2C_Neue_Galerie_New_York.jpg"
+ },
+ {
+  "slug": "la-danse",
+  "title": "La Danse",
+  "artist": "Henri Matisse",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/La_Danse_II%2C_par_Henri_Matisse.jpg/1280px-La_Danse_II%2C_par_Henri_Matisse.jpg"
+ },
+ {
+  "slug": "saturne-devorant-un-de-ses-fils",
+  "title": "Saturne dévorant un de ses fils",
+  "artist": "Francisco de Goya",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg/1280px-Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg"
+ },
+ {
+  "slug": "tres-de-mayo",
+  "title": "Tres de mayo",
+  "artist": "Francisco de Goya",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Francisco_de_Goya_y_Lucientes_-_Los_fusilamientos_del_tres_de_mayo_-_1814.jpg/1280px-Francisco_de_Goya_y_Lucientes_-_Los_fusilamientos_del_tres_de_mayo_-_1814.jpg"
+ },
+ {
+  "slug": "la-maja-nue",
+  "title": "La Maja nue",
+  "artist": "Francisco de Goya",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Maja_desnuda_%28museo_del_Prado%29.jpg/1280px-Maja_desnuda_%28museo_del_Prado%29.jpg"
+ },
+ {
+  "slug": "les-hasards-heureux-de-l-escarpolette",
+  "title": "Les Hasards heureux de l'escarpolette",
+  "artist": "Jean-Honoré Fragonard",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Fragonard%2C_The_Swing.jpg/1280px-Fragonard%2C_The_Swing.jpg"
+ },
+ {
+  "slug": "le-verrou",
+  "title": "Le Verrou",
+  "artist": "Jean-Honoré Fragonard",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Le_Verrou_-_Jean-Honor%C3%A9_Fragonard_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1974_2.jpg/1280px-Le_Verrou_-_Jean-Honor%C3%A9_Fragonard_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1974_2.jpg"
+ },
+ {
+  "slug": "la-liseuse",
+  "title": "La Liseuse",
+  "artist": "Jean-Honoré Fragonard",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Fragonard%2C_The_Reader.jpg/1280px-Fragonard%2C_The_Reader.jpg"
+ },
+ {
+  "slug": "pelerinage-a-l-ile-de-cythere",
+  "title": "Pèlerinage à l'île de Cythère",
+  "artist": "Antoine Watteau",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/L%27Embarquement_pour_Cyth%C3%A8re%2C_by_Antoine_Watteau%2C_from_C2RMF_retouched.jpg/1280px-L%27Embarquement_pour_Cyth%C3%A8re%2C_by_Antoine_Watteau%2C_from_C2RMF_retouched.jpg"
+ },
+ {
+  "slug": "pierrot-gilles",
+  "title": "Pierrot (Gilles)",
+  "artist": "Antoine Watteau",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Pierrot_-_Antoine_Watteau_-_Mus%C3%A9e_du_Louvre_Peintures_MI_1121_-_apr%C3%A8s_restauration_2024.jpg/1280px-Pierrot_-_Antoine_Watteau_-_Mus%C3%A9e_du_Louvre_Peintures_MI_1121_-_apr%C3%A8s_restauration_2024.jpg"
+ },
+ {
+  "slug": "la-raie",
+  "title": "La Raie",
+  "artist": "Jean Siméon Chardin",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/La_Raie_-_Jean_Baptiste_Sim%C3%A9on_Chardin_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3197.jpg/1280px-La_Raie_-_Jean_Baptiste_Sim%C3%A9on_Chardin_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3197.jpg"
+ },
+ {
+  "slug": "le-serment-des-horaces",
+  "title": "Le Serment des Horaces",
+  "artist": "Jacques-Louis David",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Le_Serment_des_Horaces_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3692_%3B_MR_1432.jpg/1280px-Le_Serment_des_Horaces_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3692_%3B_MR_1432.jpg"
+ },
+ {
+  "slug": "bonaparte-franchissant-le-grand-saint-bernard",
+  "title": "Bonaparte franchissant le Grand-Saint-Bernard",
+  "artist": "Jacques-Louis David",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/David_-_Napoleon_crossing_the_Alps_-_Malmaison2.jpg/1280px-David_-_Napoleon_crossing_the_Alps_-_Malmaison2.jpg"
+ },
+ {
+  "slug": "portrait-de-madame-recamier",
+  "title": "Portrait de Madame Récamier",
+  "artist": "Jacques-Louis David",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Juliette_R%C3%A9camier%2C_n%C3%A9e_Bernard_-_Jacques-Louis_David_-_Mus%C3%A9e_duLouvre_Peintures_INV_3708.jpg/1280px-Juliette_R%C3%A9camier%2C_n%C3%A9e_Bernard_-_Jacques-Louis_David_-_Mus%C3%A9e_duLouvre_Peintures_INV_3708.jpg"
+ },
+ {
+  "slug": "bonaparte-au-pont-d-arcole",
+  "title": "Bonaparte au pont d'Arcole",
+  "artist": "Antoine-Jean Gros",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/1801_Antoine-Jean_Gros_-_Bonaparte_on_the_Bridge_at_Arcole.jpg/1280px-1801_Antoine-Jean_Gros_-_Bonaparte_on_the_Bridge_at_Arcole.jpg"
+ },
+ {
+  "slug": "la-mort-de-sardanapale",
+  "title": "La Mort de Sardanapale",
+  "artist": "Eugène Delacroix",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/La_Mort_de_Sardanapale_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_2346.jpg/1280px-La_Mort_de_Sardanapale_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_2346.jpg"
+ },
+ {
+  "slug": "femmes-d-alger-dans-leur-appartement",
+  "title": "Femmes d'Alger dans leur appartement",
+  "artist": "Eugène Delacroix",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Femmes_d%27Alger_dans_leur_appartement%2C_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3824.jpg/1280px-Femmes_d%27Alger_dans_leur_appartement%2C_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3824.jpg"
+ },
+ {
+  "slug": "portrait-de-louis-xiv-en-costume-de-sacre",
+  "title": "Portrait de Louis XIV en costume de sacre",
+  "artist": "Hyacinthe Rigaud",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Portrait_of_Louis_XIV_of_France_in_Coronation_Robes_%28by_Hyacinthe_Rigaud%29_-_Louvre_Museum.jpg/1280px-Portrait_of_Louis_XIV_of_France_in_Coronation_Robes_%28by_Hyacinthe_Rigaud%29_-_Louvre_Museum.jpg"
+ },
+ {
+  "slug": "les-bergers-d-arcadie",
+  "title": "Les Bergers d'Arcadie",
+  "artist": "Nicolas Poussin",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Nicolas_Poussin_-_Et_in_Arcadia_ego_%28premi%C3%A8re_version%29.jpg/1280px-Nicolas_Poussin_-_Et_in_Arcadia_ego_%28premi%C3%A8re_version%29.jpg"
+ },
+ {
+  "slug": "la-naissance-de-venus-cabanel",
+  "title": "La Naissance de Vénus (Cabanel)",
+  "artist": "Alexandre Cabanel",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Alexandre_Cabanel_-_The_Birth_of_Venus_-_Google_Art_Project_2.jpg/1280px-Alexandre_Cabanel_-_The_Birth_of_Venus_-_Google_Art_Project_2.jpg"
+ },
+ {
+  "slug": "la-lecon-d-anatomie-du-docteur-tulp",
+  "title": "La Leçon d'anatomie du docteur Tulp",
+  "artist": "Rembrandt",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Rembrandt_-_The_Anatomy_Lesson_of_Dr_Nicolaes_Tulp.jpg/1280px-Rembrandt_-_The_Anatomy_Lesson_of_Dr_Nicolaes_Tulp.jpg"
+ },
+ {
+  "slug": "le-retour-du-fils-prodigue",
+  "title": "Le Retour du fils prodigue",
+  "artist": "Rembrandt",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg/1280px-Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg"
+ },
+ {
+  "slug": "le-b-uf-ecorche",
+  "title": "Le Bœuf écorché",
+  "artist": "Rembrandt",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Le_B%C5%93uf_%C3%A9corch%C3%A9_-_Rembrandt_-_Mus%C3%A9e_du_Louvre_Peintures_MI_169.jpg/1280px-Le_B%C5%93uf_%C3%A9corch%C3%A9_-_Rembrandt_-_Mus%C3%A9e_du_Louvre_Peintures_MI_169.jpg"
+ },
+ {
+  "slug": "vue-de-delft",
+  "title": "Vue de Delft",
+  "artist": "Johannes Vermeer",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Vermeer-view-of-delft.jpg/1280px-Vermeer-view-of-delft.jpg"
+ },
+ {
+  "slug": "l-astronome",
+  "title": "L'Astronome",
+  "artist": "Johannes Vermeer",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Johannes_Vermeer_-_The_Astronomer_-_1668.jpg/1280px-Johannes_Vermeer_-_The_Astronomer_-_1668.jpg"
+ },
+ {
+  "slug": "la-dentelliere",
+  "title": "La Dentellière",
+  "artist": "Johannes Vermeer",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Johannes_Vermeer_-_The_lacemaker_%28c.1669-1671%29.jpg/1280px-Johannes_Vermeer_-_The_lacemaker_%28c.1669-1671%29.jpg"
+ },
+ {
+  "slug": "chasseurs-dans-la-neige",
+  "title": "Chasseurs dans la neige",
+  "artist": "Pieter Brueghel l'Ancien",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg/1280px-Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg"
+ },
+ {
+  "slug": "le-repas-de-noce",
+  "title": "Le Repas de noce",
+  "artist": "Pieter Brueghel l'Ancien",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Pieter_Bruegel_d._%C3%84._011.jpg/1280px-Pieter_Bruegel_d._%C3%84._011.jpg"
+ },
+ {
+  "slug": "les-ambassadeurs",
+  "title": "Les Ambassadeurs",
+  "artist": "Hans Holbein le Jeune",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg/1280px-Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg"
+ },
+ {
+  "slug": "la-dame-a-l-hermine",
+  "title": "La Dame à l'hermine",
+  "artist": "Léonard de Vinci",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg/1280px-Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg"
+ },
+ {
+  "slug": "l-homme-de-vitruve",
+  "title": "L'Homme de Vitruve",
+  "artist": "Léonard de Vinci",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitruvian_Man_by_Leonardo_da_Vinci.jpg/1280px-Vitruvian_Man_by_Leonardo_da_Vinci.jpg"
+ },
+ {
+  "slug": "la-vierge-aux-rochers",
+  "title": "La Vierge aux rochers",
+  "artist": "Léonard de Vinci",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Leonardo_Da_Vinci_-_Vergine_delle_Rocce_%28Louvre%29.jpg/1280px-Leonardo_Da_Vinci_-_Vergine_delle_Rocce_%28Louvre%29.jpg"
+ },
+ {
+  "slug": "la-madone-sixtine",
+  "title": "La Madone Sixtine",
+  "artist": "Raphaël",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/RAFAEL_-_Madonna_Sixtina_%28Gem%C3%A4ldegalerie_Alter_Meister%2C_Dresden%2C_1513-14._%C3%93leo_sobre_lienzo%2C_265_x_196_cm%29.jpg/1280px-RAFAEL_-_Madonna_Sixtina_%28Gem%C3%A4ldegalerie_Alter_Meister%2C_Dresden%2C_1513-14._%C3%93leo_sobre_lienzo%2C_265_x_196_cm%29.jpg"
+ },
+ {
+  "slug": "le-jugement-dernier",
+  "title": "Le Jugement dernier",
+  "artist": "Michel-Ange",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Last_Judgement_by_Michelangelo.jpg/1280px-Last_Judgement_by_Michelangelo.jpg"
+ },
+ {
+  "slug": "la-vocation-de-saint-matthieu",
+  "title": "La Vocation de saint Matthieu",
+  "artist": "Le Caravage",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Caravaggio_%E2%80%94_The_Calling_of_Saint_Matthew.jpg/1280px-Caravaggio_%E2%80%94_The_Calling_of_Saint_Matthew.jpg"
+ },
+ {
+  "slug": "judith-decapitant-holopherne",
+  "title": "Judith décapitant Holopherne",
+  "artist": "Le Caravage",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Caravaggio_-_Giuditta_e_Oloferne_%28ca._1599%29.jpg/1280px-Caravaggio_-_Giuditta_e_Oloferne_%28ca._1599%29.jpg"
+ },
+ {
+  "slug": "meduse",
+  "title": "Méduse",
+  "artist": "Le Caravage",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Medusa_Murtola02.jpg/1280px-Medusa_Murtola02.jpg"
+ },
+ {
+  "slug": "venus-d-urbin",
+  "title": "Vénus d'Urbin",
+  "artist": "Titien",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Tizian_-_Venus_von_Urbino.jpg/1280px-Tizian_-_Venus_von_Urbino.jpg"
+ },
+ {
+  "slug": "la-tempete",
+  "title": "La Tempête",
+  "artist": "Giorgione",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/6%2C99Mo-Giorgione_019.jpg/1280px-6%2C99Mo-Giorgione_019.jpg"
+ },
+ {
+  "slug": "le-christ-mort",
+  "title": "Le Christ mort",
+  "artist": "Andrea Mantegna",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/The_dead_Christ_and_three_mourners%2C_by_Andrea_Mantegna.jpg/1280px-The_dead_Christ_and_three_mourners%2C_by_Andrea_Mantegna.jpg"
+ },
+ {
+  "slug": "la-bataille-de-san-romano",
+  "title": "La Bataille de San Romano",
+  "artist": "Paolo Uccello",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Uccello_%E2%80%94_the_Battle_of_San_Romano.jpg/1280px-Uccello_%E2%80%94_the_Battle_of_San_Romano.jpg"
+ },
+ {
+  "slug": "pluie-vapeur-et-vitesse",
+  "title": "Pluie, vapeur et vitesse",
+  "artist": "William Turner",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Turner_-_Rain%2C_Steam_and_Speed_-_National_Gallery_file.jpg/1280px-Turner_-_Rain%2C_Steam_and_Speed_-_National_Gallery_file.jpg"
+ },
+ {
+  "slug": "le-dernier-voyage-du-temeraire",
+  "title": "Le Dernier Voyage du Téméraire",
+  "artist": "William Turner",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg/1280px-The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg"
+ },
+ {
+  "slug": "la-charrette-de-foin",
+  "title": "La Charrette de foin",
+  "artist": "John Constable",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/John_Constable_The_Hay_Wain.jpg/1280px-John_Constable_The_Hay_Wain.jpg"
+ },
+ {
+  "slug": "ophelie",
+  "title": "Ophélie",
+  "artist": "John Everett Millais",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg/1280px-John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg"
+ },
+ {
+  "slug": "arrangement-en-gris-et-noir-n-1-la-mere-de-l-artiste",
+  "title": "Arrangement en gris et noir n° 1 (La Mère de l'artiste)",
+  "artist": "James McNeill Whistler",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Whistlers_Mother_high_res.jpg/1280px-Whistlers_Mother_high_res.jpg"
+ },
+ {
+  "slug": "l-enfant-bleu",
+  "title": "L'Enfant bleu",
+  "artist": "Thomas Gainsborough",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Thomas_Gainsborough_-_The_Blue_Boy_%28c._1770%29.jpg/1280px-Thomas_Gainsborough_-_The_Blue_Boy_%28c._1770%29.jpg"
+ },
+ {
+  "slug": "washington-traversant-le-delaware",
+  "title": "Washington traversant le Delaware",
+  "artist": "Emanuel Leutze",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Washington_Crossing_the_Delaware_by_Emanuel_Leutze%2C_MMA-NYC%2C_1851.jpg/1280px-Washington_Crossing_the_Delaware_by_Emanuel_Leutze%2C_MMA-NYC%2C_1851.jpg"
+ },
+ {
+  "slug": "l-ile-des-morts",
+  "title": "L'Île des morts",
+  "artist": "Arnold Böcklin",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Arnold_B%C3%B6cklin_-_Die_Toteninsel_V_%28Museum_der_bildenden_K%C3%BCnste_Leipzig%29.jpg/1280px-Arnold_B%C3%B6cklin_-_Die_Toteninsel_V_%28Museum_der_bildenden_K%C3%BCnste_Leipzig%29.jpg"
+ },
+ {
+  "slug": "le-moine-au-bord-de-la-mer",
+  "title": "Le Moine au bord de la mer",
+  "artist": "Caspar David Friedrich",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg/1280px-Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg"
+ },
+ {
+  "slug": "la-mer-de-glace",
+  "title": "La Mer de glace",
+  "artist": "Caspar David Friedrich",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Caspar_David_Friedrich_-_Das_Eismeer_-_Hamburger_Kunsthalle_-_02.jpg/1280px-Caspar_David_Friedrich_-_Das_Eismeer_-_Hamburger_Kunsthalle_-_02.jpg"
+ },
+ {
+  "slug": "vent-frais-par-matin-clair-fuji-rouge",
+  "title": "Vent frais par matin clair (Fuji rouge)",
+  "artist": "Hokusai",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/%E3%80%8C%E5%AF%8C%E5%B6%BD%E4%B8%89%E5%8D%81%E5%85%AD%E6%99%AF_%E5%87%B1%E9%A2%A8%E5%BF%AB%E6%99%B4%E3%80%8D-South_Wind%2C_Clear_Sky_%28Gaif%C5%AB_kaisei%29%2C_also_known_as_Red_Fuji%2C_from_the_series_Thirty-six_Views_of_Mount_Fuji_%28Fugaku_sanj%C5%ABrokkei%29_MET_DP141062.jpg/1280px-thumbnail.jpg"
+ },
+ {
+  "slug": "les-trois-graces",
+  "title": "Les Trois Grâces",
+  "artist": "Antonio Canova",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/The_Three_Graces_in_the_Hermitage_by_Antonio_Canova.jpg/1280px-The_Three_Graces_in_the_Hermitage_by_Antonio_Canova.jpg"
+ },
+ {
+  "slug": "psyche-ranimee-par-le-baiser-de-l-amour",
+  "title": "Psyché ranimée par le baiser de l'Amour",
+  "artist": "Antonio Canova",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Antonio_canova%2C_psiche_rianimata_dal_bacio_di_amore%2C_1788-1793%2C_02.JPG/1280px-Antonio_canova%2C_psiche_rianimata_dal_bacio_di_amore%2C_1788-1793%2C_02.JPG"
+ },
+ {
+  "slug": "david-donatello",
+  "title": "David (Donatello)",
+  "artist": "Donatello",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Donatello_-_David_-_Floren%C3%A7a.jpg"
+ },
+ {
+  "slug": "david-bernin",
+  "title": "David (Bernin)",
+  "artist": "Le Bernin",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Bernini%27s_David_02.jpg/1280px-Bernini%27s_David_02.jpg"
+ },
+ {
+  "slug": "l-enlevement-de-proserpine",
+  "title": "L'Enlèvement de Proserpine",
+  "artist": "Le Bernin",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Rape_of_Prosepina_September_2015-3a.jpg/1280px-Rape_of_Prosepina_September_2015-3a.jpg"
+ },
+ {
+  "slug": "fontaine-des-quatre-fleuves",
+  "title": "Fontaine des Quatre-Fleuves",
+  "artist": "Le Bernin",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Vierstroemebrunnen_Piazza_Navona_Rom.jpg"
+ },
+ {
+  "slug": "porte-du-paradis",
+  "title": "Porte du Paradis",
+  "artist": "Lorenzo Ghiberti",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Firenze%2C_battistero_di_san_giovanni%2C_porta_del_paradiso_02.jpg/1280px-Firenze%2C_battistero_di_san_giovanni%2C_porta_del_paradiso_02.jpg"
+ },
+ {
+  "slug": "la-porte-de-l-enfer",
+  "title": "La Porte de l'Enfer",
+  "artist": "Auguste Rodin",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/La_puerta_del_Infierno_.jpg/1280px-La_puerta_del_Infierno_.jpg"
+ },
+ {
+  "slug": "monument-a-balzac",
+  "title": "Monument à Balzac",
+  "artist": "Auguste Rodin",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Monument_to_Balzac.jpg/1280px-Monument_to_Balzac.jpg"
+ },
+ {
+  "slug": "l-age-mur",
+  "title": "L'Âge mûr",
+  "artist": "Camille Claudel",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/L%27%C3%82ge_M%C3%BBr.jpg"
+ },
+ {
+  "slug": "la-valse",
+  "title": "La Valse",
+  "artist": "Camille Claudel",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/La_Valse_de_Camille_Claudel_%28Mus%C3%A9e_Rodin%2C_Paris%29_%2851246445543%29.jpg/1280px-La_Valse_de_Camille_Claudel_%28Mus%C3%A9e_Rodin%2C_Paris%29_%2851246445543%29.jpg"
+ },
+ {
+  "slug": "la-danse-carpeaux",
+  "title": "La Danse (Carpeaux)",
+  "artist": "Jean-Baptiste Carpeaux",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Jean-baptiste_carpeaux%2C_la_danse%2C_1869%2C_01.JPG/1280px-Jean-baptiste_carpeaux%2C_la_danse%2C_1869%2C_01.JPG"
+ },
+ {
+  "slug": "lion-de-belfort",
+  "title": "Lion de Belfort",
+  "artist": "Auguste Bartholdi",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/2014-09-15_16-14-55_lion-belfort.jpg/1280px-2014-09-15_16-14-55_lion-belfort.jpg"
+ },
+ {
+  "slug": "statue-equestre-de-marc-aurele",
+  "title": "Statue équestre de Marc Aurèle",
+  "artist": null,
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Replica_of_the_Equestrian_statue_of_Marcus_Aurelius_in_Rome_%282%29.jpg/1280px-Replica_of_the_Equestrian_statue_of_Marcus_Aurelius_in_Rome_%282%29.jpg"
+ },
+ {
+  "slug": "armee-de-terre-cuite",
+  "title": "Armée de terre cuite",
+  "artist": null,
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/A_rank_of_terracotta_soldiers.jpg/1280px-A_rank_of_terracotta_soldiers.jpg"
+ },
+ {
+  "slug": "dame-d-elche",
+  "title": "Dame d'Elche",
+  "artist": null,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Dama_de_Elche_%28M.A.N._Madrid%29_01.jpg"
+ },
+ {
+  "slug": "aurige-de-delphes",
+  "title": "Aurige de Delphes",
+  "artist": null,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/L%27Aurige_de_Delphes.jpg"
+ },
+ {
+  "slug": "apollon-du-belvedere",
+  "title": "Apollon du Belvédère",
+  "artist": null,
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Apollo_of_the_Belvedere.jpg/1280px-Apollo_of_the_Belvedere.jpg"
+ },
+ {
+  "slug": "galate-mourant",
+  "title": "Galate mourant",
+  "artist": null,
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/0_Galata_Morente_-_Musei_Capitolini_%281%29.jpg/1280px-0_Galata_Morente_-_Musei_Capitolini_%281%29.jpg"
+ },
+ {
+  "slug": "louve-du-capitole",
+  "title": "Louve du Capitole",
+  "artist": null,
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lupa_Capitolina%2C_Rome.jpg/1280px-Lupa_Capitolina%2C_Rome.jpg"
+ },
+ {
+  "slug": "dame-de-brassempouy",
+  "title": "Dame de Brassempouy",
+  "artist": null,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Venus_of_Brassempouy.jpg"
+ },
+ {
+  "slug": "tapisserie-de-bayeux",
+  "title": "Tapisserie de Bayeux",
+  "artist": null,
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Odo_bayeux_tapestry.png/1280px-Odo_bayeux_tapestry.png"
+ },
+ {
+  "slug": "la-dame-a-la-licorne",
+  "title": "La Dame à la licorne",
+  "artist": null,
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/%28Toulouse%29_Mon_seul_d%C3%A9sir_%28La_Dame_%C3%A0_la_licorne%29_-_Mus%C3%A9e_de_Cluny_Paris_-_la_Dame.jpg/1280px-%28Toulouse%29_Mon_seul_d%C3%A9sir_%28La_Dame_%C3%A0_la_licorne%29_-_Mus%C3%A9e_de_Cluny_Paris_-_la_Dame.jpg"
  }
 ]

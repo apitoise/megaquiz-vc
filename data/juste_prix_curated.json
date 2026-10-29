@@ -1,56 +1,845 @@
 {
  "prix": [
-  { "question": "Combien coûtait la Nintendo Switch à sa sortie en France, en 2017 ?", "answer": "329,99 €", "wiki": "Nintendo Switch" },
-  { "question": "Combien coûtait la PlayStation 5 (édition standard) à sa sortie en France, en 2020 ?", "answer": "499,99 €", "wiki": "PlayStation 5" },
-  { "question": "Combien coûtait la PlayStation 2 à sa sortie en France, en 2000 ?", "answer": "2 990 francs (environ 456 €)", "wiki": "PlayStation 2" },
-  { "question": "Combien coûtait l'iPhone 15 Pro à sa sortie en France, en 2023 ?", "answer": "1 229 €", "wiki": "iPhone 15 Pro" },
-  { "question": "Combien coûtait le casque Apple Vision Pro à sa sortie en France, en 2024 ?", "answer": "3 999 €", "wiki": "Apple Vision Pro" },
-  { "question": "Combien coûte une Bugatti Chiron neuve ?", "answer": "Environ 2,4 millions €", "wiki": "Bugatti Chiron" },
-  { "question": "À combien le « Salvator Mundi » de Léonard de Vinci a-t-il été vendu aux enchères en 2017 ?", "answer": "450,3 millions $ (record mondial pour un tableau)", "wiki": "Salvator Mundi (Léonard de Vinci)" },
-  { "question": "Combien le PSG a-t-il payé pour recruter Neymar en 2017 ?", "answer": "222 millions € (record du monde)", "wiki": "Neymar" },
-  { "question": "Combien le PSG a-t-il payé pour recruter Kylian Mbappé à Monaco en 2018 ?", "answer": "180 millions €", "wiki": "Kylian Mbappé" },
-  { "question": "Combien le Real Madrid a-t-il payé pour recruter Cristiano Ronaldo en 2009 ?", "answer": "94 millions €", "wiki": "Cristiano Ronaldo" },
-  { "question": "Combien coûte un sac Birkin d'Hermès neuf, en boutique ?", "answer": "À partir d'environ 10 000 €", "wiki": "Birkin (sac)" },
-  { "question": "Combien coûte en moyenne une baguette de pain en France ?", "answer": "Environ 1 €", "wiki": "Baguette (pain)" },
-  { "question": "À combien la Mercedes 300 SLR « Uhlenhaut Coupé » a-t-elle été vendue en 2022, record pour une voiture ?", "answer": "135 millions €", "wiki": "Mercedes-Benz 300 SLR" },
-  { "question": "À combien l'œuvre numérique « Everydays: the First 5000 Days » de Beeple a-t-elle été vendue en 2021 ?", "answer": "69,3 millions $", "wiki": "Everydays: the First 5000 Days" },
-  { "question": "À combien « Les Femmes d'Alger (version O) » de Picasso ont-elles été vendues en 2015 ?", "answer": "179,4 millions $", "wiki": null },
-  { "question": "Combien coûtait un spot publicitaire de 30 secondes pendant le Super Bowl 2024 ?", "answer": "Environ 7 millions $", "wiki": null },
-  { "question": "Combien coûtait le Lego Star Wars Faucon Millenium « Ultimate Collector » (75192) à sa sortie en 2017 ?", "answer": "Environ 800 €", "wiki": null },
-  { "question": "Combien coûtait le premier iPhone (4 Go) à sa sortie aux États-Unis, en 2007 ?", "answer": "499 $", "wiki": "iPhone (première génération)" }
+  {
+   "question": "Combien coûtait la Nintendo Switch à sa sortie en France, en 2017 ?",
+   "answer": "329,99 €",
+   "wiki": "Nintendo Switch"
+  },
+  {
+   "question": "Combien coûtait la PlayStation 5 (édition standard) à sa sortie en France, en 2020 ?",
+   "answer": "499,99 €",
+   "wiki": "PlayStation 5"
+  },
+  {
+   "question": "Combien coûtait la PlayStation 2 à sa sortie en France, en 2000 ?",
+   "answer": "2 990 francs (environ 456 €)",
+   "wiki": "PlayStation 2"
+  },
+  {
+   "question": "Combien coûtait l'iPhone 15 Pro à sa sortie en France, en 2023 ?",
+   "answer": "1 229 €",
+   "wiki": "iPhone 15 Pro"
+  },
+  {
+   "question": "Combien coûtait le casque Apple Vision Pro à sa sortie en France, en 2024 ?",
+   "answer": "3 999 €",
+   "wiki": "Apple Vision Pro"
+  },
+  {
+   "question": "Combien coûte une Bugatti Chiron neuve ?",
+   "answer": "Environ 2,4 millions €",
+   "wiki": "Bugatti Chiron"
+  },
+  {
+   "question": "À combien le « Salvator Mundi » de Léonard de Vinci a-t-il été vendu aux enchères en 2017 ?",
+   "answer": "450,3 millions $ (record mondial pour un tableau)",
+   "wiki": "Salvator Mundi (Léonard de Vinci)"
+  },
+  {
+   "question": "Combien le PSG a-t-il payé pour recruter Neymar en 2017 ?",
+   "answer": "222 millions € (record du monde)",
+   "wiki": "Neymar"
+  },
+  {
+   "question": "Combien le PSG a-t-il payé pour recruter Kylian Mbappé à Monaco en 2018 ?",
+   "answer": "180 millions €",
+   "wiki": "Kylian Mbappé"
+  },
+  {
+   "question": "Combien le Real Madrid a-t-il payé pour recruter Cristiano Ronaldo en 2009 ?",
+   "answer": "94 millions €",
+   "wiki": "Cristiano Ronaldo"
+  },
+  {
+   "question": "Combien coûte un sac Birkin d'Hermès neuf, en boutique ?",
+   "answer": "À partir d'environ 10 000 €",
+   "wiki": "Birkin (sac)"
+  },
+  {
+   "question": "Combien coûte en moyenne une baguette de pain en France ?",
+   "answer": "Environ 1 €",
+   "wiki": "Baguette (pain)"
+  },
+  {
+   "question": "À combien la Mercedes 300 SLR « Uhlenhaut Coupé » a-t-elle été vendue en 2022, record pour une voiture ?",
+   "answer": "135 millions €",
+   "wiki": "Mercedes-Benz 300 SLR"
+  },
+  {
+   "question": "À combien l'œuvre numérique « Everydays: the First 5000 Days » de Beeple a-t-elle été vendue en 2021 ?",
+   "answer": "69,3 millions $",
+   "wiki": "Everydays: the First 5000 Days"
+  },
+  {
+   "question": "À combien « Les Femmes d'Alger (version O) » de Picasso ont-elles été vendues en 2015 ?",
+   "answer": "179,4 millions $",
+   "wiki": null
+  },
+  {
+   "question": "Combien coûtait un spot publicitaire de 30 secondes pendant le Super Bowl 2024 ?",
+   "answer": "Environ 7 millions $",
+   "wiki": null
+  },
+  {
+   "question": "Combien coûtait le Lego Star Wars Faucon Millenium « Ultimate Collector » (75192) à sa sortie en 2017 ?",
+   "answer": "Environ 800 €",
+   "wiki": null
+  },
+  {
+   "question": "Combien coûtait le premier iPhone (4 Go) à sa sortie aux États-Unis, en 2007 ?",
+   "answer": "499 $",
+   "wiki": "iPhone (première génération)"
+  },
+  {
+   "question": "Combien coûtait la Wii à sa sortie en France, en 2006 ?",
+   "answer": "249 €",
+   "wiki": "Wii"
+  },
+  {
+   "question": "Combien coûtait la PlayStation 4 à sa sortie en France, en 2013 ?",
+   "answer": "399 €",
+   "wiki": "PlayStation 4"
+  },
+  {
+   "question": "Combien coûtait la PlayStation 3 à sa sortie en Europe, en 2007 ?",
+   "answer": "599 €",
+   "wiki": "PlayStation 3"
+  },
+  {
+   "question": "Combien coûtait la Xbox 360 (version Premium) à sa sortie en Europe, en 2005 ?",
+   "answer": "399 €",
+   "wiki": "Xbox 360"
+  },
+  {
+   "question": "Combien coûtait la Nintendo DS à sa sortie en Europe, en 2005 ?",
+   "answer": "Environ 150 €",
+   "wiki": "Nintendo DS"
+  },
+  {
+   "question": "Combien coûtait la Nintendo Switch 2 à sa sortie en France, en 2025 ?",
+   "answer": "Environ 470 €",
+   "wiki": "Nintendo Switch 2"
+  },
+  {
+   "question": "Combien coûtait le premier Macintosh à sa sortie aux États-Unis, en 1984 ?",
+   "answer": "2 495 $",
+   "wiki": "Macintosh 128K"
+  },
+  {
+   "question": "Combien coûtait le premier iPod à sa sortie aux États-Unis, en 2001 ?",
+   "answer": "399 $",
+   "wiki": null
+  },
+  {
+   "question": "Combien coûtait la Ford T à son lancement, en 1908 ?",
+   "answer": "Environ 850 $",
+   "wiki": "Ford T"
+  },
+  {
+   "question": "Combien le Real Madrid a-t-il payé pour recruter Zinédine Zidane en 2001 ?",
+   "answer": "Environ 75 millions €",
+   "wiki": "Zinédine Zidane"
+  },
+  {
+   "question": "Combien le Real Madrid a-t-il payé pour recruter Jude Bellingham en 2023 ?",
+   "answer": "103 millions €",
+   "wiki": "Jude Bellingham"
+  },
+  {
+   "question": "Combien Manchester United a-t-il payé pour recruter Paul Pogba en 2016 ?",
+   "answer": "105 millions €",
+   "wiki": "Paul Pogba"
+  },
+  {
+   "question": "Combien le FC Barcelone a-t-il payé pour recruter Antoine Griezmann en 2019 ?",
+   "answer": "120 millions €",
+   "wiki": "Antoine Griezmann"
+  },
+  {
+   "question": "Combien le Real Madrid a-t-il payé pour recruter Gareth Bale en 2013 ?",
+   "answer": "Environ 100 millions €",
+   "wiki": "Gareth Bale"
+  },
+  {
+   "question": "Combien l'Atlético de Madrid a-t-il payé pour recruter João Félix en 2019 ?",
+   "answer": "Environ 126 millions €",
+   "wiki": "João Félix"
+  },
+  {
+   "question": "Quel est le montant d'un prix Nobel (depuis 2023) ?",
+   "answer": "11 millions de couronnes suédoises (environ 1 million €)",
+   "wiki": null
+  },
+  {
+   "question": "Combien a touché le vainqueur du simple messieurs de Roland-Garros en 2024 ?",
+   "answer": "2,4 millions €",
+   "wiki": null
+  },
+  {
+   "question": "Combien a coûté le télescope spatial James-Webb ?",
+   "answer": "Environ 10 milliards $",
+   "wiki": "Télescope spatial James-Webb"
+  },
+  {
+   "question": "Combien a coûté la Station spatiale internationale ?",
+   "answer": "Environ 150 milliards $",
+   "wiki": "Station spatiale internationale"
+  },
+  {
+   "question": "Quel a été le budget du film « Titanic » (1997) ?",
+   "answer": "Environ 200 millions $",
+   "wiki": null
+  },
+  {
+   "question": "Combien le film « Avatar » (2009) a-t-il rapporté dans le monde ?",
+   "answer": "Environ 2,9 milliards $ (record mondial)",
+   "wiki": null
+  },
+  {
+   "question": "Quel est le salaire brut mensuel du président de la République française ?",
+   "answer": "Environ 15 000 €",
+   "wiki": null
+  },
+  {
+   "question": "Quel est le montant du SMIC net mensuel à temps plein (2025) ?",
+   "answer": "Environ 1 430 €",
+   "wiki": null
+  },
+  {
+   "question": "À combien le diamant « Pink Star » a-t-il été vendu aux enchères en 2017 ?",
+   "answer": "71,2 millions $",
+   "wiki": null
+  },
+  {
+   "question": "À combien le Stradivarius « Lady Blunt » a-t-il été vendu en 2011 ?",
+   "answer": "15,9 millions $",
+   "wiki": null
+  },
+  {
+   "question": "À combien la carte Pokémon « Pikachu Illustrator » a-t-elle été vendue en 2022 ?",
+   "answer": "5,275 millions $",
+   "wiki": null
+  },
+  {
+   "question": "Quel est le gros lot maximal de l'EuroMillions ?",
+   "answer": "250 millions € (plafond)",
+   "wiki": null
+  },
+  {
+   "question": "À combien le tableau « Interchange » de Willem de Kooning a-t-il été vendu en 2015 ?",
+   "answer": "Environ 300 millions $",
+   "wiki": null
+  }
  ],
  "chiffres": [
-  { "question": "Quelle est la distance moyenne entre la Terre et la Lune ?", "answer": "Environ 384 400 km" },
-  { "question": "Quelle est la distance moyenne entre la Terre et le Soleil ?", "answer": "Environ 150 millions de km" },
-  { "question": "Quelle est la hauteur de la tour Eiffel, antennes comprises ?", "answer": "330 m", "wiki": "Tour Eiffel" },
-  { "question": "Quelle est l'altitude du mont Everest ?", "answer": "8 849 m", "wiki": "Everest" },
-  { "question": "Quelle est l'altitude du mont Blanc ?", "answer": "Environ 4 806 m", "wiki": "Mont Blanc" },
-  { "question": "Combien d'habitants compte la France (au 1er janvier 2025) ?", "answer": "Environ 68,6 millions" },
-  { "question": "Combien d'êtres humains vivent sur Terre (en 2024) ?", "answer": "Environ 8,1 milliards" },
-  { "question": "Combien d'habitants compte la Chine ?", "answer": "Environ 1,4 milliard" },
-  { "question": "À quelle vitesse le son se propage-t-il dans l'air (à 20 °C) ?", "answer": "Environ 343 m/s (1 235 km/h)" },
-  { "question": "Quelle est la température à la surface du Soleil ?", "answer": "Environ 5 500 °C" },
-  { "question": "Combien de pays sont membres de l'ONU ?", "answer": "193" },
-  { "question": "Combien de marches faut-il gravir pour atteindre le sommet de la tour Eiffel ?", "answer": "1 665" },
-  { "question": "Quelle est la profondeur de la fosse des Mariannes ?", "answer": "Environ 11 000 m" },
-  { "question": "Quel est l'âge de l'Univers ?", "answer": "Environ 13,8 milliards d'années" },
-  { "question": "Quel est l'âge de la Terre ?", "answer": "Environ 4,5 milliards d'années" },
-  { "question": "Quelle est la longueur totale de la Grande Muraille de Chine (avec toutes ses branches) ?", "answer": "Environ 21 000 km", "wiki": "Grande Muraille" },
-  { "question": "Combien de départements compte la France, outre-mer compris ?", "answer": "101" },
-  { "question": "Quel est le record du monde du 100 mètres masculin ?", "answer": "9,58 s (Usain Bolt, 2009)" },
-  { "question": "Quel est le record du monde du marathon masculin ?", "answer": "2 h 00 min 35 s (Kelvin Kiptum, 2023)" },
-  { "question": "Combien pèse un éléphant d'Afrique mâle adulte ?", "answer": "Environ 6 tonnes" },
-  { "question": "Combien mesure une baleine bleue adulte ?", "answer": "Jusqu'à environ 30 m" },
-  { "question": "Combien de pays compte l'Union européenne ?", "answer": "27" },
-  { "question": "Combien de spectateurs le Stade de France peut-il accueillir ?", "answer": "Environ 80 000", "wiki": "Stade de France" },
-  { "question": "Quelle distance sépare Paris de Marseille à vol d'oiseau ?", "answer": "Environ 660 km" },
-  { "question": "Quelle distance sépare Paris de New York à vol d'oiseau ?", "answer": "Environ 5 840 km" },
-  { "question": "Quelle est la hauteur du Burj Khalifa, plus haut gratte-ciel du monde ?", "answer": "828 m" },
-  { "question": "Combien de touches compte un piano classique ?", "answer": "88" },
-  { "question": "Combien de cases compte un échiquier ?", "answer": "64" },
-  { "question": "Quel est le diamètre de la Terre ?", "answer": "Environ 12 742 km" },
-  { "question": "Combien de litres de sang contient le corps d'un adulte ?", "answer": "Environ 5 litres" },
-  { "question": "Combien de langues sont parlées dans le monde ?", "answer": "Environ 7 000" },
-  { "question": "Combien d'étoiles figurent sur le drapeau des États-Unis ?", "answer": "50" }
+  {
+   "question": "Quelle est la distance moyenne entre la Terre et la Lune ?",
+   "answer": "Environ 384 400 km"
+  },
+  {
+   "question": "Quelle est la distance moyenne entre la Terre et le Soleil ?",
+   "answer": "Environ 150 millions de km"
+  },
+  {
+   "question": "Quelle est la hauteur de la tour Eiffel, antennes comprises ?",
+   "answer": "330 m",
+   "wiki": "Tour Eiffel"
+  },
+  {
+   "question": "Quelle est l'altitude du mont Everest ?",
+   "answer": "8 849 m",
+   "wiki": "Everest"
+  },
+  {
+   "question": "Quelle est l'altitude du mont Blanc ?",
+   "answer": "Environ 4 806 m",
+   "wiki": "Mont Blanc"
+  },
+  {
+   "question": "Combien d'habitants compte la France (au 1er janvier 2025) ?",
+   "answer": "Environ 68,6 millions"
+  },
+  {
+   "question": "Combien d'êtres humains vivent sur Terre (en 2024) ?",
+   "answer": "Environ 8,1 milliards"
+  },
+  {
+   "question": "Combien d'habitants compte la Chine ?",
+   "answer": "Environ 1,4 milliard"
+  },
+  {
+   "question": "À quelle vitesse le son se propage-t-il dans l'air (à 20 °C) ?",
+   "answer": "Environ 343 m/s (1 235 km/h)"
+  },
+  {
+   "question": "Quelle est la température à la surface du Soleil ?",
+   "answer": "Environ 5 500 °C"
+  },
+  {
+   "question": "Combien de pays sont membres de l'ONU ?",
+   "answer": "193"
+  },
+  {
+   "question": "Combien de marches faut-il gravir pour atteindre le sommet de la tour Eiffel ?",
+   "answer": "1 665"
+  },
+  {
+   "question": "Quelle est la profondeur de la fosse des Mariannes ?",
+   "answer": "Environ 11 000 m"
+  },
+  {
+   "question": "Quel est l'âge de l'Univers ?",
+   "answer": "Environ 13,8 milliards d'années"
+  },
+  {
+   "question": "Quel est l'âge de la Terre ?",
+   "answer": "Environ 4,5 milliards d'années"
+  },
+  {
+   "question": "Quelle est la longueur totale de la Grande Muraille de Chine (avec toutes ses branches) ?",
+   "answer": "Environ 21 000 km",
+   "wiki": "Grande Muraille"
+  },
+  {
+   "question": "Combien de départements compte la France, outre-mer compris ?",
+   "answer": "101"
+  },
+  {
+   "question": "Quel est le record du monde du 100 mètres masculin ?",
+   "answer": "9,58 s (Usain Bolt, 2009)"
+  },
+  {
+   "question": "Quel est le record du monde du marathon masculin ?",
+   "answer": "2 h 00 min 35 s (Kelvin Kiptum, 2023)"
+  },
+  {
+   "question": "Combien pèse un éléphant d'Afrique mâle adulte ?",
+   "answer": "Environ 6 tonnes"
+  },
+  {
+   "question": "Combien mesure une baleine bleue adulte ?",
+   "answer": "Jusqu'à environ 30 m"
+  },
+  {
+   "question": "Combien de pays compte l'Union européenne ?",
+   "answer": "27"
+  },
+  {
+   "question": "Combien de spectateurs le Stade de France peut-il accueillir ?",
+   "answer": "Environ 80 000",
+   "wiki": "Stade de France"
+  },
+  {
+   "question": "Quelle distance sépare Paris de Marseille à vol d'oiseau ?",
+   "answer": "Environ 660 km"
+  },
+  {
+   "question": "Quelle distance sépare Paris de New York à vol d'oiseau ?",
+   "answer": "Environ 5 840 km"
+  },
+  {
+   "question": "Quelle est la hauteur du Burj Khalifa, plus haut gratte-ciel du monde ?",
+   "answer": "828 m"
+  },
+  {
+   "question": "Combien de touches compte un piano classique ?",
+   "answer": "88"
+  },
+  {
+   "question": "Combien de cases compte un échiquier ?",
+   "answer": "64"
+  },
+  {
+   "question": "Quel est le diamètre de la Terre ?",
+   "answer": "Environ 12 742 km"
+  },
+  {
+   "question": "Combien de litres de sang contient le corps d'un adulte ?",
+   "answer": "Environ 5 litres"
+  },
+  {
+   "question": "Combien de langues sont parlées dans le monde ?",
+   "answer": "Environ 7 000"
+  },
+  {
+   "question": "Combien d'étoiles figurent sur le drapeau des États-Unis ?",
+   "answer": "50"
+  },
+  {
+   "question": "Quelle est la longueur du Nil ?",
+   "answer": "Environ 6 650 km"
+  },
+  {
+   "question": "Quelle est la longueur de la Seine ?",
+   "answer": "777 km"
+  },
+  {
+   "question": "Quelle est la superficie de la France métropolitaine ?",
+   "answer": "Environ 550 000 km²"
+  },
+  {
+   "question": "Quelle est la superficie de la Russie ?",
+   "answer": "Environ 17 millions de km²"
+  },
+  {
+   "question": "Quelle est la hauteur de la statue de la Liberté, socle compris ?",
+   "answer": "93 m"
+  },
+  {
+   "question": "Quelle est la hauteur de l'Empire State Building, jusqu'au toit ?",
+   "answer": "381 m (443 m avec l'antenne)"
+  },
+  {
+   "question": "Quelle était la hauteur d'origine de la pyramide de Khéops ?",
+   "answer": "Environ 146 m"
+  },
+  {
+   "question": "Quelle est la longueur du tunnel sous la Manche ?",
+   "answer": "Environ 50 km"
+  },
+  {
+   "question": "Quelle est la longueur du viaduc de Millau ?",
+   "answer": "2 460 m"
+  },
+  {
+   "question": "Quelle est la hauteur de la plus haute pile du viaduc de Millau ?",
+   "answer": "245 m (343 m avec le pylône)"
+  },
+  {
+   "question": "À quelle vitesse maximale un guépard peut-il courir ?",
+   "answer": "Environ 110 km/h"
+  },
+  {
+   "question": "Combien d'os compte une main humaine ?",
+   "answer": "27"
+  },
+  {
+   "question": "Combien de muscles compte le corps humain ?",
+   "answer": "Environ 600"
+  },
+  {
+   "question": "Combien de cellules compte le corps humain ?",
+   "answer": "Environ 30 000 milliards"
+  },
+  {
+   "question": "Combien de neurones compte le cerveau humain ?",
+   "answer": "Environ 86 milliards"
+  },
+  {
+   "question": "Combien de fois le cœur bat-il par minute, au repos, chez un adulte ?",
+   "answer": "Environ 70"
+  },
+  {
+   "question": "Combien pèse un cerveau humain adulte ?",
+   "answer": "Environ 1,4 kg"
+  },
+  {
+   "question": "À quelle vitesse tourne la surface de la Terre à l'équateur ?",
+   "answer": "Environ 1 670 km/h"
+  },
+  {
+   "question": "À quelle vitesse la Terre tourne-t-elle autour du Soleil ?",
+   "answer": "Environ 107 000 km/h (30 km/s)"
+  },
+  {
+   "question": "Quelle est la distance minimale entre la Terre et Mars ?",
+   "answer": "Environ 55 millions de km"
+  },
+  {
+   "question": "Quel est le diamètre du Soleil ?",
+   "answer": "Environ 1,4 million de km"
+  },
+  {
+   "question": "Quel est le diamètre de la Lune ?",
+   "answer": "Environ 3 474 km"
+  },
+  {
+   "question": "Quelle est la température au centre du Soleil ?",
+   "answer": "Environ 15 millions de °C"
+  },
+  {
+   "question": "Combien de temps mettaient les missions Apollo pour rejoindre la Lune ?",
+   "answer": "Environ 3 jours"
+  },
+  {
+   "question": "À quelle altitude orbite la Station spatiale internationale ?",
+   "answer": "Environ 400 km"
+  },
+  {
+   "question": "À quelle vitesse la Station spatiale internationale tourne-t-elle autour de la Terre ?",
+   "answer": "Environ 28 000 km/h"
+  },
+  {
+   "question": "Combien de communes compte la France ?",
+   "answer": "Environ 35 000"
+  },
+  {
+   "question": "Combien d'habitants compte l'agglomération de Tokyo ?",
+   "answer": "Environ 37 millions"
+  },
+  {
+   "question": "Combien d'habitants compte l'Inde ?",
+   "answer": "Environ 1,4 milliard"
+  },
+  {
+   "question": "Combien d'habitants comptent les États-Unis ?",
+   "answer": "Environ 335 millions"
+  },
+  {
+   "question": "Combien d'habitants compte le Canada ?",
+   "answer": "Environ 40 millions"
+  },
+  {
+   "question": "Combien d'habitants compte l'Allemagne ?",
+   "answer": "Environ 84 millions"
+  },
+  {
+   "question": "Combien de pays compte l'Afrique ?",
+   "answer": "54"
+  },
+  {
+   "question": "Combien de cantons compte la Suisse ?",
+   "answer": "26"
+  },
+  {
+   "question": "Combien de régions compte la France métropolitaine ?",
+   "answer": "13"
+  },
+  {
+   "question": "Combien de cartes compte un jeu de tarot ?",
+   "answer": "78"
+  },
+  {
+   "question": "Combien de cartes compte un jeu classique, sans les jokers ?",
+   "answer": "52"
+  },
+  {
+   "question": "Combien de pièces compte un jeu de dominos classique (double-six) ?",
+   "answer": "28"
+  },
+  {
+   "question": "Combien de pièces y a-t-il sur un échiquier au début d'une partie ?",
+   "answer": "32"
+  },
+  {
+   "question": "Combien de Pokémon comptait la première génération ?",
+   "answer": "151"
+  },
+  {
+   "question": "Combien de films compte la saga Harry Potter ?",
+   "answer": "8"
+  },
+  {
+   "question": "Combien de films compte la saga principale Star Wars (épisodes I à IX) ?",
+   "answer": "9"
+  },
+  {
+   "question": "Combien d'épisodes compte la série « Friends » ?",
+   "answer": "236"
+  },
+  {
+   "question": "Combien de Ballons d'or Lionel Messi a-t-il remportés ?",
+   "answer": "8"
+  },
+  {
+   "question": "Combien de médailles d'or olympiques Michael Phelps a-t-il remportées ?",
+   "answer": "23"
+  },
+  {
+   "question": "À quelle hauteur se trouve un panier de basket ?",
+   "answer": "3,05 m"
+  },
+  {
+   "question": "Quelle est la longueur standard d'un terrain de football international ?",
+   "answer": "Environ 105 m"
+  },
+  {
+   "question": "Quelle est la longueur d'un court de tennis ?",
+   "answer": "23,77 m"
+  },
+  {
+   "question": "Quelle est la longueur d'un tour de piste d'athlétisme ?",
+   "answer": "400 m"
+  },
+  {
+   "question": "Combien de temps dure une mi-temps au rugby ?",
+   "answer": "40 minutes"
+  },
+  {
+   "question": "Quel est le record de vitesse d'un service au tennis ?",
+   "answer": "Environ 263 km/h"
+  },
+  {
+   "question": "En quelle année Gutenberg a-t-il mis au point l'imprimerie à caractères mobiles ?",
+   "answer": "Vers 1450"
+  },
+  {
+   "question": "En quelle année les frères Wright ont-ils réussi le premier vol motorisé ?",
+   "answer": "1903"
+  },
+  {
+   "question": "En quelle année l'Empire romain d'Occident est-il tombé ?",
+   "answer": "476"
+  },
+  {
+   "question": "En quelle année Google a-t-il été fondé ?",
+   "answer": "1998"
+  },
+  {
+   "question": "En quelle année les frères Lumière ont-ils organisé la première projection publique de cinéma ?",
+   "answer": "1895"
+  },
+  {
+   "question": "Combien d'années la guerre de Cent Ans a-t-elle réellement duré ?",
+   "answer": "116 ans"
+  },
+  {
+   "question": "À quel âge Mozart est-il mort ?",
+   "answer": "35 ans"
+  },
+  {
+   "question": "Combien de tableaux Vincent van Gogh a-t-il peints ?",
+   "answer": "Environ 900"
+  },
+  {
+   "question": "Combien pèse la tour Eiffel ?",
+   "answer": "Environ 10 100 tonnes"
+  },
+  {
+   "question": "Combien de rivets compte la tour Eiffel ?",
+   "answer": "Environ 2,5 millions"
+  },
+  {
+   "question": "Combien de visiteurs le musée du Louvre accueille-t-il par an ?",
+   "answer": "Environ 9 millions"
+  },
+  {
+   "question": "Quel est le record de vitesse d'un TGV (2007) ?",
+   "answer": "574,8 km/h"
+  },
+  {
+   "question": "À quelle vitesse vole un avion de ligne en croisière ?",
+   "answer": "Environ 900 km/h"
+  },
+  {
+   "question": "Combien de passagers un Airbus A380 peut-il transporter au maximum ?",
+   "answer": "Environ 850"
+  },
+  {
+   "question": "Quelle est la profondeur maximale du lac Baïkal ?",
+   "answer": "1 642 m"
+  },
+  {
+   "question": "Quelle est la température la plus basse jamais mesurée sur Terre ?",
+   "answer": "−89,2 °C (Antarctique, 1983)"
+  },
+  {
+   "question": "Quelle est la température la plus élevée jamais mesurée sur Terre ?",
+   "answer": "56,7 °C (Vallée de la Mort, 1913)"
+  },
+  {
+   "question": "Quelle est la superficie du Sahara ?",
+   "answer": "Environ 9 millions de km²"
+  },
+  {
+   "question": "À quelle altitude se trouve la ville de La Paz ?",
+   "answer": "Environ 3 600 m"
+  },
+  {
+   "question": "Combien de fuseaux horaires couvre la Russie ?",
+   "answer": "11"
+  },
+  {
+   "question": "Combien de langues officielles compte l'ONU ?",
+   "answer": "6"
+  },
+  {
+   "question": "Combien de dents de lait a un enfant ?",
+   "answer": "20"
+  },
+  {
+   "question": "Combien de km parcourt environ le Tour de France ?",
+   "answer": "Environ 3 400 km"
+  },
+  {
+   "question": "Quelle est la longueur de la Loire ?",
+   "answer": "Environ 1 000 km (1 006 km)"
+  },
+  {
+   "question": "Quelle est la longueur de l'Amazone ?",
+   "answer": "Environ 6 400 km"
+  },
+  {
+   "question": "Quelle est la longueur du périphérique parisien ?",
+   "answer": "Environ 35 km"
+  },
+  {
+   "question": "Quelle est la longueur des Champs-Élysées ?",
+   "answer": "Environ 1,9 km"
+  },
+  {
+   "question": "Quelle est la hauteur de l'Arc de Triomphe ?",
+   "answer": "Environ 50 m"
+  },
+  {
+   "question": "Quelle est la hauteur de la tour Montparnasse ?",
+   "answer": "210 m"
+  },
+  {
+   "question": "Quelle est la hauteur de la tour de Pise ?",
+   "answer": "Environ 56 m"
+  },
+  {
+   "question": "Quelle est la hauteur de Big Ben (la tour Elizabeth) ?",
+   "answer": "Environ 96 m"
+  },
+  {
+   "question": "Combien de marches faut-il gravir pour atteindre le 2e étage de la tour Eiffel ?",
+   "answer": "674"
+  },
+  {
+   "question": "Quelle est la superficie de l'océan Pacifique ?",
+   "answer": "Environ 165 millions de km²"
+  },
+  {
+   "question": "Quelle part de la surface terrestre est recouverte d'eau ?",
+   "answer": "Environ 71 %"
+  },
+  {
+   "question": "Quelle est la circonférence de la Terre à l'équateur ?",
+   "answer": "Environ 40 075 km"
+  },
+  {
+   "question": "Combien de lunes connues compte Jupiter (2025) ?",
+   "answer": "Environ 95"
+  },
+  {
+   "question": "Combien de temps dure une année sur Mars ?",
+   "answer": "Environ 687 jours terrestres"
+  },
+  {
+   "question": "Quelle est la température à la surface de Vénus ?",
+   "answer": "Environ 465 °C"
+  },
+  {
+   "question": "Combien d'éléments compte le tableau périodique ?",
+   "answer": "118"
+  },
+  {
+   "question": "À quelle température l'eau bout-elle au sommet de l'Everest ?",
+   "answer": "Environ 70 °C"
+  },
+  {
+   "question": "Quelle est la vitesse du son dans l'air ?",
+   "answer": "Environ 340 m/s (1 225 km/h)"
+  },
+  {
+   "question": "Combien pèse une baleine bleue adulte ?",
+   "answer": "Environ 150 tonnes"
+  },
+  {
+   "question": "Combien de temps dure la gestation d'un éléphant ?",
+   "answer": "Environ 22 mois"
+  },
+  {
+   "question": "Combien de cheveux compte une tête humaine ?",
+   "answer": "Environ 100 000"
+  },
+  {
+   "question": "Combien de vertèbres compte la colonne vertébrale humaine ?",
+   "answer": "33 (dont 24 mobiles)"
+  },
+  {
+   "question": "Combien d'États membres compte l'ONU ?",
+   "answer": "193"
+  },
+  {
+   "question": "Combien de députés siègent à l'Assemblée nationale ?",
+   "answer": "577"
+  },
+  {
+   "question": "Combien de sénateurs siègent au Sénat français ?",
+   "answer": "348"
+  },
+  {
+   "question": "Combien de joueurs compte une équipe de rugby à XV sur le terrain ?",
+   "answer": "15"
+  },
+  {
+   "question": "Combien de buts Pelé revendique-t-il dans sa carrière ?",
+   "answer": "Plus de 1 200 (1 281 selon lui)"
+  },
+  {
+   "question": "Combien de Grands Chelems Rafael Nadal a-t-il remportés ?",
+   "answer": "22"
+  },
+  {
+   "question": "Combien de fois Rafael Nadal a-t-il remporté Roland-Garros ?",
+   "answer": "14"
+  },
+  {
+   "question": "Combien de titres de champion du monde de Formule 1 Lewis Hamilton a-t-il remportés ?",
+   "answer": "7"
+  },
+  {
+   "question": "Combien d'albums studio les Beatles ont-ils sortis ?",
+   "answer": "13"
+  },
+  {
+   "question": "Combien de symphonies Beethoven a-t-il composées ?",
+   "answer": "9"
+  },
+  {
+   "question": "Combien de livres compte la saga Harry Potter ?",
+   "answer": "7"
+  },
+  {
+   "question": "Combien d'albums d'Astérix René Goscinny a-t-il scénarisés ?",
+   "answer": "24"
+  },
+  {
+   "question": "Combien d'albums compte la série Tintin (achevés) ?",
+   "answer": "24 (dont « Tintin et l'Alph-Art » inachevé)"
+  },
+  {
+   "question": "Combien d'exemplaires la Bible s'est-elle vendue ou distribuée, selon les estimations ?",
+   "answer": "Plus de 5 milliards"
+  },
+  {
+   "question": "Combien d'exemplaires de la Nintendo Switch (première) ont été vendus ?",
+   "answer": "Plus de 150 millions"
+  },
+  {
+   "question": "Combien d'exemplaires de la PlayStation 2 ont été vendus ?",
+   "answer": "Environ 160 millions"
+  },
+  {
+   "question": "Combien d'exemplaires de Minecraft ont été vendus ?",
+   "answer": "Plus de 300 millions"
+  },
+  {
+   "question": "Combien d'exemplaires l'album « Thriller » de Michael Jackson s'est-il vendu ?",
+   "answer": "Environ 70 millions"
+  },
+  {
+   "question": "Combien de jours a duré la mission Apollo 11 ?",
+   "answer": "Environ 8 jours"
+  },
+  {
+   "question": "En quelle année l'euro est-il entré en circulation sous forme de pièces et de billets ?",
+   "answer": "2002"
+  },
+  {
+   "question": "En quelle année le premier iPhone a-t-il été présenté ?",
+   "answer": "2007"
+  },
+  {
+   "question": "En quelle année est sorti le premier film « Star Wars » ?",
+   "answer": "1977"
+  },
+  {
+   "question": "En quelle année la tour Eiffel a-t-elle été inaugurée ?",
+   "answer": "1889"
+  }
  ]
 }
