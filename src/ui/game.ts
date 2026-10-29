@@ -68,7 +68,8 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
       ),
     );
 
-    const stage = h("main", { class: `stage ${revealed ? "revealed" : ""}` });
+    const multi = (question?.answers.length ?? 0) > 1;
+    const stage = h("main", { class: `stage ${revealed ? "revealed" : ""} ${multi ? "multi" : ""}` });
     if (phase === "loading" || !question || !round) {
       stage.append(h("p", { class: "loading" }, "Chargement de la question…"));
     } else {

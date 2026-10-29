@@ -12,7 +12,7 @@ cp .env.example .env   # identifiants Twitch, nécessaires seulement pour les th
 npm run dev            # http://127.0.0.1:5173
 ```
 
-`npm run dev` démarre Vite et le serveur proxy local (`127.0.0.1:8787`, jamais exposé sur le réseau).
+`npm run dev` démarre Vite et le serveur proxy local (`127.0.0.1:8787`, jamais exposé sur le réseau). Le thème Musique a besoin de ce serveur (proxy Deezer).
 
 Autres commandes : `npm test` (Vitest), `npm run typecheck`.
 
@@ -25,6 +25,9 @@ Les pools stables sont versionnés dans `data/` ; `npm run build-pools` les rég
 | `data/capitals_fr.json` | **curé à la main** : noms, « de… », capitales en français ; champ `doubt` pour les cas litigieux | — |
 | `data/countries.json` | 193 membres de l'ONU + Vatican et Palestine | [mledoze/countries](https://github.com/mledoze/countries) + fichier curé |
 | `data/shapes.json` | silhouettes SVG pré-projetées | `world-atlas` (Natural Earth 50m), `d3-geo` |
+| `data/music.json` | ~2 900 tubes (id Deezer, titre nettoyé, artiste, popularité) | chart + playlists éditoriales Deezer (liste dans `scripts/pools/music.ts`) |
+
+Musique : l'URL d'extrait Deezer est signée et expire en ~15 min ; elle n'est jamais stockée, le jeu en demande une fraîche au proxy local (`/api/deezer/track/:id`) au moment de précharger la question. Le seuil de popularité est `MIN_RANK` dans `scripts/pools/music.ts`.
 
 Drapeaux : `https://flagcdn.com/w640/{code}.png`, chargés en direct. Le seuil de superficie des silhouettes est `MIN_SHAPE_AREA_KM2` dans `src/providers/shapes.ts`.
 

@@ -253,8 +253,23 @@ kbd {
   max-height: 48vh;
   border-radius: 8px;
 }
-.revealed .media {
-  max-height: 34vh;
+.revealed .media,
+.revealed .reveal-media {
+  max-height: 30vh;
+}
+.revealed .media-svg {
+  width: min(30vh, 90vw);
+}
+.revealed .media-audio {
+  height: 18vh;
+}
+/* Deux lignes à juger (musique) : tout doit tenir sans défiler. */
+.revealed.multi .media,
+.revealed.multi .reveal-media {
+  max-height: 24vh;
+}
+.revealed.multi .answer-value {
+  font-size: calc(var(--fs-big) * 0.7);
 }
 .media-svg {
   width: min(48vh, 90vw);
@@ -266,7 +281,6 @@ kbd {
   height: 100%;
 }
 .reveal-media {
-  max-height: 34vh;
   max-width: 40vw;
   border-radius: 8px;
 }
