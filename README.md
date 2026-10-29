@@ -26,9 +26,13 @@ Les pools stables sont versionnés dans `data/` ; `npm run build-pools` les rég
 | `data/countries.json` | 193 membres de l'ONU + Vatican et Palestine | [mledoze/countries](https://github.com/mledoze/countries) + fichier curé |
 | `data/shapes.json` | silhouettes SVG pré-projetées | `world-atlas` (Natural Earth 50m), `d3-geo` |
 | `data/games.json` | ~440 jeux connus (≥ 400 notes IGDB, jeux principaux et remakes), ids de jaquette et de screenshots | IGDB (token Twitch) |
+| `data/ost_games.json` | **curé à la main** : jeux candidats au thème OST (`match` pour préciser le titre attendu, `album` pour imposer un album Deezer) | — |
+| `data/ost.json` / `data/ost_coverage.json` | albums d'OST validés et pistes ; rapport de couverture (ok / douteux / absent) | recherche d'albums Deezer |
 | `data/music.json` | ~2 900 tubes (id Deezer, titre nettoyé, artiste, popularité) | chart + playlists éditoriales Deezer (liste dans `scripts/pools/music.ts`) |
 
 Jeux vidéo : IGDB n'est appelé que par `npm run build-pools -- games` (identifiants Twitch du `.env`, token mis en cache et renouvelé dans `server/igdb.ts`). En partie, les images viennent directement de `images.igdb.com`, sans clé. Le seuil est `MIN_RATING_COUNT` dans `scripts/pools/games.ts`. Beaucoup de jaquettes affichent le nom du jeu : défaut accepté.
+
+OST : un album n'est retenu que si son titre est le nom du jeu + une mention d'OST (pas de film, série, reprise, single). Les jeux « douteux » ou « absents » sont exclus ; pour en valider un à la main, ajouter `"album": <id Deezer>` à son entrée dans `data/ost_games.json` puis `npm run build-pools -- ost`.
 
 Musique : l'URL d'extrait Deezer est signée et expire en ~15 min ; elle n'est jamais stockée, le jeu en demande une fraîche au proxy local (`/api/deezer/track/:id`) au moment de précharger la question. Le seuil de popularité est `MIN_RANK` dans `scripts/pools/music.ts`.
 

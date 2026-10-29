@@ -1,0 +1,524 @@
+[
+ {
+  "name": "The Witcher 3: Wild Hunt",
+  "status": "ok",
+  "album": "The Witcher 3: Wild Hunt (Original Game Soundtrack) — Marcin Przybyłowicz",
+  "tracks": 12
+ },
+ {
+  "name": "The Elder Scrolls V: Skyrim",
+  "status": "ok",
+  "album": "The Elder Scrolls V: Skyrim (Original Game Soundtrack) — Jeremy Soule",
+  "tracks": 12
+ },
+ {
+  "name": "The Elder Scrolls IV: Oblivion",
+  "status": "ok",
+  "album": "The Elder Scrolls IV: Oblivion (Original Game Soundtrack) — Jeremy Soule",
+  "tracks": 12
+ },
+ {
+  "name": "Halo: Combat Evolved",
+  "status": "ok",
+  "album": "Halo: Combat Evolved (Original Soundtrack) — Halo",
+  "tracks": 12
+ },
+ {
+  "name": "Halo 3",
+  "status": "ok",
+  "album": "Halo 3 (Original Soundtrack) — Halo",
+  "tracks": 12
+ },
+ {
+  "name": "Final Fantasy VI",
+  "status": "ok",
+  "album": "FINAL FANTASY VI Original Soundtrack — Nobuo Uematsu",
+  "tracks": 12
+ },
+ {
+  "name": "Final Fantasy VII",
+  "status": "ok",
+  "album": "FINAL FANTASY VII Original Soundtrack — Nobuo Uematsu",
+  "tracks": 12
+ },
+ {
+  "name": "Final Fantasy VIII",
+  "status": "ok",
+  "album": "FINAL FANTASY VIII Original Soundtrack — Nobuo Uematsu",
+  "tracks": 12
+ },
+ {
+  "name": "Final Fantasy IX",
+  "status": "ok",
+  "album": "FINAL FANTASY IX Original Soundtrack — SQUARE ENIX MUSIC",
+  "tracks": 12
+ },
+ {
+  "name": "Final Fantasy X",
+  "status": "ok",
+  "album": "FINAL FANTASY X Original Soundtrack — SQUARE ENIX MUSIC",
+  "tracks": 12
+ },
+ {
+  "name": "Final Fantasy XV",
+  "status": "ok",
+  "album": "FINAL FANTASY XV Original Soundtrack — Yoko Shimomura",
+  "tracks": 12
+ },
+ {
+  "name": "Kingdom Hearts",
+  "status": "douteux",
+  "album": "Kingdom Hearts — The Greatest Bits",
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Chrono Trigger",
+  "status": "douteux",
+  "album": "Chrono Trigger — The Greatest Bits",
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Octopath Traveler",
+  "status": "ok",
+  "album": "OCTOPATH TRAVELER Original Soundtrack — Yasunori Nishiki",
+  "tracks": 12
+ },
+ {
+  "name": "NieR: Automata",
+  "status": "ok",
+  "album": "NieR:Automata Original Soundtrack — SQUARE ENIX MUSIC/MONACA/Keiichi Okabe",
+  "tracks": 12
+ },
+ {
+  "name": "Persona 5",
+  "status": "douteux",
+  "album": "Persona 5 Royal Original Soundtrack — ATLUS GAME MUSIC",
+  "reason": "titre avec « royal » en plus du nom du jeu"
+ },
+ {
+  "name": "Undertale",
+  "status": "ok",
+  "album": "UNDERTALE Soundtrack — Toby Fox",
+  "tracks": 12
+ },
+ {
+  "name": "Celeste",
+  "status": "ok",
+  "album": "Celeste (Original Soundtrack) — Lena Raine",
+  "tracks": 12
+ },
+ {
+  "name": "Hollow Knight",
+  "status": "ok",
+  "album": "Hollow Knight (Original Soundtrack) — Christopher Larkin",
+  "tracks": 12
+ },
+ {
+  "name": "Hades",
+  "status": "ok",
+  "album": "Hades: Original Soundtrack — Darren Korb",
+  "tracks": 12
+ },
+ {
+  "name": "Cuphead",
+  "status": "ok",
+  "album": "Cuphead (Original Soundtrack) — Kristofer Maddigan",
+  "tracks": 12
+ },
+ {
+  "name": "Journey",
+  "status": "ok",
+  "album": "Journey (Original Video Game Soundtrack) — Austin Wintory",
+  "tracks": 12
+ },
+ {
+  "name": "Minecraft",
+  "status": "douteux",
+  "album": "Minecraft — Eskro",
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Terraria",
+  "status": "ok",
+  "album": "Terraria (Soundtrack) — Re-Logic",
+  "tracks": 9
+ },
+ {
+  "name": "Stardew Valley",
+  "status": "ok",
+  "album": "Stardew Valley (Original Game Soundtrack) — ConcernedApe",
+  "tracks": 12
+ },
+ {
+  "name": "Ori and the Blind Forest",
+  "status": "ok",
+  "album": "Ori and the Blind Forest (Original Soundtrack) — Gareth Coker",
+  "tracks": 12
+ },
+ {
+  "name": "Ori and the Will of the Wisps",
+  "status": "ok",
+  "album": "Ori and the Will of the Wisps (Original Soundtrack Recording) — Gareth Coker",
+  "tracks": 12
+ },
+ {
+  "name": "Shovel Knight",
+  "status": "douteux",
+  "album": "Shovel Knight Dig (Original Soundtrack) [Complete Edition] — Jake Kaufman",
+  "reason": "titre avec « dig » en plus du nom du jeu"
+ },
+ {
+  "name": "Bastion",
+  "status": "ok",
+  "album": "Bastion Original Soundtrack — Darren Korb",
+  "tracks": 12
+ },
+ {
+  "name": "Transistor",
+  "status": "ok",
+  "album": "Transistor Original Soundtrack — Darren Korb",
+  "tracks": 12
+ },
+ {
+  "name": "Hotline Miami",
+  "status": "absent"
+ },
+ {
+  "name": "Dead Cells",
+  "status": "ok",
+  "album": "Dead Cells (Original Soundtrack) — Yoann Laulan",
+  "tracks": 12
+ },
+ {
+  "name": "Slay the Spire",
+  "status": "ok",
+  "album": "Slay the Spire (Original Soundtrack) — Clark Aboud",
+  "tracks": 12
+ },
+ {
+  "name": "Balatro",
+  "status": "ok",
+  "album": "Balatro (Original Game Soundtrack) — LouisF",
+  "tracks": 5
+ },
+ {
+  "name": "Cult of the Lamb",
+  "status": "ok",
+  "album": "Cult of the Lamb (Original Soundtrack) — River Boy",
+  "tracks": 12
+ },
+ {
+  "name": "Outer Wilds",
+  "status": "ok",
+  "album": "Outer Wilds (Original Soundtrack) — Andrew Prahlow",
+  "tracks": 12
+ },
+ {
+  "name": "Disco Elysium",
+  "status": "douteux",
+  "album": "Disco Elysium — Sea Power",
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Baldur's Gate 3",
+  "status": "ok",
+  "album": "Baldur's Gate 3 (Original Game Soundtrack) — Borislav Slavov",
+  "tracks": 12
+ },
+ {
+  "name": "Red Dead Redemption",
+  "status": "ok",
+  "album": "Red Dead Redemption Original Soundtrack — Various Artists",
+  "tracks": 12
+ },
+ {
+  "name": "Red Dead Redemption 2",
+  "status": "douteux",
+  "album": "Red Dead Redemption 2 Soundtrack — Jouhn Edward",
+  "reason": "seulement 1 piste(s)"
+ },
+ {
+  "name": "The Last of Us",
+  "status": "douteux",
+  "album": "The Last of Us — Gustavo Santaolalla",
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Uncharted 4: A Thief's End",
+  "status": "ok",
+  "album": "Uncharted 4: A Thief's End (Original Soundtrack) — Henry Jackman",
+  "tracks": 12
+ },
+ {
+  "name": "God of War",
+  "status": "ok",
+  "album": "God of War (PlayStation Soundtrack) — Bear McCreary",
+  "tracks": 12
+ },
+ {
+  "name": "Ghost of Tsushima",
+  "status": "douteux",
+  "album": "Sound of the Storm - Ghost of Tsushima Soundtrack: Reimagined — Various Artists",
+  "reason": "titre avec « of storm reimagined » en plus du nom du jeu"
+ },
+ {
+  "name": "Horizon Zero Dawn",
+  "status": "ok",
+  "album": "Horizon Zero Dawn (Original Soundtrack) — Joris de Man",
+  "tracks": 12
+ },
+ {
+  "name": "Death Stranding",
+  "status": "ok",
+  "album": "Death Stranding (Original Score) — Ludvig Forssell",
+  "tracks": 12
+ },
+ {
+  "name": "Detroit: Become Human",
+  "status": "ok",
+  "album": "Detroit: Become Human (Original Soundtrack) — Various Artists",
+  "tracks": 12
+ },
+ {
+  "name": "Marvel's Spider-Man",
+  "status": "ok",
+  "album": "Marvel's Spider-Man (Original Video Game Soundtrack) — John Paesano",
+  "tracks": 12
+ },
+ {
+  "name": "Mass Effect",
+  "status": "douteux",
+  "album": "MASS EFFECT — KT-KLIZM",
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Mass Effect 2",
+  "status": "ok",
+  "album": "Mass Effect 2 (Original Soundtrack) — Jack Wall",
+  "tracks": 12
+ },
+ {
+  "name": "Dragon Age: Inquisition",
+  "status": "ok",
+  "album": "Dragon Age Inquisition (Original Game Soundtrack) — EA Games Soundtrack",
+  "tracks": 12
+ },
+ {
+  "name": "Fallout 4",
+  "status": "ok",
+  "album": "Fallout 4 (Original Game Soundtrack) — Inon Zur",
+  "tracks": 12
+ },
+ {
+  "name": "Doom",
+  "status": "ok",
+  "album": "DOOM (Original Game Soundtrack) — Mick Gordon",
+  "tracks": 12
+ },
+ {
+  "name": "Doom Eternal",
+  "status": "douteux",
+  "album": "Doom Eternal (Theme) — The Cuthbert Kids",
+  "reason": "titre avec « theme » en plus du nom du jeu"
+ },
+ {
+  "name": "BioShock",
+  "status": "douteux",
+  "album": "The Ocean on His Shoulders (From \"Bioshock\" Videogame Original Soundtrack) — Roberto Escribano",
+  "reason": "titre avec « ocean on his shoulders videogame » en plus du nom du jeu"
+ },
+ {
+  "name": "BioShock Infinite",
+  "status": "douteux",
+  "album": "The Bioshock Infinite Song (YouTube Version) — Brentalfloss",
+  "reason": "titre avec « song youtube version » en plus du nom du jeu"
+ },
+ {
+  "name": "Assassin's Creed II",
+  "status": "absent"
+ },
+ {
+  "name": "Assassin's Creed IV: Black Flag",
+  "status": "absent"
+ },
+ {
+  "name": "Assassin's Creed Odyssey",
+  "status": "ok",
+  "album": "Assassin's Creed Odyssey (Original Game Soundtrack) — The Flight",
+  "tracks": 12
+ },
+ {
+  "name": "Cyberpunk 2077",
+  "status": "ok",
+  "album": "Cyberpunk 2077 - Original Score — Marcin Przybyłowicz",
+  "tracks": 12
+ },
+ {
+  "name": "Grand Theft Auto V",
+  "status": "absent"
+ },
+ {
+  "name": "Batman: Arkham Knight",
+  "status": "absent"
+ },
+ {
+  "name": "Borderlands 2",
+  "status": "ok",
+  "album": "Borderlands 2: Complete (Original Soundtrack) — Various Artists",
+  "tracks": 12
+ },
+ {
+  "name": "Destiny",
+  "status": "douteux",
+  "album": "DESTINY — Ettash",
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Destiny 2",
+  "status": "ok",
+  "album": "Destiny 2 (Original Game Soundtrack) — Various Artists",
+  "tracks": 12
+ },
+ {
+  "name": "Tomb Raider",
+  "status": "ok",
+  "album": "Tomb Raider (Original Soundtrack) — Jason Graves",
+  "tracks": 12
+ },
+ {
+  "name": "Star Wars Jedi: Fallen Order",
+  "status": "ok",
+  "album": "Star Wars Jedi: Fallen Order (Original Video Game Soundtrack) — Stephen Barton",
+  "tracks": 12
+ },
+ {
+  "name": "Life is Strange",
+  "status": "douteux",
+  "album": "LIFE IS STRANGE — Seoul Electric Band",
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Firewatch",
+  "status": "ok",
+  "album": "Firewatch (Original Score) — Chris Remo",
+  "tracks": 12
+ },
+ {
+  "name": "Dishonored",
+  "status": "ok",
+  "album": "Dishonored: Original Game Soundtrack — Various Artists",
+  "tracks": 12
+ },
+ {
+  "name": "Deus Ex: Human Revolution",
+  "status": "ok",
+  "album": "Deus Ex: Human Revolution (Original Soundtrack) — Michael McCann",
+  "tracks": 12
+ },
+ {
+  "name": "Mirror's Edge",
+  "status": "douteux",
+  "album": "Mirror's Edge — NORTHLANE",
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Control",
+  "status": "ok",
+  "album": "Control (Original Soundtrack) — Petri Alanko",
+  "tracks": 12
+ },
+ {
+  "name": "Dark Souls",
+  "status": "ok",
+  "album": "Dark Souls (Original Game Soundtrack) — FROMSOFTWARE SOUND TEAM",
+  "tracks": 12
+ },
+ {
+  "name": "Dark Souls III",
+  "status": "absent"
+ },
+ {
+  "name": "Bloodborne",
+  "status": "ok",
+  "album": "Bloodborne Original Soundtrack — SIE Sound Team",
+  "tracks": 12
+ },
+ {
+  "name": "Sekiro: Shadows Die Twice",
+  "status": "absent"
+ },
+ {
+  "name": "Elden Ring",
+  "status": "ok",
+  "album": "ELDEN RING ORIGINAL SOUND TRACK — FROMSOFTWARE SOUND TEAM",
+  "tracks": 12
+ },
+ {
+  "name": "Silent Hill 2",
+  "status": "douteux",
+  "album": "SILENT HILL 2 ORIGINAL SOUNDTRACK -2024- — Akira Yamaoka",
+  "reason": "titre avec « 2024 » en plus du nom du jeu"
+ },
+ {
+  "name": "Metal Gear Solid",
+  "status": "douteux",
+  "album": "Metal Gear Solid — _Lavarre",
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Sonic Mania",
+  "status": "ok",
+  "album": "Sonic Mania Original Sound Track(Selected Edition) — SEGA",
+  "tracks": 12
+ },
+ {
+  "name": "Overwatch",
+  "status": "ok",
+  "album": "Overwatch: Original Soundtrack — Sebastian Aav",
+  "tracks": 12
+ },
+ {
+  "name": "World of Warcraft",
+  "status": "ok",
+  "album": "World of Warcraft Original Soundtrack — World Of Warcraft",
+  "tracks": 12
+ },
+ {
+  "name": "StarCraft II: Wings of Liberty",
+  "status": "absent"
+ },
+ {
+  "name": "Diablo III",
+  "status": "ok",
+  "album": "Diablo III Soundtrack — Diablo",
+  "tracks": 12
+ },
+ {
+  "name": "Civilization VI",
+  "status": "ok",
+  "album": "Sid Meier's Civilization VI (Original Game Soundtrack) — Christopher Tin",
+  "tracks": 12
+ },
+ {
+  "name": "Monster Hunter: World",
+  "status": "absent"
+ },
+ {
+  "name": "It Takes Two",
+  "status": "ok",
+  "album": "It Takes Two (Original Game Soundtrack) — Gustaf Grefberg",
+  "tracks": 12
+ },
+ {
+  "name": "A Plague Tale: Innocence",
+  "status": "ok",
+  "album": "A Plague Tale: Innocence (Original Soundtrack) — Olivier Deriviere",
+  "tracks": 12
+ },
+ {
+  "name": "Clair Obscur: Expedition 33",
+  "status": "ok",
+  "album": "Clair Obscur: Expedition 33 (Original Soundtrack) — Lorien Testard",
+  "tracks": 12
+ }
+]

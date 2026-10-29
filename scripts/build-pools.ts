@@ -6,6 +6,7 @@ import type { Country } from "../src/data/countries.ts";
 import { buildCountries } from "./pools/countries.ts";
 import { buildGames } from "./pools/games.ts";
 import { buildMusic } from "./pools/music.ts";
+import { buildOst } from "./pools/ost.ts";
 import { buildShapes } from "./pools/shapes.ts";
 
 loadEnv();
@@ -29,5 +30,9 @@ if (wants("music")) {
 if (wants("games")) {
   console.log("Jeux vidéo (IGDB)…");
   await buildGames();
+}
+if (wants("ost")) {
+  console.log("OST de jeux vidéo (Deezer)…");
+  await buildOst();
 }
 console.log("Terminé.");

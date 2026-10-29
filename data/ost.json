@@ -1,0 +1,1441 @@
+[
+ {
+  "slug": "the-witcher-3-wild-hunt",
+  "name": "The Witcher 3: Wild Hunt",
+  "album": {
+   "id": 54723492,
+   "title": "The Witcher 3: Wild Hunt (Original Game Soundtrack)",
+   "artist": "Marcin Przybyłowicz"
+  },
+  "tracks": [
+   448311972,
+   448311922,
+   448311832,
+   448312022,
+   448311902,
+   448311842,
+   448312082,
+   448311942,
+   448312072,
+   448311962,
+   448311872,
+   448311862
+  ]
+ },
+ {
+  "slug": "the-elder-scrolls-v-skyrim",
+  "name": "The Elder Scrolls V: Skyrim",
+  "album": {
+   "id": 846676982,
+   "title": "The Elder Scrolls V: Skyrim (Original Game Soundtrack)",
+   "artist": "Jeremy Soule"
+  },
+  "tracks": [
+   3627500352,
+   3627500332,
+   3627500492,
+   3627500602,
+   3627500342,
+   3627500372,
+   3627500572,
+   3627500382,
+   3627500592,
+   3627500452,
+   3627500392,
+   3627500692
+  ]
+ },
+ {
+  "slug": "the-elder-scrolls-iv-oblivion",
+  "name": "The Elder Scrolls IV: Oblivion",
+  "album": {
+   "id": 917537181,
+   "title": "The Elder Scrolls IV: Oblivion (Original Game Soundtrack)",
+   "artist": "Jeremy Soule"
+  },
+  "tracks": [
+   3839600681,
+   3839600661,
+   3839600721,
+   3839600821,
+   3839600771,
+   3839600701,
+   3839600861,
+   3839600651,
+   3839600761,
+   3839600801,
+   3839600731,
+   3839600891
+  ]
+ },
+ {
+  "slug": "halo-combat-evolved",
+  "name": "Halo: Combat Evolved",
+  "album": {
+   "id": 430056807,
+   "title": "Halo: Combat Evolved (Original Soundtrack)",
+   "artist": "Halo"
+  },
+  "tracks": [
+   2239367457,
+   2239367387,
+   2239367337,
+   2239367207,
+   2239367257,
+   2239367297,
+   2239367217,
+   2239367277,
+   2239367227,
+   2239367247,
+   2239367357,
+   2239367367
+  ]
+ },
+ {
+  "slug": "halo-3",
+  "name": "Halo 3",
+  "album": {
+   "id": 430144257,
+   "title": "Halo 3 (Original Soundtrack)",
+   "artist": "Halo"
+  },
+  "tracks": [
+   2239671197,
+   2239671317,
+   2239671327,
+   2239671247,
+   2239671037,
+   2239671027,
+   2239671157,
+   2239671227,
+   2239671137,
+   2239671067,
+   2239671117,
+   2239671097
+  ]
+ },
+ {
+  "slug": "final-fantasy-vi",
+  "name": "Final Fantasy VI",
+  "album": {
+   "id": 417709657,
+   "title": "FINAL FANTASY VI Original Soundtrack",
+   "artist": "Nobuo Uematsu"
+  },
+  "tracks": [
+   2192164447,
+   2192164217,
+   2192164237,
+   2192164427,
+   2192164507,
+   2192164407,
+   2192164517,
+   2192164777,
+   2192164387,
+   2192164227,
+   2192164707,
+   2192164257
+  ]
+ },
+ {
+  "slug": "final-fantasy-vii",
+  "name": "Final Fantasy VII",
+  "album": {
+   "id": 417708637,
+   "title": "FINAL FANTASY VII Original Soundtrack",
+   "artist": "Nobuo Uematsu"
+  },
+  "tracks": [
+   2192151437,
+   2192151627,
+   2192151527,
+   2192152267,
+   2192151447,
+   2192151497,
+   2192151477,
+   2192152057,
+   2192151597,
+   2192151797,
+   2192151467,
+   2192151877
+  ]
+ },
+ {
+  "slug": "final-fantasy-viii",
+  "name": "Final Fantasy VIII",
+  "album": {
+   "id": 417820437,
+   "title": "FINAL FANTASY VIII Original Soundtrack",
+   "artist": "Nobuo Uematsu"
+  },
+  "tracks": [
+   2192586707,
+   2192586797,
+   2192586887,
+   2192586717,
+   2192586727,
+   2192586777,
+   2192586757,
+   2192586737,
+   2192587417,
+   2192586837,
+   2192586857,
+   2192587187
+  ]
+ },
+ {
+  "slug": "final-fantasy-ix",
+  "name": "Final Fantasy IX",
+  "album": {
+   "id": 683375001,
+   "title": "FINAL FANTASY IX Original Soundtrack",
+   "artist": "SQUARE ENIX MUSIC"
+  },
+  "tracks": [
+   3140898871,
+   3140898701,
+   3140899751,
+   3140899011,
+   3140898961,
+   3140898741,
+   3140898761,
+   3140899591,
+   3140899621,
+   3140899181,
+   3140899291,
+   3140898801
+  ]
+ },
+ {
+  "slug": "final-fantasy-x",
+  "name": "Final Fantasy X",
+  "album": {
+   "id": 417821207,
+   "title": "FINAL FANTASY X Original Soundtrack",
+   "artist": "SQUARE ENIX MUSIC"
+  },
+  "tracks": [
+   2192588837,
+   2192588867,
+   2192589007,
+   2192589527,
+   2192588997,
+   2192589087,
+   2192588907,
+   2192589067,
+   2192589107,
+   2192589597,
+   2192589717,
+   2192589607
+  ]
+ },
+ {
+  "slug": "final-fantasy-xv",
+  "name": "Final Fantasy XV",
+  "album": {
+   "id": 417822297,
+   "title": "FINAL FANTASY XV Original Soundtrack",
+   "artist": "Yoko Shimomura"
+  },
+  "tracks": [
+   2192596707,
+   2192596427,
+   2192597157,
+   2192596807,
+   2192597317,
+   2192596487,
+   2192596917,
+   2192596497,
+   2192596937,
+   2192596697,
+   2192596947,
+   2192597327
+  ]
+ },
+ {
+  "slug": "octopath-traveler",
+  "name": "Octopath Traveler",
+  "album": {
+   "id": 417620187,
+   "title": "OCTOPATH TRAVELER Original Soundtrack",
+   "artist": "Yasunori Nishiki"
+  },
+  "tracks": [
+   2191832167,
+   2191832197,
+   2191832147,
+   2191832557,
+   2191832647,
+   2191832507,
+   2191832547,
+   2191832527,
+   2191832247,
+   2191832767,
+   2191832177,
+   2191832307
+  ]
+ },
+ {
+  "slug": "nier-automata",
+  "name": "NieR: Automata",
+  "album": {
+   "id": 417822547,
+   "title": "NieR:Automata Original Soundtrack",
+   "artist": "SQUARE ENIX MUSIC/MONACA/Keiichi Okabe"
+  },
+  "tracks": [
+   2192597787,
+   2192597847,
+   2192597797,
+   2192597837,
+   2192597917,
+   2192597807,
+   2192597867,
+   2192597857,
+   2192597817,
+   2192597907,
+   2192598177,
+   2192597997
+  ]
+ },
+ {
+  "slug": "undertale",
+  "name": "Undertale",
+  "album": {
+   "id": 49333512,
+   "title": "UNDERTALE Soundtrack",
+   "artist": "Toby Fox"
+  },
+  "tracks": [
+   413935242,
+   413934922,
+   413935042,
+   413935112,
+   413935012,
+   413934282,
+   413935222,
+   413934832,
+   413934702,
+   413934362,
+   413934952,
+   413934872
+  ]
+ },
+ {
+  "slug": "celeste",
+  "name": "Celeste",
+  "album": {
+   "id": 193375342,
+   "title": "Celeste (Original Soundtrack)",
+   "artist": "Lena Raine"
+  },
+  "tracks": [
+   1177977552,
+   1177977562,
+   1177977632,
+   1177977602,
+   1177977542,
+   1177977702,
+   1177977682,
+   1177977582,
+   1177977592,
+   1177977572,
+   1177977692,
+   1177977532
+  ]
+ },
+ {
+  "slug": "hollow-knight",
+  "name": "Hollow Knight",
+  "album": {
+   "id": 800592941,
+   "title": "Hollow Knight (Original Soundtrack)",
+   "artist": "Christopher Larkin"
+  },
+  "tracks": [
+   3495446561,
+   3495446631,
+   3495446591,
+   3495446621,
+   3495446601,
+   3495446611,
+   3495446571,
+   3495446681,
+   3495446781,
+   3495446801,
+   3495446581,
+   3495446651
+  ]
+ },
+ {
+  "slug": "hades",
+  "name": "Hades",
+  "album": {
+   "id": 172938572,
+   "title": "Hades: Original Soundtrack",
+   "artist": "Darren Korb"
+  },
+  "tracks": [
+   1078756452,
+   1078756262,
+   1078756222,
+   1078756182,
+   1078756192,
+   1078756472,
+   1078756462,
+   1078756202,
+   1078756422,
+   1078756272,
+   1078756232,
+   1078756242
+  ]
+ },
+ {
+  "slug": "cuphead",
+  "name": "Cuphead",
+  "album": {
+   "id": 50988402,
+   "title": "Cuphead (Original Soundtrack)",
+   "artist": "Kristofer Maddigan"
+  },
+  "tracks": [
+   424486042,
+   424486122,
+   424485992,
+   424485942,
+   424486382,
+   424486102,
+   424485982,
+   424486442,
+   424486012,
+   424486062,
+   424486272,
+   424486302
+  ]
+ },
+ {
+  "slug": "journey",
+  "name": "Journey",
+  "album": {
+   "id": 206992352,
+   "title": "Journey (Original Video Game Soundtrack)",
+   "artist": "Austin Wintory"
+  },
+  "tracks": [
+   1240919852,
+   1240920012,
+   1240920022,
+   1240919892,
+   1240919872,
+   1240919862,
+   1240919962,
+   1240919882,
+   1240919942,
+   1240919972,
+   1240919912,
+   1240919902
+  ]
+ },
+ {
+  "slug": "terraria",
+  "name": "Terraria",
+  "album": {
+   "id": 1331940,
+   "title": "Terraria (Soundtrack)",
+   "artist": "Re-Logic"
+  },
+  "tracks": [
+   14493214,
+   14493215,
+   14493221,
+   14493219,
+   14493218,
+   14493212,
+   14493216,
+   14493210,
+   14493220
+  ]
+ },
+ {
+  "slug": "stardew-valley",
+  "name": "Stardew Valley",
+  "album": {
+   "id": 14124862,
+   "title": "Stardew Valley (Original Game Soundtrack)",
+   "artist": "ConcernedApe"
+  },
+  "tracks": [
+   132826014,
+   132826022,
+   132826050,
+   132826038,
+   132826024,
+   132826066,
+   132826020,
+   132826068,
+   132826052,
+   132826016,
+   132826056,
+   132826026
+  ]
+ },
+ {
+  "slug": "ori-and-the-blind-forest",
+  "name": "Ori and the Blind Forest",
+  "album": {
+   "id": 9730700,
+   "title": "Ori and the Blind Forest (Original Soundtrack)",
+   "artist": "Gareth Coker"
+  },
+  "tracks": [
+   95629060,
+   95629122,
+   95629062,
+   95629074,
+   95629092,
+   95629066,
+   95629094,
+   95629076,
+   95629064,
+   95629070,
+   95629068,
+   95629104
+  ]
+ },
+ {
+  "slug": "ori-and-the-will-of-the-wisps",
+  "name": "Ori and the Will of the Wisps",
+  "album": {
+   "id": 134031992,
+   "title": "Ori and the Will of the Wisps (Original Soundtrack Recording)",
+   "artist": "Gareth Coker"
+  },
+  "tracks": [
+   890338372,
+   890338322,
+   890338362,
+   890338402,
+   890338332,
+   890338652,
+   890338452,
+   890338412,
+   890338482,
+   890338342,
+   890338882,
+   890338392
+  ]
+ },
+ {
+  "slug": "bastion",
+  "name": "Bastion",
+  "album": {
+   "id": 88139982,
+   "title": "Bastion Original Soundtrack",
+   "artist": "Darren Korb"
+  },
+  "tracks": [
+   636945212,
+   636945302,
+   636945112,
+   636945122,
+   636945262,
+   636945312,
+   636945132,
+   636945162,
+   636945192,
+   636945202,
+   636945142,
+   636945152
+  ]
+ },
+ {
+  "slug": "transistor",
+  "name": "Transistor",
+  "album": {
+   "id": 7814163,
+   "title": "Transistor Original Soundtrack",
+   "artist": "Darren Korb"
+  },
+  "tracks": [
+   78551116,
+   78551132,
+   78551138,
+   78551119,
+   78551125,
+   78551120,
+   78551118,
+   78551117,
+   78551131,
+   78551135,
+   78551122,
+   78551130
+  ]
+ },
+ {
+  "slug": "dead-cells",
+  "name": "Dead Cells",
+  "album": {
+   "id": 68587421,
+   "title": "Dead Cells (Original Soundtrack)",
+   "artist": "Yoann Laulan"
+  },
+  "tracks": [
+   529719271,
+   529719401,
+   529719221,
+   529719241,
+   529719431,
+   529719231,
+   529719301,
+   529719211,
+   529719451,
+   529719281,
+   529719291,
+   529719261
+  ]
+ },
+ {
+  "slug": "slay-the-spire",
+  "name": "Slay the Spire",
+  "album": {
+   "id": 80830042,
+   "title": "Slay the Spire (Original Soundtrack)",
+   "artist": "Clark Aboud"
+  },
+  "tracks": [
+   598900102,
+   598900042,
+   598900262,
+   598900092,
+   598900062,
+   598900192,
+   598900082,
+   598900132,
+   598900152,
+   598900212,
+   598900172,
+   598900222
+  ]
+ },
+ {
+  "slug": "balatro",
+  "name": "Balatro",
+  "album": {
+   "id": 704897761,
+   "title": "Balatro (Original Game Soundtrack)",
+   "artist": "LouisF"
+  },
+  "tracks": [
+   3208189441,
+   3208189461,
+   3208189451,
+   3208189481,
+   3208189471
+  ]
+ },
+ {
+  "slug": "cult-of-the-lamb",
+  "name": "Cult of the Lamb",
+  "album": {
+   "id": 344879527,
+   "title": "Cult of the Lamb (Original Soundtrack)",
+   "artist": "River Boy"
+  },
+  "tracks": [
+   1860445897,
+   1860445887,
+   1860445917,
+   1860446087,
+   1860446117,
+   1860445997,
+   1860445977,
+   1860445937,
+   1860445927,
+   1860446067,
+   1860445947,
+   1860445907
+  ]
+ },
+ {
+  "slug": "outer-wilds",
+  "name": "Outer Wilds",
+  "album": {
+   "id": 274929962,
+   "title": "Outer Wilds (Original Soundtrack)",
+   "artist": "Andrew Prahlow"
+  },
+  "tracks": [
+   1563909472,
+   1563909652,
+   1563909462,
+   1563909672,
+   1563909522,
+   1563909482,
+   1563909552,
+   1563909492,
+   1563909512,
+   1563909622,
+   1563909632,
+   1563909702
+  ]
+ },
+ {
+  "slug": "baldur-s-gate-3",
+  "name": "Baldur's Gate 3",
+  "album": {
+   "id": 482953575,
+   "title": "Baldur's Gate 3 (Original Game Soundtrack)",
+   "artist": "Borislav Slavov"
+  },
+  "tracks": [
+   2435633365,
+   2435633395,
+   2435633095,
+   2435633015,
+   2435633195,
+   2435633425,
+   2435633025,
+   2435633225,
+   2435633435,
+   2435633085,
+   2435633295,
+   2435633045
+  ]
+ },
+ {
+  "slug": "red-dead-redemption",
+  "name": "Red Dead Redemption",
+  "album": {
+   "id": 377012767,
+   "title": "Red Dead Redemption Original Soundtrack",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   2023251507,
+   2023251427,
+   2023251517,
+   2023251357,
+   2023251367,
+   2023251527,
+   2023251437,
+   2023251377,
+   2023251537,
+   2023251477,
+   2023251407,
+   2023251387
+  ]
+ },
+ {
+  "slug": "uncharted-4-a-thief-s-end",
+  "name": "Uncharted 4: A Thief's End",
+  "album": {
+   "id": 207000562,
+   "title": "Uncharted 4: A Thief's End (Original Soundtrack)",
+   "artist": "Henry Jackman"
+  },
+  "tracks": [
+   1240960022,
+   1240959992,
+   1240960002,
+   1240960012,
+   1240960032,
+   1240960172,
+   1240960162,
+   1240960072,
+   1240960142,
+   1240960152,
+   1240960212,
+   1240960202
+  ]
+ },
+ {
+  "slug": "god-of-war",
+  "name": "God of War",
+  "album": {
+   "id": 60932152,
+   "title": "God of War (PlayStation Soundtrack)",
+   "artist": "Bear McCreary"
+  },
+  "tracks": [
+   484077812,
+   484077822,
+   484077852,
+   484077962,
+   484077882,
+   484077972,
+   484077902,
+   484077912,
+   484077842,
+   484077992,
+   484077832,
+   484077862
+  ]
+ },
+ {
+  "slug": "horizon-zero-dawn",
+  "name": "Horizon Zero Dawn",
+  "album": {
+   "id": 420840767,
+   "title": "Horizon Zero Dawn (Original Soundtrack)",
+   "artist": "Joris de Man"
+  },
+  "tracks": [
+   2204797807,
+   2204797817,
+   2204797887,
+   2204797827,
+   2204797907,
+   2204798237,
+   2204798027,
+   2204798057,
+   2204797847,
+   2204797837,
+   2204797857,
+   2204797947
+  ]
+ },
+ {
+  "slug": "death-stranding",
+  "name": "Death Stranding",
+  "album": {
+   "id": 116876582,
+   "title": "Death Stranding (Original Score)",
+   "artist": "Ludvig Forssell"
+  },
+  "tracks": [
+   790961482,
+   790961312,
+   790961492,
+   790961322,
+   790961462,
+   790961372,
+   790961592,
+   790961402,
+   790961562,
+   790961332,
+   790961552,
+   790961412
+  ]
+ },
+ {
+  "slug": "detroit-become-human",
+  "name": "Detroit: Become Human",
+  "album": {
+   "id": 420682597,
+   "title": "Detroit: Become Human (Original Soundtrack)",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   2204149167,
+   2204149117,
+   2204149147,
+   2204149187,
+   2204149137,
+   2204149617,
+   2204149127,
+   2204149667,
+   2204149817,
+   2204149257,
+   2204149157,
+   2204149217
+  ]
+ },
+ {
+  "slug": "marvel-s-spider-man",
+  "name": "Marvel's Spider-Man",
+  "album": {
+   "id": 73301712,
+   "title": "Marvel's Spider-Man (Original Video Game Soundtrack)",
+   "artist": "John Paesano"
+  },
+  "tracks": [
+   555639722,
+   555639922,
+   555639982,
+   555639792,
+   555639952,
+   555639752,
+   555639762,
+   555639732,
+   555639742,
+   555639912,
+   555639772,
+   555639962
+  ]
+ },
+ {
+  "slug": "mass-effect-2",
+  "name": "Mass Effect 2",
+  "album": {
+   "id": 155695602,
+   "title": "Mass Effect 2 (Original Soundtrack)",
+   "artist": "Jack Wall"
+  },
+  "tracks": [
+   996956002,
+   996955762,
+   996955812,
+   996956012,
+   996955992,
+   996955782,
+   996955772,
+   996955822,
+   996955852,
+   996956022,
+   996955962,
+   996955792
+  ]
+ },
+ {
+  "slug": "dragon-age-inquisition",
+  "name": "Dragon Age: Inquisition",
+  "album": {
+   "id": 96466432,
+   "title": "Dragon Age Inquisition (Original Game Soundtrack)",
+   "artist": "EA Games Soundtrack"
+  },
+  "tracks": [
+   677945102,
+   677945472,
+   677945132,
+   677945202,
+   677945212,
+   677945482,
+   677945162,
+   677945432,
+   677945242,
+   677945232,
+   677945462,
+   677945152
+  ]
+ },
+ {
+  "slug": "fallout-4",
+  "name": "Fallout 4",
+  "album": {
+   "id": 850235822,
+   "title": "Fallout 4 (Original Game Soundtrack)",
+   "artist": "Inon Zur"
+  },
+  "tracks": [
+   3637805102,
+   3637805112,
+   3637805192,
+   3637805122,
+   3637805132,
+   3637805242,
+   3637805152,
+   3637805582,
+   3637805762,
+   3637805752,
+   3637805212,
+   3637805512
+  ]
+ },
+ {
+  "slug": "doom",
+  "name": "Doom",
+  "album": {
+   "id": 941543521,
+   "title": "DOOM (Original Game Soundtrack)",
+   "artist": "Mick Gordon"
+  },
+  "tracks": [
+   3905421581,
+   3905421491,
+   3905421501,
+   3905421531,
+   3905421511,
+   3905421551,
+   3905421541,
+   3905421521,
+   3905421611,
+   3905421561,
+   3905421711,
+   3905421571
+  ]
+ },
+ {
+  "slug": "assassin-s-creed-odyssey",
+  "name": "Assassin's Creed Odyssey",
+  "album": {
+   "id": 73947512,
+   "title": "Assassin's Creed Odyssey (Original Game Soundtrack)",
+   "artist": "The Flight"
+  },
+  "tracks": [
+   558957922,
+   558957992,
+   558957892,
+   558958232,
+   558958142,
+   558958182,
+   558958082,
+   558957982,
+   558958032,
+   558958012,
+   558957942,
+   558958132
+  ]
+ },
+ {
+  "slug": "cyberpunk-2077",
+  "name": "Cyberpunk 2077",
+  "album": {
+   "id": 191001362,
+   "title": "Cyberpunk 2077 - Original Score",
+   "artist": "Marcin Przybyłowicz"
+  },
+  "tracks": [
+   1166095762,
+   1166096102,
+   1166095742,
+   1166095782,
+   1166096092,
+   1166095872,
+   1166095752,
+   1166095812,
+   1166095822,
+   1166095792,
+   1166095772,
+   1166095932
+  ]
+ },
+ {
+  "slug": "borderlands-2",
+  "name": "Borderlands 2",
+  "album": {
+   "id": 578128281,
+   "title": "Borderlands 2: Complete (Original Soundtrack)",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   2766337451,
+   2766337741,
+   2766337921,
+   2766337591,
+   2766337861,
+   2766338051,
+   2766338311,
+   2766337911,
+   2766337871,
+   2766338271,
+   2766338011,
+   2766337491
+  ]
+ },
+ {
+  "slug": "destiny-2",
+  "name": "Destiny 2",
+  "album": {
+   "id": 699326171,
+   "title": "Destiny 2 (Original Game Soundtrack)",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   3190994161,
+   3190994051,
+   3190994071,
+   3190994101,
+   3190994111,
+   3190994491,
+   3190994171,
+   3190994241,
+   3190994061,
+   3190994221,
+   3190994481,
+   3190994291
+  ]
+ },
+ {
+  "slug": "tomb-raider",
+  "name": "Tomb Raider",
+  "album": {
+   "id": 101520512,
+   "title": "Tomb Raider (Original Soundtrack)",
+   "artist": "Jason Graves"
+  },
+  "tracks": [
+   702583302,
+   702583122,
+   702583312,
+   702583132,
+   702583172,
+   702583142,
+   702583222,
+   702583212,
+   702583162,
+   702583152,
+   702583262,
+   702583272
+  ]
+ },
+ {
+  "slug": "star-wars-jedi-fallen-order",
+  "name": "Star Wars Jedi: Fallen Order",
+  "album": {
+   "id": 167428042,
+   "title": "Star Wars Jedi: Fallen Order (Original Video Game Soundtrack)",
+   "artist": "Stephen Barton"
+  },
+  "tracks": [
+   1052639802,
+   1052641402,
+   1052639882,
+   1052639892,
+   1052639832,
+   1052639812,
+   1052639862,
+   1052640292,
+   1052640642,
+   1052639922,
+   1052640152,
+   1052639842
+  ]
+ },
+ {
+  "slug": "firewatch",
+  "name": "Firewatch",
+  "album": {
+   "id": 77498972,
+   "title": "Firewatch (Original Score)",
+   "artist": "Chris Remo"
+  },
+  "tracks": [
+   579053812,
+   579053802,
+   579053822,
+   579053762,
+   579053792,
+   579053772,
+   579053922,
+   579053832,
+   579053892,
+   579053782,
+   579053932,
+   579053912
+  ]
+ },
+ {
+  "slug": "dishonored",
+  "name": "Dishonored",
+  "album": {
+   "id": 177427452,
+   "title": "Dishonored: Original Game Soundtrack",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   1098967252,
+   1098967262,
+   1098967142,
+   1098967152,
+   1098967192,
+   1098967242,
+   1098967202,
+   1098967182,
+   1098967232,
+   1098967172,
+   1098967212,
+   1098967222
+  ]
+ },
+ {
+  "slug": "deus-ex-human-revolution",
+  "name": "Deus Ex: Human Revolution",
+  "album": {
+   "id": 101537602,
+   "title": "Deus Ex: Human Revolution (Original Soundtrack)",
+   "artist": "Michael McCann"
+  },
+  "tracks": [
+   702655682,
+   702655702,
+   702655692,
+   702655742,
+   702655712,
+   702655832,
+   702655722,
+   702655792,
+   702655732,
+   702655842,
+   702655852,
+   702655802
+  ]
+ },
+ {
+  "slug": "control",
+  "name": "Control",
+  "album": {
+   "id": 578127191,
+   "title": "Control (Original Soundtrack)",
+   "artist": "Petri Alanko"
+  },
+  "tracks": [
+   2766333361,
+   2766333351,
+   2766333211,
+   2766333231,
+   2766333221,
+   2766333311,
+   2766333241,
+   2766333291,
+   2766333261,
+   2766333281,
+   2766333341,
+   2766333331
+  ]
+ },
+ {
+  "slug": "dark-souls",
+  "name": "Dark Souls",
+  "album": {
+   "id": 664124241,
+   "title": "Dark Souls (Original Game Soundtrack)",
+   "artist": "FROMSOFTWARE SOUND TEAM"
+  },
+  "tracks": [
+   3069067941,
+   3069067911,
+   3069067741,
+   3069067841,
+   3069067951,
+   3069068031,
+   3069068001,
+   3069068011,
+   3069067821,
+   3069067971,
+   3069067981,
+   3069067831
+  ]
+ },
+ {
+  "slug": "bloodborne",
+  "name": "Bloodborne",
+  "album": {
+   "id": 206840502,
+   "title": "Bloodborne Original Soundtrack",
+   "artist": "SIE Sound Team"
+  },
+  "tracks": [
+   1240321742,
+   1240321652,
+   1240321542,
+   1240321562,
+   1240321552,
+   1240321532,
+   1240321612,
+   1240321642,
+   1240321602,
+   1240321522,
+   1240321632,
+   1240321732
+  ]
+ },
+ {
+  "slug": "elden-ring",
+  "name": "Elden Ring",
+  "album": {
+   "id": 351595207,
+   "title": "ELDEN RING ORIGINAL SOUND TRACK",
+   "artist": "FROMSOFTWARE SOUND TEAM"
+  },
+  "tracks": [
+   1892294737,
+   1892295387,
+   1892295287,
+   1892295277,
+   1892295267,
+   1892295247,
+   1892295307,
+   1892295377,
+   1892294947,
+   1892294757,
+   1892294747,
+   1892294767
+  ]
+ },
+ {
+  "slug": "sonic-mania",
+  "name": "Sonic Mania",
+  "album": {
+   "id": 290990172,
+   "title": "Sonic Mania Original Sound Track(Selected Edition)",
+   "artist": "SEGA"
+  },
+  "tracks": [
+   1636316662,
+   1636316462,
+   1636316622,
+   1636316482,
+   1636316812,
+   1636316532,
+   1636316522,
+   1636316612,
+   1636316472,
+   1636316592,
+   1636316452,
+   1636316492
+  ]
+ },
+ {
+  "slug": "overwatch",
+  "name": "Overwatch",
+  "album": {
+   "id": 7544399,
+   "title": "Overwatch: Original Soundtrack",
+   "artist": "Sebastian Aav"
+  },
+  "tracks": [
+   76104822,
+   76104816,
+   76104821,
+   76104820,
+   76104823,
+   76104826,
+   76104828,
+   76104812,
+   76104817,
+   76104824,
+   76104825,
+   76104815
+  ]
+ },
+ {
+  "slug": "world-of-warcraft",
+  "name": "World of Warcraft",
+  "album": {
+   "id": 747092301,
+   "title": "World of Warcraft Original Soundtrack",
+   "artist": "World Of Warcraft"
+  },
+  "tracks": [
+   3338140701,
+   3338140571,
+   3338140581,
+   3338140631,
+   3338140851,
+   3338140641,
+   3338140791,
+   3338140621,
+   3338140601,
+   3338140721,
+   3338140611,
+   3338140591
+  ]
+ },
+ {
+  "slug": "diablo-iii",
+  "name": "Diablo III",
+  "album": {
+   "id": 746671041,
+   "title": "Diablo III Soundtrack",
+   "artist": "Diablo"
+  },
+  "tracks": [
+   3336979231,
+   3336979221,
+   3336979251,
+   3336979281,
+   3336979211,
+   3336979341,
+   3336979311,
+   3336979271,
+   3336979291,
+   3336979301,
+   3336979241,
+   3336979261
+  ]
+ },
+ {
+  "slug": "civilization-vi",
+  "name": "Civilization VI",
+  "album": {
+   "id": 760547131,
+   "title": "Sid Meier's Civilization VI (Original Game Soundtrack)",
+   "artist": "Christopher Tin"
+  },
+  "tracks": [
+   3378265881,
+   3378266201,
+   3378266161,
+   3378266211,
+   3378266481,
+   3378265961,
+   3378265861,
+   3378266261,
+   3378266171,
+   3378266281,
+   3378266251,
+   3378265981
+  ]
+ },
+ {
+  "slug": "it-takes-two",
+  "name": "It Takes Two",
+  "album": {
+   "id": 424119687,
+   "title": "It Takes Two (Original Game Soundtrack)",
+   "artist": "Gustaf Grefberg"
+  },
+  "tracks": [
+   2217441527,
+   2217441597,
+   2217441447,
+   2217441277,
+   2217441337,
+   2217441567,
+   2217441537,
+   2217441547,
+   2217441577,
+   2217441587,
+   2217441347,
+   2217441557
+  ]
+ },
+ {
+  "slug": "a-plague-tale-innocence",
+  "name": "A Plague Tale: Innocence",
+  "album": {
+   "id": 96611772,
+   "title": "A Plague Tale: Innocence (Original Soundtrack)",
+   "artist": "Olivier Deriviere"
+  },
+  "tracks": [
+   678593542,
+   678593532,
+   678593732,
+   678593752,
+   678593782,
+   678593672,
+   678593572,
+   678593712,
+   678593662,
+   678593552,
+   678593602,
+   678593562
+  ]
+ },
+ {
+  "slug": "clair-obscur-expedition-33",
+  "name": "Clair Obscur: Expedition 33",
+  "album": {
+   "id": 739483941,
+   "title": "Clair Obscur: Expedition 33 (Original Soundtrack)",
+   "artist": "Lorien Testard"
+  },
+  "tracks": [
+   3315246271,
+   3315246861,
+   3315246251,
+   3315246281,
+   3315246261,
+   3315247761,
+   3315247261,
+   3315247541,
+   3315247581,
+   3315247691,
+   3315246941,
+   3315246541
+  ]
+ }
+]
