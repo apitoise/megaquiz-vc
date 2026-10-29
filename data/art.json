@@ -1,0 +1,308 @@
+[
+ {
+  "slug": "la-joconde",
+  "title": "La Joconde",
+  "artist": "Léonard de Vinci",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_natural_color.jpg/1280px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_natural_color.jpg"
+ },
+ {
+  "slug": "la-cene",
+  "title": "La Cène",
+  "artist": "Léonard de Vinci",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg/1280px-Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg"
+ },
+ {
+  "slug": "la-nuit-etoilee",
+  "title": "La Nuit étoilée",
+  "artist": "Vincent van Gogh",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+ },
+ {
+  "slug": "les-tournesols",
+  "title": "Les Tournesols",
+  "artist": "Vincent van Gogh",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Vincent_Willem_van_Gogh_127.jpg/1280px-Vincent_Willem_van_Gogh_127.jpg"
+ },
+ {
+  "slug": "la-chambre-a-arles",
+  "title": "La Chambre à Arles",
+  "artist": "Vincent van Gogh",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg/1280px-Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg"
+ },
+ {
+  "slug": "le-cri",
+  "title": "Le Cri",
+  "artist": "Edvard Munch",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Edvard_Munch_-_The_Scream.jpg/1280px-Edvard_Munch_-_The_Scream.jpg"
+ },
+ {
+  "slug": "la-jeune-fille-a-la-perle",
+  "title": "La Jeune Fille à la perle",
+  "artist": "Johannes Vermeer",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/1280px-1665_Girl_with_a_Pearl_Earring.jpg"
+ },
+ {
+  "slug": "la-naissance-de-venus",
+  "title": "La Naissance de Vénus",
+  "artist": "Sandro Botticelli",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1280px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+ },
+ {
+  "slug": "le-printemps",
+  "title": "Le Printemps",
+  "artist": "Sandro Botticelli",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg/1280px-Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg"
+ },
+ {
+  "slug": "la-creation-d-adam",
+  "title": "La Création d'Adam",
+  "artist": "Michel-Ange",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Creaci%C3%B3n_de_Ad%C3%A1n.jpg/1280px-Creaci%C3%B3n_de_Ad%C3%A1n.jpg"
+ },
+ {
+  "slug": "impression-soleil-levant",
+  "title": "Impression, soleil levant",
+  "artist": "Claude Monet",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/1280px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg"
+ },
+ {
+  "slug": "les-coquelicots",
+  "title": "Les Coquelicots",
+  "artist": "Claude Monet",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Claude_Monet_-_Poppy_Field_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_Poppy_Field_-_Google_Art_Project.jpg"
+ },
+ {
+  "slug": "le-dejeuner-sur-l-herbe",
+  "title": "Le Déjeuner sur l'herbe",
+  "artist": "Édouard Manet",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/%C3%89douard_Manet_-_Le_D%C3%A9jeuner_sur_l%27herbe.jpg/1280px-%C3%89douard_Manet_-_Le_D%C3%A9jeuner_sur_l%27herbe.jpg"
+ },
+ {
+  "slug": "olympia",
+  "title": "Olympia",
+  "artist": "Édouard Manet",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Edouard_Manet_-_Olympia_-_Google_Art_Project_2.jpg/1280px-Edouard_Manet_-_Olympia_-_Google_Art_Project_2.jpg"
+ },
+ {
+  "slug": "la-liberte-guidant-le-peuple",
+  "title": "La Liberté guidant le peuple",
+  "artist": "Eugène Delacroix",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/1280px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg"
+ },
+ {
+  "slug": "le-radeau-de-la-meduse",
+  "title": "Le Radeau de La Méduse",
+  "artist": "Théodore Géricault",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg/1280px-JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg"
+ },
+ {
+  "slug": "la-ronde-de-nuit",
+  "title": "La Ronde de nuit",
+  "artist": "Rembrandt",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg/1280px-La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg"
+ },
+ {
+  "slug": "le-baiser",
+  "title": "Le Baiser",
+  "artist": "Gustav Klimt",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/1280px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+ },
+ {
+  "slug": "la-grande-vague-de-kanagawa",
+  "title": "La Grande Vague de Kanagawa",
+  "artist": "Hokusai",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/1280px-Tsunami_by_hokusai_19th_century.jpg"
+ },
+ {
+  "slug": "des-glaneuses",
+  "title": "Des glaneuses",
+  "artist": "Jean-François Millet",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg/1280px-Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg"
+ },
+ {
+  "slug": "le-sacre-de-napoleon",
+  "title": "Le Sacre de Napoléon",
+  "artist": "Jacques-Louis David",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Le_Sacre_de_Napol%C3%A9on_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3699_%3B_MR_1437.jpg/1280px-Le_Sacre_de_Napol%C3%A9on_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3699_%3B_MR_1437.jpg"
+ },
+ {
+  "slug": "la-mort-de-marat",
+  "title": "La Mort de Marat",
+  "artist": "Jacques-Louis David",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Death_of_Marat_by_David.jpg/1280px-Death_of_Marat_by_David.jpg"
+ },
+ {
+  "slug": "bal-du-moulin-de-la-galette",
+  "title": "Bal du moulin de la Galette",
+  "artist": "Auguste Renoir",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Renoir%2C_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette%2C_1876.jpg/1280px-Renoir%2C_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette%2C_1876.jpg"
+ },
+ {
+  "slug": "un-dimanche-apres-midi-a-l-ile-de-la-grande-jatte",
+  "title": "Un dimanche après-midi à l'Île de la Grande Jatte",
+  "artist": "Georges Seurat",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg/1280px-A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg"
+ },
+ {
+  "slug": "les-joueurs-de-cartes",
+  "title": "Les Joueurs de cartes",
+  "artist": "Paul Cézanne",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Les_Joueurs_de_cartes_-_Paul_C%C3%A9zanne.jpg/1280px-Les_Joueurs_de_cartes_-_Paul_C%C3%A9zanne.jpg"
+ },
+ {
+  "slug": "les-menines",
+  "title": "Les Ménines",
+  "artist": "Diego Velázquez",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/1280px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg"
+ },
+ {
+  "slug": "le-jardin-des-delices",
+  "title": "Le Jardin des délices",
+  "artist": "Jérôme Bosch",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/The_Garden_of_earthly_delights.jpg/1280px-The_Garden_of_earthly_delights.jpg"
+ },
+ {
+  "slug": "les-epoux-arnolfini",
+  "title": "Les Époux Arnolfini",
+  "artist": "Jan van Eyck",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/The_Arnolfini_portrait_%281434%29.jpg/1280px-The_Arnolfini_portrait_%281434%29.jpg"
+ },
+ {
+  "slug": "nighthawks",
+  "title": "Nighthawks",
+  "artist": "Edward Hopper",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Hopper_Nighthawks.jpg/1280px-Hopper_Nighthawks.jpg"
+ },
+ {
+  "slug": "le-voyageur-contemplant-une-mer-de-nuages",
+  "title": "Le Voyageur contemplant une mer de nuages",
+  "artist": "Caspar David Friedrich",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg/1280px-Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg"
+ },
+ {
+  "slug": "la-tour-de-babel",
+  "title": "La Tour de Babel",
+  "artist": "Pieter Bruegel l'Ancien",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project_-_edited.jpg/1280px-Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project_-_edited.jpg"
+ },
+ {
+  "slug": "l-ecole-d-athenes",
+  "title": "L'École d'Athènes",
+  "artist": "Raphaël",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/1280px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg"
+ },
+ {
+  "slug": "le-tricheur-a-l-as-de-carreau",
+  "title": "Le Tricheur à l'as de carreau",
+  "artist": "Georges de La Tour",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Le_Tricheur_%C3%A0_l%27as_de_carreau_-_Georges_de_La_Tour_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1972_8.jpg/1280px-Le_Tricheur_%C3%A0_l%27as_de_carreau_-_Georges_de_La_Tour_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1972_8.jpg"
+ },
+ {
+  "slug": "le-penseur",
+  "title": "Le Penseur",
+  "artist": "Auguste Rodin",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Le_Penseur_in_the_Jardin_du_Mus%C3%A9e_Rodin%2C_Paris_March_2014.jpg/1280px-Le_Penseur_in_the_Jardin_du_Mus%C3%A9e_Rodin%2C_Paris_March_2014.jpg"
+ },
+ {
+  "slug": "le-baiser-sculpture",
+  "title": "Le Baiser (sculpture)",
+  "artist": "Auguste Rodin",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Rodin_-_Le_Baiser_06.jpg/1280px-Rodin_-_Le_Baiser_06.jpg"
+ },
+ {
+  "slug": "les-bourgeois-de-calais",
+  "title": "Les Bourgeois de Calais",
+  "artist": "Auguste Rodin",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/The_Burghers_of_Calais_MET_DP221863.jpg/1280px-The_Burghers_of_Calais_MET_DP221863.jpg"
+ },
+ {
+  "slug": "david",
+  "title": "David",
+  "artist": "Michel-Ange",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/%27David%27_by_Michelangelo_Fir_JBU004.jpg/1280px-%27David%27_by_Michelangelo_Fir_JBU004.jpg"
+ },
+ {
+  "slug": "la-pieta",
+  "title": "La Pietà",
+  "artist": "Michel-Ange",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Michelangelo%27s_Piet%C3%A0%2C_St_Peter%27s_Basilica_%281498%E2%80%9399%29.jpg/1280px-Michelangelo%27s_Piet%C3%A0%2C_St_Peter%27s_Basilica_%281498%E2%80%9399%29.jpg"
+ },
+ {
+  "slug": "moise",
+  "title": "Moïse",
+  "artist": "Michel-Ange",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Michelangelo%27s_Moses_%28Rome%29.jpg/1280px-Michelangelo%27s_Moses_%28Rome%29.jpg"
+ },
+ {
+  "slug": "venus-de-milo",
+  "title": "Vénus de Milo",
+  "artist": null,
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg/1280px-V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg"
+ },
+ {
+  "slug": "victoire-de-samothrace",
+  "title": "Victoire de Samothrace",
+  "artist": null,
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg/1280px-Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg"
+ },
+ {
+  "slug": "le-discobole",
+  "title": "Le Discobole",
+  "artist": "Myron",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG/1280px-Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG"
+ },
+ {
+  "slug": "laocoon-et-ses-fils",
+  "title": "Laocoon et ses fils",
+  "artist": null,
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Laoco%C3%B6n_and_his_sons_group.jpg/1280px-Laoco%C3%B6n_and_his_sons_group.jpg"
+ },
+ {
+  "slug": "l-extase-de-sainte-therese",
+  "title": "L'Extase de sainte Thérèse",
+  "artist": "Le Bernin",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Ecstasy_of_Saint_Teresa_September_2015-2a.jpg/1280px-Ecstasy_of_Saint_Teresa_September_2015-2a.jpg"
+ },
+ {
+  "slug": "apollon-et-daphne",
+  "title": "Apollon et Daphné",
+  "artist": "Le Bernin",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Apollo_and_Daphne_%28Bernini%29_%28cropped%29.jpg/1280px-Apollo_and_Daphne_%28Bernini%29_%28cropped%29.jpg"
+ },
+ {
+  "slug": "la-petite-danseuse-de-quatorze-ans",
+  "title": "La Petite Danseuse de quatorze ans",
+  "artist": "Edgar Degas",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Danseuse2_degas_Musee_Orsay.jpg/1280px-Danseuse2_degas_Musee_Orsay.jpg"
+ },
+ {
+  "slug": "buste-de-nefertiti",
+  "title": "Buste de Néfertiti",
+  "artist": null,
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Nofretete_Neues_Museum.jpg/1280px-Nofretete_Neues_Museum.jpg"
+ },
+ {
+  "slug": "masque-funeraire-de-toutankhamon",
+  "title": "Masque funéraire de Toutânkhamon",
+  "artist": null,
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CairoEgMuseumTaaMaskMostlyPhotographed.jpg/1280px-CairoEgMuseumTaaMaskMostlyPhotographed.jpg"
+ },
+ {
+  "slug": "le-depart-des-volontaires-de-1792-la-marseillaise",
+  "title": "Le Départ des volontaires de 1792 (La Marseillaise)",
+  "artist": "François Rude",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Le_D%C3%A9part_des_volontaires_de_1792_by_Fran%C3%A7ois_Rude%2C_Paris_14_June_2015.jpg/1280px-Le_D%C3%A9part_des_volontaires_de_1792_by_Fran%C3%A7ois_Rude%2C_Paris_14_June_2015.jpg"
+ },
+ {
+  "slug": "venus-de-willendorf",
+  "title": "Vénus de Willendorf",
+  "artist": null,
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Venus_of_Willendorf_03.jpg/1280px-Venus_of_Willendorf_03.jpg"
+ },
+ {
+  "slug": "le-scribe-accroupi",
+  "title": "Le Scribe accroupi",
+  "artist": null,
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Le_Scribe_accroupi_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_%C3%A9gyptiennes_E_3023.jpg/1280px-Le_Scribe_accroupi_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_%C3%A9gyptiennes_E_3023.jpg"
+ }
+]

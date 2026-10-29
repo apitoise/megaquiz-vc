@@ -1,0 +1,356 @@
+[
+ {
+  "slug": "tour-eiffel",
+  "name": "Tour Eiffel",
+  "place": "Paris, France",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/1280px-Tour_Eiffel_Wikimedia_Commons.jpg"
+ },
+ {
+  "slug": "statue-de-la-liberte",
+  "name": "Statue de la Liberté",
+  "place": "New York, États-Unis",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Statue_of_Liberty%2C_statue%2C_Liberty_Island%2C_New_York.jpg/1280px-Statue_of_Liberty%2C_statue%2C_Liberty_Island%2C_New_York.jpg"
+ },
+ {
+  "slug": "colisee",
+  "name": "Colisée",
+  "place": "Rome, Italie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg"
+ },
+ {
+  "slug": "taj-mahal",
+  "name": "Taj Mahal",
+  "place": "Agra, Inde",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg/1280px-Taj_Mahal%2C_Agra%2C_India_edit3.jpg"
+ },
+ {
+  "slug": "grande-muraille",
+  "name": "Grande Muraille",
+  "place": "Chine",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Great_Wall_of_China_July_2006.JPG/1280px-Great_Wall_of_China_July_2006.JPG"
+ },
+ {
+  "slug": "machu-picchu",
+  "name": "Machu Picchu",
+  "place": "Pérou",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Before_Machu_Picchu.jpg/1280px-Before_Machu_Picchu.jpg"
+ },
+ {
+  "slug": "pyramides-de-gizeh",
+  "name": "Pyramides de Gizeh",
+  "place": "Égypte",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/1280px-All_Gizah_Pyramids.jpg"
+ },
+ {
+  "slug": "grand-sphinx",
+  "name": "Grand Sphinx",
+  "place": "Gizeh, Égypte",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/The_amazing_Sphinx.jpg/1280px-The_amazing_Sphinx.jpg"
+ },
+ {
+  "slug": "big-ben",
+  "name": "Big Ben",
+  "place": "Londres, Royaume-Uni",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Elizabeth_Tower_and_the_north_front_of_the_Palace_of_Westminster%2C_London.jpg/1280px-Elizabeth_Tower_and_the_north_front_of_the_Palace_of_Westminster%2C_London.jpg"
+ },
+ {
+  "slug": "tower-bridge",
+  "name": "Tower Bridge",
+  "place": "Londres, Royaume-Uni",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Tower_Bridge_at_dawn_24-01-2015.jpg/1280px-Tower_Bridge_at_dawn_24-01-2015.jpg"
+ },
+ {
+  "slug": "tour-de-londres",
+  "name": "Tour de Londres",
+  "place": "Londres, Royaume-Uni",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Tower_of_London_from_the_Shard_%288515883950%29.jpg/1280px-Tower_of_London_from_the_Shard_%288515883950%29.jpg"
+ },
+ {
+  "slug": "sagrada-familia",
+  "name": "Sagrada Família",
+  "place": "Barcelone, Espagne",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/SF_maig_2026.jpg/1280px-SF_maig_2026.jpg"
+ },
+ {
+  "slug": "parthenon",
+  "name": "Parthénon",
+  "place": "Athènes, Grèce",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/The_Parthenon_in_Athens.jpg"
+ },
+ {
+  "slug": "tour-de-pise",
+  "name": "Tour de Pise",
+  "place": "Pise, Italie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Exterior_of_the_Leaning_Tower_%28Pisa%29_in_April_2024.jpg/1280px-Exterior_of_the_Leaning_Tower_%28Pisa%29_in_April_2024.jpg"
+ },
+ {
+  "slug": "mont-saint-michel",
+  "name": "Mont-Saint-Michel",
+  "place": "Normandie, France",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Mont_St_Michel_in_the_afternoon.jpg/1280px-Mont_St_Michel_in_the_afternoon.jpg"
+ },
+ {
+  "slug": "arc-de-triomphe-de-l-etoile",
+  "name": "Arc de triomphe de l'Étoile",
+  "place": "Paris, France",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Arc_de_Triomphe_-_Ao%C3%BBt_2026.jpg/1280px-Arc_de_Triomphe_-_Ao%C3%BBt_2026.jpg"
+ },
+ {
+  "slug": "cathedrale-notre-dame-de-paris",
+  "name": "Cathédrale Notre-Dame de Paris",
+  "place": "Paris, France",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Notre-Dame_de_Paris_2013-07-24.jpg/1280px-Notre-Dame_de_Paris_2013-07-24.jpg"
+ },
+ {
+  "slug": "basilique-du-sacre-c-ur",
+  "name": "Basilique du Sacré-Cœur",
+  "place": "Paris, France",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Sacr%C3%A9_Coeur_Fa%C3%A7ade_1.jpg/1280px-Sacr%C3%A9_Coeur_Fa%C3%A7ade_1.jpg"
+ },
+ {
+  "slug": "pyramide-du-louvre",
+  "name": "Pyramide du Louvre",
+  "place": "Paris, France",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Louvre_museum_01.jpg/1280px-Louvre_museum_01.jpg"
+ },
+ {
+  "slug": "chateau-de-versailles",
+  "name": "Château de Versailles",
+  "place": "Versailles, France",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Vue_a%C3%A9rienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_083.jpg/1280px-Vue_a%C3%A9rienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_083.jpg"
+ },
+ {
+  "slug": "pont-du-gard",
+  "name": "Pont du Gard",
+  "place": "Gard, France",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Pont_du_Gard_%2830%29.jpg/1280px-Pont_du_Gard_%2830%29.jpg"
+ },
+ {
+  "slug": "chateau-de-chambord",
+  "name": "Château de Chambord",
+  "place": "Loir-et-Cher, France",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Chambord_Castle_Northwest_facade.jpg/1280px-Chambord_Castle_Northwest_facade.jpg"
+ },
+ {
+  "slug": "opera-de-sydney",
+  "name": "Opéra de Sydney",
+  "place": "Sydney, Australie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Sydney_Opera_House_from_Circular_Quay%2C_2023%2C_10.jpg/1280px-Sydney_Opera_House_from_Circular_Quay%2C_2023%2C_10.jpg"
+ },
+ {
+  "slug": "golden-gate-bridge",
+  "name": "Golden Gate Bridge",
+  "place": "San Francisco, États-Unis",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/GG-ftpoint-bridge-2.jpg/1280px-GG-ftpoint-bridge-2.jpg"
+ },
+ {
+  "slug": "empire-state-building",
+  "name": "Empire State Building",
+  "place": "New York, États-Unis",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Empire_State_Building_%28aerial_view%29.jpg"
+ },
+ {
+  "slug": "pont-de-brooklyn",
+  "name": "Pont de Brooklyn",
+  "place": "New York, États-Unis",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Brooklyn_Bridge_and_the_Lower_Manhattan_skyline_from_Pebble_Beach%2C_New_York.jpg/1280px-Brooklyn_Bridge_and_the_Lower_Manhattan_skyline_from_Pebble_Beach%2C_New_York.jpg"
+ },
+ {
+  "slug": "mont-rushmore",
+  "name": "Mont Rushmore",
+  "place": "Dakota du Sud, États-Unis",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Mount_Rushmore_detail_view_%28100MP%29.jpg/1280px-Mount_Rushmore_detail_view_%28100MP%29.jpg"
+ },
+ {
+  "slug": "grand-canyon",
+  "name": "Grand Canyon",
+  "place": "Arizona, États-Unis",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Grand_Canyon_North.jpg/1280px-Grand_Canyon_North.jpg"
+ },
+ {
+  "slug": "chutes-du-niagara",
+  "name": "Chutes du Niagara",
+  "place": "Canada et États-Unis",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Niagara_Falls_Sunset_%28cropped%29.jpg/1280px-Niagara_Falls_Sunset_%28cropped%29.jpg"
+ },
+ {
+  "slug": "tour-cn",
+  "name": "Tour CN",
+  "place": "Toronto, Canada",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Toronto_-_ON_-_Toronto_Harbourfront7.jpg/1280px-Toronto_-_ON_-_Toronto_Harbourfront7.jpg"
+ },
+ {
+  "slug": "chateau-frontenac",
+  "name": "Château Frontenac",
+  "place": "Québec, Canada",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Fairmont_Le_Ch%C3%A2teau_Frontenac_in_2026.jpg/1280px-Fairmont_Le_Ch%C3%A2teau_Frontenac_in_2026.jpg"
+ },
+ {
+  "slug": "kremlin",
+  "name": "Kremlin",
+  "place": "Moscou, Russie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Moscow_05-2012_Kremlin_22.jpg/1280px-Moscow_05-2012_Kremlin_22.jpg"
+ },
+ {
+  "slug": "cathedrale-saint-basile",
+  "name": "Cathédrale Saint-Basile",
+  "place": "Moscou, Russie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Moscow_05-2012_StBasilCathedral.jpg/1280px-Moscow_05-2012_StBasilCathedral.jpg"
+ },
+ {
+  "slug": "petra",
+  "name": "Pétra",
+  "place": "Jordanie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/View_of_Petra.jpg/1280px-View_of_Petra.jpg"
+ },
+ {
+  "slug": "angkor-vat",
+  "name": "Angkor Vat",
+  "place": "Cambodge",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Angkor_wat_2025_reflet.jpg/1280px-Angkor_wat_2025_reflet.jpg"
+ },
+ {
+  "slug": "stonehenge",
+  "name": "Stonehenge",
+  "place": "Angleterre, Royaume-Uni",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/1280px-Stonehenge2007_07_30.jpg"
+ },
+ {
+  "slug": "chateau-de-neuschwanstein",
+  "name": "Château de Neuschwanstein",
+  "place": "Bavière, Allemagne",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Schloss_Neuschwanstein_2013.jpg/1280px-Schloss_Neuschwanstein_2013.jpg"
+ },
+ {
+  "slug": "porte-de-brandebourg",
+  "name": "Porte de Brandebourg",
+  "place": "Berlin, Allemagne",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Berlin_-_0266_-_16052015_-_Brandenburger_Tor.jpg/1280px-Berlin_-_0266_-_16052015_-_Brandenburger_Tor.jpg"
+ },
+ {
+  "slug": "cathedrale-de-cologne",
+  "name": "Cathédrale de Cologne",
+  "place": "Cologne, Allemagne",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/K%C3%B6lner_Dom_-_Westfassade_2022_ohne_Ger%C3%BCst-0968.jpg/1280px-K%C3%B6lner_Dom_-_Westfassade_2022_ohne_Ger%C3%BCst-0968.jpg"
+ },
+ {
+  "slug": "basilique-saint-pierre",
+  "name": "Basilique Saint-Pierre",
+  "place": "Vatican",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg/1280px-Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg"
+ },
+ {
+  "slug": "fontaine-de-trevi",
+  "name": "Fontaine de Trevi",
+  "place": "Rome, Italie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Trevi_Fountain_-_Roma.jpg/1280px-Trevi_Fountain_-_Roma.jpg"
+ },
+ {
+  "slug": "place-saint-marc",
+  "name": "Place Saint-Marc",
+  "place": "Venise, Italie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Piazza_San_Marco_%28Venice%29_at_night-msu-2021-6449-.jpg/1280px-Piazza_San_Marco_%28Venice%29_at_night-msu-2021-6449-.jpg"
+ },
+ {
+  "slug": "alhambra",
+  "name": "Alhambra",
+  "place": "Grenade, Espagne",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg/1280px-Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg"
+ },
+ {
+  "slug": "cite-interdite",
+  "name": "Cité interdite",
+  "place": "Pékin, Chine",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/%E6%99%AF%E5%B1%B1%E5%85%AC%E5%9B%AD_%2820315852831%29-_cropped.jpg/1280px-%E6%99%AF%E5%B1%B1%E5%85%AC%E5%9B%AD_%2820315852831%29-_cropped.jpg"
+ },
+ {
+  "slug": "palais-du-potala",
+  "name": "Palais du Potala",
+  "place": "Lhassa, Chine",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Potala_Palace%2C_August_2009.jpg/1280px-Potala_Palace%2C_August_2009.jpg"
+ },
+ {
+  "slug": "mont-fuji",
+  "name": "Mont Fuji",
+  "place": "Japon",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Fuji_Kawaguchi_357.JPG/1280px-Fuji_Kawaguchi_357.JPG"
+ },
+ {
+  "slug": "chichen-itza",
+  "name": "Chichén Itzá",
+  "place": "Yucatán, Mexique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/El_Castillo_Stitch_2008_Edit_1.jpg/1280px-El_Castillo_Stitch_2008_Edit_1.jpg"
+ },
+ {
+  "slug": "atomium",
+  "name": "Atomium",
+  "place": "Bruxelles, Belgique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/The_Atomium_during_civil_twilight_%28DSCF1135%29.jpg/1280px-The_Atomium_during_civil_twilight_%28DSCF1135%29.jpg"
+ },
+ {
+  "slug": "manneken-pis",
+  "name": "Manneken-Pis",
+  "place": "Bruxelles, Belgique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bruxelles_Manneken_Pis_cropped.jpg/1280px-Bruxelles_Manneken_Pis_cropped.jpg"
+ },
+ {
+  "slug": "moai-de-l-ile-de-paques",
+  "name": "Moaï de l'île de Pâques",
+  "place": "Île de Pâques, Chili",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Ahu_Tongariki.jpg/1280px-Ahu_Tongariki.jpg"
+ },
+ {
+  "slug": "uluru",
+  "name": "Uluru",
+  "place": "Australie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Uluru%2C_helicopter_view%2C_cropped.jpg/1280px-Uluru%2C_helicopter_view%2C_cropped.jpg"
+ },
+ {
+  "slug": "sainte-sophie",
+  "name": "Sainte-Sophie",
+  "place": "Istanbul, Turquie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/1280px-Hagia_Sophia_%28228968325%29.jpeg"
+ },
+ {
+  "slug": "musee-guggenheim",
+  "name": "Musée Guggenheim",
+  "place": "Bilbao, Espagne",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Museo_Guggenheim%2C_Bilbao_%2831273245344%29.jpg/1280px-Museo_Guggenheim%2C_Bilbao_%2831273245344%29.jpg"
+ },
+ {
+  "slug": "temple-d-or",
+  "name": "Temple d'Or",
+  "place": "Amritsar, Inde",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Hamandir_Sahib_%28Golden_Temple%29.jpg/1280px-Hamandir_Sahib_%28Golden_Temple%29.jpg"
+ },
+ {
+  "slug": "pont-charles",
+  "name": "Pont Charles",
+  "place": "Prague, Tchéquie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Puente_Carlos%2C_Praga%2C_Rep%C3%BAblica_Checa%2C_2022-07-02%2C_DD_215.jpg/1280px-Puente_Carlos%2C_Praga%2C_Rep%C3%BAblica_Checa%2C_2022-07-02%2C_DD_215.jpg"
+ },
+ {
+  "slug": "montagne-de-la-table",
+  "name": "Montagne de la Table",
+  "place": "Le Cap, Afrique du Sud",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/View_from_Signal_Hill.jpg"
+ },
+ {
+  "slug": "santorin",
+  "name": "Santorin",
+  "place": "Grèce",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Santorini_Montage_L.png"
+ },
+ {
+  "slug": "space-needle",
+  "name": "Space Needle",
+  "place": "Seattle, États-Unis",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Space_Needle_2011-07-04.jpg/1280px-Space_Needle_2011-07-04.jpg"
+ },
+ {
+  "slug": "viaduc-de-millau",
+  "name": "Viaduc de Millau",
+  "place": "Aveyron, France",
+  "image": "https://thumb.wikimedia.org/wikipedia/fr/thumb/a/a6/ViaducdeMillau.jpg/1280px-ViaducdeMillau.jpg"
+ }
+]

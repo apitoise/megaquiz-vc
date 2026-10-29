@@ -14,6 +14,9 @@ interface TriviaData {
   questions: TriviaQuestion[];
 }
 
+/** Rythme de la culture générale dans une partie : une question sur TRIVIA_EVERY. */
+export const TRIVIA_EVERY = 5;
+
 let labels: Record<string, string> = {};
 
 export const trivia = poolProvider<TriviaQuestion>({

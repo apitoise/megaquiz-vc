@@ -38,3 +38,24 @@ export function planThemes(themeIds: readonly string[], count: number, rng: Rng 
   }
   return sequence;
 }
+
+/** Un thème placé à intervalle fixe (ex. culture générale toutes les 5 questions). */
+export interface Rhythm {
+  theme: string;
+  every: number;
+}
+
+/**
+ * Plan avec rythme : le thème du rythme occupe les places every, 2·every…, les autres thèmes se
+ * partagent équitablement le reste. Sans rythme applicable (thème absent ou seul), plan ordinaire.
+ */
+export function planWithRhythm(themeIds: readonly string[], count: number, rhythm: Rhythm | null, rng: Rng = Math.random): string[] {
+  if (!rhythm || rhythm.every < 2 || !themeIds.includes(rhythm.theme) || themeIds.length < 2) return planThemes(themeIds, count, rng);
+  const slots = Math.floor(count / rhythm.every);
+  const others = planThemes(
+    themeIds.filter((id) => id !== rhythm.theme),
+    count - slots,
+    rng,
+  );
+  return Array.from({ length: count }, (_, i) => ((i + 1) % rhythm.every === 0 ? rhythm.theme : others.shift()!));
+}

@@ -1,5 +1,5 @@
 import { PoolExhaustedError, type Question, type QuestionProvider } from "../types.ts";
-import { planThemes } from "./plan.ts";
+import { planThemes, planWithRhythm, type Rhythm } from "./plan.ts";
 import type { Rng } from "./random.ts";
 
 /** Ce qu'il faut pour jouer l'audio d'une question (un HTMLAudioElement en pratique). */
@@ -37,6 +37,8 @@ export interface SourceOptions {
   blacklist: Set<string>;
   onNotice?: (message: string) => void;
   rng?: Rng;
+  /** Thème placé à intervalle fixe (culture générale toutes les 5 questions). */
+  rhythm?: Rhythm;
 }
 
 /**
@@ -59,7 +61,7 @@ export class QuestionSource {
   constructor(options: SourceOptions) {
     this.options = options;
     this.providers = new Map(options.providers.map((p) => [p.id, p]));
-    this.queue = planThemes([...this.providers.keys()], options.count, options.rng);
+    this.queue = planWithRhythm([...this.providers.keys()], options.count, options.rhythm ?? null, options.rng);
   }
 
   /** Nombre de questions encore à fournir. */

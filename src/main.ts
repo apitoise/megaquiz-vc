@@ -5,6 +5,7 @@ import { QuestionSource } from "./game/source.ts";
 import { GameStorage, memoryStore, type KeyValueStore } from "./game/storage.ts";
 import { covers, loadCoverManifest, loadCoverReviews, saveCoverReview } from "./providers/covers.ts";
 import { providers } from "./providers/index.ts";
+import { trivia, TRIVIA_EVERY } from "./providers/trivia.ts";
 import { renderCoverReview } from "./ui/cover-review.ts";
 import type { QuestionProvider, Settings } from "./types.ts";
 import { h, toast } from "./ui/dom.ts";
@@ -143,6 +144,8 @@ async function startGame(settings: Settings): Promise<void> {
     recent: storage.recentQuestionIds(),
     blacklist: storage.blacklist(),
     onNotice: toast,
+    // Si le thème est coché : une question de culture générale toutes les 5 questions.
+    rhythm: { theme: trivia.id, every: TRIVIA_EVERY },
   });
   const session = new GameSession(settings, source, storage, { onNotice: toast });
   const unmount = mountGame(root, session, themeLabels);

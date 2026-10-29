@@ -684,3 +684,10 @@ kbd {
   max-width: 28ch;
   line-height: 1.2;
 }
+/* Résumés : énoncé long, plus petit pour tenir à l'écran. */
+.stage.text-question.long-text .prompt {
+  font-size: clamp(20px, 2.3vw, 44px);
+  font-weight: 600;
+  max-width: 46ch;
+  line-height: 1.3;
+}

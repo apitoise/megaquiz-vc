@@ -38,13 +38,20 @@ Les pools stables sont versionnés dans `data/` ; `npm run build-pools` les rég
 | `data/ost_games.json` | **curé à la main** : jeux candidats au thème OST (`match` pour préciser le titre attendu, `album` pour imposer un album Deezer) | — |
 | `data/ost.json` / `data/ost_coverage.json` | albums d'OST validés et pistes ; rapport de couverture (ok / douteux / absent) | recherche d'albums Deezer |
 | `data/music.json` | ~3 400 tubes en 7 styles (rap, rock, dance, soul, variété, rétro, tubes) | chart + playlists éditoriales Deezer (liste dans `scripts/pools/music.ts`) |
-| `data/trivia_fr.json` | **rédigé à la main** : ~240 questions de culture générale en 9 catégories | — |
+| `data/trivia_fr.json` | **rédigé à la main** : ~380 questions de culture générale en 9 catégories | — |
+| `data/summaries_fr.json` | **rédigé à la main** : 100 résumés de livres, films, séries et jeux vidéo | — |
+| `data/art_curated.json`, `data/landmarks_curated.json` | **curés à la main** : œuvres (titre, artiste) et lieux (nom, ville/pays), avec l'article Wikipédia ; `exclude` écarte une image jugée inutilisable | — |
+| `data/art.json`, `data/landmarks.json` | images vérifiées (créateur Wikidata = artiste attendu ; coordonnées pour un lieu) | Wikipédia FR + Wikidata (sans clé) |
 | `data/ost_films.json`, `data/ost_series.json` | **curés à la main** : films et séries candidats (`match`, `album`, ou `track` pour un générique précis) | — |
 | `data/film_music.json`, `data/series_music.json` (+ `_coverage`) | musiques de films et séries validées, rapport de couverture | recherche Deezer |
 
 Films et séries : TMDB n'est appelé que par `npm run build-pools -- films series` (jeton `TMDB_READ_TOKEN` du `.env`, à créer sur themoviedb.org → Paramètres → API). TMDB classe « sans langue » les affiches et images sans texte : le thème affiches n'utilise que celles-là (pas besoin d'anonymisation). Les séries jeunesse, téléréalité, talk-shows, soaps et l'anime sont écartés. En partie, les images viennent directement de `image.tmdb.org`, sans clé ; à la révélation, l'affiche officielle s'affiche en vignette.
 
 Jeux vidéo : IGDB n'est appelé que par `npm run build-pools -- games` (identifiants Twitch du `.env`, token mis en cache et renouvelé dans `server/igdb.ts`). En partie, les images viennent directement de `images.igdb.com`, sans clé. Le seuil est `MIN_RATING_COUNT` dans `scripts/pools/games.ts`. Beaucoup de jaquettes affichent le nom du jeu : défaut accepté.
+
+Culture générale : si le thème est coché, il occupe une question sur 5 (5e, 10e, 15e…, `TRIVIA_EVERY` dans `src/providers/trivia.ts`), les autres thèmes se partageant le reste.
+
+Art et monuments : `npm run build-pools -- art landmarks`. Les œuvres encore protégées par le droit d'auteur n'ont pas d'image sur Wikipédia et sont écartées automatiquement.
 
 Tirage équilibré : les capitales alternent les continents, la musique les styles, la culture générale les catégories (un groupe tiré à parts égales, jamais deux fois de suite). Les formes de pays se limitent à l'Europe et aux Amériques (`SHAPE_REGIONS` dans `src/providers/shapes.ts`).
 

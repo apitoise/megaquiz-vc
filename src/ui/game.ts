@@ -73,7 +73,10 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
 
     const multi = (question?.answers.length ?? 0) > 1;
     const textQuestion = question?.media.type === "text";
-    const stage = h("main", { class: `stage ${revealed ? "revealed" : ""} ${multi ? "multi" : ""} ${textQuestion ? "text-question" : ""}` });
+    const longText = textQuestion && (question?.prompt.length ?? 0) > 110;
+    const stage = h("main", {
+      class: `stage ${revealed ? "revealed" : ""} ${multi ? "multi" : ""} ${textQuestion ? "text-question" : ""} ${longText ? "long-text" : ""}`,
+    });
     if (phase === "loading" || !question || !round) {
       stage.append(
         session.waiting
