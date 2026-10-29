@@ -52,6 +52,12 @@ Drapeaux : `https://flagcdn.com/w640/{code}.png`, chargés en direct. Le seuil d
 
 Chaque action existe aussi en bouton. L'écran de configuration permet aussi de remettre en jeu les questions retirées et d'oublier l'historique des 3 dernières parties.
 
+## Classement
+
+Chaque partie terminée est enregistrée par le serveur local dans `saves/results.json` (hors git, propre à cette machine). Le classement compte, par joueur : parties jouées, victoires, nuls, défaites, points marqués / encaissés et **différence de points cumulée** ; il est trié par victoires, puis différence, puis points marqués. Il s'affiche en fin de partie et via le bouton « Classement » de la configuration, avec l'historique des dernières parties et leur écart.
+
+Les joueurs sont reconnus par leur nom (casse ignorée). Une partie arrêtée avec « Terminer » apparaît dans l'historique mais ne compte pas au classement. Pour repartir de zéro : supprimer `saves/results.json`.
+
 ## Robustesse
 
 - La question suivante est préchargée pendant la question en cours ; un média qui ne charge pas (ou un extrait audio qui coupe) est remplacé automatiquement, avec un message discret.

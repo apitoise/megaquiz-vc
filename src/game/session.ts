@@ -34,6 +34,8 @@ export class GameSession {
   readonly rounds: Round[] = [];
   /** Plus aucun thème ne répond : la partie attend le retour du réseau. */
   waiting = false;
+  /** Partie arrêtée avec « Terminer » (elle ne compte pas au classement). */
+  endedByUser = false;
 
   /** Départ effectif de l'extrait audio en cours (ajusté à la durée du timer). */
   private startAt = 0;
@@ -144,7 +146,9 @@ export class GameSession {
   }
 
   /** Termine la partie immédiatement (questions déjà jugées conservées). */
-  finish(): void {
+  finish(byUser = false): void {
+    if (this.phase === "finished") return;
+    this.endedByUser = byUser;
     if (this.advanceTimer !== null) clearTimeout(this.advanceTimer);
     this.advanceTimer = null;
     this.stopCurrent();

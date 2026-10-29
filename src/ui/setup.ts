@@ -8,6 +8,7 @@ export interface SetupOptions {
   historySize: number;
   clearBlacklist(): void;
   clearHistory(): void;
+  showLeaderboard(): void;
 }
 
 /** Écran de configuration. Appelle `options.start` avec les réglages validés. */
@@ -47,6 +48,7 @@ export function renderSetup(root: HTMLElement, providers: QuestionProvider[], in
     h(
       "div",
       { class: "setup-tools" },
+      actionButton(null, "Classement", options.showLeaderboard, "small"),
       actionButton(null, "Plein écran", toggleFullscreen, "small ghost"),
       h(
         "span",

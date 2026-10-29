@@ -465,6 +465,65 @@ kbd {
   border-collapse: collapse;
   font-size: 0.9em;
 }
+.end h2 {
+  align-self: flex-start;
+  margin: 0.6em 0 0;
+  font-size: 1.1em;
+}
+.end > section,
+.leaderboard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.muted {
+  color: var(--muted);
+  margin: 0;
+}
+.standings,
+.history {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+.standings th,
+.standings td,
+.history th,
+.history td {
+  text-align: left;
+  padding: 0.35em 0.6em;
+  border-bottom: 1px solid var(--panel-2);
+}
+.standings th,
+.history th {
+  color: var(--muted);
+  font-weight: 600;
+}
+.standings .name {
+  font-weight: 700;
+}
+.standings .wins {
+  font-weight: 800;
+  color: var(--accent);
+}
+.standings .pos {
+  color: #5fd38d;
+}
+.standings .neg {
+  color: var(--p1);
+}
+.history {
+  font-size: 0.85em;
+}
+.history .interrupted {
+  color: var(--muted);
+  font-style: italic;
+}
+.history .latest td {
+  background: var(--panel);
+  font-weight: 700;
+}
 .recap th,
 .recap td {
   text-align: left;

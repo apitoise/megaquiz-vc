@@ -2,5 +2,7 @@ node_modules/
 dist/
 .env
 .cache/
+# Résultats des parties (classement), propres à cette machine.
+saves/
 *.log
 .claude/

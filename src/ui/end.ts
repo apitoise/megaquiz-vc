@@ -9,10 +9,13 @@ export function renderEnd(
   players: [string, string],
   themeLabels: Map<string, string>,
   actions: { replay: () => void; setup: () => void },
+  /** Emplacement du classement, rempli une fois la partie enregistrée. */
+  leaderboard: HTMLElement,
+  interrupted: boolean,
 ): void {
   const scores = computeScores(rounds);
   const result = outcome(scores);
-  const headline = result.kind === "draw" ? "Égalité !" : `${players[result.player]} gagne !`;
+  const headline = interrupted ? "Partie interrompue" : result.kind === "draw" ? "Égalité !" : `${players[result.player]} gagne !`;
   const who = (j: Judgment | null) =>
     j === null || j === "none" ? h("span", { class: "who none" }, "—") : h("span", { class: `who p${j}` }, players[j]);
 
@@ -51,6 +54,8 @@ export function renderEnd(
         h("div", { class: "final p1" }, players[1], h("strong", {}, scores[1])),
       ),
       h("div", { class: "end-actions" }, actionButton(null, "Rejouer", actions.replay, "primary big"), actionButton(null, "Configuration", actions.setup, "big ghost")),
+      leaderboard,
+      h("h2", {}, "Récapitulatif"),
       rounds.length
         ? h("table", { class: "recap" }, h("thead", {}, h("tr", {}, h("th", {}, "#"), h("th", {}, "Thème"), h("th", {}, "Réponse et point"))), h("tbody", {}, ...rows))
         : h("p", {}, "Aucune question jouée."),

@@ -66,7 +66,7 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
         actionButton("P", session.paused ? "Reprendre" : "Pause", () => session.togglePause(), "small"),
         actionButton("F", "Plein écran", toggleFullscreen, "small ghost"),
         actionButton(null, "Terminer", () => {
-          if (confirm("Terminer la partie maintenant ?")) session.finish();
+          if (confirm("Terminer la partie maintenant ? Elle ne comptera pas au classement.")) session.finish(true);
         }, "small ghost"),
       ),
     );
