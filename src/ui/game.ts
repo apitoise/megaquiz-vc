@@ -2,6 +2,7 @@ import { keyToAction, type Action } from "../game/keys.ts";
 import type { GameSession } from "../game/session.ts";
 import type { Judgment, Media, Question } from "../types.ts";
 import { actionButton, h, toggleFullscreen } from "./dom.ts";
+import { judgmentSound, revealSound, soundEnabled, tick, toggleSound } from "./sound.ts";
 
 /** Affiche la partie et branche clavier + souris. Renvoie une fonction de nettoyage. */
 export function mountGame(root: HTMLElement, session: GameSession, themeLabels: Map<string, string>): () => void {
@@ -30,8 +31,28 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
         return session.replay();
       case "fullscreen":
         return toggleFullscreen();
+      case "sound":
+        toggleSound();
+        return render();
     }
   };
+
+  // Sons : révélation et jugements détectés à chaque rendu (quel que soit le déclencheur : clavier,
+  // souris, fin du timer), tic-tac cadencé par la boucle d'animation du timer.
+  let lastPhase = session.phase;
+  let lastRound = session.round;
+  let lastSecond: number | null = null;
+  function playStateSounds(): void {
+    const { phase, round } = session;
+    if (phase === "reveal" && lastPhase === "question") revealSound();
+    if (round && lastRound && round !== lastRound && round.question === lastRound.question) {
+      const changed = round.judgments.findIndex((j, i) => j !== null && j !== lastRound!.judgments[i]);
+      if (changed >= 0) judgmentSound(round.judgments[changed]!);
+    }
+    if (round?.question !== lastRound?.question) lastSecond = null;
+    lastPhase = phase;
+    lastRound = round;
+  }
 
   const onKey = (e: KeyboardEvent) => {
     if (e.repeat || e.ctrlKey || e.metaKey || e.altKey) return;
@@ -43,6 +64,7 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
   window.addEventListener("keydown", onKey);
 
   function render(): void {
+    playStateSounds();
     const { phase, round, current } = session;
     const question = current?.question ?? null;
     const [scoreA, scoreM] = session.scores;
@@ -64,6 +86,7 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
         "span",
         { class: "hud-tools" },
         actionButton("P", session.paused ? "Reprendre" : "Pause", () => session.togglePause(), "small"),
+        actionButton("S", soundEnabled() ? "Son" : "Son coupé", () => dispatch({ type: "sound" }), `small ${soundEnabled() ? "" : "ghost"}`),
         actionButton("F", "Plein écran", toggleFullscreen, "small ghost"),
         actionButton(null, "Terminer", () => {
           if (confirm("Terminer la partie maintenant ? Elle ne comptera pas au classement.")) session.finish(true);
@@ -135,6 +158,7 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
           { class: "judge-buttons" },
           choice("A", nameA, 0, "p0"),
           choice("M", nameM, 1, "p1"),
+          choice("D", "Les deux", "both", "both"),
           choice("N", "Aucun", "none", "ghost"),
         ),
       );
@@ -143,9 +167,17 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
   }
 
   // Barre de timer animée indépendamment des rendus.
-  let frame = requestAnimationFrame(function tick() {
-    timerFill.style.transform = `scaleX(${session.timeFraction()})`;
-    frame = requestAnimationFrame(tick);
+  let frame = requestAnimationFrame(function animate() {
+    const fraction = session.timeFraction();
+    timerFill.style.transform = `scaleX(${fraction})`;
+    // Tic-tac une fois par seconde, sauf sur les questions audio (il couvrirait l'extrait).
+    const question = session.current?.question;
+    if (session.phase === "question" && !session.paused && question && question.media.type !== "audio") {
+      const secondsLeft = Math.ceil(fraction * session.settings.timerSeconds);
+      if (lastSecond !== null && secondsLeft !== lastSecond && secondsLeft > 0) tick(secondsLeft <= 5);
+      lastSecond = secondsLeft;
+    }
+    frame = requestAnimationFrame(animate);
   });
 
   const unsubscribe = session.subscribe(render);

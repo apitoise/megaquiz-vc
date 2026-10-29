@@ -36,7 +36,7 @@ type Curated<T> = T & { wiki: string; exclude?: string };
 const get = <T>(url: string) => fetchJson<T>(url, { intervalMs: INTERVAL_MS, init: { headers: { "User-Agent": USER_AGENT } } });
 
 /** Articles Wikipédia (redirections suivies), par titre demandé. */
-async function pages(titles: string[]): Promise<Map<string, Page>> {
+export async function pages(titles: string[]): Promise<Map<string, Page>> {
   const byTitle = new Map<string, Page>();
   for (let i = 0; i < titles.length; i += BATCH) {
     const batch = titles.slice(i, i + BATCH);
@@ -88,14 +88,14 @@ const refs = (e: Entity | undefined, prop: string) =>
   (e?.claims[prop] ?? []).map((c) => (c.mainsnak.datavalue?.value as { id?: string } | undefined)?.id).filter((x): x is string => !!x);
 
 /** Vignette de l'image, sans les paramètres de suivi (utm_…) que l'API ajoute. */
-function imageUrl(page: Page): string {
+export function imageUrl(page: Page): string {
   const url = new URL(page.thumbnail!.source);
   url.search = "";
   return url.toString();
 }
 
 /** Raison d'écarter un article, ou null s'il convient. */
-function pageProblem(page: Page | undefined): string | null {
+export function pageProblem(page: Page | undefined): string | null {
   if (!page || page.missing) return "article introuvable";
   if (page.pageprops?.disambiguation !== undefined) return "page d'homonymie";
   if (!page.pageimage || !page.thumbnail) return "pas d'image (œuvre protégée ou article sans illustration)";

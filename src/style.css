@@ -83,6 +83,10 @@ kbd {
 .action.p1 {
   background: var(--p1);
 }
+/* « Les deux » : dégradé des deux couleurs de joueurs. */
+.action.both {
+  background: linear-gradient(90deg, var(--p0), var(--p1));
+}
 .action.ghost {
   background: transparent;
   border-color: var(--panel-2);
@@ -555,6 +559,9 @@ kbd {
 }
 .who.p1 {
   background: var(--p1);
+}
+.who.both {
+  background: linear-gradient(90deg, var(--p0), var(--p1));
 }
 .who.none {
   color: var(--none);

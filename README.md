@@ -41,6 +41,9 @@ Les pools stables sont versionnés dans `data/` ; `npm run build-pools` les rég
 | `data/trivia_fr.json` | **rédigé à la main** : ~380 questions de culture générale en 9 catégories | — |
 | `data/summaries_fr.json` | **rédigé à la main** : 100 résumés de livres, films, séries et jeux vidéo | — |
 | `data/art_curated.json`, `data/landmarks_curated.json` | **curés à la main** : œuvres (titre, artiste) et lieux (nom, ville/pays), avec l'article Wikipédia ; `exclude` écarte une image jugée inutilisable | — |
+| `data/juste_prix_curated.json` | **curé à la main** : prix (lancements, records d'enchères et de transferts) et chiffres à estimer | — |
+| `data/juste_prix.json` | + populations légales des 20 plus grandes villes, images Wikipédia | API Géo + Wikipédia |
+| `data/france_map.json` | contour de la France pré-projeté (conique conforme) et ~90 villes (préfectures ≥ 20 000 hab., villes ≥ 60 000 hab., hors petite couronne) | world-atlas 10m + API Géo (geo.api.gouv.fr) |
 | `data/art.json`, `data/landmarks.json` | images vérifiées (créateur Wikidata = artiste attendu ; coordonnées pour un lieu) | Wikipédia FR + Wikidata (sans clé) |
 | `data/ost_films.json`, `data/ost_series.json` | **curés à la main** : films et séries candidats (`match`, `album`, ou `track` pour un générique précis) | — |
 | `data/film_music.json`, `data/series_music.json` (+ `_coverage`) | musiques de films et séries validées, rapport de couverture | recherche Deezer |
@@ -48,6 +51,12 @@ Les pools stables sont versionnés dans `data/` ; `npm run build-pools` les rég
 Films et séries : TMDB n'est appelé que par `npm run build-pools -- films series` (jeton `TMDB_READ_TOKEN` du `.env`, à créer sur themoviedb.org → Paramètres → API). TMDB classe « sans langue » les affiches et images sans texte : le thème affiches n'utilise que celles-là (pas besoin d'anonymisation). Les séries jeunesse, téléréalité, talk-shows, soaps et l'anime sont écartés. En partie, les images viennent directement de `image.tmdb.org`, sans clé ; à la révélation, l'affiche officielle s'affiche en vignette.
 
 Jeux vidéo : IGDB n'est appelé que par `npm run build-pools -- games` (identifiants Twitch du `.env`, token mis en cache et renouvelé dans `server/igdb.ts`). En partie, les images viennent directement de `images.igdb.com`, sans clé. Le seuil est `MIN_RATING_COUNT` dans `scripts/pools/games.ts`. Beaucoup de jaquettes affichent le nom du jeu : défaut accepté.
+
+Sons : tic-tac pendant le timer (pas sur les questions musicales), son de révélation et de jugement, synthétisés dans le navigateur (Web Audio, aucun fichier). Bouton « Son » ou touche `S` pour couper.
+
+Le juste prix : chacun annonce un chiffre à l'oral, on attribue le point au plus proche (ou « Les deux »).
+
+Capitales : les pays de moins de 10 000 km² hors Europe sont écartés (`MIN_CAPITAL_AREA_KM2` dans `src/providers/capitals.ts`).
 
 Culture générale : si le thème est coché, il occupe une question sur 5 (5e, 10e, 15e…, `TRIVIA_EVERY` dans `src/providers/trivia.ts`), les autres thèmes se partageant le reste.
 
@@ -67,11 +76,13 @@ Drapeaux : `https://flagcdn.com/w640/{code}.png`, chargés en direct. Le seuil d
 |---|---|
 | Révéler | `Espace` |
 | Point à Arthur / Marie / personne | `A` / `M` / `N` |
+| Les deux (trouvé en même temps : un point chacun) | `D` |
 | Musique : les deux points à Arthur / Marie | `Shift+A` / `Shift+M` |
 | Pause / reprise | `P` |
 | Question cassée (passer et blacklister) | `X` |
 | Rejouer l'extrait | `R` |
 | Plein écran | `F` |
+| Couper / rétablir les sons | `S` |
 
 Chaque action existe aussi en bouton. L'écran de configuration permet aussi de remettre en jeu les questions retirées et d'oublier l'historique des 3 dernières parties.
 

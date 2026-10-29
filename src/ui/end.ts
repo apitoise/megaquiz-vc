@@ -16,8 +16,11 @@ export function renderEnd(
   const scores = computeScores(rounds);
   const result = outcome(scores);
   const headline = interrupted ? "Partie interrompue" : result.kind === "draw" ? "Égalité !" : `${players[result.player]} gagne !`;
-  const who = (j: Judgment | null) =>
-    j === null || j === "none" ? h("span", { class: "who none" }, "—") : h("span", { class: `who p${j}` }, players[j]);
+  const who = (j: Judgment | null) => {
+    if (j === null || j === "none") return h("span", { class: "who none" }, "—");
+    if (j === "both") return h("span", { class: "who both" }, "Les deux");
+    return h("span", { class: `who p${j}` }, players[j]);
+  };
 
   const rows = rounds.map((round, i) =>
     h(

@@ -1,0 +1,492 @@
+[
+ {
+  "id": "prix-01",
+  "category": "prix",
+  "question": "Combien coûtait la Nintendo Switch à sa sortie en France, en 2017 ?",
+  "answer": "329,99 €",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Nintendo_Switch_Console.png/1280px-Nintendo_Switch_Console.png"
+ },
+ {
+  "id": "prix-02",
+  "category": "prix",
+  "question": "Combien coûtait la PlayStation 5 (édition standard) à sa sortie en France, en 2020 ?",
+  "answer": "499,99 €",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/PlayStation_5_and_DualSense_with_transparent_background.png/1280px-PlayStation_5_and_DualSense_with_transparent_background.png"
+ },
+ {
+  "id": "prix-03",
+  "category": "prix",
+  "question": "Combien coûtait la PlayStation 2 à sa sortie en France, en 2000 ?",
+  "answer": "2 990 francs (environ 456 €)",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/PS2-Versions.png/1280px-PS2-Versions.png"
+ },
+ {
+  "id": "prix-04",
+  "category": "prix",
+  "question": "Combien coûtait l'iPhone 15 Pro à sa sortie en France, en 2023 ?",
+  "answer": "1 229 €",
+  "image": null
+ },
+ {
+  "id": "prix-05",
+  "category": "prix",
+  "question": "Combien coûtait le casque Apple Vision Pro à sa sortie en France, en 2024 ?",
+  "answer": "3 999 €",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Apple_Vision_Pro_with_charger_%28cropped%29.jpg/1280px-Apple_Vision_Pro_with_charger_%28cropped%29.jpg"
+ },
+ {
+  "id": "prix-06",
+  "category": "prix",
+  "question": "Combien coûte une Bugatti Chiron neuve ?",
+  "answer": "Environ 2,4 millions €",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/FoS20162016_0624_132444AA_%2827785299372%29.jpg/1280px-FoS20162016_0624_132444AA_%2827785299372%29.jpg"
+ },
+ {
+  "id": "prix-07",
+  "category": "prix",
+  "question": "À combien le « Salvator Mundi » de Léonard de Vinci a-t-il été vendu aux enchères en 2017 ?",
+  "answer": "450,3 millions $ (record mondial pour un tableau)",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Leonardo_da_Vinci_or_Boltraffio_%28attrib%29_Salvator_Mundi_circa_1500.jpg/1280px-Leonardo_da_Vinci_or_Boltraffio_%28attrib%29_Salvator_Mundi_circa_1500.jpg"
+ },
+ {
+  "id": "prix-08",
+  "category": "prix",
+  "question": "Combien le PSG a-t-il payé pour recruter Neymar en 2017 ?",
+  "answer": "222 millions € (record du monde)",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg/1280px-Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg"
+ },
+ {
+  "id": "prix-09",
+  "category": "prix",
+  "question": "Combien le PSG a-t-il payé pour recruter Kylian Mbappé à Monaco en 2018 ?",
+  "answer": "180 millions €",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/1280px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg"
+ },
+ {
+  "id": "prix-10",
+  "category": "prix",
+  "question": "Combien le Real Madrid a-t-il payé pour recruter Cristiano Ronaldo en 2009 ?",
+  "answer": "94 millions €",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/1280px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg"
+ },
+ {
+  "id": "prix-11",
+  "category": "prix",
+  "question": "Combien coûte un sac Birkin d'Hermès neuf, en boutique ?",
+  "answer": "À partir d'environ 10 000 €",
+  "image": null
+ },
+ {
+  "id": "prix-12",
+  "category": "prix",
+  "question": "Combien coûte en moyenne une baguette de pain en France ?",
+  "answer": "Environ 1 €",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Salon_Agriculture_2009-Boulanger3.jpg/1280px-Salon_Agriculture_2009-Boulanger3.jpg"
+ },
+ {
+  "id": "prix-13",
+  "category": "prix",
+  "question": "À combien la Mercedes 300 SLR « Uhlenhaut Coupé » a-t-elle été vendue en 2022, record pour une voiture ?",
+  "answer": "135 millions €",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Mercedes-Benz_300_SLR_1955_2.jpg/1280px-Mercedes-Benz_300_SLR_1955_2.jpg"
+ },
+ {
+  "id": "prix-14",
+  "category": "prix",
+  "question": "À combien l'œuvre numérique « Everydays: the First 5000 Days » de Beeple a-t-elle été vendue en 2021 ?",
+  "answer": "69,3 millions $",
+  "image": null
+ },
+ {
+  "id": "prix-15",
+  "category": "prix",
+  "question": "À combien « Les Femmes d'Alger (version O) » de Picasso ont-elles été vendues en 2015 ?",
+  "answer": "179,4 millions $",
+  "image": null
+ },
+ {
+  "id": "prix-16",
+  "category": "prix",
+  "question": "Combien coûtait un spot publicitaire de 30 secondes pendant le Super Bowl 2024 ?",
+  "answer": "Environ 7 millions $",
+  "image": null
+ },
+ {
+  "id": "prix-17",
+  "category": "prix",
+  "question": "Combien coûtait le Lego Star Wars Faucon Millenium « Ultimate Collector » (75192) à sa sortie en 2017 ?",
+  "answer": "Environ 800 €",
+  "image": null
+ },
+ {
+  "id": "prix-18",
+  "category": "prix",
+  "question": "Combien coûtait le premier iPhone (4 Go) à sa sortie aux États-Unis, en 2007 ?",
+  "answer": "499 $",
+  "image": null
+ },
+ {
+  "id": "chiffres-01",
+  "category": "chiffres",
+  "question": "Quelle est la distance moyenne entre la Terre et la Lune ?",
+  "answer": "Environ 384 400 km",
+  "image": null
+ },
+ {
+  "id": "chiffres-02",
+  "category": "chiffres",
+  "question": "Quelle est la distance moyenne entre la Terre et le Soleil ?",
+  "answer": "Environ 150 millions de km",
+  "image": null
+ },
+ {
+  "id": "chiffres-03",
+  "category": "chiffres",
+  "question": "Quelle est la hauteur de la tour Eiffel, antennes comprises ?",
+  "answer": "330 m",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/1280px-Tour_Eiffel_Wikimedia_Commons.jpg"
+ },
+ {
+  "id": "chiffres-04",
+  "category": "chiffres",
+  "question": "Quelle est l'altitude du mont Everest ?",
+  "answer": "8 849 m",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006_edit_1.jpg/1280px-Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006_edit_1.jpg"
+ },
+ {
+  "id": "chiffres-05",
+  "category": "chiffres",
+  "question": "Quelle est l'altitude du mont Blanc ?",
+  "answer": "Environ 4 806 m",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Mont_Blanc_depuis_Valmorel_2.jpg/1280px-Mont_Blanc_depuis_Valmorel_2.jpg"
+ },
+ {
+  "id": "chiffres-06",
+  "category": "chiffres",
+  "question": "Combien d'habitants compte la France (au 1er janvier 2025) ?",
+  "answer": "Environ 68,6 millions",
+  "image": null
+ },
+ {
+  "id": "chiffres-07",
+  "category": "chiffres",
+  "question": "Combien d'êtres humains vivent sur Terre (en 2024) ?",
+  "answer": "Environ 8,1 milliards",
+  "image": null
+ },
+ {
+  "id": "chiffres-08",
+  "category": "chiffres",
+  "question": "Combien d'habitants compte la Chine ?",
+  "answer": "Environ 1,4 milliard",
+  "image": null
+ },
+ {
+  "id": "chiffres-09",
+  "category": "chiffres",
+  "question": "À quelle vitesse le son se propage-t-il dans l'air (à 20 °C) ?",
+  "answer": "Environ 343 m/s (1 235 km/h)",
+  "image": null
+ },
+ {
+  "id": "chiffres-10",
+  "category": "chiffres",
+  "question": "Quelle est la température à la surface du Soleil ?",
+  "answer": "Environ 5 500 °C",
+  "image": null
+ },
+ {
+  "id": "chiffres-11",
+  "category": "chiffres",
+  "question": "Combien de pays sont membres de l'ONU ?",
+  "answer": "193",
+  "image": null
+ },
+ {
+  "id": "chiffres-12",
+  "category": "chiffres",
+  "question": "Combien de marches faut-il gravir pour atteindre le sommet de la tour Eiffel ?",
+  "answer": "1 665",
+  "image": null
+ },
+ {
+  "id": "chiffres-13",
+  "category": "chiffres",
+  "question": "Quelle est la profondeur de la fosse des Mariannes ?",
+  "answer": "Environ 11 000 m",
+  "image": null
+ },
+ {
+  "id": "chiffres-14",
+  "category": "chiffres",
+  "question": "Quel est l'âge de l'Univers ?",
+  "answer": "Environ 13,8 milliards d'années",
+  "image": null
+ },
+ {
+  "id": "chiffres-15",
+  "category": "chiffres",
+  "question": "Quel est l'âge de la Terre ?",
+  "answer": "Environ 4,5 milliards d'années",
+  "image": null
+ },
+ {
+  "id": "chiffres-16",
+  "category": "chiffres",
+  "question": "Quelle est la longueur totale de la Grande Muraille de Chine (avec toutes ses branches) ?",
+  "answer": "Environ 21 000 km",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Great_Wall_of_China_July_2006.JPG/1280px-Great_Wall_of_China_July_2006.JPG"
+ },
+ {
+  "id": "chiffres-17",
+  "category": "chiffres",
+  "question": "Combien de départements compte la France, outre-mer compris ?",
+  "answer": "101",
+  "image": null
+ },
+ {
+  "id": "chiffres-18",
+  "category": "chiffres",
+  "question": "Quel est le record du monde du 100 mètres masculin ?",
+  "answer": "9,58 s (Usain Bolt, 2009)",
+  "image": null
+ },
+ {
+  "id": "chiffres-19",
+  "category": "chiffres",
+  "question": "Quel est le record du monde du marathon masculin ?",
+  "answer": "2 h 00 min 35 s (Kelvin Kiptum, 2023)",
+  "image": null
+ },
+ {
+  "id": "chiffres-20",
+  "category": "chiffres",
+  "question": "Combien pèse un éléphant d'Afrique mâle adulte ?",
+  "answer": "Environ 6 tonnes",
+  "image": null
+ },
+ {
+  "id": "chiffres-21",
+  "category": "chiffres",
+  "question": "Combien mesure une baleine bleue adulte ?",
+  "answer": "Jusqu'à environ 30 m",
+  "image": null
+ },
+ {
+  "id": "chiffres-22",
+  "category": "chiffres",
+  "question": "Combien de pays compte l'Union européenne ?",
+  "answer": "27",
+  "image": null
+ },
+ {
+  "id": "chiffres-23",
+  "category": "chiffres",
+  "question": "Combien de spectateurs le Stade de France peut-il accueillir ?",
+  "answer": "Environ 80 000",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/StadeFranceNationsLeague2018.jpg/1280px-StadeFranceNationsLeague2018.jpg"
+ },
+ {
+  "id": "chiffres-24",
+  "category": "chiffres",
+  "question": "Quelle distance sépare Paris de Marseille à vol d'oiseau ?",
+  "answer": "Environ 660 km",
+  "image": null
+ },
+ {
+  "id": "chiffres-25",
+  "category": "chiffres",
+  "question": "Quelle distance sépare Paris de New York à vol d'oiseau ?",
+  "answer": "Environ 5 840 km",
+  "image": null
+ },
+ {
+  "id": "chiffres-26",
+  "category": "chiffres",
+  "question": "Quelle est la hauteur du Burj Khalifa, plus haut gratte-ciel du monde ?",
+  "answer": "828 m",
+  "image": null
+ },
+ {
+  "id": "chiffres-27",
+  "category": "chiffres",
+  "question": "Combien de touches compte un piano classique ?",
+  "answer": "88",
+  "image": null
+ },
+ {
+  "id": "chiffres-28",
+  "category": "chiffres",
+  "question": "Combien de cases compte un échiquier ?",
+  "answer": "64",
+  "image": null
+ },
+ {
+  "id": "chiffres-29",
+  "category": "chiffres",
+  "question": "Quel est le diamètre de la Terre ?",
+  "answer": "Environ 12 742 km",
+  "image": null
+ },
+ {
+  "id": "chiffres-30",
+  "category": "chiffres",
+  "question": "Combien de litres de sang contient le corps d'un adulte ?",
+  "answer": "Environ 5 litres",
+  "image": null
+ },
+ {
+  "id": "chiffres-31",
+  "category": "chiffres",
+  "question": "Combien de langues sont parlées dans le monde ?",
+  "answer": "Environ 7 000",
+  "image": null
+ },
+ {
+  "id": "chiffres-32",
+  "category": "chiffres",
+  "question": "Combien d'étoiles figurent sur le drapeau des États-Unis ?",
+  "answer": "50",
+  "image": null
+ },
+ {
+  "id": "habitants-75056",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Paris ?",
+  "answer": "2 103 778 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-13055",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Marseille ?",
+  "answer": "886 040 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-69123",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Lyon ?",
+  "answer": "519 127 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-31555",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Toulouse ?",
+  "answer": "514 819 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-06088",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Nice ?",
+  "answer": "357 737 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-44109",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Nantes ?",
+  "answer": "327 734 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-34172",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Montpellier ?",
+  "answer": "310 240 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-67482",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Strasbourg ?",
+  "answer": "293 771 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-33063",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Bordeaux ?",
+  "answer": "267 991 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-59350",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Lille ?",
+  "answer": "238 246 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-35238",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Rennes ?",
+  "answer": "230 890 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-83137",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Toulon ?",
+  "answer": "179 116 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-51454",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Reims ?",
+  "answer": "177 674 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-42218",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Saint-Étienne ?",
+  "answer": "173 136 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-76351",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Le Havre ?",
+  "answer": "166 687 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-69266",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Villeurbanne ?",
+  "answer": "163 684 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-21231",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Dijon ?",
+  "answer": "161 830 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-49007",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Angers ?",
+  "answer": "159 022 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-38185",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Grenoble ?",
+  "answer": "156 140 (population légale)",
+  "image": null
+ },
+ {
+  "id": "habitants-30189",
+  "category": "habitants",
+  "question": "Combien d'habitants compte la ville de Nîmes ?",
+  "answer": "151 839 (population légale)",
+  "image": null
+ }
+]

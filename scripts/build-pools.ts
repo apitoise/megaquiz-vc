@@ -1,10 +1,12 @@
 // Construit les pools de questions stables dans data/*.json.
-// Usage : npm run build-pools [-- countries shapes music games films series art landmarks ost film-music series-music]   (sans argument : tout)
+// Usage : npm run build-pools [-- countries shapes music games films series art landmarks france juste-prix ost film-music series-music]   (sans argument : tout)
 import { readFile } from "node:fs/promises";
 import { loadEnv } from "../server/env.ts";
 import type { Country } from "../src/data/countries.ts";
 import { buildCountries } from "./pools/countries.ts";
+import { buildFrance } from "./pools/france.ts";
 import { buildGames } from "./pools/games.ts";
+import { buildJustePrix } from "./pools/juste-prix.ts";
 import { buildMusic } from "./pools/music.ts";
 import { buildSoundtracks, SOUNDTRACK_POOLS } from "./pools/ost.ts";
 import { buildShapes } from "./pools/shapes.ts";
@@ -48,6 +50,14 @@ if (wants("art")) {
 if (wants("landmarks")) {
   console.log("Monuments et lieux (Wikipédia / Wikidata)…");
   await buildLandmarks();
+}
+if (wants("france")) {
+  console.log("Villes de France (API Géo)…");
+  await buildFrance();
+}
+if (wants("juste-prix")) {
+  console.log("Le juste prix…");
+  await buildJustePrix();
 }
 for (const [name, pool] of Object.entries(SOUNDTRACK_POOLS)) {
   if (!wants(name)) continue;

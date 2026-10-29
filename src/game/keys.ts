@@ -7,7 +7,8 @@ export type Action =
   | { type: "pause" }
   | { type: "broken" }
   | { type: "replay" }
-  | { type: "fullscreen" };
+  | { type: "fullscreen" }
+  | { type: "sound" };
 
 /**
  * Traduit une touche en action. On s'appuie sur `event.key` (et non `event.code`)
@@ -22,6 +23,9 @@ export function keyToAction(key: string, shiftKey: boolean): Action | null {
       return shiftKey ? { type: "judgeAll", judgment: 1 } : { type: "judge", judgment: 1 };
     case "n":
       return { type: "judge", judgment: "none" };
+    case "d":
+      // « Les deux » : réponse trouvée en même temps, un point chacun.
+      return { type: "judge", judgment: "both" };
     case "p":
       return { type: "pause" };
     case "x":
@@ -30,6 +34,8 @@ export function keyToAction(key: string, shiftKey: boolean): Action | null {
       return { type: "replay" };
     case "f":
       return { type: "fullscreen" };
+    case "s":
+      return { type: "sound" };
     default:
       return null;
   }

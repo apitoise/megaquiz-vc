@@ -37,7 +37,7 @@ export function nextPendingRow(round: Round, from = 0): number {
 }
 
 export function roundPoints(round: Round, player: PlayerIndex): number {
-  return round.judgments.filter((j) => j === player).length;
+  return round.judgments.filter((j) => j === player || j === "both").length;
 }
 
 export function computeScores(rounds: readonly Round[]): [number, number] {

@@ -41,8 +41,8 @@ export class PoolExhaustedError extends Error {
 }
 
 export type PlayerIndex = 0 | 1;
-/** Qui a marqué sur une ligne de réponse : un joueur, ou personne. */
-export type Judgment = PlayerIndex | "none";
+/** Qui a marqué sur une ligne de réponse : un joueur, les deux (réponse trouvée en même temps), ou personne. */
+export type Judgment = PlayerIndex | "both" | "none";
 
 export interface Settings {
   themes: string[];

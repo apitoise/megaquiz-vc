@@ -2,6 +2,8 @@ import type { QuestionProvider } from "../types.ts";
 import { capitals } from "./capitals.ts";
 import { covers } from "./covers.ts";
 import { flags } from "./flags.ts";
+import { frenchCities } from "./france.ts";
+import { justePrix } from "./juste-prix.ts";
 import { music } from "./music.ts";
 import { filmMusic, ost, seriesMusic } from "./ost.ts";
 import { filmImages, filmPosters, seriesImages, seriesPosters } from "./screen.ts";
@@ -15,9 +17,11 @@ import { art, landmarks } from "./wiki.ts";
 export const providers: QuestionProvider[] = [
   trivia,
   summaries,
+  justePrix,
   flags,
   capitals,
   shapes,
+  frenchCities,
   landmarks,
   art,
   music,
