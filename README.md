@@ -14,6 +14,14 @@ npm run dev            # http://127.0.0.1:5173
 
 `npm run dev` démarre Vite et le serveur proxy local (`127.0.0.1:8787`, jamais exposé sur le réseau). Le thème Musique a besoin de ce serveur (proxy Deezer).
 
+### Sur le réseau local
+
+`npm run dev:lan` rend le jeu accessible aux autres appareils du réseau (télé, tablette, portable) : l'adresse s'affiche au démarrage, par exemple `http://192.168.1.108:5173`. Seul Vite est exposé ; le serveur proxy (et le secret Twitch) reste sur `127.0.0.1`, Vite lui relaie `/api`. Les écritures (classement, relecture des jaquettes) ne sont acceptées que depuis la page du jeu elle-même (même origine), en local comme sur le réseau.
+
+- **Réseau de confiance uniquement** (Wi-Fi maison) : le serveur de développement Vite n'est pas un serveur durci, et tout appareil connecté peut jouer, écrire au classement et utiliser le proxy Deezer.
+- Si un pare-feu (`ufw`) est actif : `sudo ufw allow from 192.168.1.0/24 to any port 5173 proto tcp`.
+- Réglages, blacklist et historique restent propres à chaque navigateur ; le classement et la relecture des jaquettes sont communs (stockés sur la machine qui fait tourner le jeu).
+
 Autres commandes : `npm test` (Vitest), `npm run typecheck`.
 
 ## Données

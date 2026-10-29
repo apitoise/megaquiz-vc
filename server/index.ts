@@ -1,8 +1,10 @@
-// Serveur proxy local. Lié à 127.0.0.1 uniquement : il ne doit jamais être exposé sur le réseau.
+// Serveur proxy local. Lié à 127.0.0.1 uniquement, même en mode réseau local (`npm run dev:lan`) :
+// seul Vite est exposé et lui relaie /api. Le secret Twitch ne quitte donc jamais cette machine.
 import { createServer } from "node:http";
 import { getReviews, postReview } from "./covers.ts";
 import { deezerTrack } from "./deezer.ts";
 import { loadEnv } from "./env.ts";
+import { isSameOrigin } from "./origin.ts";
 import { HttpError, sendJson, type Handler } from "./respond.ts";
 import { getResults, postResult } from "./results.ts";
 
@@ -10,8 +12,6 @@ loadEnv();
 
 const HOST = "127.0.0.1";
 const PORT = Number(process.env.SERVER_PORT ?? 8787);
-/** Seules les pages servies en local peuvent écrire (un site web ouvert dans le navigateur ne doit pas pouvoir). */
-const LOCAL_ORIGIN = /^http:\/\/(127\.0\.0\.1|localhost)(:\d+)?$/;
 
 const routes: [string, RegExp, Handler][] = [
   ["GET", /^\/api\/health$/, (_req, res) => sendJson(res, 200, { ok: true })],
@@ -28,9 +28,9 @@ const server = createServer(async (req, res) => {
   if (!route) return sendJson(res, 404, { error: "not_found" });
   const [method, pattern, handler] = route;
   if (method !== "GET") {
-    // JSON obligatoire (impose un preflight CORS, que ce serveur n'accorde jamais) et origine vérifiée.
-    const origin = req.headers.origin;
-    if (!req.headers["content-type"]?.startsWith("application/json") || (origin && !LOCAL_ORIGIN.test(origin))) {
+    // JSON obligatoire (impose un preflight CORS, que ce serveur n'accorde jamais) et même origine
+    // que la page du jeu : un autre site ouvert dans le navigateur ne peut pas écrire.
+    if (!req.headers["content-type"]?.startsWith("application/json") || !isSameOrigin(req.headers.origin, req.headers.host)) {
       return sendJson(res, 403, { error: "forbidden" });
     }
   }
