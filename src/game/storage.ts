@@ -1,4 +1,5 @@
 import type { Settings } from "../types.ts";
+import { sanitizePreferences, type Preferences } from "./preferences.ts";
 
 /** Sous-ensemble de l'API Storage, pour pouvoir tester avec un stockage en mémoire. */
 export interface KeyValueStore {
@@ -10,6 +11,7 @@ const KEYS = {
   settings: "megaquiz.settings",
   history: "megaquiz.history",
   blacklist: "megaquiz.blacklist",
+  preferences: "megaquiz.preferences",
 } as const;
 
 /** Nombre de parties récentes dont on évite de reposer les questions. */
@@ -61,6 +63,14 @@ export class GameStorage {
 
   saveSettings(settings: Settings): void {
     writeJson(this.store, KEYS.settings, settings);
+  }
+
+  loadPreferences(): Preferences {
+    return sanitizePreferences(readJson<unknown>(this.store, KEYS.preferences, {}));
+  }
+
+  savePreferences(preferences: Preferences): void {
+    writeJson(this.store, KEYS.preferences, preferences);
   }
 
   /** Historique : une liste d'ids de questions par partie, la plus récente en dernier. */

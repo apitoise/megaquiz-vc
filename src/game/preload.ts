@@ -20,9 +20,10 @@ export function loadImage(src: string): Promise<void> {
   return withTimeout(img.decode(), src);
 }
 
-function loadAudio(src: string, startAt: number): Promise<HTMLAudioElement> {
+function loadAudio(src: string, startAt: number, volume: number): Promise<HTMLAudioElement> {
   const audio = new Audio();
   audio.preload = "auto";
+  audio.volume = Math.min(1, Math.max(0, volume));
   const ready = new Promise<HTMLAudioElement>((resolve, reject) => {
     audio.addEventListener("canplaythrough", () => resolve(audio), { once: true });
     audio.addEventListener("error", () => reject(new Error(`Audio illisible : ${src}`)), { once: true });
@@ -35,8 +36,11 @@ function loadAudio(src: string, startAt: number): Promise<HTMLAudioElement> {
   });
 }
 
-/** Charge le média d'une question avant de l'afficher ; rejette si le média est indisponible. */
-export async function preloadQuestion(question: Question): Promise<Prepared> {
+/**
+ * Charge le média d'une question avant de l'afficher ; rejette si le média est indisponible.
+ * `volume` (0 à 1) : volume de l'extrait audio, réglé par thème.
+ */
+export async function preloadQuestion(question: Question, volume = 1): Promise<Prepared> {
   const { media, revealMedia } = question;
   // Le média de révélation (pochette…) est accessoire : on le charge sans bloquer.
   if (revealMedia?.type === "image") loadImage(revealMedia.src).catch(() => {});
@@ -45,7 +49,7 @@ export async function preloadQuestion(question: Question): Promise<Prepared> {
       await loadImage(media.src);
       return { question };
     case "audio":
-      return { question, audio: await loadAudio(media.src, media.startAt ?? 0) };
+      return { question, audio: await loadAudio(media.src, media.startAt ?? 0, volume) };
     case "svg":
     case "text":
       return { question };

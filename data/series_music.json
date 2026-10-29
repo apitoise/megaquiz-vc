@@ -1,20 +1,71 @@
 [
  {
+  "slug": "game-of-thrones",
+  "name": "Game of Thrones",
+  "album": {
+   "id": 12224440,
+   "title": "Game Of Thrones (Music From The HBO Series)",
+   "artist": "Ramin Djawadi"
+  },
+  "tracks": [
+   117729426,
+   117729430,
+   117729434,
+   117729466,
+   117729476,
+   117729482,
+   117729456,
+   117729446,
+   117729478,
+   117729448,
+   117729468,
+   117729432
+  ]
+ },
+ {
+  "slug": "house-of-the-dragon",
+  "name": "House of the Dragon",
+  "album": {
+   "id": 366556767,
+   "title": "House of the Dragon: Season 1 (Soundtrack from the HBO® Series)",
+   "artist": "Ramin Djawadi"
+  },
+  "tracks": [
+   1965783447,
+   1965783167,
+   1965783067,
+   1965783087,
+   1965783357,
+   1965783317,
+   1965783227,
+   1965783237,
+   1965783077,
+   1965783147,
+   1965783407,
+   1965783127
+  ]
+ },
+ {
   "slug": "stranger-things",
   "name": "Stranger Things",
   "album": {
-   "id": 50414792,
-   "title": "Stranger Things (Soundtrack from the Netflix Original Series)",
-   "artist": "Various Artists"
+   "id": 13892396,
+   "title": "Stranger Things, Vol. 1 (A Netflix Original Series Soundtrack)",
+   "artist": "Kyle Dixon & Michael Stein"
   },
   "tracks": [
-   420896182,
-   420896412,
-   420896312,
-   420896362,
-   420896202,
-   420896302,
-   420896372
+   130871170,
+   130871168,
+   130871176,
+   130871182,
+   130871180,
+   130871178,
+   130871188,
+   130871174,
+   130871172,
+   130871218,
+   130871184,
+   130871186
   ]
  },
  {
@@ -29,15 +80,15 @@
    69838319,
    69838320,
    69838323,
-   69838322,
    69838321,
+   69838322,
    69838335,
-   69838327,
    69838332,
    69838328,
-   69838324,
-   69838325,
-   69838336
+   69838336,
+   69838331,
+   69838330,
+   69838326
   ]
  },
  {
@@ -50,9 +101,9 @@
   },
   "tracks": [
    1863438787,
-   1863438627,
-   1863438697,
    1863438557,
+   1863438697,
+   1863438627,
    1863438667,
    1863438777,
    1863438757,
@@ -61,6 +112,29 @@
    1863438567,
    1863438637,
    1863438797
+  ]
+ },
+ {
+  "slug": "la-casa-de-papel",
+  "name": "La Casa de Papel",
+  "album": {
+   "id": 511188071,
+   "title": "La Casa de Papel (Soundtrack de la serie de Netflix)",
+   "artist": "Manel Santisteban"
+  },
+  "tracks": [
+   2537452291,
+   2537452441,
+   2537452341,
+   2537452221,
+   2537452641,
+   2537452361,
+   2537452331,
+   2537452381,
+   2537452211,
+   2537452631,
+   2537452241,
+   2537452521
   ]
  },
  {
@@ -84,6 +158,29 @@
    854475452,
    854475332,
    854475302
+  ]
+ },
+ {
+  "slug": "peaky-blinders",
+  "name": "Peaky Blinders",
+  "album": {
+   "id": 834736492,
+   "title": "Peaky Blinders Series 4 Original Score",
+   "artist": "Antony Genn"
+  },
+  "tracks": [
+   3593160312,
+   3593160302,
+   3593160142,
+   3593160532,
+   3593160162,
+   3593160402,
+   3593160332,
+   3593160392,
+   3593160172,
+   3593160152,
+   3593160422,
+   3593160292
   ]
  },
  {
@@ -126,50 +223,23 @@
   "slug": "twin-peaks",
   "name": "Twin Peaks",
   "album": {
-   "id": 677360,
-   "title": "Soundtrack From Twin Peaks",
-   "artist": "Twin Peaks"
+   "id": 99872742,
+   "title": "Twin Peaks: Season Two Music And More",
+   "artist": "Angelo Badalamenti"
   },
   "tracks": [
-   7337260,
-   7337261,
-   7337263,
-   7337270,
-   7337268,
-   7337262,
-   7337266,
-   7337265,
-   7337264,
-   7337269,
-   7337267
-  ]
- },
- {
-  "slug": "dr-house-house",
-  "name": "Dr House (House)",
-  "album": {
-   "id": 303593,
-   "title": "Teardrop",
-   "artist": "Massive Attack"
-  },
-  "tracks": [
-   3157612,
-   3153556,
-   3387709701
-  ]
- },
- {
-  "slug": "les-soprano-the-sopranos",
-  "name": "Les Soprano (The Sopranos)",
-  "album": {
-   "id": 537849522,
-   "title": "La Peste",
-   "artist": "Alabama 3"
-  },
-  "tracks": [
-   2629600512,
-   2629699902,
-   2629633412
+   694233842,
+   694233812,
+   694233852,
+   694233872,
+   694233702,
+   694233712,
+   694233722,
+   694233862,
+   694233752,
+   694233782,
+   694233822,
+   694233762
   ]
  },
  {
@@ -200,18 +270,6 @@
   ]
  },
  {
-  "slug": "scrubs",
-  "name": "Scrubs",
-  "album": {
-   "id": 836710,
-   "title": "All The Time In The World",
-   "artist": "Lazlo Bane"
-  },
-  "tracks": [
-   9125239
-  ]
- },
- {
   "slug": "arcane",
   "name": "Arcane",
   "album": {
@@ -226,33 +284,6 @@
   ]
  },
  {
-  "slug": "true-detective",
-  "name": "True Detective",
-  "album": {
-   "id": 14381884,
-   "title": "Singing Bones",
-   "artist": "The Handsome Family"
-  },
-  "tracks": [
-   134819392,
-   105572014
-  ]
- },
- {
-  "slug": "vikings",
-  "name": "Vikings",
-  "album": {
-   "id": 6761034,
-   "title": "If I Had a Heart",
-   "artist": "Fever Ray"
-  },
-  "tracks": [
-   69001869,
-   86157073,
-   86157071
-  ]
- },
- {
   "slug": "deux-flics-a-miami-miami-vice",
   "name": "Deux flics à Miami (Miami Vice)",
   "album": {
@@ -263,20 +294,6 @@
   "tracks": [
    906590,
    508094702
-  ]
- },
- {
-  "slug": "mad-men",
-  "name": "Mad Men",
-  "album": {
-   "id": 193431,
-   "title": "Magnificent City Instrumentals",
-   "artist": "RJD2"
-  },
-  "tracks": [
-   1885522,
-   796294332,
-   10320223
   ]
  },
  {
@@ -314,15 +331,81 @@
    3507374051,
    3507373811,
    3507373971,
-   3507373931,
    3507373921,
    3507374091,
-   3507374081,
    3507373801,
    3507373851,
    3507373821,
    3507373831,
-   3507374031
+   3507374031,
+   3507373901,
+   3507373861
+  ]
+ },
+ {
+  "slug": "the-mandalorian",
+  "name": "The Mandalorian",
+  "album": {
+   "id": 118002112,
+   "title": "The Mandalorian: Chapter 1 (Original Score)",
+   "artist": "Ludwig Goransson"
+  },
+  "tracks": [
+   798742662,
+   798742582,
+   798742632,
+   798742612,
+   798742592,
+   798742602,
+   798742642,
+   798742622,
+   798742652
+  ]
+ },
+ {
+  "slug": "the-crown",
+  "name": "The Crown",
+  "album": {
+   "id": 14459028,
+   "title": "The Crown: Season One (Soundtrack from the Netflix Original Series)",
+   "artist": "Rupert Gregson-Williams"
+  },
+  "tracks": [
+   135370916,
+   135370924,
+   135370938,
+   135370952,
+   135370920,
+   135370918,
+   135370922,
+   135370928,
+   135370932,
+   135370968,
+   135370956,
+   135370930
+  ]
+ },
+ {
+  "slug": "dark",
+  "name": "Dark",
+  "album": {
+   "id": 698311551,
+   "title": "Dark: Cycle 1 (Original Music From The Netflix Series)",
+   "artist": "Ben Frost"
+  },
+  "tracks": [
+   3187220491,
+   3187220481,
+   3187220541,
+   3187220531,
+   3187220501,
+   3187220571,
+   3187220591,
+   3187220521,
+   3187220551,
+   3187220511,
+   3187220561,
+   3187220581
   ]
  },
  {
@@ -344,8 +427,8 @@
    2459632555,
    2459632565,
    2459632645,
-   2459632585,
-   2459632545
+   2459632615,
+   2459632585
   ]
  },
  {
@@ -395,6 +478,52 @@
   ]
  },
  {
+  "slug": "succession",
+  "name": "Succession",
+  "album": {
+   "id": 134050672,
+   "title": "Succession: Season 1 (HBO Original Series Soundtrack)",
+   "artist": "Nicholas Britell"
+  },
+  "tracks": [
+   890421312,
+   890421322,
+   890421452,
+   890421342,
+   890421352,
+   890421552,
+   890421482,
+   890421402,
+   890421442,
+   890421332,
+   890421412,
+   890421422
+  ]
+ },
+ {
+  "slug": "dexter",
+  "name": "Dexter",
+  "album": {
+   "id": 177980042,
+   "title": "Dexter Season 4",
+   "artist": "Daniel Licht"
+  },
+  "tracks": [
+   1101419432,
+   1101419342,
+   1101419372,
+   1101419412,
+   1101419312,
+   1101419452,
+   1101419332,
+   1101419392,
+   1101419402,
+   1101419442,
+   1101419292,
+   1101419322
+  ]
+ },
+ {
   "slug": "lost-les-disparus-lost",
   "name": "Lost : Les Disparus (Lost)",
   "album": {
@@ -407,9 +536,9 @@
    119872710,
    119872740,
    119872754,
-   119872734,
    119872706,
    119872756,
+   119872748,
    119872724,
    119872728,
    119872708,
@@ -418,18 +547,26 @@
   ]
  },
  {
-  "slug": "desperate-housewives",
-  "name": "Desperate Housewives",
+  "slug": "prison-break",
+  "name": "Prison Break",
   "album": {
-   "id": 394971,
-   "title": "Desperate Housewives (TV Soundtrack)",
-   "artist": "Various Artists"
+   "id": 12281634,
+   "title": "Prison Break Seasons 3 & 4 (Original Television Soundtrack)",
+   "artist": "Ramin Djawadi"
   },
   "tracks": [
-   4242601,
-   4242603,
-   4242615,
-   4242617
+   118207596,
+   118207588,
+   118207622,
+   118207590,
+   118207586,
+   118207584,
+   118207606,
+   118207618,
+   118207594,
+   118207600,
+   118207602,
+   118207598
   ]
  },
  {
@@ -441,7 +578,6 @@
    "artist": "Gustavo Santaolalla"
   },
   "tracks": [
-   2158164587,
    2158164157,
    2158164277,
    2158164577,
@@ -449,10 +585,11 @@
    2158164367,
    2158164477,
    2158164767,
-   2158164177,
    2158164187,
    2158164397,
-   2158164647
+   2158164647,
+   2158164687,
+   2158164197
   ]
  },
  {
@@ -531,10 +668,10 @@
    918311582,
    918311512,
    918311672,
+   918311602,
+   918311612,
    918311662,
-   918311652,
-   918311642,
-   918311622
+   918311652
   ]
  },
  {
@@ -549,38 +686,84 @@
    414308552,
    414308332,
    414308402,
-   414308542,
    414308382,
+   414308472,
+   414308352,
    414308342,
-   414308512,
-   414308392,
+   414308542,
    414308412,
    414308522,
-   414308452,
-   414308492
+   414308492,
+   414308462
   ]
  },
  {
-  "slug": "twin-peaks-the-return",
-  "name": "Twin Peaks : The Return",
+  "slug": "fargo",
+  "name": "Fargo",
   "album": {
-   "id": 47358422,
-   "title": "Twin Peaks (Limited Event Series Soundtrack)",
-   "artist": "Twin Peaks (Limited Event Series Soundtrack)"
+   "id": 7885321,
+   "title": "Fargo (An Original MGM / FXP Television Series)",
+   "artist": "Jeff Russo"
   },
   "tracks": [
-   401894892,
-   401894872,
-   401894992,
-   401894942,
-   401894922,
-   401894902,
-   401894972,
-   401894932,
-   401895032,
-   401894952,
-   401894982,
-   401895012
+   79266197,
+   79266211,
+   79266203,
+   79266249,
+   79266209,
+   79266201,
+   79266223,
+   79266199,
+   79266205,
+   79266207,
+   79266217,
+   79266251
+  ]
+ },
+ {
+  "slug": "ted-lasso",
+  "name": "Ted Lasso",
+  "album": {
+   "id": 182750672,
+   "title": "Ted Lasso: Season 1 (Apple TV+ Original Series Soundtrack)",
+   "artist": "Marcus Mumford"
+  },
+  "tracks": [
+   1124438322,
+   1124438342,
+   1124438382,
+   1124438392,
+   1124438332,
+   1124438462,
+   1124438432,
+   1124438482,
+   1124438362,
+   1124438442,
+   1124438452,
+   1124438472
+  ]
+ },
+ {
+  "slug": "the-boys",
+  "name": "The Boys",
+  "album": {
+   "id": 177315802,
+   "title": "The Boys: Season 2 (Amazon Original Series Soundtrack)",
+   "artist": "Christopher Lennertz"
+  },
+  "tracks": [
+   1098519922,
+   1098519972,
+   1098519942,
+   1098520112,
+   1098519992,
+   1098519862,
+   1098520012,
+   1098520072,
+   1098520122,
+   1098520092,
+   1098519952,
+   1098520052
   ]
  }
 ]

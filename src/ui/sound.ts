@@ -4,6 +4,14 @@ import type { Judgment } from "../types.ts";
 const STORAGE_KEY = "megaquiz.sound";
 let context: AudioContext | null = null;
 let enabled = readEnabled();
+/** Multiplicateur des volumes de base des notes ; le réglage « Sons du jeu » à 100 % vaut ×2. */
+const MAX_EFFECTS_GAIN = 2;
+let effectsGain = 1;
+
+/** Volume des sons du jeu, de 0 à 1 (réglage de l'écran de configuration). */
+export function setEffectsVolume(volume: number): void {
+  effectsGain = Math.min(1, Math.max(0, volume)) * MAX_EFFECTS_GAIN;
+}
 
 function readEnabled(): boolean {
   try {
@@ -41,7 +49,8 @@ function audio(): AudioContext | null {
 
 /** Une note brève : fréquence, début (s, relatif), durée (s), volume, forme d'onde. */
 function note(freq: number, start: number, duration: number, volume = 0.15, type: OscillatorType = "sine"): void {
-  const ctx = audio();
+  const peak = volume * effectsGain;
+  const ctx = peak > 0 ? audio() : null;
   if (!ctx) return;
   const t = ctx.currentTime + start;
   const osc = ctx.createOscillator();
@@ -49,7 +58,7 @@ function note(freq: number, start: number, duration: number, volume = 0.15, type
   osc.type = type;
   osc.frequency.setValueAtTime(freq, t);
   gain.gain.setValueAtTime(0.0001, t);
-  gain.gain.exponentialRampToValueAtTime(volume, t + 0.01);
+  gain.gain.exponentialRampToValueAtTime(peak, t + 0.01);
   gain.gain.exponentialRampToValueAtTime(0.0001, t + duration);
   osc.connect(gain).connect(ctx.destination);
   osc.start(t);

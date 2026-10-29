@@ -5,7 +5,7 @@
 import { readFile } from "node:fs/promises";
 import { normalize, slugify, type Soundtrack, type SoundtrackCandidate } from "../../src/data/ost.ts";
 import { cleanTitle } from "../../src/music/clean.ts";
-import { judgeAlbums, type AlbumCandidate, type SoundtrackKind, type Verdict } from "../../src/music/ost-match.ts";
+import { isComposerTrack, judgeAlbums, SCORE_ONLY, type AlbumCandidate, type SoundtrackKind, type Verdict } from "../../src/music/ost-match.ts";
 import { deezer, deezerAll, type DeezerTrack } from "./deezer.ts";
 import { writeJson } from "./http.ts";
 
@@ -95,6 +95,7 @@ async function albumTracks(candidate: SoundtrackCandidate, kind: SoundtrackKind)
   const { album } = verdict;
   const tracks = (await deezerAll<FullTrack>(`/album/${album.id}/tracks`))
     .filter((t) => t.readable && t.preview && t.duration >= MIN_TRACK_SECONDS)
+    .filter((t) => !SCORE_ONLY[kind] || isComposerTrack(t.artist.name, album.artist))
     .sort((a, b) => b.rank - a.rank)
     .slice(0, TRACKS_PER_WORK);
   return { album: { id: album.id, title: album.title, artist: album.artist }, tracks: tracks.map((t) => t.id) };

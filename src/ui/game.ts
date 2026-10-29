@@ -1,11 +1,12 @@
-import { keyToAction, type Action } from "../game/keys.ts";
+import { keycap, keyToAction, type Action } from "../game/keys.ts";
+import type { KeyboardLayout } from "../game/preferences.ts";
 import type { GameSession } from "../game/session.ts";
 import type { Judgment, Media, Question } from "../types.ts";
 import { actionButton, h, toggleFullscreen } from "./dom.ts";
 import { judgmentSound, revealSound, soundEnabled, tick, toggleSound } from "./sound.ts";
 
 /** Affiche la partie et branche clavier + souris. Renvoie une fonction de nettoyage. */
-export function mountGame(root: HTMLElement, session: GameSession, themeLabels: Map<string, string>): () => void {
+export function mountGame(root: HTMLElement, session: GameSession, themeLabels: Map<string, string>, layout: KeyboardLayout): () => void {
   const [nameA, nameM] = session.settings.players;
   const timerFill = h("div", { class: "timer-fill" });
   const screen = h("div", { class: "game" });
@@ -56,7 +57,7 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
 
   const onKey = (e: KeyboardEvent) => {
     if (e.repeat || e.ctrlKey || e.metaKey || e.altKey) return;
-    const action = keyToAction(e.key, e.shiftKey);
+    const action = keyToAction(keycap(e, layout), e.shiftKey);
     if (!action) return;
     e.preventDefault();
     dispatch(action);

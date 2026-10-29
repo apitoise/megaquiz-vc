@@ -1,5 +1,7 @@
+import { AUDIO_THEMES, EFFECTS, type KeyboardLayout, type Preferences } from "../game/preferences.ts";
 import type { QuestionProvider, Settings } from "../types.ts";
 import { actionButton, h, toggleFullscreen } from "./dom.ts";
+import { revealSound } from "./sound.ts";
 
 export interface SetupOptions {
   start(settings: Settings): void;
@@ -10,6 +12,9 @@ export interface SetupOptions {
   clearHistory(): void;
   showLeaderboard(): void;
   showCoverReview(): void;
+  /** Clavier et volumes : enregistrés dès qu'on les modifie. */
+  preferences: Preferences;
+  savePreferences(preferences: Preferences): void;
 }
 
 /** Écran de configuration. Appelle `options.start` avec les réglages validés. */
@@ -32,6 +37,8 @@ export function renderSetup(root: HTMLElement, providers: QuestionProvider[], in
   const timer = h("input", { type: "number", name: "timer", min: 3, max: 120, value: initial.timerSeconds, required: true });
   const p1 = h("input", { type: "text", name: "p1", value: initial.players[0], maxlength: 20, required: true });
   const p2 = h("input", { type: "text", name: "p2", value: initial.players[1], maxlength: 20, required: true });
+
+  const preferencesDialog = renderPreferences(providers, options);
 
   const form = h(
     "form",
@@ -63,6 +70,7 @@ export function renderSetup(root: HTMLElement, providers: QuestionProvider[], in
       "div",
       { class: "setup-tools" },
       actionButton(null, "Classement", options.showLeaderboard, "small"),
+      actionButton(null, "Réglages (clavier, volumes)", () => preferencesDialog.showModal(), "small"),
       actionButton(null, "Relire les jaquettes", options.showCoverReview, "small ghost"),
       actionButton(null, "Plein écran", toggleFullscreen, "small ghost"),
       h(
@@ -98,7 +106,57 @@ export function renderSetup(root: HTMLElement, providers: QuestionProvider[], in
     });
   });
 
-  root.replaceChildren(form);
+  root.replaceChildren(form, preferencesDialog);
+}
+
+/** Fenêtre des réglages de l'appareil : disposition du clavier, volume des sons du jeu et des thèmes audio. */
+function renderPreferences(providers: QuestionProvider[], options: SetupOptions): HTMLDialogElement {
+  const preferences: Preferences = { keyboard: options.preferences.keyboard, volumes: { ...options.preferences.volumes } };
+  const save = () => options.savePreferences({ keyboard: preferences.keyboard, volumes: { ...preferences.volumes } });
+
+  const layoutChoice = (layout: KeyboardLayout, label: string) =>
+    h(
+      "label",
+      { class: "theme-choice" },
+      h("input", {
+        type: "radio",
+        name: "keyboard",
+        value: layout,
+        checked: preferences.keyboard === layout,
+        onchange: () => {
+          preferences.keyboard = layout;
+          save();
+        },
+      }),
+      h("span", {}, label),
+    );
+
+  const slider = (channel: string, label: string, preview?: () => void) => {
+    const value = h("output", {}, `${preferences.volumes[channel] ?? 100} %`);
+    const input = h("input", { type: "range", min: 0, max: 100, step: 5, value: preferences.volumes[channel] ?? 100 });
+    input.addEventListener("input", () => {
+      preferences.volumes[channel] = Number(input.value);
+      value.textContent = `${input.value} %`;
+      save();
+    });
+    if (preview) input.addEventListener("change", preview);
+    return h("label", { class: "volume" }, h("span", {}, label), input, value);
+  };
+
+  const audioThemes = AUDIO_THEMES.flatMap((id) => providers.filter((p) => p.id === id));
+  const dialog = h(
+    "dialog",
+    { class: "preferences" },
+    h("h2", {}, "Réglages"),
+    h("h3", {}, "Clavier"),
+    h("div", { class: "layout-choice" }, layoutChoice("azerty", "AZERTY"), layoutChoice("qwerty", "QWERTY")),
+    h("p", { class: "muted" }, "Les raccourcis ([A], [M], [D]…) suivent les lettres imprimées sur les touches, quelle que soit la langue du système."),
+    h("h3", {}, "Volumes"),
+    slider(EFFECTS, "Sons du jeu (tic-tac, points)", revealSound),
+    ...audioThemes.map((p) => slider(p.id, p.label)),
+  );
+  dialog.append(actionButton(null, "Fermer", () => dialog.close(), "small"));
+  return dialog;
 }
 
 function confirmThen(question: string, action: () => void): void {

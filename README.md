@@ -54,6 +54,8 @@ Jeux vidéo : IGDB n'est appelé que par `npm run build-pools -- games` (identif
 
 Sons : tic-tac pendant le timer (pas sur les questions musicales), son de révélation et de jugement, synthétisés dans le navigateur (Web Audio, aucun fichier). Bouton « Son » ou touche `S` pour couper.
 
+Réglages (bouton de l'écran de configuration, enregistrés dans le navigateur) : disposition du clavier (AZERTY ou QWERTY : les raccourcis suivent les lettres imprimées sur les touches, via `event.code`, même si le système est réglé dans une autre langue) et volume de chaque canal sonore : sons du jeu, Musique (65 % par défaut, les titres radio étant plus forts), OST de jeux, musiques de films et de séries.
+
 Le juste prix : chacun annonce un chiffre à l'oral, on attribue le point au plus proche (ou « Les deux »).
 
 Capitales : les pays de moins de 10 000 km² hors Europe sont écartés (`MIN_CAPITAL_AREA_KM2` dans `src/providers/capitals.ts`).
@@ -64,7 +66,7 @@ Art et monuments : `npm run build-pools -- art landmarks`. Les œuvres encore pr
 
 Tirage équilibré : les capitales alternent les continents, la musique les styles, la culture générale les catégories (un groupe tiré à parts égales, jamais deux fois de suite). Les formes de pays se limitent à l'Europe et aux Amériques (`SHAPE_REGIONS` dans `src/providers/shapes.ts`).
 
-OST (jeux, films, séries) : un album n'est retenu que si son titre est le nom de l'œuvre + une mention d'OST (pas de reprise, ni d'œuvre d'un autre type ; pour les films et séries, pas d'artiste générique type « … Orchestra »). Les séries peuvent viser un générique précis (`track`). Les jeux « douteux » ou « absents » sont exclus ; pour en valider un à la main, ajouter `"album": <id Deezer>` à son entrée dans `data/ost_games.json` puis `npm run build-pools -- ost`.
+OST (jeux, films, séries) : un album n'est retenu que si son titre est le nom de l'œuvre + une mention d'OST (pas de reprise, ni d'œuvre d'un autre type ; pour les films et séries, pas d'artiste générique type « … Orchestra »). Films et séries : **bandes originales uniquement** — l'album doit être crédité au compositeur (pas de « Various Artists » ni de compilation de chansons) et seules ses pistes sont gardées (pas la chanson d'un invité, ni un réenregistrement par un autre chef). Les séries peuvent viser un générique composé pour elles (`track`), jamais une chanson préexistante. Les jeux « douteux » ou « absents » sont exclus ; pour en valider un à la main, ajouter `"album": <id Deezer>` à son entrée dans `data/ost_games.json` puis `npm run build-pools -- ost`.
 
 Musique : l'URL d'extrait Deezer est signée et expire en ~15 min ; elle n'est jamais stockée, le jeu en demande une fraîche au proxy local (`/api/deezer/track/:id`) au moment de précharger la question. Le seuil de popularité est `MIN_RANK` dans `scripts/pools/music.ts`.
 

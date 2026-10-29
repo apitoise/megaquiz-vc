@@ -1,4 +1,5 @@
 import "./style.css";
+import { EFFECTS, volumeOf } from "./game/preferences.ts";
 import { preloadQuestion } from "./game/preload.ts";
 import { GameSession } from "./game/session.ts";
 import { QuestionSource } from "./game/source.ts";
@@ -16,11 +17,13 @@ import { renderEnd } from "./ui/end.ts";
 import { mountGame } from "./ui/game.ts";
 import { renderLeaderboard, standingsView } from "./ui/leaderboard.ts";
 import { renderSetup } from "./ui/setup.ts";
+import { setEffectsVolume } from "./ui/sound.ts";
 
 const root = document.getElementById("app")!;
 const storage = new GameStorage(browserStore());
 const themeLabels = new Map(providers.map((p) => [p.id, p.label]));
 const initialized = new Set<string>();
+setEffectsVolume(volumeOf(storage.loadPreferences(), EFFECTS));
 
 function browserStore(): KeyValueStore {
   try {
@@ -53,6 +56,11 @@ function showSetup(): void {
       renderLeaderboard(root, await loadResults(), showSetup);
     },
     showCoverReview: () => void showCoverReview(),
+    preferences: storage.loadPreferences(),
+    savePreferences(preferences) {
+      storage.savePreferences(preferences);
+      setEffectsVolume(volumeOf(preferences, EFFECTS));
+    },
   });
 }
 
@@ -137,10 +145,11 @@ async function startGame(settings: Settings): Promise<void> {
     return showSetup();
   }
 
+  const preferences = storage.loadPreferences();
   const source = new QuestionSource({
     providers: ready,
     count: settings.questionCount,
-    preload: preloadQuestion,
+    preload: (question) => preloadQuestion(question, volumeOf(preferences, question.theme)),
     recent: storage.recentQuestionIds(),
     blacklist: storage.blacklist(),
     onNotice: toast,
@@ -148,7 +157,7 @@ async function startGame(settings: Settings): Promise<void> {
     rhythm: { theme: trivia.id, every: TRIVIA_EVERY },
   });
   const session = new GameSession(settings, source, storage, { onNotice: toast });
-  const unmount = mountGame(root, session, themeLabels);
+  const unmount = mountGame(root, session, themeLabels, preferences.keyboard);
   const unsubscribe = session.subscribe(() => {
     if (session.phase !== "finished") return;
     unsubscribe();

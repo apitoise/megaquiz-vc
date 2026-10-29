@@ -1,24 +1,24 @@
 [
  {
   "name": "Game of Thrones",
-  "status": "douteux",
-  "album": "Game of Thrones Theme — Dragon Blood",
-  "albumId": 100108612,
-  "reason": "pas de mention « soundtrack » / « OST »"
+  "status": "ok",
+  "album": "Game Of Thrones (Music From The HBO Series) — Ramin Djawadi",
+  "albumId": 12224440,
+  "tracks": 12
  },
  {
   "name": "House of the Dragon",
-  "status": "douteux",
-  "album": "House of the Dragon — The Theme System",
-  "albumId": 352294267,
-  "reason": "pas de mention « soundtrack » / « OST »"
+  "status": "ok",
+  "album": "House of the Dragon: Season 1 (Soundtrack from the HBO® Series) — Ramin Djawadi",
+  "albumId": 366556767,
+  "tracks": 12
  },
  {
   "name": "Stranger Things",
   "status": "ok",
-  "album": "Stranger Things (Soundtrack from the Netflix Original Series) — Various Artists",
-  "albumId": 50414792,
-  "tracks": 7
+  "album": "Stranger Things, Vol. 1 (A Netflix Original Series Soundtrack) — Kyle Dixon & Michael Stein",
+  "albumId": 13892396,
+  "tracks": 12
  },
  {
   "name": "Breaking Bad",
@@ -36,10 +36,10 @@
  },
  {
   "name": "La Casa de Papel",
-  "status": "douteux",
-  "album": "La Casa de Papel — GS O Rei do Beat",
-  "albumId": 192361602,
-  "reason": "pas de mention « soundtrack » / « OST »"
+  "status": "ok",
+  "album": "La Casa de Papel (Soundtrack de la serie de Netflix) — Manel Santisteban",
+  "albumId": 511188071,
+  "tracks": 12
  },
  {
   "name": "The Witcher",
@@ -50,10 +50,10 @@
  },
  {
   "name": "Peaky Blinders",
-  "status": "douteux",
-  "album": "Peaky Blinders — Suzan Köcher's Suprafon",
-  "albumId": 88517832,
-  "reason": "pas de mention « soundtrack » / « OST »"
+  "status": "ok",
+  "album": "Peaky Blinders Series 4 Original Score — Antony Genn",
+  "albumId": 834736492,
+  "tracks": 12
  },
  {
   "name": "Friends",
@@ -79,23 +79,9 @@
  {
   "name": "Twin Peaks",
   "status": "ok",
-  "album": "Soundtrack From Twin Peaks — Twin Peaks",
-  "albumId": 677360,
-  "tracks": 11
- },
- {
-  "name": "Dr House (House)",
-  "status": "ok",
-  "album": "Teardrop — Massive Attack",
-  "albumId": 303593,
-  "tracks": 3
- },
- {
-  "name": "Les Soprano (The Sopranos)",
-  "status": "ok",
-  "album": "La Peste — Alabama 3",
-  "albumId": 537849522,
-  "tracks": 3
+  "album": "Twin Peaks: Season Two Music And More — Angelo Badalamenti",
+  "albumId": 99872742,
+  "tracks": 12
  },
  {
   "name": "Narcos",
@@ -117,31 +103,10 @@
   "reason": "aucun « Boss of Me » de They Might Be Giants"
  },
  {
-  "name": "Scrubs",
-  "status": "ok",
-  "album": "All The Time In The World — Lazlo Bane",
-  "albumId": 836710,
-  "tracks": 1
- },
- {
   "name": "Arcane",
   "status": "ok",
   "album": "Enemy (from the series Arcane League of Legends) — Imagine Dragons",
   "albumId": 268731422,
-  "tracks": 3
- },
- {
-  "name": "True Detective",
-  "status": "ok",
-  "album": "Singing Bones — The Handsome Family",
-  "albumId": 14381884,
-  "tracks": 2
- },
- {
-  "name": "Vikings",
-  "status": "ok",
-  "album": "If I Had a Heart — Fever Ray",
-  "albumId": 6761034,
   "tracks": 3
  },
  {
@@ -150,13 +115,6 @@
   "album": "'80s Pop #1's — Jan Hammer",
   "albumId": 102388,
   "tracks": 2
- },
- {
-  "name": "Mad Men",
-  "status": "ok",
-  "album": "Magnificent City Instrumentals — RJD2",
-  "albumId": 193431,
-  "tracks": 3
  },
  {
   "name": "Sherlock",
@@ -174,17 +132,17 @@
  },
  {
   "name": "The Mandalorian",
-  "status": "douteux",
-  "album": "The Mandalorian Theme — Artificial Fear",
-  "albumId": 126311782,
-  "reason": "pas de mention « soundtrack » / « OST »"
+  "status": "ok",
+  "album": "The Mandalorian: Chapter 1 (Original Score) — Ludwig Goransson",
+  "albumId": 118002112,
+  "tracks": 9
  },
  {
   "name": "The Crown",
-  "status": "douteux",
-  "album": "The Crown — Oli Hannaford",
-  "albumId": 55533432,
-  "reason": "pas de mention « soundtrack » / « OST »"
+  "status": "ok",
+  "album": "The Crown: Season One (Soundtrack from the Netflix Original Series) — Rupert Gregson-Williams",
+  "albumId": 14459028,
+  "tracks": 12
  },
  {
   "name": "Squid Game",
@@ -195,10 +153,10 @@
  },
  {
   "name": "Dark",
-  "status": "douteux",
-  "album": "dark out — Max Fry",
-  "albumId": 448012425,
-  "reason": "titre avec « out » en plus du nom"
+  "status": "ok",
+  "album": "Dark: Cycle 1 (Original Music From The Netflix Series) — Ben Frost",
+  "albumId": 698311551,
+  "tracks": 12
  },
  {
   "name": "Lupin",
@@ -223,17 +181,17 @@
  },
  {
   "name": "Succession",
-  "status": "douteux",
-  "album": "succession — Rothko Field",
-  "albumId": 837899602,
-  "reason": "pas de mention « soundtrack » / « OST »"
+  "status": "ok",
+  "album": "Succession: Season 1 (HBO Original Series Soundtrack) — Nicholas Britell",
+  "albumId": 134050672,
+  "tracks": 12
  },
  {
   "name": "Dexter",
-  "status": "douteux",
-  "album": "Dexter — Sfera Ebbasta",
-  "albumId": 15579176,
-  "reason": "pas de mention « soundtrack » / « OST »"
+  "status": "ok",
+  "album": "Dexter Season 4 — Daniel Licht",
+  "albumId": 177980042,
+  "tracks": 12
  },
  {
   "name": "Lost : Les Disparus (Lost)",
@@ -244,17 +202,14 @@
  },
  {
   "name": "Prison Break",
-  "status": "douteux",
-  "album": "Prison Break — Sam Wolfe",
-  "albumId": 497741421,
-  "reason": "pas de mention « soundtrack » / « OST »"
+  "status": "ok",
+  "album": "Prison Break Seasons 3 & 4 (Original Television Soundtrack) — Ramin Djawadi",
+  "albumId": 12281634,
+  "tracks": 12
  },
  {
   "name": "Desperate Housewives",
-  "status": "ok",
-  "album": "Desperate Housewives (TV Soundtrack) — Various Artists",
-  "albumId": 394971,
-  "tracks": 4
+  "status": "absent"
  },
  {
   "name": "The Last of Us (série)",
@@ -300,30 +255,27 @@
  },
  {
   "name": "Twin Peaks : The Return",
-  "status": "ok",
-  "album": "Twin Peaks (Limited Event Series Soundtrack) — Twin Peaks (Limited Event Series Soundtrack)",
-  "albumId": 47358422,
-  "tracks": 12
+  "status": "absent"
  },
  {
   "name": "Fargo",
-  "status": "douteux",
-  "album": "Fargo — Stylezz",
-  "albumId": 241739932,
-  "reason": "pas de mention « soundtrack » / « OST »"
+  "status": "ok",
+  "album": "Fargo (An Original MGM / FXP Television Series) — Jeff Russo",
+  "albumId": 7885321,
+  "tracks": 12
  },
  {
   "name": "Ted Lasso",
-  "status": "douteux",
-  "album": "Ted Lasso — Thorb",
-  "albumId": 432049487,
-  "reason": "pas de mention « soundtrack » / « OST »"
+  "status": "ok",
+  "album": "Ted Lasso: Season 1 (Apple TV+ Original Series Soundtrack) — Marcus Mumford",
+  "albumId": 182750672,
+  "tracks": 12
  },
  {
   "name": "The Boys",
-  "status": "douteux",
-  "album": "The Boys (Deluxe Edition) — The Boys",
-  "albumId": 400835787,
-  "reason": "pas de mention « soundtrack » / « OST »"
+  "status": "ok",
+  "album": "The Boys: Season 2 (Amazon Original Series Soundtrack) — Christopher Lennertz",
+  "albumId": 177315802,
+  "tracks": 12
  }
 ]

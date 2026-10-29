@@ -30,6 +30,13 @@ const REJECT: Record<SoundtrackKind, RegExp> = {
  */
 const COVER_ARTIST = /\b(orchestra|orchestre|instrumental|instrumentals|magic|singers|players|ensemble|vibes|tribute|cover|covers|karaoke|lullaby|piano|guitar|kids|band|soundtrack orchestra|theme kings)\b/;
 const CHECK_ARTIST: Record<SoundtrackKind, boolean> = { game: false, film: true, series: true };
+/**
+ * Films et séries : uniquement la bande originale composée pour l'œuvre. Un album crédité à un artiste
+ * générique (« Various Artists », « Original Motion Picture Soundtrack », la troupe) est une compilation
+ * de chansons : écarté. Seules les pistes du compositeur crédité sont gardées (voir `isComposerTrack`).
+ */
+export const SCORE_ONLY: Record<SoundtrackKind, boolean> = { game: false, film: true, series: true };
+const GENERIC_ARTIST = /^(various artists|multi interpretes|artistes divers|.*\bsoundtrack\b.*|.*\bmotion picture\b.*|.*\bcast\b.*|ost)$/;
 /** Pistes minimum d'un album d'OST (une série peut se réduire à son générique). */
 const MIN_ALBUM_TRACKS: Record<SoundtrackKind, number> = { game: 5, film: 5, series: 1 };
 
@@ -63,18 +70,32 @@ function hasMarker(albumTitle: string): boolean {
   return SOUNDTRACK_MARKERS.test(normalize(albumTitle));
 }
 
+function isScore(albumTitle: string): boolean {
+  return /\bscore\b/.test(normalize(albumTitle));
+}
+
+/** Piste du compositeur crédité de l'album (pas une chanson d'un invité : Céline Dion sur l'album de James Horner). */
+export function isComposerTrack(trackArtist: string, albumArtist: string): boolean {
+  const track = normalize(trackArtist);
+  const album = normalize(albumArtist);
+  return !!track && !!album && (track.includes(album) || album.includes(track));
+}
+
 /** Choisit le meilleur album pour une œuvre parmi les résultats de recherche. */
 export function judgeAlbums(match: string, albums: AlbumCandidate[], kind: SoundtrackKind = "game"): Verdict {
   const scored = albums
     .map((album) => ({ album, rest: residue(album.title, match) }))
     .filter((c): c is { album: AlbumCandidate; rest: string } => c.rest !== null && !REJECT[kind].test(normalize(c.album.title)))
     .filter((c) => !CHECK_ARTIST[kind] || !COVER_ARTIST.test(normalize(c.album.artist)))
+    .filter((c) => !SCORE_ONLY[kind] || !GENERIC_ARTIST.test(normalize(c.album.artist)))
     // Le moins de texte superflu d'abord (évite « FF VII REMAKE » pour « FF VII »), puis les albums qui se
-    // disent OST (avant les reprises homonymes « Interstellar — Soothing Sonata »), puis le plus de pistes.
+    // disent OST (avant les reprises homonymes « Interstellar — Soothing Sonata »), puis la partition
+    // (« Original Score ») avant l'album de chansons, puis le plus de pistes.
     .sort(
       (a, b) =>
         a.rest.length - b.rest.length ||
         Number(hasMarker(b.album.title)) - Number(hasMarker(a.album.title)) ||
+        Number(isScore(b.album.title)) - Number(isScore(a.album.title)) ||
         b.album.nb_tracks - a.album.nb_tracks,
     );
   const best = scored[0];
