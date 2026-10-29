@@ -40,13 +40,18 @@ export class PoolExhaustedError extends Error {
   }
 }
 
-export type PlayerIndex = 0 | 1;
-/** Qui a marqué sur une ligne de réponse : un joueur, les deux (réponse trouvée en même temps), ou personne. */
-export type Judgment = PlayerIndex | "both" | "none";
+/** Indice d'un joueur dans `Settings.players` (0 pour le premier). */
+export type PlayerIndex = number;
+/** Qui a trouvé une ligne de réponse : les indices des joueurs, triés (vide = personne). */
+export type Judgment = readonly PlayerIndex[];
+
+export const MIN_PLAYERS = 2;
+export const MAX_PLAYERS = 8;
 
 export interface Settings {
   themes: string[];
   questionCount: number;
   timerSeconds: number;
-  players: [string, string];
+  /** De MIN_PLAYERS à MAX_PLAYERS noms. */
+  players: string[];
 }

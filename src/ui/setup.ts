@@ -1,5 +1,6 @@
 import { AUDIO_THEMES, EFFECTS, type KeyboardLayout, type Preferences } from "../game/preferences.ts";
-import type { QuestionProvider, Settings } from "../types.ts";
+import { defaultPlayerName } from "../game/storage.ts";
+import { MAX_PLAYERS, MIN_PLAYERS, type QuestionProvider, type Settings } from "../types.ts";
 import { actionButton, h, toggleFullscreen } from "./dom.ts";
 import { revealSound } from "./sound.ts";
 
@@ -35,8 +36,30 @@ export function renderSetup(root: HTMLElement, providers: QuestionProvider[], in
   const setAll = (value: boolean) => themeBoxes.forEach((label) => (label.querySelector("input")!.checked = value));
   const count = h("input", { type: "number", name: "count", min: 1, max: 500, value: initial.questionCount, required: true });
   const timer = h("input", { type: "number", name: "timer", min: 3, max: 120, value: initial.timerSeconds, required: true });
-  const p1 = h("input", { type: "text", name: "p1", value: initial.players[0], maxlength: 20, required: true });
-  const p2 = h("input", { type: "text", name: "p2", value: initial.players[1], maxlength: 20, required: true });
+  // Joueurs : un champ par joueur ; les noms tapés sont conservés si on change le nombre de joueurs.
+  const names = [...initial.players];
+  const playerCount = h(
+    "select",
+    { name: "players" },
+    ...Array.from({ length: MAX_PLAYERS - MIN_PLAYERS + 1 }, (_, i) => {
+      const n = MIN_PLAYERS + i;
+      return h("option", { value: n, selected: n === initial.players.length }, `${n} joueurs`);
+    }),
+  );
+  const playerFields = h("div", { class: "player-fields" });
+  const renderPlayers = () => {
+    const count = Number(playerCount.value);
+    while (names.length < count) names.push(defaultPlayerName(names.length));
+    playerFields.replaceChildren(
+      ...names.slice(0, count).map((name, i) => {
+        const input = h("input", { type: "text", value: name, maxlength: 20, required: true, "aria-label": `Joueur ${i + 1}` });
+        input.addEventListener("input", () => (names[i] = input.value));
+        return h("label", { class: `player-field p${i}` }, h("kbd", {}, i + 1), input);
+      }),
+    );
+  };
+  playerCount.addEventListener("change", renderPlayers);
+  renderPlayers();
 
   const preferencesDialog = renderPreferences(providers, options);
 
@@ -61,9 +84,9 @@ export function renderSetup(root: HTMLElement, providers: QuestionProvider[], in
       { class: "setup-row" },
       h("label", {}, "Questions", count),
       h("label", {}, "Timer (s)", timer),
-      h("label", {}, "Joueur [A]", p1),
-      h("label", {}, "Joueur [M]", p2),
+      h("label", {}, "Joueurs", playerCount),
     ),
+    playerFields,
     error,
     h("button", { class: "action primary big", type: "submit" }, "Lancer la partie"),
     h(
@@ -102,7 +125,7 @@ export function renderSetup(root: HTMLElement, providers: QuestionProvider[], in
       themes,
       questionCount: clampInt(count.value, 1, 500, 50),
       timerSeconds: clampInt(timer.value, 3, 120, 20),
-      players: [p1.value.trim() || "Joueur 1", p2.value.trim() || "Joueur 2"],
+      players: names.slice(0, Number(playerCount.value)).map((name, i) => name.trim() || `Joueur ${i + 1}`),
     });
   });
 
@@ -150,7 +173,7 @@ function renderPreferences(providers: QuestionProvider[], options: SetupOptions)
     h("h2", {}, "Réglages"),
     h("h3", {}, "Clavier"),
     h("div", { class: "layout-choice" }, layoutChoice("azerty", "AZERTY"), layoutChoice("qwerty", "QWERTY")),
-    h("p", { class: "muted" }, "Les raccourcis ([A], [M], [D]…) suivent les lettres imprimées sur les touches, quelle que soit la langue du système."),
+    h("p", { class: "muted" }, "Les raccourcis ([N], [T], [P]…) suivent les lettres imprimées sur les touches, quelle que soit la langue du système."),
     h("h3", {}, "Volumes"),
     slider(EFFECTS, "Sons du jeu (tic-tac, points)", revealSound),
     ...audioThemes.map((p) => slider(p.id, p.label)),

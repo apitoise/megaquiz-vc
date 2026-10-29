@@ -1,4 +1,4 @@
-import { biggestWin, computeStandings, marginLabel, type GameResult } from "../game/results.ts";
+import { biggestWin, computeStandings, marginLabel, scoreLine, winnerName, type GameResult } from "../game/results.ts";
 import { actionButton, h } from "./dom.ts";
 
 /** Parties affichées dans l'historique (les plus récentes). */
@@ -28,7 +28,7 @@ export function standingsView(results: readonly GameResult[], latest?: GameResul
         h("th", { title: "Victoires" }, "V"),
         h("th", { title: "Nuls" }, "N"),
         h("th", { title: "Défaites" }, "D"),
-        h("th", { title: "Points marqués – encaissés" }, "Points"),
+        h("th", { title: "Points marqués – points du meilleur adversaire" }, "Points"),
         h("th", { title: "Différence de points cumulée" }, "Diff."),
       ),
     ),
@@ -57,7 +57,7 @@ export function standingsView(results: readonly GameResult[], latest?: GameResul
     ? h(
         "p",
         { class: "muted" },
-        `Plus large victoire : ${winnerName(record)} (${record.scores[0]} – ${record.scores[1]}, ${marginLabel(record.scores)}) le ${dateFormat.format(new Date(record.date))}`,
+        `Plus large victoire : ${winnerName(record)} (${scoreLine(record)}, ${marginLabel(record.scores)}) le ${dateFormat.format(new Date(record.date))}`,
       )
     : null;
 
@@ -76,7 +76,7 @@ export function standingsView(results: readonly GameResult[], latest?: GameResul
             "tr",
             { class: `${r.complete ? "" : "interrupted"} ${r === latest ? "latest" : ""}` },
             h("td", {}, dateFormat.format(new Date(r.date))),
-            h("td", {}, `${r.players[0]} ${r.scores[0]} – ${r.scores[1]} ${r.players[1]}`),
+            h("td", {}, scoreLine(r)),
             h("td", {}, marginLabel(r.scores)),
             h("td", {}, r.complete ? r.questions : `${r.questions} (interrompue)`),
           ),
@@ -94,10 +94,6 @@ export function standingsView(results: readonly GameResult[], latest?: GameResul
     history,
     results.length > complete.length ? h("p", { class: "muted" }, "Les parties interrompues (« Terminer ») ne comptent pas au classement.") : null,
   );
-}
-
-function winnerName(r: GameResult): string {
-  return r.scores[0] > r.scores[1] ? r.players[0] : r.players[1];
 }
 
 /** Écran « Classement » accessible depuis la configuration. */

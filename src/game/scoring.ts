@@ -14,17 +14,28 @@ export function isRoundComplete(round: Round): boolean {
   return round.judgments.every((j) => j !== null);
 }
 
+/** Jugement normalisé : indices uniques, triés. */
+export function judgmentOf(players: Iterable<PlayerIndex>): Judgment {
+  return [...new Set(players)].sort((a, b) => a - b);
+}
+
+/** Ajoute ou retire un joueur d'une sélection. */
+export function togglePlayer(selection: Judgment, player: PlayerIndex): Judgment {
+  return selection.includes(player) ? selection.filter((p) => p !== player) : judgmentOf([...selection, player]);
+}
+
 /** Juge une ligne (un nouveau jugement remplace l'ancien tant que la question n'est pas close). */
 export function judgeRow(round: Round, row: number, judgment: Judgment): Round {
   if (row < 0 || row >= round.judgments.length) return round;
   const judgments = [...round.judgments];
-  judgments[row] = judgment;
+  judgments[row] = judgmentOf(judgment);
   return { ...round, judgments };
 }
 
-/** Juge toutes les lignes d'un coup (raccourci « les deux → X »). */
+/** Même jugement pour toutes les lignes (ex. titre et artiste trouvés par les mêmes joueurs). */
 export function judgeAll(round: Round, judgment: Judgment): Round {
-  return { ...round, judgments: round.judgments.map(() => judgment) };
+  const normalized = judgmentOf(judgment);
+  return { ...round, judgments: round.judgments.map(() => normalized) };
 }
 
 /** Première ligne non jugée, ou -1. */
@@ -36,20 +47,20 @@ export function nextPendingRow(round: Round, from = 0): number {
   return -1;
 }
 
+/** Un point par ligne trouvée par le joueur (plusieurs joueurs peuvent marquer sur la même ligne). */
 export function roundPoints(round: Round, player: PlayerIndex): number {
-  return round.judgments.filter((j) => j === player || j === "both").length;
+  return round.judgments.filter((j) => j?.includes(player)).length;
 }
 
-export function computeScores(rounds: readonly Round[]): [number, number] {
-  return [
-    rounds.reduce((sum, r) => sum + roundPoints(r, 0), 0),
-    rounds.reduce((sum, r) => sum + roundPoints(r, 1), 0),
-  ];
+export function computeScores(rounds: readonly Round[], playerCount: number): number[] {
+  return Array.from({ length: playerCount }, (_, player) => rounds.reduce((sum, r) => sum + roundPoints(r, player), 0));
 }
 
-export type Outcome = { kind: "winner"; player: PlayerIndex } | { kind: "draw" };
+export type Outcome = { kind: "winner"; player: PlayerIndex } | { kind: "draw"; players: PlayerIndex[] };
 
-export function outcome(scores: [number, number]): Outcome {
-  if (scores[0] === scores[1]) return { kind: "draw" };
-  return { kind: "winner", player: scores[0] > scores[1] ? 0 : 1 };
+/** Vainqueur unique, ou égalité entre les meilleurs scores. */
+export function outcome(scores: readonly number[]): Outcome {
+  const best = Math.max(...scores);
+  const top = scores.flatMap((s, i) => (s === best ? [i] : []));
+  return top.length === 1 ? { kind: "winner", player: top[0] } : { kind: "draw", players: top };
 }

@@ -8,7 +8,7 @@ import { fakeProvider, okPreload } from "./helpers.ts";
 
 const settings: Settings = { themes: [], questionCount: 3, timerSeconds: 20, players: ["Arthur", "Marie"] };
 
-function setup(providers: QuestionProvider[], count = 3) {
+function setup(providers: QuestionProvider[], count = 3, players = settings.players) {
   const storage = new GameStorage(memoryStore());
   const source = new QuestionSource({
     providers,
@@ -18,7 +18,7 @@ function setup(providers: QuestionProvider[], count = 3) {
     blacklist: storage.blacklist(),
     rng: seededRng(1),
   });
-  const session = new GameSession({ ...settings, questionCount: count }, source, storage, { now: () => Date.now() });
+  const session = new GameSession({ ...settings, questionCount: count, players }, source, storage, { now: () => Date.now() });
   return { session, storage };
 }
 
@@ -35,12 +35,12 @@ describe("GameSession", () => {
     expect(session.phase).toBe("question");
     expect(session.number).toBe(1);
 
-    session.judge(0); // ignoré : pas encore révélé
+    session.judge([0]); // ignoré : pas encore révélé
     expect(session.phase).toBe("question");
 
     session.reveal();
     expect(session.phase).toBe("reveal");
-    session.judge(0);
+    session.judge([0]);
     expect(session.phase).toBe("advancing");
     expect(session.scores).toEqual([1, 0]);
 
@@ -48,7 +48,7 @@ describe("GameSession", () => {
     expect(session.phase).toBe("question");
     expect(session.number).toBe(2);
 
-    for (const j of [1, "none"] as const) {
+    for (const j of [[1], []]) {
       session.reveal();
       session.judge(j);
       await vi.advanceTimersByTimeAsync(ADVANCE_DELAY_MS);
@@ -56,6 +56,41 @@ describe("GameSession", () => {
     expect(session.phase).toBe("finished");
     expect(session.scores).toEqual([1, 1]);
     expect(session.rounds).toHaveLength(3);
+  });
+
+  it("5 joueurs : on coche les joueurs qui ont trouvé, puis on valide", async () => {
+    const { session } = setup([fakeProvider("a", 10)], 2, ["Arthur", "Marie", "Léa", "Tom", "Inès"]);
+    await session.start();
+    session.toggle(1); // ignoré : pas encore révélé
+    expect(session.selection).toEqual([]);
+    session.reveal();
+    session.toggle(3);
+    session.toggle(1);
+    session.toggle(4);
+    session.toggle(4); // décoché
+    session.toggle(7); // hors limites : ignoré
+    expect(session.selection).toEqual([1, 3]);
+    expect(session.phase).toBe("reveal"); // rien n'est validé tant qu'on n'a pas confirmé
+    session.validate();
+    expect(session.phase).toBe("advancing");
+    expect(session.scores).toEqual([0, 1, 0, 1, 0]);
+
+    await vi.advanceTimersByTimeAsync(ADVANCE_DELAY_MS);
+    expect(session.selection).toEqual([]);
+    session.reveal();
+    session.validate(); // rien de coché : personne
+    expect(session.rounds[1].judgments).toEqual([[]]);
+  });
+
+  it("question musicale : sélection validée pour toutes les lignes", async () => {
+    const { session } = setup([fakeProvider("music", 10, 2)]);
+    await session.start();
+    session.reveal();
+    session.toggle(0);
+    session.toggle(1);
+    session.validateAll();
+    expect(session.rounds[0].judgments).toEqual([[0, 1], [0, 1]]);
+    expect(session.scores).toEqual([2, 2]);
   });
 
   it("révèle automatiquement à la fin du timer", async () => {
@@ -86,19 +121,19 @@ describe("GameSession", () => {
     await session.start();
     session.reveal();
     expect(session.focusRow).toBe(0);
-    session.judge(0);
+    session.judge([0]);
     expect(session.phase).toBe("reveal");
     expect(session.focusRow).toBe(1);
-    session.judge(1);
+    session.judge([1]);
     expect(session.phase).toBe("advancing");
-    expect(session.rounds[0].judgments).toEqual([0, 1]);
+    expect(session.rounds[0].judgments).toEqual([[0], [1]]);
   });
 
-  it("question musicale : « les deux → Marie »", async () => {
+  it("question musicale : même jugement pour les deux lignes", async () => {
     const { session } = setup([fakeProvider("music", 10, 2)]);
     await session.start();
     session.reveal();
-    session.judgeAll(1);
+    session.judgeAll([1]);
     expect(session.phase).toBe("advancing");
     expect(session.scores).toEqual([0, 2]);
   });
@@ -107,10 +142,10 @@ describe("GameSession", () => {
     const { session } = setup([fakeProvider("music", 10, 2)]);
     await session.start();
     session.reveal();
-    session.judge("none", 1);
+    session.judge([], 1);
     expect(session.focusRow).toBe(0);
-    session.judge(0);
-    expect(session.rounds[0].judgments).toEqual([0, "none"]);
+    session.judge([0]);
+    expect(session.rounds[0].judgments).toEqual([[0], []]);
   });
 
   it("question cassée : blacklistée, remplacée, et non comptée", async () => {
@@ -126,7 +161,7 @@ describe("GameSession", () => {
 
     for (let i = 0; i < 2; i++) {
       session.reveal();
-      session.judge(0);
+      session.judge([0]);
       await vi.advanceTimersByTimeAsync(ADVANCE_DELAY_MS);
     }
     expect(session.phase).toBe("finished");
@@ -143,7 +178,7 @@ describe("GameSession", () => {
     const { session } = setup([fakeProvider("a", 10)], 5);
     await session.start();
     session.reveal();
-    session.judge(1);
+    session.judge([1]);
     await vi.advanceTimersByTimeAsync(ADVANCE_DELAY_MS);
     session.finish();
     expect(session.phase).toBe("finished");
@@ -173,7 +208,7 @@ describe("GameSession", () => {
     session.replay();
     expect(audio.currentTime).toBe(7);
 
-    session.judgeAll(0);
+    session.judgeAll([0]);
     await vi.advanceTimersByTimeAsync(ADVANCE_DELAY_MS);
     expect(audio.pause).toHaveBeenCalled();
   });

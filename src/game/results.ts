@@ -1,11 +1,13 @@
 // Résultats des parties et classement (logique pure, partagée avec le serveur).
+import { MAX_PLAYERS, MIN_PLAYERS } from "../types.ts";
 
 /** Une partie terminée, telle qu'enregistrée dans saves/results.json. */
 export interface GameResult {
   /** Date de fin, ISO 8601. */
   date: string;
-  players: [string, string];
-  scores: [number, number];
+  /** De 2 à 8 joueurs (les anciennes parties en comptent 2). */
+  players: string[];
+  scores: number[];
   /** Questions jouées. */
   questions: number;
   themes: string[];
@@ -32,7 +34,9 @@ export function playerKey(name: string): string {
 
 /**
  * Classement : victoires, puis différence de points, puis points marqués.
- * Seules les parties complètes comptent.
+ * Seules les parties complètes comptent. À plus de deux joueurs, chacun est comparé au meilleur
+ * de ses adversaires : « encaissés » et « différence » se mesurent par rapport à lui (à deux, c'est
+ * simplement l'adversaire). Une égalité en tête compte comme un nul pour les ex aequo.
  */
 export function computeStandings(results: readonly GameResult[]): Standing[] {
   const table = new Map<string, Standing>();
@@ -45,10 +49,10 @@ export function computeStandings(results: readonly GameResult[]): Standing[] {
   };
   for (const r of results) {
     if (!r.complete) continue;
-    for (const side of [0, 1] as const) {
+    for (let side = 0; side < r.players.length; side++) {
       const me = row(r.players[side]);
       const mine = r.scores[side];
-      const theirs = r.scores[1 - side];
+      const theirs = Math.max(...r.scores.filter((_, i) => i !== side));
       me.played++;
       me.pointsFor += mine;
       me.pointsAgainst += theirs;
@@ -61,10 +65,31 @@ export function computeStandings(results: readonly GameResult[]): Standing[] {
   return [...table.values()].sort((a, b) => b.wins - a.wins || b.diff - a.diff || b.pointsFor - a.pointsFor || a.name.localeCompare(b.name, "fr"));
 }
 
-/** Écart d'une partie, signé du point de vue du vainqueur (« +7 »), ou « = » en cas d'égalité. */
-export function marginLabel(scores: [number, number]): string {
-  const margin = Math.abs(scores[0] - scores[1]);
-  return margin ? `+${margin}` : "=";
+/** Écart entre le premier et le deuxième d'une partie. */
+export function margin(scores: readonly number[]): number {
+  const [first, second] = [...scores].sort((a, b) => b - a);
+  return first - (second ?? first);
+}
+
+/** Écart d'une partie, du point de vue du vainqueur (« +7 »), ou « = » en cas d'égalité en tête. */
+export function marginLabel(scores: readonly number[]): string {
+  const m = margin(scores);
+  return m ? `+${m}` : "=";
+}
+
+/** Vainqueur d'une partie (le meilleur score), ou null en cas d'égalité en tête. */
+export function winnerName(r: GameResult): string | null {
+  if (!margin(r.scores)) return null;
+  return r.players[r.scores.indexOf(Math.max(...r.scores))];
+}
+
+/** Score d'une partie, du meilleur au moins bon : « Arthur 12 · Marie 9 · Léa 4 ». */
+export function scoreLine(r: GameResult): string {
+  return r.players
+    .map((name, i) => ({ name, score: r.scores[i] }))
+    .sort((a, b) => b.score - a.score)
+    .map((p) => `${p.name} ${p.score}`)
+    .join(" · ");
 }
 
 /** Plus large victoire parmi les parties complètes. */
@@ -72,8 +97,8 @@ export function biggestWin(results: readonly GameResult[]): GameResult | null {
   let best: GameResult | null = null;
   for (const r of results) {
     if (!r.complete) continue;
-    const margin = Math.abs(r.scores[0] - r.scores[1]);
-    if (margin > 0 && (!best || margin > Math.abs(best.scores[0] - best.scores[1]))) best = r;
+    const m = margin(r.scores);
+    if (m > 0 && (!best || m > margin(best.scores))) best = r;
   }
   return best;
 }
@@ -85,15 +110,15 @@ export function parseResult(value: unknown): GameResult | null {
   const isName = (x: unknown): x is string => typeof x === "string" && x.trim().length > 0 && x.length <= 40;
   const isScore = (x: unknown): x is number => typeof x === "number" && Number.isInteger(x) && x >= 0 && x <= 10_000;
   if (typeof v.date !== "string" || Number.isNaN(Date.parse(v.date))) return null;
-  if (!Array.isArray(v.players) || v.players.length !== 2 || !v.players.every(isName)) return null;
-  if (!Array.isArray(v.scores) || v.scores.length !== 2 || !v.scores.every(isScore)) return null;
+  if (!Array.isArray(v.players) || v.players.length < MIN_PLAYERS || v.players.length > MAX_PLAYERS || !v.players.every(isName)) return null;
+  if (!Array.isArray(v.scores) || v.scores.length !== v.players.length || !v.scores.every(isScore)) return null;
   if (!isScore(v.questions)) return null;
   if (!Array.isArray(v.themes) || !v.themes.every((t) => typeof t === "string" && t.length <= 40) || v.themes.length > 50) return null;
   if (typeof v.complete !== "boolean") return null;
   return {
     date: v.date,
-    players: [v.players[0] as string, v.players[1] as string],
-    scores: [v.scores[0] as number, v.scores[1] as number],
+    players: v.players as string[],
+    scores: v.scores as number[],
     questions: v.questions,
     themes: v.themes as string[],
     complete: v.complete,

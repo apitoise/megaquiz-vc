@@ -75,14 +75,14 @@ export function revealSound(): void {
   [523.25, 659.25, 783.99, 1046.5].forEach((f, i) => note(f, i * 0.07, 0.25, 0.12, "triangle"));
 }
 
-/** Jugement : « ding » pour un point, double « ding » pour les deux, son grave pour personne. */
+/** Jugement : « ding » pour un joueur, « ding » à trois notes pour plusieurs, son grave pour personne. */
 export function judgmentSound(judgment: Judgment): void {
-  if (judgment === "none") {
+  if (!judgment.length) {
     note(220, 0, 0.25, 0.12, "sine");
     note(174.6, 0.12, 0.3, 0.1, "sine");
     return;
   }
   note(987.77, 0, 0.18, 0.13, "triangle");
   note(1318.5, 0.08, 0.3, 0.13, "triangle");
-  if (judgment === "both") note(1567.98, 0.18, 0.35, 0.12, "triangle");
+  if (judgment.length > 1) note(1567.98, 0.18, 0.35, 0.12, "triangle");
 }

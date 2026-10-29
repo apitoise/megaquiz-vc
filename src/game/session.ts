@@ -1,6 +1,6 @@
 import type { Judgment, Settings } from "../types.ts";
 import { Countdown } from "./countdown.ts";
-import { computeScores, isRoundComplete, judgeAll, judgeRow, newRound, nextPendingRow, type Round } from "./scoring.ts";
+import { computeScores, isRoundComplete, judgeAll, judgeRow, newRound, nextPendingRow, togglePlayer, type Round } from "./scoring.ts";
 import type { Prepared, QuestionSource } from "./source.ts";
 import type { GameStorage } from "./storage.ts";
 
@@ -31,6 +31,8 @@ export class GameSession {
   round: Round | null = null;
   /** Ligne de réponse qui reçoit le prochain jugement clavier. */
   focusRow = 0;
+  /** Joueurs cochés pour la ligne `focusRow`, pas encore validés. */
+  selection: Judgment = [];
   readonly rounds: Round[] = [];
   /** Plus aucun thème ne répond : la partie attend le retour du réseau. */
   waiting = false;
@@ -74,9 +76,9 @@ export class GameSession {
     return this.phase === "finished" ? this.rounds.length : this.settings.questionCount;
   }
 
-  get scores(): [number, number] {
+  get scores(): number[] {
     const rounds = this.round && this.phase === "reveal" ? [...this.rounds, this.round] : this.rounds;
-    return computeScores(rounds);
+    return computeScores(rounds, this.settings.players.length);
   }
 
   /** Fraction de temps restante (1 → 0) ; 0 une fois la réponse révélée. */
@@ -97,19 +99,51 @@ export class GameSession {
     this.emit();
   }
 
-  /** Juge une ligne de réponse (par défaut celle qui a le focus clavier). */
+  private get judging(): boolean {
+    return this.phase === "reveal" && !this.paused && this.round !== null;
+  }
+
+  /** Coche ou décoche un joueur sur une ligne (par défaut celle qui a le focus) ; rien n'est encore validé. */
+  toggle(player: number, row = this.focusRow): void {
+    if (!this.judging || player < 0 || player >= this.settings.players.length) return;
+    if (row !== this.focusRow) this.focus(row);
+    this.selection = togglePlayer(this.selection, player);
+    this.emit();
+  }
+
+  /** Valide la sélection de la ligne qui a le focus. */
+  validate(): void {
+    this.judge(this.selection);
+  }
+
+  /** Valide la sélection pour toutes les lignes (ex. titre et artiste trouvés par les mêmes joueurs). */
+  validateAll(): void {
+    this.judgeAll(this.selection);
+  }
+
+  /** Juge une ligne de réponse (par défaut celle qui a le focus clavier) : ces joueurs ont trouvé. */
   judge(judgment: Judgment, row = this.focusRow): void {
-    if (this.phase !== "reveal" || this.paused || !this.round) return;
-    this.round = judgeRow(this.round, row, judgment);
+    if (!this.judging) return;
+    this.round = judgeRow(this.round!, row, judgment);
     if (isRoundComplete(this.round)) return this.completeRound();
-    this.focusRow = nextPendingRow(this.round, row + 1);
+    this.focus(nextPendingRow(this.round, row + 1));
     this.emit();
   }
 
   judgeAll(judgment: Judgment): void {
-    if (this.phase !== "reveal" || this.paused || !this.round) return;
-    this.round = judgeAll(this.round, judgment);
+    if (!this.judging) return;
+    this.round = judgeAll(this.round!, judgment);
     this.completeRound();
+  }
+
+  /** Tous les joueurs ont trouvé la ligne. */
+  everyone(): Judgment {
+    return this.settings.players.map((_, i) => i);
+  }
+
+  private focus(row: number): void {
+    this.focusRow = row;
+    this.selection = this.round?.judgments[row] ?? [];
   }
 
   togglePause(): void {
@@ -189,6 +223,7 @@ export class GameSession {
     this.current = prepared;
     this.round = newRound(prepared.question);
     this.focusRow = 0;
+    this.selection = [];
     this.paused = false;
     this.phase = "question";
     this.storage.recordAsked(prepared.question.id);

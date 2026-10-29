@@ -1,6 +1,6 @@
 # MégaQuiz
 
-Quiz local à deux joueurs sur un seul écran. Les réponses se donnent à l'oral ; le jeu affiche la question, lance le timer, révèle la réponse, et vous désignez qui a marqué.
+Quiz local de 2 à 8 joueurs sur un seul écran (nombre et noms choisis dans la configuration). Les réponses se donnent à l'oral ; le jeu affiche la question, lance le timer, révèle la réponse, et vous cochez les joueurs qui ont trouvé (un point chacun).
 
 ## Lancer
 
@@ -76,10 +76,11 @@ Drapeaux : `https://flagcdn.com/w640/{code}.png`, chargés en direct. Le seuil d
 
 | Action | Touche |
 |---|---|
-| Révéler | `Espace` |
-| Point à Arthur / Marie / personne | `A` / `M` / `N` |
-| Les deux (trouvé en même temps : un point chacun) | `D` |
-| Musique : les deux points à Arthur / Marie | `Shift+A` / `Shift+M` |
+| Révéler | `Espace` (ou `Entrée`) |
+| Cocher / décocher un joueur qui a trouvé | `1` à `8` (rangée du haut, sans Maj, ou pavé numérique) |
+| Valider les joueurs cochés (rien de coché : personne) | `Espace` (ou `Entrée`) |
+| Personne / tout le monde (valide directement) | `N` / `T` |
+| Musique (titre + artiste) : valider la même sélection pour les deux lignes | `Maj+Espace` |
 | Pause / reprise | `P` |
 | Question cassée (passer et blacklister) | `X` |
 | Rejouer l'extrait | `R` |
@@ -101,7 +102,7 @@ Chaque jaquette est classée **sûre** (le nom du jeu a été lu puis effacé) o
 
 ## Classement
 
-Chaque partie terminée est enregistrée par le serveur local dans `saves/results.json` (hors git, propre à cette machine). Le classement compte, par joueur : parties jouées, victoires, nuls, défaites, points marqués / encaissés et **différence de points cumulée** ; il est trié par victoires, puis différence, puis points marqués. Il s'affiche en fin de partie et via le bouton « Classement » de la configuration, avec l'historique des dernières parties et leur écart.
+Chaque partie terminée est enregistrée par le serveur local dans `saves/results.json` (hors git, propre à cette machine). Le classement compte, par joueur : parties jouées, victoires, nuls, défaites, points marqués / encaissés et **différence de points cumulée** ; il est trié par victoires, puis différence, puis points marqués. À plus de deux joueurs, chacun est comparé au meilleur de ses adversaires (victoire = meilleur score seul, nul = ex aequo en tête). Il s'affiche en fin de partie et via le bouton « Classement » de la configuration, avec l'historique des dernières parties et leur écart.
 
 Les joueurs sont reconnus par leur nom (casse ignorée). Une partie arrêtée avec « Terminer » apparaît dans l'historique mais ne compte pas au classement. Pour repartir de zéro : supprimer `saves/results.json`.
 

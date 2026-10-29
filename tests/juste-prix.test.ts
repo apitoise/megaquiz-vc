@@ -12,14 +12,14 @@ import { frenchCities } from "../src/providers/france.ts";
 import { justePrix } from "../src/providers/juste-prix.ts";
 import { question } from "./helpers.ts";
 
-describe("« Les deux »", () => {
-  it("donne un point à chaque joueur", () => {
-    const rounds = [judgeRow(newRound(question("t", 1)), 0, "both"), judgeRow(newRound(question("t", 2)), 0, 0)];
-    expect(computeScores(rounds)).toEqual([2, 1]);
+describe("plusieurs joueurs trouvent en même temps", () => {
+  it("donne un point à chacun", () => {
+    const rounds = [judgeRow(newRound(question("t", 1)), 0, [0, 1]), judgeRow(newRound(question("t", 2)), 0, [0])];
+    expect(computeScores(rounds, 2)).toEqual([2, 1]);
   });
 
-  it("touche D (et S pour couper le son)", () => {
-    expect(keyToAction("d", false)).toEqual({ type: "judge", judgment: "both" });
+  it("touche T (tout le monde) et S pour couper le son", () => {
+    expect(keyToAction("t", false)).toEqual({ type: "everyone" });
     expect(keyToAction("s", false)).toEqual({ type: "sound" });
   });
 });

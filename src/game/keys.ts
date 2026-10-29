@@ -1,4 +1,3 @@
-import type { Judgment } from "../types.ts";
 import type { KeyboardLayout } from "./preferences.ts";
 
 /** Touches dont la lettre imprimée diffère entre AZERTY et la position physique QWERTY (`event.code`). */
@@ -7,20 +6,25 @@ const AZERTY_KEYCAPS: Record<string, string> = { KeyQ: "a", KeyA: "q", KeyW: "z"
 /**
  * Lettre imprimée sur la touche pressée, selon la disposition choisie dans les réglages, quelle que soit
  * la disposition configurée dans le système (un clavier QWERTY réglé en français, par exemple).
+ * Les chiffres de la rangée du haut et du pavé numérique donnent « 1 »… « 9 », même sans Maj en AZERTY.
  * Sans `code` exploitable (clavier virtuel…), on se rabat sur `event.key`.
  */
 export function keycap(event: { key: string; code?: string }, layout: KeyboardLayout): string {
   const code = event.code ?? "";
   if (layout === "azerty" && code in AZERTY_KEYCAPS) return AZERTY_KEYCAPS[code];
   if (/^Key[A-Z]$/.test(code)) return code.slice(3).toLowerCase();
+  if (/^(Digit|Numpad)\d$/.test(code)) return code.slice(-1);
   if (code === "Space") return " ";
   return event.key;
 }
 
 export type Action =
-  | { type: "reveal" }
-  | { type: "judge"; judgment: Judgment }
-  | { type: "judgeAll"; judgment: Judgment }
+  /** Espace / Entrée : révéler, puis valider les joueurs cochés (`all` : pour toutes les lignes). */
+  | { type: "confirm"; all: boolean }
+  /** 1 à 8 : coche ou décoche ce joueur. */
+  | { type: "toggle"; player: number }
+  | { type: "nobody" }
+  | { type: "everyone" }
   | { type: "pause" }
   | { type: "broken" }
   | { type: "replay" }
@@ -29,17 +33,13 @@ export type Action =
 
 /** Traduit une touche (lettre imprimée, voir `keycap`) en action. */
 export function keyToAction(key: string, shiftKey: boolean): Action | null {
-  if (key === " " || key === "Spacebar") return { type: "reveal" };
+  if (key === " " || key === "Spacebar" || key === "Enter") return { type: "confirm", all: shiftKey };
+  if (/^[1-9]$/.test(key)) return { type: "toggle", player: Number(key) - 1 };
   switch (key.toLowerCase()) {
-    case "a":
-      return shiftKey ? { type: "judgeAll", judgment: 0 } : { type: "judge", judgment: 0 };
-    case "m":
-      return shiftKey ? { type: "judgeAll", judgment: 1 } : { type: "judge", judgment: 1 };
     case "n":
-      return { type: "judge", judgment: "none" };
-    case "d":
-      // « Les deux » : réponse trouvée en même temps, un point chacun.
-      return { type: "judge", judgment: "both" };
+      return { type: "nobody" };
+    case "t":
+      return { type: "everyone" };
     case "p":
       return { type: "pause" };
     case "x":

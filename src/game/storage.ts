@@ -1,4 +1,4 @@
-import type { Settings } from "../types.ts";
+import { MAX_PLAYERS, MIN_PLAYERS, type Settings } from "../types.ts";
 import { sanitizePreferences, type Preferences } from "./preferences.ts";
 
 /** Sous-ensemble de l'API Storage, pour pouvoir tester avec un stockage en mémoire. */
@@ -13,6 +13,11 @@ const KEYS = {
   blacklist: "megaquiz.blacklist",
   preferences: "megaquiz.preferences",
 } as const;
+
+/** Nom proposé pour le n-ième joueur (0-based) quand on augmente le nombre de joueurs. */
+export function defaultPlayerName(index: number): string {
+  return DEFAULT_SETTINGS.players[index] ?? `Joueur ${index + 1}`;
+}
 
 /** Nombre de parties récentes dont on évite de reposer les questions. */
 export const HISTORY_GAMES = 3;
@@ -55,8 +60,8 @@ export class GameStorage {
       questionCount: positiveInt(saved.questionCount, DEFAULT_SETTINGS.questionCount),
       timerSeconds: positiveInt(saved.timerSeconds, DEFAULT_SETTINGS.timerSeconds),
       players:
-        Array.isArray(saved.players) && saved.players.length === 2
-          ? [String(saved.players[0]), String(saved.players[1])]
+        Array.isArray(saved.players) && saved.players.length >= MIN_PLAYERS && saved.players.length <= MAX_PLAYERS
+          ? saved.players.map(String)
           : DEFAULT_SETTINGS.players,
     };
   }

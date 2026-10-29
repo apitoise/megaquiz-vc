@@ -15,7 +15,7 @@ describe("keycap : lettre imprimée selon la disposition choisie", () => {
     // Clavier QWERTY, système en AZERTY : la touche marquée A envoie « q ».
     expect(keycap({ key: "q", code: "KeyA" }, "qwerty")).toBe("a");
     expect(keycap({ key: ",", code: "KeyM" }, "qwerty")).toBe("m");
-    expect(keyToAction(keycap({ key: "Q", code: "KeyA" }, "qwerty"), true)).toEqual({ type: "judgeAll", judgment: 0 });
+    expect(keyToAction(keycap({ key: "q", code: "KeyT" }, "qwerty"), false)).toEqual({ type: "everyone" });
   });
 
   it("Espace et touches sans code exploitable", () => {

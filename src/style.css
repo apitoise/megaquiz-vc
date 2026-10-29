@@ -5,8 +5,15 @@
   --text: #f2f2f7;
   --muted: #9a9cb0;
   --accent: #ffcc33;
+  /* Une couleur par joueur (8 au maximum). */
   --p0: #3d8bff;
   --p1: #ff5c8a;
+  --p2: #2fbf71;
+  --p3: #f28c28;
+  --p4: #a66cff;
+  --p5: #19b8c4;
+  --p6: #e0b400;
+  --p7: #d94fc4;
   --none: #6b6e82;
   --radius: 14px;
   /* Tailles lisibles à 2 m sur une télé, et encore utilisables sur un portable. */
@@ -77,12 +84,6 @@ kbd {
   background: var(--accent);
   color: #1a1a1a;
 }
-.action.p0 {
-  background: var(--p0);
-}
-.action.p1 {
-  background: var(--p1);
-}
 /* « Les deux » : dégradé des deux couleurs de joueurs. */
 .action.both {
   background: linear-gradient(90deg, var(--p0), var(--p1));
@@ -110,10 +111,10 @@ kbd {
 
 .setup {
   width: min(1100px, 100% - 32px);
-  margin: 2vh auto;
+  margin: 1.5vh auto;
   display: flex;
   flex-direction: column;
-  gap: 0.8em;
+  gap: 0.6em;
 }
 .setup h1 {
   font-size: clamp(28px, 3.2vw, 64px);
@@ -133,13 +134,13 @@ kbd {
 .theme-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 11em), 1fr));
-  gap: 0.4em;
+  gap: 0.3em;
 }
 .theme-choice {
   display: flex;
   align-items: center;
   gap: 0.5em;
-  padding: 0.3em 0.7em;
+  padding: 0.2em 0.7em;
   font-size: 0.85em;
   border-radius: 10px;
   background: var(--panel);
@@ -213,11 +214,13 @@ kbd {
   font-size: 1.4em;
   font-variant-numeric: tabular-nums;
 }
-.hud-score.p0 {
-  background: color-mix(in srgb, var(--p0) 35%, transparent);
+.hud-scores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
 }
-.hud-score.p1 {
-  background: color-mix(in srgb, var(--p1) 35%, transparent);
+.hud-score {
+  background: color-mix(in srgb, var(--c) 35%, transparent);
 }
 .hud-tools {
   margin-left: auto;
@@ -459,11 +462,8 @@ kbd {
 .final strong {
   font-size: var(--fs-big);
 }
-.final.p0 {
-  background: color-mix(in srgb, var(--p0) 40%, transparent);
-}
-.final.p1 {
-  background: color-mix(in srgb, var(--p1) 40%, transparent);
+.final {
+  background: color-mix(in srgb, var(--c) 40%, transparent);
 }
 .end-actions {
   display: flex;
@@ -553,12 +553,6 @@ kbd {
   font-weight: 700;
   padding: 0 0.4em;
   border-radius: 6px;
-}
-.who.p0 {
-  background: var(--p0);
-}
-.who.p1 {
-  background: var(--p1);
 }
 .who.both {
   background: linear-gradient(90deg, var(--p0), var(--p1));
@@ -751,4 +745,87 @@ kbd {
 .preferences > .action {
   display: block;
   margin: 1em 0 0 auto;
+}
+
+/* ---------- Joueurs (2 à 8) ---------- */
+
+.p0 { --c: var(--p0); }
+.p1 { --c: var(--p1); }
+.p2 { --c: var(--p2); }
+.p3 { --c: var(--p3); }
+.p4 { --c: var(--p4); }
+.p5 { --c: var(--p5); }
+.p6 { --c: var(--p6); }
+.p7 { --c: var(--p7); }
+
+.action.player {
+  background: color-mix(in srgb, var(--c) 30%, var(--panel));
+  border-color: transparent;
+  color: var(--text);
+}
+/* Joueur coché : pleine couleur. */
+.action.player.selected {
+  background: var(--c);
+  border-color: var(--text);
+}
+.who.p0, .who.p1, .who.p2, .who.p3, .who.p4, .who.p5, .who.p6, .who.p7 {
+  background: var(--c);
+}
+.who + .who {
+  margin-left: 0.25em;
+}
+.who.all {
+  background: linear-gradient(90deg, var(--p0), var(--p2), var(--p4), var(--p1));
+}
+.judge-row.judged {
+  opacity: 0.7;
+}
+
+.player-fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 9em), 1fr));
+  gap: 0.5em;
+}
+.player-field {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.player-field kbd {
+  background: var(--c);
+}
+.player-field input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.3em 0.5em !important;
+  border-color: color-mix(in srgb, var(--c) 60%, var(--panel-2)) !important;
+}
+.setup select {
+  font: inherit;
+  color: var(--text);
+  background: var(--panel);
+  border: 2px solid var(--panel-2);
+  border-radius: 10px;
+  padding: 0.5em 0.7em;
+}
+
+/* Plus de 4 joueurs : bandeau et boutons de jugement compacts. */
+.game.many-players .hud {
+  gap: 0.3em 0.8em;
+}
+.game.many-players .hud-score {
+  padding: 0.1em 0.55em;
+  font-size: 0.85em;
+}
+.game.many-players .hud-score strong {
+  font-size: 1.2em;
+}
+.game.many-players .hud-tools .action {
+  min-height: 2em;
+  padding: 0.3em 0.7em;
+}
+.game.many-players .judge-buttons .action {
+  font-size: 0.85em;
+  min-height: 2.2em;
+  padding: 0.4em 0.75em;
 }

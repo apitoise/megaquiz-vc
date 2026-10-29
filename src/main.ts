@@ -92,7 +92,7 @@ async function recordGame(session: GameSession, slot: HTMLElement): Promise<void
   const result: GameResult = {
     date: new Date().toISOString(),
     players: session.settings.players,
-    scores: computeScores(session.rounds),
+    scores: computeScores(session.rounds, session.settings.players.length),
     questions: session.rounds.length,
     themes: session.settings.themes,
     complete: !session.endedByUser,

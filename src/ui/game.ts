@@ -7,9 +7,10 @@ import { judgmentSound, revealSound, soundEnabled, tick, toggleSound } from "./s
 
 /** Affiche la partie et branche clavier + souris. Renvoie une fonction de nettoyage. */
 export function mountGame(root: HTMLElement, session: GameSession, themeLabels: Map<string, string>, layout: KeyboardLayout): () => void {
-  const [nameA, nameM] = session.settings.players;
+  const { players } = session.settings;
   const timerFill = h("div", { class: "timer-fill" });
-  const screen = h("div", { class: "game" });
+  // Au-delà de 4 joueurs, scores et boutons de jugement plus compacts (tout doit tenir à l'écran).
+  const screen = h("div", { class: `game ${players.length > 4 ? "many-players" : ""}` });
   root.replaceChildren(screen);
 
   // Le nœud média est conservé d'un rendu à l'autre pour éviter tout clignotement.
@@ -18,12 +19,15 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
 
   const dispatch = (action: Action) => {
     switch (action.type) {
-      case "reveal":
-        return session.reveal();
-      case "judge":
-        return session.judge(action.judgment);
-      case "judgeAll":
-        return session.judgeAll(action.judgment);
+      case "confirm":
+        if (session.phase === "question") return session.reveal();
+        return action.all ? session.validateAll() : session.validate();
+      case "toggle":
+        return session.toggle(action.player);
+      case "nobody":
+        return session.judge([]);
+      case "everyone":
+        return session.judge(session.everyone());
       case "pause":
         return session.togglePause();
       case "broken":
@@ -68,7 +72,7 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
     playStateSounds();
     const { phase, round, current } = session;
     const question = current?.question ?? null;
-    const [scoreA, scoreM] = session.scores;
+    const scores = session.scores;
     const revealed = phase === "reveal" || phase === "advancing";
 
     if (question && question !== mediaFor) {
@@ -81,8 +85,7 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
       { class: "hud" },
       h("span", { class: "hud-theme" }, question ? (themeLabels.get(question.theme) ?? question.theme) : ""),
       h("span", { class: "hud-count" }, `${Math.max(1, session.number)} / ${session.total}`),
-      h("span", { class: "hud-score p0" }, nameA, h("strong", {}, scoreA)),
-      h("span", { class: "hud-score p1" }, nameM, h("strong", {}, scoreM)),
+      h("span", { class: "hud-scores" }, ...players.map((name, i) => h("span", { class: `hud-score p${i}` }, name, h("strong", {}, scores[i])))),
       h(
         "span",
         { class: "hud-tools" },
@@ -115,16 +118,13 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
         mediaRow.append(h("img", { class: "reveal-media", src: question.revealMedia.src, alt: "" }));
       }
       stage.append(mediaRow);
-      if (revealed) stage.append(renderJudging(question, round.judgments, session.focusRow, phase === "reveal"));
+      if (revealed) stage.append(renderJudging(question, round.judgments, phase === "reveal"));
     }
 
     const controls = h("footer", { class: "controls" });
     if (phase === "question") controls.append(actionButton("Espace", "Révéler", () => session.reveal(), "primary"));
     if (phase === "reveal" && question && question.answers.length > 1) {
-      controls.append(
-        actionButton("⇧A", `Les deux → ${nameA}`, () => session.judgeAll(0), "p0"),
-        actionButton("⇧M", `Les deux → ${nameM}`, () => session.judgeAll(1), "p1"),
-      );
+      controls.append(actionButton("⇧Espace", "Valider pour toutes les lignes", () => session.validateAll()));
     }
     if ((phase === "question" || phase === "reveal") && question) {
       if (question.media.type === "audio") controls.append(actionButton("R", "Rejouer", () => session.replay()));
@@ -144,23 +144,28 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
     }
   }
 
-  function renderJudging(question: Question, judgments: (Judgment | null)[], focusRow: number, active: boolean): HTMLElement {
+  /**
+   * Une ligne par réponse : on coche les joueurs qui ont trouvé (touches 1 à 8), puis on valide
+   * (Espace). « Personne » et « Tout le monde » valident directement.
+   */
+  function renderJudging(question: Question, judgments: (Judgment | null)[], active: boolean): HTMLElement {
     const multi = question.answers.length > 1;
     const rows = question.answers.map((answer, row) => {
-      const judged = judgments[row];
-      const choice = (key: string, label: string, judgment: Judgment, cls: string) =>
-        actionButton(key, label, () => session.judge(judgment, row), `${cls} ${judged === judgment ? "selected" : ""}`);
+      const focused = active && row === session.focusRow;
+      const shown = focused ? session.selection : (judgments[row] ?? []);
+      const player = (name: string, i: number) =>
+        actionButton(String(i + 1), name, () => session.toggle(i, row), `player p${i} ${shown.includes(i) ? "selected" : ""}`);
       return h(
         "div",
-        { class: `judge-row ${active && multi && row === focusRow && judged === null ? "focus" : ""}` },
+        { class: `judge-row ${focused && multi ? "focus" : ""} ${judgments[row] !== null && !focused ? "judged" : ""}` },
         h("div", { class: "answer" }, multi ? h("span", { class: "answer-label" }, answer.label) : null, h("span", { class: "answer-value" }, answer.value)),
         h(
           "div",
           { class: "judge-buttons" },
-          choice("A", nameA, 0, "p0"),
-          choice("M", nameM, 1, "p1"),
-          choice("D", "Les deux", "both", "both"),
-          choice("N", "Aucun", "none", "ghost"),
+          ...players.map(player),
+          actionButton("T", "Tout le monde", () => session.judge(session.everyone(), row), "ghost"),
+          actionButton("N", "Personne", () => session.judge([], row), "ghost"),
+          focused ? actionButton("Espace", shown.length ? "Valider" : "Valider (personne)", () => session.validate(), "primary") : null,
         ),
       );
     });
