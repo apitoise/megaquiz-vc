@@ -1,13 +1,17 @@
 import type { QuestionProvider, Settings } from "../types.ts";
-import { h } from "./dom.ts";
+import { actionButton, h, toggleFullscreen } from "./dom.ts";
 
-/** Écran de configuration. Appelle `onStart` avec les réglages validés. */
-export function renderSetup(
-  root: HTMLElement,
-  providers: QuestionProvider[],
-  initial: Settings,
-  onStart: (settings: Settings) => void,
-): void {
+export interface SetupOptions {
+  start(settings: Settings): void;
+  /** Questions marquées « cassées » et l'historique récent, gérables depuis la configuration. */
+  blacklistSize: number;
+  historySize: number;
+  clearBlacklist(): void;
+  clearHistory(): void;
+}
+
+/** Écran de configuration. Appelle `options.start` avec les réglages validés. */
+export function renderSetup(root: HTMLElement, providers: QuestionProvider[], initial: Settings, options: SetupOptions): void {
   const known = new Set(providers.map((p) => p.id));
   const checked = new Set(initial.themes.filter((id) => known.has(id)));
   if (!checked.size) providers.forEach((p) => checked.add(p.id));
@@ -40,6 +44,23 @@ export function renderSetup(
     h("div", { class: "setup-row" }, h("label", {}, "Joueur [A]", p1), h("label", {}, "Joueur [M]", p2)),
     error,
     h("button", { class: "action primary big", type: "submit" }, "Lancer la partie"),
+    h(
+      "div",
+      { class: "setup-tools" },
+      actionButton(null, "Plein écran", toggleFullscreen, "small ghost"),
+      h(
+        "span",
+        {},
+        `${options.blacklistSize} question(s) retirée(s)`,
+        options.blacklistSize ? actionButton(null, "Réinitialiser", () => confirmThen("Remettre en jeu les questions retirées ?", options.clearBlacklist), "small ghost") : null,
+      ),
+      h(
+        "span",
+        {},
+        `${options.historySize} question(s) évitée(s) (3 dernières parties)`,
+        options.historySize ? actionButton(null, "Oublier", () => confirmThen("Oublier l'historique des dernières parties ?", options.clearHistory), "small ghost") : null,
+      ),
+    ),
   );
 
   form.addEventListener("submit", (e) => {
@@ -52,7 +73,7 @@ export function renderSetup(
       error.textContent = "Cochez au moins un thème.";
       return;
     }
-    onStart({
+    options.start({
       themes,
       questionCount: clampInt(count.value, 1, 500, 50),
       timerSeconds: clampInt(timer.value, 3, 120, 20),
@@ -61,6 +82,10 @@ export function renderSetup(
   });
 
   root.replaceChildren(form);
+}
+
+function confirmThen(question: string, action: () => void): void {
+  if (confirm(question)) action();
 }
 
 function clampInt(raw: string, min: number, max: number, fallback: number): number {

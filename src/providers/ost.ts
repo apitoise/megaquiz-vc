@@ -1,7 +1,7 @@
 import type { FreshTrack } from "../data/music.ts";
 import type { OstGame } from "../data/ost.ts";
 import { randomInt, shuffle } from "../game/random.ts";
-import { fetchFreshTrack, MAX_START_OFFSET_S } from "./music.ts";
+import { checkLocalServer, fetchFreshTrack, MAX_START_OFFSET_S } from "./music.ts";
 import { poolProvider } from "./pool.ts";
 
 /** Pistes essayées pour un même jeu avant d'abandonner la question (extrait retiré, réseau…). */
@@ -10,7 +10,10 @@ const TRACK_ATTEMPTS = 3;
 export const ost = poolProvider<OstGame>({
   id: "ost",
   label: "Jeux vidéo : OST",
-  load: async () => (await import("../../data/ost.json")).default as OstGame[],
+  async load() {
+    await checkLocalServer();
+    return (await import("../../data/ost.json")).default as OstGame[];
+  },
   key: (g) => g.slug,
   async toQuestion(game, id) {
     // Le jeu ne revient qu'une fois par partie ; la piste est tirée au hasard dans son album.

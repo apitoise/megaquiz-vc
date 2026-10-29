@@ -47,4 +47,15 @@ describe("GameStorage", () => {
     new GameStorage(store).addToBlacklist("flags:fr");
     expect([...new GameStorage(store).blacklist()]).toEqual(["flags:fr"]);
   });
+
+  it("remet à zéro la blacklist et l'historique", () => {
+    const storage = new GameStorage(memoryStore());
+    storage.addToBlacklist("flags:fr");
+    storage.startGame();
+    storage.recordAsked("music:1");
+    storage.clearBlacklist();
+    storage.clearHistory();
+    expect(storage.blacklist().size).toBe(0);
+    expect(storage.recentQuestionIds().size).toBe(0);
+  });
 });

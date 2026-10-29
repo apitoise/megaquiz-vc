@@ -6,7 +6,8 @@ export type Action =
   | { type: "judgeAll"; judgment: Judgment }
   | { type: "pause" }
   | { type: "broken" }
-  | { type: "replay" };
+  | { type: "replay" }
+  | { type: "fullscreen" };
 
 /**
  * Traduit une touche en action. On s'appuie sur `event.key` (et non `event.code`)
@@ -27,6 +28,8 @@ export function keyToAction(key: string, shiftKey: boolean): Action | null {
       return { type: "broken" };
     case "r":
       return { type: "replay" };
+    case "f":
+      return { type: "fullscreen" };
     default:
       return null;
   }

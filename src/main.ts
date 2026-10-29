@@ -25,9 +25,23 @@ function browserStore(): KeyValueStore {
 }
 
 function showSetup(): void {
-  renderSetup(root, providers, storage.loadSettings(), (settings) => {
-    storage.saveSettings(settings);
-    void play(settings);
+  renderSetup(root, providers, storage.loadSettings(), {
+    start(settings) {
+      storage.saveSettings(settings);
+      void play(settings);
+    },
+    blacklistSize: storage.blacklist().size,
+    historySize: storage.recentQuestionIds().size,
+    clearBlacklist() {
+      storage.clearBlacklist();
+      toast("Questions retirées : liste remise à zéro.");
+      showSetup();
+    },
+    clearHistory() {
+      storage.clearHistory();
+      toast("Historique des dernières parties effacé.");
+      showSetup();
+    },
   });
 }
 
@@ -46,12 +60,24 @@ async function readyProviders(ids: string[]): Promise<QuestionProvider[]> {
   return results.flatMap((r, i) => {
     if (r.status === "fulfilled") return [r.value];
     console.warn(`Thème ${selected[i].id} indisponible`, r.reason);
-    toast(`Thème « ${selected[i].label} » indisponible, il est ignoré.`);
+    const reason = r.reason instanceof Error ? ` : ${r.reason.message}` : "";
+    toast(`Thème « ${selected[i].label} » ignoré${reason}.`);
     return [];
   });
 }
 
+/** Lance une partie ; une erreur imprévue ramène à la configuration au lieu de figer l'écran. */
 async function play(settings: Settings): Promise<void> {
+  try {
+    await startGame(settings);
+  } catch (err) {
+    console.error("Partie interrompue", err);
+    toast("Erreur inattendue : retour à la configuration.");
+    showSetup();
+  }
+}
+
+async function startGame(settings: Settings): Promise<void> {
   root.replaceChildren(h("p", { class: "loading" }, "Préparation des thèmes…"));
   const ready = await readyProviders(settings.themes);
   if (!ready.length) {

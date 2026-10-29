@@ -10,6 +10,7 @@ describe("keyToAction", () => {
     expect(keyToAction("p", false)).toEqual({ type: "pause" });
     expect(keyToAction("x", false)).toEqual({ type: "broken" });
     expect(keyToAction("r", false)).toEqual({ type: "replay" });
+    expect(keyToAction("f", false)).toEqual({ type: "fullscreen" });
   });
 
   it("Shift+A / Shift+M donnent les deux points", () => {

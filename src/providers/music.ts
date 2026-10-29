@@ -12,11 +12,23 @@ export async function fetchFreshTrack(id: number): Promise<FreshTrack> {
   return (await res.json()) as FreshTrack;
 }
 
+/** Les thèmes audio passent par le proxy local : on vérifie qu'il tourne avant la partie. */
+export async function checkLocalServer(): Promise<void> {
+  const ok = await fetch("/api/health", { signal: AbortSignal.timeout(3000) }).then(
+    (res) => res.ok,
+    () => false,
+  );
+  if (!ok) throw new Error("serveur local injoignable (lancez le jeu avec « npm run dev »)");
+}
+
 export const music = poolProvider<Track>({
   id: "music",
   label: "Musique",
-  // ~250 Ko : chargé seulement si le thème est coché.
-  load: async () => (await import("../../data/music.json")).default as Track[],
+  async load() {
+    await checkLocalServer();
+    // ~250 Ko : chargé seulement si le thème est coché.
+    return (await import("../../data/music.json")).default as Track[];
+  },
   key: (t) => String(t.id),
   async toQuestion(track, id) {
     const fresh = await fetchFreshTrack(track.id);

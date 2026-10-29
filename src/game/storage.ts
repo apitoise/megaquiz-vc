@@ -98,6 +98,14 @@ export class GameStorage {
     list.add(questionId);
     writeJson(this.store, KEYS.blacklist, [...list]);
   }
+
+  clearBlacklist(): void {
+    writeJson(this.store, KEYS.blacklist, []);
+  }
+
+  clearHistory(): void {
+    writeJson(this.store, KEYS.history, []);
+  }
 }
 
 function positiveInt(value: unknown, fallback: number): number {

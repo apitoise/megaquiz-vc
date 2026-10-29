@@ -1,6 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { seededRng } from "../src/game/random.ts";
-import { ADVANCE_DELAY_MS, GameSession } from "../src/game/session.ts";
+import { ADVANCE_DELAY_MS, audioStart, GameSession } from "../src/game/session.ts";
 import { QuestionSource } from "../src/game/source.ts";
 import { GameStorage, memoryStore } from "../src/game/storage.ts";
 import type { QuestionProvider, Settings } from "../src/types.ts";
@@ -176,5 +176,51 @@ describe("GameSession", () => {
     session.judgeAll(0);
     await vi.advanceTimersByTimeAsync(ADVANCE_DELAY_MS);
     expect(audio.pause).toHaveBeenCalled();
+  });
+
+  it("remplace la question si l'audio tombe en panne pendant la lecture", async () => {
+    const listeners: (() => void)[] = [];
+    const audio = {
+      currentTime: 0,
+      duration: 30,
+      play: vi.fn(async () => {}),
+      pause: vi.fn(),
+      addEventListener: (_type: "error", fn: () => void) => void listeners.push(fn),
+    };
+    const storage = new GameStorage(memoryStore());
+    const source = new QuestionSource({
+      providers: [fakeProvider("music", 5, 2)],
+      count: 2,
+      preload: async (q) => ({ question: { ...q, media: { type: "audio", src: "x.mp3", startAt: 3 } }, audio }),
+      recent: new Set(),
+      blacklist: new Set(),
+    });
+    const notices: string[] = [];
+    const session = new GameSession(settings, source, storage, { now: () => Date.now(), onNotice: (m) => notices.push(m) });
+    await session.start();
+    const first = session.current!.question.id;
+    listeners[0]();
+    await flush();
+    expect(session.current!.question.id).not.toBe(first);
+    expect(session.number).toBe(1);
+    expect(notices).toContain("Média indisponible : question remplacée.");
+    expect(storage.blacklist().size).toBe(0);
+  });
+});
+
+describe("audioStart", () => {
+  it("garde l'offset prévu quand le timer tient dans l'extrait", () => {
+    expect(audioStart(10, 30, 20)).toBe(10);
+    expect(audioStart(4, 30, 20)).toBe(4);
+  });
+
+  it("avance le départ quand le timer est plus long", () => {
+    expect(audioStart(10, 30, 25)).toBe(5);
+    expect(audioStart(8, 30, 45)).toBe(0);
+  });
+
+  it("ignore une durée inconnue", () => {
+    expect(audioStart(7, Number.NaN, 25)).toBe(7);
+    expect(audioStart(7, undefined, 25)).toBe(7);
   });
 });

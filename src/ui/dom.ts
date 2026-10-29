@@ -40,6 +40,12 @@ export function actionButton(key: string | null, label: string, onClick: () => v
   );
 }
 
+/** Bascule le plein écran (utile sur une télé) ; silencieux si le navigateur refuse. */
+export function toggleFullscreen(): void {
+  if (document.fullscreenElement) void document.exitFullscreen().catch(() => {});
+  else void document.documentElement.requestFullscreen?.().catch(() => {});
+}
+
 let toastHost: HTMLElement | null = null;
 
 /** Message discret, en bas de l'écran. */

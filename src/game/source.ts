@@ -5,6 +5,9 @@ import type { Rng } from "./random.ts";
 /** Ce qu'il faut pour jouer l'audio d'une question (un HTMLAudioElement en pratique). */
 export interface Playable {
   currentTime: number;
+  /** Durée en secondes (NaN tant qu'elle est inconnue). */
+  duration?: number;
+  addEventListener?(type: "error", listener: () => void): void;
   play(): Promise<void>;
   pause(): void;
 }
@@ -17,8 +20,12 @@ export interface Prepared {
 
 export type Preloader = (question: Question) => Promise<Prepared>;
 
-/** Nombre d'essais par question avant d'abandonner un thème qui échoue en boucle. */
+/** Nombre d'essais par question avant de mettre de côté un thème qui échoue en boucle. */
 const MAX_ATTEMPTS_PER_THEME = 4;
+/** Durée pendant laquelle un thème en échec (réseau, API) est mis de côté avant un nouvel essai. */
+export const SUSPEND_MS = 20_000;
+/** Délai entre deux essais quand plus aucun thème ne répond (connexion perdue). */
+export const RETRY_DELAY_MS = 5_000;
 
 export interface SourceOptions {
   providers: QuestionProvider[];
@@ -34,14 +41,20 @@ export interface SourceOptions {
 
 /**
  * Fournit les questions d'une partie, dans l'ordre d'un plan de thèmes équilibré.
- * Garantit l'absence de doublon, remplace automatiquement une question dont le
- * média ne charge pas, et redistribue les questions d'un thème épuisé ou en panne.
+ * Garantit l'absence de doublon et remplace automatiquement une question dont le
+ * média ne charge pas. Un thème épuisé est abandonné (ses questions sont redistribuées) ;
+ * un thème en panne est mis de côté un moment puis retenté. Si plus rien ne répond,
+ * on attend le retour du réseau au lieu de terminer la partie.
  */
 export class QuestionSource {
   private readonly providers: Map<string, QuestionProvider>;
   private readonly queue: string[];
   private readonly used = new Set<string>();
   private readonly options: SourceOptions;
+  private readonly suspendedUntil = new Map<string, number>();
+  private disposed = false;
+  /** Prévenu quand la source attend le retour du réseau (true), puis quand ça repart (false). */
+  onWaiting: ((waiting: boolean) => void) | null = null;
 
   constructor(options: SourceOptions) {
     this.options = options;
@@ -65,29 +78,70 @@ export class QuestionSource {
     this.used.add(questionId);
   }
 
+  /** Arrête toute attente en cours (fin de partie). */
+  dispose(): void {
+    this.disposed = true;
+  }
+
   /** Prochaine question préparée, ou `null` si plus aucun thème ne peut en fournir. */
   async next(): Promise<Prepared | null> {
-    while (this.queue.length && this.providers.size) {
-      const themeId = this.queue[0];
-      const prepared = await this.fromTheme(themeId);
-      if (prepared) {
-        this.queue.shift();
-        return prepared;
+    while (this.queue.length && this.providers.size && !this.disposed) {
+      let index = this.availableIndex();
+      if (index < 0) {
+        // Il ne reste que des thèmes en panne dans la file : un thème qui marche les remplace…
+        const fallback = [...this.providers.keys()].find((id) => !this.isSuspended(id));
+        if (!fallback) {
+          // …et si plus rien ne marche, on attend le retour du réseau.
+          await this.waitForRecovery();
+          continue;
+        }
+        this.queue[0] = fallback;
+        index = 0;
       }
-      this.dropTheme(themeId);
+      const themeId = this.queue[index];
+      const result = await this.fromTheme(themeId);
+      if (result === "exhausted") this.dropTheme(themeId);
+      else if (result === "failed") this.suspend(themeId);
+      else {
+        this.queue.splice(index, 1);
+        this.onWaiting?.(false);
+        return result;
+      }
     }
-    this.queue.length = 0;
+    if (!this.providers.size) this.queue.length = 0;
     return null;
   }
 
-  private async fromTheme(themeId: string): Promise<Prepared | null> {
+  /** Premier élément de la file dont le thème n'est pas mis de côté, ou -1. */
+  private availableIndex(): number {
+    return this.queue.findIndex((id) => !this.isSuspended(id));
+  }
+
+  private isSuspended(themeId: string): boolean {
+    return (this.suspendedUntil.get(themeId) ?? 0) > Date.now();
+  }
+
+  private suspend(themeId: string): void {
+    this.suspendedUntil.set(themeId, Date.now() + SUSPEND_MS);
+    const label = this.providers.get(themeId)?.label ?? themeId;
+    if ([...this.providers.keys()].some((id) => !this.isSuspended(id))) this.options.onNotice?.(`« ${label} » ne répond pas : on passe à d'autres thèmes pour l'instant.`);
+  }
+
+  /** Plus aucun thème disponible : on patiente, puis on retente tout le monde. */
+  private async waitForRecovery(): Promise<void> {
+    this.onWaiting?.(true);
+    await new Promise((resolve) => setTimeout(resolve, RETRY_DELAY_MS));
+    this.suspendedUntil.clear();
+  }
+
+  private async fromTheme(themeId: string): Promise<Prepared | "exhausted" | "failed"> {
     const provider = this.providers.get(themeId)!;
-    for (let attempt = 0; attempt < MAX_ATTEMPTS_PER_THEME; attempt++) {
+    for (let attempt = 0; attempt < MAX_ATTEMPTS_PER_THEME && !this.disposed; attempt++) {
       let question: Question;
       try {
         question = await this.draw(provider);
       } catch (err) {
-        if (err instanceof PoolExhaustedError) return null;
+        if (err instanceof PoolExhaustedError) return "exhausted";
         console.warn(`[${themeId}] tirage impossible`, err);
         continue;
       }
@@ -98,7 +152,7 @@ export class QuestionSource {
         console.warn(`[${themeId}] média indisponible pour ${question.id}`, err);
       }
     }
-    return null;
+    return "failed";
   }
 
   /** Tire en évitant l'historique récent ; si le pool est trop petit, on le tolère. */
@@ -120,9 +174,7 @@ export class QuestionSource {
     const refill = planThemes([...this.providers.keys()], lost, this.options.rng);
     this.queue.splice(0, this.queue.length, ...interleave(kept, refill));
     this.options.onNotice?.(
-      this.providers.size
-        ? `Thème « ${label} » indisponible : ses questions sont redistribuées.`
-        : `Thème « ${label} » indisponible.`,
+      this.providers.size ? `Plus de questions « ${label} » : elles sont remplacées par d'autres thèmes.` : `Plus de questions « ${label} ».`,
     );
   }
 }

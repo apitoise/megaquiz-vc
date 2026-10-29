@@ -48,8 +48,17 @@ Drapeaux : `https://flagcdn.com/w640/{code}.png`, chargés en direct. Le seuil d
 | Pause / reprise | `P` |
 | Question cassée (passer et blacklister) | `X` |
 | Rejouer l'extrait | `R` |
+| Plein écran | `F` |
 
-Chaque action existe aussi en bouton.
+Chaque action existe aussi en bouton. L'écran de configuration permet aussi de remettre en jeu les questions retirées et d'oublier l'historique des 3 dernières parties.
+
+## Robustesse
+
+- La question suivante est préchargée pendant la question en cours ; un média qui ne charge pas (ou un extrait audio qui coupe) est remplacé automatiquement, avec un message discret.
+- Un thème qui ne répond plus (réseau, API) est mis de côté 20 s puis retenté ; ses questions passent à d'autres thèmes en attendant. Un thème épuisé est abandonné pour la partie.
+- Si plus aucun thème ne répond (connexion perdue), la partie affiche une attente et reprend seule au retour du réseau ; « Terminer » reste disponible.
+- Les thèmes audio vérifient au lancement que le serveur local tourne, et sont ignorés sinon (avec la raison).
+- Si le timer dépasse 20 s, le départ de l'extrait est avancé pour que l'extrait (30 s) couvre tout le timer.
 
 ## Ajouter un thème
 

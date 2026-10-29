@@ -1,7 +1,7 @@
 import { keyToAction, type Action } from "../game/keys.ts";
 import type { GameSession } from "../game/session.ts";
 import type { Judgment, Media, Question } from "../types.ts";
-import { actionButton, h } from "./dom.ts";
+import { actionButton, h, toggleFullscreen } from "./dom.ts";
 
 /** Affiche la partie et branche clavier + souris. Renvoie une fonction de nettoyage. */
 export function mountGame(root: HTMLElement, session: GameSession, themeLabels: Map<string, string>): () => void {
@@ -28,6 +28,8 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
         return session.markBroken();
       case "replay":
         return session.replay();
+      case "fullscreen":
+        return toggleFullscreen();
     }
   };
 
@@ -62,6 +64,7 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
         "span",
         { class: "hud-tools" },
         actionButton("P", session.paused ? "Reprendre" : "Pause", () => session.togglePause(), "small"),
+        actionButton("F", "Plein écran", toggleFullscreen, "small ghost"),
         actionButton(null, "Terminer", () => {
           if (confirm("Terminer la partie maintenant ?")) session.finish();
         }, "small ghost"),
@@ -71,7 +74,12 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
     const multi = (question?.answers.length ?? 0) > 1;
     const stage = h("main", { class: `stage ${revealed ? "revealed" : ""} ${multi ? "multi" : ""}` });
     if (phase === "loading" || !question || !round) {
-      stage.append(h("p", { class: "loading" }, "Chargement de la question…"));
+      stage.append(
+        session.waiting
+          ? h("p", { class: "loading waiting" }, "Connexion perdue : nouvel essai automatique…", h("small", {}, "La partie reprendra dès que le réseau revient. [Terminer] reste disponible."))
+          : // Le second message n'apparaît (en CSS) que si le chargement traîne.
+            h("p", { class: "loading" }, "Chargement de la question…", h("small", { class: "slow" }, "Ça prend du temps… réseau lent ?")),
+      );
     } else {
       stage.append(h("p", { class: "prompt" }, question.prompt));
       const mediaRow = h("div", { class: "media-row" }, mediaNode);

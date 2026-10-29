@@ -14,6 +14,15 @@ export interface SessionHooks {
   now?: () => number;
 }
 
+/**
+ * Départ effectif d'un extrait : l'offset prévu, avancé si besoin pour que le timer
+ * tienne dans l'extrait (timer réglé au-delà de 20 s avec un extrait de 30 s).
+ */
+export function audioStart(startAt: number, duration: number | undefined, timerSeconds: number): number {
+  if (!duration || !Number.isFinite(duration)) return startAt;
+  return Math.max(0, Math.min(startAt, duration - timerSeconds));
+}
+
 /** Une partie en cours : enchaîne les questions, gère le timer, la révélation et les jugements. */
 export class GameSession {
   phase: Phase = "loading";
@@ -23,7 +32,11 @@ export class GameSession {
   /** Ligne de réponse qui reçoit le prochain jugement clavier. */
   focusRow = 0;
   readonly rounds: Round[] = [];
+  /** Plus aucun thème ne répond : la partie attend le retour du réseau. */
+  waiting = false;
 
+  /** Départ effectif de l'extrait audio en cours (ajusté à la durée du timer). */
+  private startAt = 0;
   private countdown: Countdown | null = null;
   private upcoming: Promise<Prepared | null> | null = null;
   private advanceTimer: ReturnType<typeof setTimeout> | null = null;
@@ -38,6 +51,11 @@ export class GameSession {
     this.source = source;
     this.storage = storage;
     this.hooks = hooks;
+    source.onWaiting = (waiting) => {
+      if (this.waiting === waiting) return;
+      this.waiting = waiting;
+      this.emit();
+    };
   }
 
   subscribe(listener: () => void): () => void {
@@ -131,6 +149,8 @@ export class GameSession {
     this.advanceTimer = null;
     this.stopCurrent();
     this.upcoming = null;
+    this.source.dispose();
+    this.waiting = false;
     this.phase = "finished";
     this.emit();
   }
@@ -170,6 +190,13 @@ export class GameSession {
     this.storage.recordAsked(prepared.question.id);
     this.countdown = new Countdown(this.settings.timerSeconds * 1000, () => this.reveal(), this.hooks.now);
     this.countdown.start();
+    if (prepared.audio) {
+      this.startAt = audioStart(prepared.question.media.startAt ?? 0, prepared.audio.duration, this.settings.timerSeconds);
+      // Coupure réseau pendant la lecture d'une partie non encore téléchargée de l'extrait.
+      prepared.audio.addEventListener?.("error", () => {
+        if (this.current === prepared) this.mediaFailed();
+      });
+    }
     this.playAudio(true);
 
     // Préchargement de la question suivante pendant que celle-ci se joue.
@@ -181,7 +208,7 @@ export class GameSession {
     const prepared = this.current;
     const audio = prepared?.audio;
     if (!audio) return;
-    if (fromStart) audio.currentTime = prepared.question.media.startAt ?? 0;
+    if (fromStart) audio.currentTime = this.startAt;
     audio.play().catch((err: unknown) => {
       const name = err instanceof Error ? err.name : "";
       // Une lecture interrompue par pause() n'est pas une panne.
