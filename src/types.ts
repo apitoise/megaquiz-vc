@@ -1,6 +1,6 @@
 export interface Media {
-  type: "image" | "svg" | "audio";
-  /** URL pour "image" et "audio" ; balisage SVG brut pour "svg". */
+  type: "image" | "svg" | "audio" | "text";
+  /** URL pour "image" et "audio" ; balisage SVG brut pour "svg" ; étiquette (catégorie) pour "text". */
   src: string;
   /** Offset de départ de l'extrait audio, en secondes. */
   startAt?: number;

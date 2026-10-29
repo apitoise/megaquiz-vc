@@ -12,7 +12,11 @@ export interface Country {
   capital: string;
   /** Superficie en km². */
   area: number;
+  /** Continent (classement de mledoze/countries ; la Russie est en Europe, la Turquie en Asie). */
+  region: Region;
 }
+
+export type Region = "Africa" | "Americas" | "Asia" | "Europe" | "Oceania";
 
 /** Côté du carré (viewBox) dans lequel les silhouettes de data/shapes.json sont projetées. */
 export const SHAPE_SIZE = 400;

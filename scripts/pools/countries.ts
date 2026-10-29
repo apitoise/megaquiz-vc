@@ -15,6 +15,7 @@ interface SourceCountry {
   ccn3: string;
   unMember: boolean;
   area: number;
+  region: Country["region"];
   name: { common: string };
 }
 
@@ -50,6 +51,7 @@ export async function buildCountries(): Promise<Country[]> {
         de: fr.de,
         capital: fr.capital,
         area: c.area,
+        region: c.region,
       };
     })
     .sort((a, b) => a.name.localeCompare(b.name, "fr"));

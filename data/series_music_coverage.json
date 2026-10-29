@@ -1,0 +1,329 @@
+[
+ {
+  "name": "Game of Thrones",
+  "status": "douteux",
+  "album": "Game of Thrones Theme — Dragon Blood",
+  "albumId": 100108612,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "House of the Dragon",
+  "status": "douteux",
+  "album": "House of the Dragon — The Theme System",
+  "albumId": 352294267,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Stranger Things",
+  "status": "ok",
+  "album": "Stranger Things (Soundtrack from the Netflix Original Series) — Various Artists",
+  "albumId": 50414792,
+  "tracks": 7
+ },
+ {
+  "name": "Breaking Bad",
+  "status": "ok",
+  "album": "Breaking Bad: Original Score from the Television Series — Dave Porter",
+  "albumId": 6846948,
+  "tracks": 12
+ },
+ {
+  "name": "Better Call Saul",
+  "status": "ok",
+  "album": "Better Call Saul, Vol. 3 (Original Score from the TV Series) — Dave Porter",
+  "albumId": 345641497,
+  "tracks": 12
+ },
+ {
+  "name": "La Casa de Papel",
+  "status": "douteux",
+  "album": "La Casa de Papel — GS O Rei do Beat",
+  "albumId": 192361602,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "The Witcher",
+  "status": "ok",
+  "album": "The Witcher (Music from the Netflix Original Series) — Sonya Belousova",
+  "albumId": 127162962,
+  "tracks": 12
+ },
+ {
+  "name": "Peaky Blinders",
+  "status": "douteux",
+  "album": "Peaky Blinders — Suzan Köcher's Suprafon",
+  "albumId": 88517832,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Friends",
+  "status": "ok",
+  "album": "Friends Soundtrack — The Rembrandts",
+  "albumId": 608932,
+  "tracks": 2
+ },
+ {
+  "name": "Les Simpson (The Simpsons)",
+  "status": "douteux",
+  "album": "The Simpsons Theme — Green Day",
+  "albumId": 85672,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "X-Files",
+  "status": "ok",
+  "album": "The Truth And The Light: Music From The X-Files — Mark Snow",
+  "albumId": 364899,
+  "tracks": 12
+ },
+ {
+  "name": "Twin Peaks",
+  "status": "ok",
+  "album": "Soundtrack From Twin Peaks — Twin Peaks",
+  "albumId": 677360,
+  "tracks": 11
+ },
+ {
+  "name": "Dr House (House)",
+  "status": "ok",
+  "album": "Teardrop — Massive Attack",
+  "albumId": 303593,
+  "tracks": 3
+ },
+ {
+  "name": "Les Soprano (The Sopranos)",
+  "status": "ok",
+  "album": "La Peste — Alabama 3",
+  "albumId": 537849522,
+  "tracks": 3
+ },
+ {
+  "name": "Narcos",
+  "status": "ok",
+  "album": "Tuyo (Narcos Theme) [Extended Version] (A Netflix Original Series Soundtrack) — Rodrigo Amarante",
+  "albumId": 78600082,
+  "tracks": 3
+ },
+ {
+  "name": "The Big Bang Theory",
+  "status": "ok",
+  "album": "Hits from Yesterday & the Day Before — Barenaked Ladies",
+  "albumId": 1263301,
+  "tracks": 2
+ },
+ {
+  "name": "Malcolm (Malcolm in the Middle)",
+  "status": "absent",
+  "reason": "aucun « Boss of Me » de They Might Be Giants"
+ },
+ {
+  "name": "Scrubs",
+  "status": "ok",
+  "album": "All The Time In The World — Lazlo Bane",
+  "albumId": 836710,
+  "tracks": 1
+ },
+ {
+  "name": "Arcane",
+  "status": "ok",
+  "album": "Enemy (from the series Arcane League of Legends) — Imagine Dragons",
+  "albumId": 268731422,
+  "tracks": 3
+ },
+ {
+  "name": "True Detective",
+  "status": "ok",
+  "album": "Singing Bones — The Handsome Family",
+  "albumId": 14381884,
+  "tracks": 2
+ },
+ {
+  "name": "Vikings",
+  "status": "ok",
+  "album": "If I Had a Heart — Fever Ray",
+  "albumId": 6761034,
+  "tracks": 3
+ },
+ {
+  "name": "Deux flics à Miami (Miami Vice)",
+  "status": "ok",
+  "album": "'80s Pop #1's — Jan Hammer",
+  "albumId": 102388,
+  "tracks": 2
+ },
+ {
+  "name": "Mad Men",
+  "status": "ok",
+  "album": "Magnificent City Instrumentals — RJD2",
+  "albumId": 193431,
+  "tracks": 3
+ },
+ {
+  "name": "Sherlock",
+  "status": "ok",
+  "album": "Sherlock (Soundtrack from the TV series) — David Arnold",
+  "albumId": 804491731,
+  "tracks": 12
+ },
+ {
+  "name": "Doctor Who",
+  "status": "ok",
+  "album": "Doctor Who (Original Television Soundtrack) — Murray Gold",
+  "albumId": 804439801,
+  "tracks": 12
+ },
+ {
+  "name": "The Mandalorian",
+  "status": "douteux",
+  "album": "The Mandalorian Theme — Artificial Fear",
+  "albumId": 126311782,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "The Crown",
+  "status": "douteux",
+  "album": "The Crown — Oli Hannaford",
+  "albumId": 55533432,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Squid Game",
+  "status": "douteux",
+  "album": "Squid Game (Original Soundtrack from the Netflix Series) — Jung Jaeil",
+  "albumId": 316908237,
+  "reason": "0 piste(s) jouable(s)"
+ },
+ {
+  "name": "Dark",
+  "status": "douteux",
+  "album": "dark out — Max Fry",
+  "albumId": 448012425,
+  "reason": "titre avec « out » en plus du nom"
+ },
+ {
+  "name": "Lupin",
+  "status": "ok",
+  "album": "Lupin, Pt. 3 (Soundtrack from the Netflix Series) — Mathieu Lamboley",
+  "albumId": 489398905,
+  "tracks": 12
+ },
+ {
+  "name": "Mercredi (Wednesday)",
+  "status": "ok",
+  "album": "Wednesday (Original Series Soundtrack) — Danny Elfman",
+  "albumId": 373465237,
+  "tracks": 12
+ },
+ {
+  "name": "Euphoria",
+  "status": "ok",
+  "album": "Euphoria (Original Score from the HBO Series) — Labrinth",
+  "albumId": 112295182,
+  "tracks": 12
+ },
+ {
+  "name": "Succession",
+  "status": "douteux",
+  "album": "succession — Rothko Field",
+  "albumId": 837899602,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Dexter",
+  "status": "douteux",
+  "album": "Dexter — Sfera Ebbasta",
+  "albumId": 15579176,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Lost : Les Disparus (Lost)",
+  "status": "ok",
+  "album": "Lost: Season 1 (Original Television Soundtrack) — Michael Giacchino",
+  "albumId": 12494378,
+  "tracks": 12
+ },
+ {
+  "name": "Prison Break",
+  "status": "douteux",
+  "album": "Prison Break — Sam Wolfe",
+  "albumId": 497741421,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Desperate Housewives",
+  "status": "ok",
+  "album": "Desperate Housewives (TV Soundtrack) — Various Artists",
+  "albumId": 394971,
+  "tracks": 4
+ },
+ {
+  "name": "The Last of Us (série)",
+  "status": "ok",
+  "album": "The Last of Us: Season 1 (Soundtrack from the HBO Original Series) — Gustavo Santaolalla",
+  "albumId": 409638277,
+  "tracks": 12
+ },
+ {
+  "name": "La Chronique des Bridgerton (Bridgerton)",
+  "status": "ok",
+  "album": "Bridgerton (Music from the Netflix Original Series) — Kris Bowers",
+  "albumId": 192859872,
+  "tracks": 12
+ },
+ {
+  "name": "Kaamelott",
+  "status": "ok",
+  "album": "Kaamelott Sessions — Alexandre Astier",
+  "albumId": 268967622,
+  "tracks": 2
+ },
+ {
+  "name": "Les Revenants",
+  "status": "ok",
+  "album": "Les Revenants Soundtrack — Mogwai",
+  "albumId": 6301592,
+  "tracks": 12
+ },
+ {
+  "name": "Le Bureau des légendes",
+  "status": "ok",
+  "album": "Le Bureau des Légendes - Saison 5 (Original Series Soundtrack) — Rob",
+  "albumId": 139310672,
+  "tracks": 12
+ },
+ {
+  "name": "The Walking Dead",
+  "status": "ok",
+  "album": "The Walking Dead (Original Television Soundtrack) — Bear McCreary",
+  "albumId": 49380482,
+  "tracks": 12
+ },
+ {
+  "name": "Twin Peaks : The Return",
+  "status": "ok",
+  "album": "Twin Peaks (Limited Event Series Soundtrack) — Twin Peaks (Limited Event Series Soundtrack)",
+  "albumId": 47358422,
+  "tracks": 12
+ },
+ {
+  "name": "Fargo",
+  "status": "douteux",
+  "album": "Fargo — Stylezz",
+  "albumId": 241739932,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Ted Lasso",
+  "status": "douteux",
+  "album": "Ted Lasso — Thorb",
+  "albumId": 432049487,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "The Boys",
+  "status": "douteux",
+  "album": "The Boys (Deluxe Edition) — The Boys",
+  "albumId": 400835787,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ }
+]

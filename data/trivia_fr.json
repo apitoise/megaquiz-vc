@@ -1,0 +1,1467 @@
+{
+ "categories": {
+  "sciences": "🔬 Sciences",
+  "histoire": "🏛️ Histoire",
+  "geographie": "🌍 Géographie",
+  "litterature": "📚 Littérature",
+  "arts": "🎨 Arts et mythologie",
+  "cinema": "🎬 Cinéma et séries",
+  "musique": "🎵 Musique",
+  "sport": "⚽ Sport",
+  "pop": "🎮 Culture pop"
+ },
+ "questions": [
+  {
+   "id": "sci-01",
+   "category": "sciences",
+   "question": "Quel est le symbole chimique de l'or ?",
+   "answer": "Au"
+  },
+  {
+   "id": "sci-02",
+   "category": "sciences",
+   "question": "Quelle planète est la plus proche du Soleil ?",
+   "answer": "Mercure"
+  },
+  {
+   "id": "sci-03",
+   "category": "sciences",
+   "question": "Combien d'os compte le squelette d'un adulte humain ?",
+   "answer": "206"
+  },
+  {
+   "id": "sci-04",
+   "category": "sciences",
+   "question": "Quel gaz les plantes absorbent-elles pour la photosynthèse ?",
+   "answer": "Le dioxyde de carbone (CO₂)"
+  },
+  {
+   "id": "sci-05",
+   "category": "sciences",
+   "question": "Quelle est, à peu près, la vitesse de la lumière dans le vide ?",
+   "answer": "Environ 300 000 km/s"
+  },
+  {
+   "id": "sci-06",
+   "category": "sciences",
+   "question": "Qui a formulé la théorie de la relativité générale ?",
+   "answer": "Albert Einstein"
+  },
+  {
+   "id": "sci-07",
+   "category": "sciences",
+   "question": "Quel est le plus grand organe du corps humain ?",
+   "answer": "La peau"
+  },
+  {
+   "id": "sci-08",
+   "category": "sciences",
+   "question": "Quelle est la formule chimique de l'eau ?",
+   "answer": "H₂O"
+  },
+  {
+   "id": "sci-09",
+   "category": "sciences",
+   "question": "Quelle planète est surnommée « la planète rouge » ?",
+   "answer": "Mars"
+  },
+  {
+   "id": "sci-10",
+   "category": "sciences",
+   "question": "Qui a découvert la pénicilline ?",
+   "answer": "Alexander Fleming"
+  },
+  {
+   "id": "sci-11",
+   "category": "sciences",
+   "question": "Combien de chromosomes possède une cellule humaine (hors ovules et spermatozoïdes) ?",
+   "answer": "46 (23 paires)"
+  },
+  {
+   "id": "sci-12",
+   "category": "sciences",
+   "question": "Quelle est la plus grande planète du Système solaire ?",
+   "answer": "Jupiter"
+  },
+  {
+   "id": "sci-13",
+   "category": "sciences",
+   "question": "Quel scientifique français a mis au point le vaccin contre la rage ?",
+   "answer": "Louis Pasteur"
+  },
+  {
+   "id": "sci-14",
+   "category": "sciences",
+   "question": "À quelle température l'eau bout-elle au niveau de la mer, en degrés Celsius ?",
+   "answer": "100 °C"
+  },
+  {
+   "id": "sci-15",
+   "category": "sciences",
+   "question": "Quel métal est liquide à température ambiante ?",
+   "answer": "Le mercure"
+  },
+  {
+   "id": "sci-16",
+   "category": "sciences",
+   "question": "Comment appelle-t-on un animal qui se nourrit uniquement de végétaux ?",
+   "answer": "Un herbivore"
+  },
+  {
+   "id": "sci-17",
+   "category": "sciences",
+   "question": "Quelle unité mesure l'intensité d'un courant électrique ?",
+   "answer": "L'ampère"
+  },
+  {
+   "id": "sci-18",
+   "category": "sciences",
+   "question": "Quel est l'élément chimique le plus abondant dans l'Univers ?",
+   "answer": "L'hydrogène"
+  },
+  {
+   "id": "sci-19",
+   "category": "sciences",
+   "question": "Qui a énoncé la loi de la gravitation universelle ?",
+   "answer": "Isaac Newton"
+  },
+  {
+   "id": "sci-20",
+   "category": "sciences",
+   "question": "Combien de cœurs possède une pieuvre ?",
+   "answer": "Trois"
+  },
+  {
+   "id": "sci-21",
+   "category": "sciences",
+   "question": "Quelle est la plus petite unité du vivant ?",
+   "answer": "La cellule"
+  },
+  {
+   "id": "sci-22",
+   "category": "sciences",
+   "question": "Quelle partie de l'œil lui donne sa couleur ?",
+   "answer": "L'iris"
+  },
+  {
+   "id": "sci-23",
+   "category": "sciences",
+   "question": "Quelle scientifique a reçu deux prix Nobel, en physique et en chimie ?",
+   "answer": "Marie Curie"
+  },
+  {
+   "id": "sci-24",
+   "category": "sciences",
+   "question": "Comment s'appelle la galaxie qui contient le Système solaire ?",
+   "answer": "La Voie lactée"
+  },
+  {
+   "id": "sci-25",
+   "category": "sciences",
+   "question": "Quel est le pH de l'eau pure ?",
+   "answer": "7"
+  },
+  {
+   "id": "sci-26",
+   "category": "sciences",
+   "question": "Quel est le plus grand animal du monde ?",
+   "answer": "La baleine bleue (rorqual bleu)"
+  },
+  {
+   "id": "sci-27",
+   "category": "sciences",
+   "question": "Combien de temps met la lumière du Soleil pour atteindre la Terre, environ ?",
+   "answer": "Environ 8 minutes"
+  },
+  {
+   "id": "sci-28",
+   "category": "sciences",
+   "question": "Que mesure l'échelle de Richter ?",
+   "answer": "La magnitude des séismes"
+  },
+  {
+   "id": "his-01",
+   "category": "histoire",
+   "question": "En quelle année a eu lieu la prise de la Bastille ?",
+   "answer": "1789"
+  },
+  {
+   "id": "his-02",
+   "category": "histoire",
+   "question": "Qui a été le premier président de la Ve République ?",
+   "answer": "Charles de Gaulle"
+  },
+  {
+   "id": "his-03",
+   "category": "histoire",
+   "question": "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?",
+   "answer": "1969"
+  },
+  {
+   "id": "his-04",
+   "category": "histoire",
+   "question": "Quelle reine d'Égypte a été l'alliée de Jules César puis de Marc Antoine ?",
+   "answer": "Cléopâtre"
+  },
+  {
+   "id": "his-05",
+   "category": "histoire",
+   "question": "En quelle année le mur de Berlin est-il tombé ?",
+   "answer": "1989"
+  },
+  {
+   "id": "his-06",
+   "category": "histoire",
+   "question": "Quelle bataille de 1815 a marqué la défaite définitive de Napoléon ?",
+   "answer": "Waterloo"
+  },
+  {
+   "id": "his-07",
+   "category": "histoire",
+   "question": "Quel roi des Francs a été couronné empereur en l'an 800 ?",
+   "answer": "Charlemagne"
+  },
+  {
+   "id": "his-08",
+   "category": "histoire",
+   "question": "Quelle jeune femme a fait lever le siège d'Orléans en 1429 ?",
+   "answer": "Jeanne d'Arc"
+  },
+  {
+   "id": "his-09",
+   "category": "histoire",
+   "question": "En quelle année Christophe Colomb a-t-il atteint l'Amérique ?",
+   "answer": "1492"
+  },
+  {
+   "id": "his-10",
+   "category": "histoire",
+   "question": "Quel roi de France était surnommé le Roi-Soleil ?",
+   "answer": "Louis XIV"
+  },
+  {
+   "id": "his-11",
+   "category": "histoire",
+   "question": "En quelle année a commencé la Première Guerre mondiale ?",
+   "answer": "1914"
+  },
+  {
+   "id": "his-12",
+   "category": "histoire",
+   "question": "Quel paquebot a coulé lors de son voyage inaugural en 1912 ?",
+   "answer": "Le Titanic"
+  },
+  {
+   "id": "his-13",
+   "category": "histoire",
+   "question": "Quel événement a eu lieu sur les plages de Normandie le 6 juin 1944 ?",
+   "answer": "Le débarquement allié (D-Day)"
+  },
+  {
+   "id": "his-14",
+   "category": "histoire",
+   "question": "Quelle civilisation a construit le Machu Picchu ?",
+   "answer": "Les Incas"
+  },
+  {
+   "id": "his-15",
+   "category": "histoire",
+   "question": "Quel président américain a été assassiné à Dallas en 1963 ?",
+   "answer": "John F. Kennedy"
+  },
+  {
+   "id": "his-16",
+   "category": "histoire",
+   "question": "Dans quelle affaire Émile Zola publie-t-il « J'accuse… ! » en 1898 ?",
+   "answer": "L'affaire Dreyfus"
+  },
+  {
+   "id": "his-17",
+   "category": "histoire",
+   "question": "Quelle ville romaine a été ensevelie par l'éruption du Vésuve en 79 ?",
+   "answer": "Pompéi"
+  },
+  {
+   "id": "his-18",
+   "category": "histoire",
+   "question": "Qui a été le premier empereur romain ?",
+   "answer": "Auguste (Octave)"
+  },
+  {
+   "id": "his-19",
+   "category": "histoire",
+   "question": "En quelle année la Seconde Guerre mondiale s'est-elle terminée ?",
+   "answer": "1945"
+  },
+  {
+   "id": "his-20",
+   "category": "histoire",
+   "question": "Quel pharaon a été retrouvé dans une tombe presque intacte en 1922 ?",
+   "answer": "Toutânkhamon"
+  },
+  {
+   "id": "his-21",
+   "category": "histoire",
+   "question": "Quel traité a fondé la Communauté économique européenne en 1957 ?",
+   "answer": "Le traité de Rome"
+  },
+  {
+   "id": "his-22",
+   "category": "histoire",
+   "question": "Qui dirigeait l'Union soviétique pendant la Seconde Guerre mondiale ?",
+   "answer": "Joseph Staline"
+  },
+  {
+   "id": "his-23",
+   "category": "histoire",
+   "question": "En quelle année les Françaises ont-elles voté pour la première fois ?",
+   "answer": "1945"
+  },
+  {
+   "id": "his-24",
+   "category": "histoire",
+   "question": "Quel immense ouvrage défensif a été bâti au nord de la Chine ?",
+   "answer": "La Grande Muraille"
+  },
+  {
+   "id": "his-25",
+   "category": "histoire",
+   "question": "Quel navigateur portugais a lancé en 1519 la première expédition autour du monde ?",
+   "answer": "Fernand de Magellan"
+  },
+  {
+   "id": "his-26",
+   "category": "histoire",
+   "question": "Qui a été le premier homme envoyé dans l'espace, en 1961 ?",
+   "answer": "Youri Gagarine"
+  },
+  {
+   "id": "his-27",
+   "category": "histoire",
+   "question": "Quelle révolution de 1917 a porté les bolcheviks au pouvoir en Russie ?",
+   "answer": "La révolution d'Octobre"
+  },
+  {
+   "id": "his-28",
+   "category": "histoire",
+   "question": "Qui est devenu président de l'Afrique du Sud en 1994, après la fin de l'apartheid ?",
+   "answer": "Nelson Mandela"
+  },
+  {
+   "id": "geo-01",
+   "category": "geographie",
+   "question": "Quel est le plus long fleuve de France ?",
+   "answer": "La Loire"
+  },
+  {
+   "id": "geo-02",
+   "category": "geographie",
+   "question": "Quelle est la plus haute montagne du monde ?",
+   "answer": "L'Everest"
+  },
+  {
+   "id": "geo-03",
+   "category": "geographie",
+   "question": "Quel est le plus grand océan du monde ?",
+   "answer": "Le Pacifique"
+  },
+  {
+   "id": "geo-04",
+   "category": "geographie",
+   "question": "Quel est le plus grand désert chaud du monde ?",
+   "answer": "Le Sahara"
+  },
+  {
+   "id": "geo-05",
+   "category": "geographie",
+   "question": "Dans quel pays se trouve la ville de Marrakech ?",
+   "answer": "Le Maroc"
+  },
+  {
+   "id": "geo-06",
+   "category": "geographie",
+   "question": "Quel est le plus grand pays du monde par la superficie ?",
+   "answer": "La Russie"
+  },
+  {
+   "id": "geo-07",
+   "category": "geographie",
+   "question": "Quel fleuve traverse Paris ?",
+   "answer": "La Seine"
+  },
+  {
+   "id": "geo-08",
+   "category": "geographie",
+   "question": "Quel est le point culminant des Alpes ?",
+   "answer": "Le mont Blanc"
+  },
+  {
+   "id": "geo-09",
+   "category": "geographie",
+   "question": "Entre quels pays se trouvent les chutes d'Iguazú ?",
+   "answer": "L'Argentine et le Brésil"
+  },
+  {
+   "id": "geo-10",
+   "category": "geographie",
+   "question": "Quel détroit sépare l'Espagne du Maroc ?",
+   "answer": "Le détroit de Gibraltar"
+  },
+  {
+   "id": "geo-11",
+   "category": "geographie",
+   "question": "Quel est le pays le plus peuplé du monde depuis 2023 ?",
+   "answer": "L'Inde"
+  },
+  {
+   "id": "geo-12",
+   "category": "geographie",
+   "question": "Dans quel pays se trouve le Kilimandjaro ?",
+   "answer": "La Tanzanie"
+  },
+  {
+   "id": "geo-13",
+   "category": "geographie",
+   "question": "Quelle ville est surnommée « la Grosse Pomme » ?",
+   "answer": "New York"
+  },
+  {
+   "id": "geo-14",
+   "category": "geographie",
+   "question": "Quel est le plus long fleuve d'Europe ?",
+   "answer": "La Volga"
+  },
+  {
+   "id": "geo-15",
+   "category": "geographie",
+   "question": "Combien de départements compte la France métropolitaine ?",
+   "answer": "96"
+  },
+  {
+   "id": "geo-16",
+   "category": "geographie",
+   "question": "Quel pays a la forme d'une botte ?",
+   "answer": "L'Italie"
+  },
+  {
+   "id": "geo-17",
+   "category": "geographie",
+   "question": "Dans quel pays se trouve le désert d'Atacama ?",
+   "answer": "Le Chili"
+  },
+  {
+   "id": "geo-18",
+   "category": "geographie",
+   "question": "Quel océan borde la côte ouest de la France ?",
+   "answer": "L'océan Atlantique"
+  },
+  {
+   "id": "geo-19",
+   "category": "geographie",
+   "question": "Dans quelle ville se trouve la Sagrada Família ?",
+   "answer": "Barcelone"
+  },
+  {
+   "id": "geo-20",
+   "category": "geographie",
+   "question": "Quel est le plus grand lac d'Afrique ?",
+   "answer": "Le lac Victoria"
+  },
+  {
+   "id": "geo-21",
+   "category": "geographie",
+   "question": "Quelle chaîne de montagnes sépare la France de l'Espagne ?",
+   "answer": "Les Pyrénées"
+  },
+  {
+   "id": "geo-22",
+   "category": "geographie",
+   "question": "Quel est le plus petit pays du monde ?",
+   "answer": "Le Vatican"
+  },
+  {
+   "id": "geo-23",
+   "category": "geographie",
+   "question": "Quelle est la plus grande île du monde ?",
+   "answer": "Le Groenland"
+  },
+  {
+   "id": "geo-24",
+   "category": "geographie",
+   "question": "Quel fleuve traverse l'Égypte ?",
+   "answer": "Le Nil"
+  },
+  {
+   "id": "geo-25",
+   "category": "geographie",
+   "question": "Quelle ville est traversée par le Bosphore ?",
+   "answer": "Istanbul"
+  },
+  {
+   "id": "geo-26",
+   "category": "geographie",
+   "question": "Quelle est la plus grande île de la Méditerranée ?",
+   "answer": "La Sicile"
+  },
+  {
+   "id": "geo-27",
+   "category": "geographie",
+   "question": "Dans quel pays se trouve la ville de Kyoto ?",
+   "answer": "Le Japon"
+  },
+  {
+   "id": "geo-28",
+   "category": "geographie",
+   "question": "Quel canal relie la Méditerranée à la mer Rouge ?",
+   "answer": "Le canal de Suez"
+  },
+  {
+   "id": "lit-01",
+   "category": "litterature",
+   "question": "Qui a écrit « Les Misérables » ?",
+   "answer": "Victor Hugo"
+  },
+  {
+   "id": "lit-02",
+   "category": "litterature",
+   "question": "Qui est l'auteur du « Petit Prince » ?",
+   "answer": "Antoine de Saint-Exupéry"
+  },
+  {
+   "id": "lit-03",
+   "category": "litterature",
+   "question": "Quel détective a été créé par Arthur Conan Doyle ?",
+   "answer": "Sherlock Holmes"
+  },
+  {
+   "id": "lit-04",
+   "category": "litterature",
+   "question": "Qui a écrit « Roméo et Juliette » ?",
+   "answer": "William Shakespeare"
+  },
+  {
+   "id": "lit-05",
+   "category": "litterature",
+   "question": "Dans quel roman de Jules Verne Phileas Fogg relève-t-il un pari ?",
+   "answer": "Le Tour du monde en quatre-vingts jours"
+  },
+  {
+   "id": "lit-06",
+   "category": "litterature",
+   "question": "Qui a écrit « L'Étranger » ?",
+   "answer": "Albert Camus"
+  },
+  {
+   "id": "lit-07",
+   "category": "litterature",
+   "question": "Quel auteur a créé le commissaire Maigret ?",
+   "answer": "Georges Simenon"
+  },
+  {
+   "id": "lit-08",
+   "category": "litterature",
+   "question": "Qui a écrit « Les Fleurs du mal » ?",
+   "answer": "Charles Baudelaire"
+  },
+  {
+   "id": "lit-09",
+   "category": "litterature",
+   "question": "Comment s'appelle l'école de sorcellerie dans Harry Potter ?",
+   "answer": "Poudlard"
+  },
+  {
+   "id": "lit-10",
+   "category": "litterature",
+   "question": "Qui a écrit « Le Seigneur des anneaux » ?",
+   "answer": "J. R. R. Tolkien"
+  },
+  {
+   "id": "lit-11",
+   "category": "litterature",
+   "question": "Quel personnage de Cervantes se bat contre des moulins à vent ?",
+   "answer": "Don Quichotte"
+  },
+  {
+   "id": "lit-12",
+   "category": "litterature",
+   "question": "Qui a écrit « Madame Bovary » ?",
+   "answer": "Gustave Flaubert"
+  },
+  {
+   "id": "lit-13",
+   "category": "litterature",
+   "question": "Quel jeune Gascon rejoint Athos, Porthos et Aramis dans « Les Trois Mousquetaires » ?",
+   "answer": "D'Artagnan"
+  },
+  {
+   "id": "lit-14",
+   "category": "litterature",
+   "question": "Qui a écrit « 1984 » ?",
+   "answer": "George Orwell"
+  },
+  {
+   "id": "lit-15",
+   "category": "litterature",
+   "question": "Dans quelle pièce de Molière trouve-t-on Harpagon ?",
+   "answer": "L'Avare"
+  },
+  {
+   "id": "lit-16",
+   "category": "litterature",
+   "question": "Qui a écrit « À la recherche du temps perdu » ?",
+   "answer": "Marcel Proust"
+  },
+  {
+   "id": "lit-17",
+   "category": "litterature",
+   "question": "Qui a écrit « Germinal » ?",
+   "answer": "Émile Zola"
+  },
+  {
+   "id": "lit-18",
+   "category": "litterature",
+   "question": "Qui a écrit la fable « Le Corbeau et le Renard » ?",
+   "answer": "Jean de La Fontaine"
+  },
+  {
+   "id": "lit-19",
+   "category": "litterature",
+   "question": "Quelle romancière anglaise a écrit « Orgueil et Préjugés » ?",
+   "answer": "Jane Austen"
+  },
+  {
+   "id": "lit-20",
+   "category": "litterature",
+   "question": "Qui a écrit « Le Comte de Monte-Cristo » ?",
+   "answer": "Alexandre Dumas"
+  },
+  {
+   "id": "lit-21",
+   "category": "litterature",
+   "question": "Dans quel roman de Victor Hugo apparaît Quasimodo ?",
+   "answer": "Notre-Dame de Paris"
+  },
+  {
+   "id": "lit-22",
+   "category": "litterature",
+   "question": "Qui a écrit « Cyrano de Bergerac » ?",
+   "answer": "Edmond Rostand"
+  },
+  {
+   "id": "lit-23",
+   "category": "litterature",
+   "question": "Quel écrivain russe a écrit « Guerre et Paix » ?",
+   "answer": "Léon Tolstoï"
+  },
+  {
+   "id": "lit-24",
+   "category": "litterature",
+   "question": "Qui a écrit « Le Vieil Homme et la Mer » ?",
+   "answer": "Ernest Hemingway"
+  },
+  {
+   "id": "lit-25",
+   "category": "litterature",
+   "question": "Quel poète a écrit « Le Dormeur du val » ?",
+   "answer": "Arthur Rimbaud"
+  },
+  {
+   "id": "lit-26",
+   "category": "litterature",
+   "question": "Quelle romancière a créé Hercule Poirot ?",
+   "answer": "Agatha Christie"
+  },
+  {
+   "id": "lit-27",
+   "category": "litterature",
+   "question": "Quel roman de Mary Shelley raconte la création d'un être par un savant ?",
+   "answer": "Frankenstein"
+  },
+  {
+   "id": "lit-28",
+   "category": "litterature",
+   "question": "Qui a écrit « Candide » ?",
+   "answer": "Voltaire"
+  },
+  {
+   "id": "art-01",
+   "category": "arts",
+   "question": "Qui a peint « La Joconde » ?",
+   "answer": "Léonard de Vinci"
+  },
+  {
+   "id": "art-02",
+   "category": "arts",
+   "question": "Dans quel musée est exposée « La Joconde » ?",
+   "answer": "Le Louvre"
+  },
+  {
+   "id": "art-03",
+   "category": "arts",
+   "question": "Qui a peint « La Nuit étoilée » ?",
+   "answer": "Vincent van Gogh"
+  },
+  {
+   "id": "art-04",
+   "category": "arts",
+   "question": "Quel peintre espagnol a peint « Guernica » ?",
+   "answer": "Pablo Picasso"
+  },
+  {
+   "id": "art-05",
+   "category": "arts",
+   "question": "Qui a sculpté « Le Penseur » ?",
+   "answer": "Auguste Rodin"
+  },
+  {
+   "id": "art-06",
+   "category": "arts",
+   "question": "Qui est le roi des dieux dans la mythologie grecque ?",
+   "answer": "Zeus"
+  },
+  {
+   "id": "art-07",
+   "category": "arts",
+   "question": "Quel héros grec a accompli douze travaux ?",
+   "answer": "Héraclès (Hercule)"
+  },
+  {
+   "id": "art-08",
+   "category": "arts",
+   "question": "Quel monstre à tête de taureau vivait dans le labyrinthe de Crète ?",
+   "answer": "Le Minotaure"
+  },
+  {
+   "id": "art-09",
+   "category": "arts",
+   "question": "Quel dieu nordique manie le marteau Mjöllnir ?",
+   "answer": "Thor"
+  },
+  {
+   "id": "art-10",
+   "category": "arts",
+   "question": "Qui a peint le plafond de la chapelle Sixtine ?",
+   "answer": "Michel-Ange"
+  },
+  {
+   "id": "art-11",
+   "category": "arts",
+   "question": "Quel peintre a donné son nom à l'impressionnisme avec « Impression, soleil levant » ?",
+   "answer": "Claude Monet"
+  },
+  {
+   "id": "art-12",
+   "category": "arts",
+   "question": "Quelle déesse grecque de l'amour est née de l'écume de la mer ?",
+   "answer": "Aphrodite"
+  },
+  {
+   "id": "art-13",
+   "category": "arts",
+   "question": "Quel artiste du pop art a peint des boîtes de soupe Campbell ?",
+   "answer": "Andy Warhol"
+  },
+  {
+   "id": "art-14",
+   "category": "arts",
+   "question": "Qui a peint « La Jeune Fille à la perle » ?",
+   "answer": "Johannes Vermeer"
+  },
+  {
+   "id": "art-15",
+   "category": "arts",
+   "question": "Quelle ruse a permis aux Grecs d'entrer dans Troie ?",
+   "answer": "Le cheval de Troie"
+  },
+  {
+   "id": "art-16",
+   "category": "arts",
+   "question": "Qui a peint « Le Cri » ?",
+   "answer": "Edvard Munch"
+  },
+  {
+   "id": "art-17",
+   "category": "arts",
+   "question": "Quel dieu égyptien a une tête de chacal ?",
+   "answer": "Anubis"
+  },
+  {
+   "id": "art-18",
+   "category": "arts",
+   "question": "Quel peintre surréaliste a peint des montres molles ?",
+   "answer": "Salvador Dalí"
+  },
+  {
+   "id": "art-19",
+   "category": "arts",
+   "question": "Quel ingénieur a donné son nom à la tour bâtie pour l'Exposition universelle de 1889 ?",
+   "answer": "Gustave Eiffel"
+  },
+  {
+   "id": "art-20",
+   "category": "arts",
+   "question": "Qui, dans la mythologie grecque, a ouvert la jarre qui libéra les maux du monde ?",
+   "answer": "Pandore"
+  },
+  {
+   "id": "art-21",
+   "category": "arts",
+   "question": "À quel mouvement artistique appartiennent Monet, Renoir et Degas ?",
+   "answer": "L'impressionnisme"
+  },
+  {
+   "id": "art-22",
+   "category": "arts",
+   "question": "Qui est le dieu romain de la guerre ?",
+   "answer": "Mars"
+  },
+  {
+   "id": "art-23",
+   "category": "arts",
+   "question": "Quel héros grec a tranché la tête de Méduse ?",
+   "answer": "Persée"
+  },
+  {
+   "id": "art-24",
+   "category": "arts",
+   "question": "Dans quelle ville se trouve le musée du Prado ?",
+   "answer": "Madrid"
+  },
+  {
+   "id": "cin-01",
+   "category": "cinema",
+   "question": "Qui a réalisé « Titanic » (1997) ?",
+   "answer": "James Cameron"
+  },
+  {
+   "id": "cin-02",
+   "category": "cinema",
+   "question": "Quel acteur incarne Jack Sparrow dans « Pirates des Caraïbes » ?",
+   "answer": "Johnny Depp"
+  },
+  {
+   "id": "cin-03",
+   "category": "cinema",
+   "question": "Dans quel film Dark Vador déclare-t-il « Je suis ton père » ?",
+   "answer": "Star Wars : L'Empire contre-attaque"
+  },
+  {
+   "id": "cin-04",
+   "category": "cinema",
+   "question": "Quel réalisateur a signé « Pulp Fiction » ?",
+   "answer": "Quentin Tarantino"
+  },
+  {
+   "id": "cin-05",
+   "category": "cinema",
+   "question": "Quel film de Spielberg de 1993 se déroule dans un parc à dinosaures ?",
+   "answer": "Jurassic Park"
+  },
+  {
+   "id": "cin-06",
+   "category": "cinema",
+   "question": "Quel film Pixar met en scène un cow-boy nommé Woody ?",
+   "answer": "Toy Story"
+  },
+  {
+   "id": "cin-07",
+   "category": "cinema",
+   "question": "Quel film français de 2011 avec Omar Sy et François Cluzet a dépassé les 19 millions d'entrées ?",
+   "answer": "Intouchables"
+  },
+  {
+   "id": "cin-08",
+   "category": "cinema",
+   "question": "Dans « Le Seigneur des anneaux », quel hobbit porte l'Anneau jusqu'à la Montagne du Destin ?",
+   "answer": "Frodon"
+  },
+  {
+   "id": "cin-09",
+   "category": "cinema",
+   "question": "Quel acteur joue Forrest Gump ?",
+   "answer": "Tom Hanks"
+  },
+  {
+   "id": "cin-10",
+   "category": "cinema",
+   "question": "Quel acteur a incarné Harry Potter au cinéma ?",
+   "answer": "Daniel Radcliffe"
+  },
+  {
+   "id": "cin-11",
+   "category": "cinema",
+   "question": "Dans quelle série suit-on les Stark et les Lannister ?",
+   "answer": "Game of Thrones"
+  },
+  {
+   "id": "cin-12",
+   "category": "cinema",
+   "question": "Comment s'appelle le professeur de chimie devenu fabricant de drogue dans « Breaking Bad » ?",
+   "answer": "Walter White"
+  },
+  {
+   "id": "cin-13",
+   "category": "cinema",
+   "question": "Dans quelle série des enfants de Hawkins affrontent-ils le Démogorgon ?",
+   "answer": "Stranger Things"
+  },
+  {
+   "id": "cin-14",
+   "category": "cinema",
+   "question": "Quel film de 1972 raconte l'histoire de la famille Corleone ?",
+   "answer": "Le Parrain"
+  },
+  {
+   "id": "cin-15",
+   "category": "cinema",
+   "question": "Qui a réalisé « Le Fabuleux Destin d'Amélie Poulain » ?",
+   "answer": "Jean-Pierre Jeunet"
+  },
+  {
+   "id": "cin-16",
+   "category": "cinema",
+   "question": "Quelle actrice joue Hermione dans la saga Harry Potter ?",
+   "answer": "Emma Watson"
+  },
+  {
+   "id": "cin-17",
+   "category": "cinema",
+   "question": "Dans quelle série six amis se retrouvent-ils au Central Perk ?",
+   "answer": "Friends"
+  },
+  {
+   "id": "cin-18",
+   "category": "cinema",
+   "question": "Quel film Disney raconte l'histoire du lionceau Simba ?",
+   "answer": "Le Roi lion"
+  },
+  {
+   "id": "cin-19",
+   "category": "cinema",
+   "question": "Quel acteur incarne Iron Man dans les films Marvel ?",
+   "answer": "Robert Downey Jr."
+  },
+  {
+   "id": "cin-20",
+   "category": "cinema",
+   "question": "Quel film sud-coréen a remporté l'Oscar du meilleur film en 2020 ?",
+   "answer": "Parasite"
+  },
+  {
+   "id": "cin-21",
+   "category": "cinema",
+   "question": "Dans « Retour vers le futur », à quelle vitesse la DeLorean doit-elle rouler pour voyager dans le temps ?",
+   "answer": "88 miles à l'heure"
+  },
+  {
+   "id": "cin-22",
+   "category": "cinema",
+   "question": "Quelle série espagnole suit le Professeur et ses braqueurs en combinaison rouge ?",
+   "answer": "La Casa de Papel"
+  },
+  {
+   "id": "cin-23",
+   "category": "cinema",
+   "question": "Qui a réalisé « E.T. l'extra-terrestre » ?",
+   "answer": "Steven Spielberg"
+  },
+  {
+   "id": "cin-24",
+   "category": "cinema",
+   "question": "Quel père de famille jaune travaille à la centrale nucléaire de Springfield ?",
+   "answer": "Homer Simpson"
+  },
+  {
+   "id": "cin-25",
+   "category": "cinema",
+   "question": "Dans « Kaamelott », quel roi règne sur la Bretagne ?",
+   "answer": "Arthur"
+  },
+  {
+   "id": "cin-26",
+   "category": "cinema",
+   "question": "Quel film de 1999 propose à Neo de choisir entre la pilule rouge et la pilule bleue ?",
+   "answer": "Matrix"
+  },
+  {
+   "id": "cin-27",
+   "category": "cinema",
+   "question": "Quel acteur joue Assane Diop dans la série « Lupin » ?",
+   "answer": "Omar Sy"
+  },
+  {
+   "id": "cin-28",
+   "category": "cinema",
+   "question": "Quel festival de cinéma remet la Palme d'or ?",
+   "answer": "Le Festival de Cannes"
+  },
+  {
+   "id": "mus-01",
+   "category": "musique",
+   "question": "Quel groupe britannique réunissait John, Paul, George et Ringo ?",
+   "answer": "Les Beatles"
+  },
+  {
+   "id": "mus-02",
+   "category": "musique",
+   "question": "Qui chante « Thriller » ?",
+   "answer": "Michael Jackson"
+  },
+  {
+   "id": "mus-03",
+   "category": "musique",
+   "question": "Quel compositeur, devenu sourd, a écrit la Neuvième Symphonie et son « Hymne à la joie » ?",
+   "answer": "Ludwig van Beethoven"
+  },
+  {
+   "id": "mus-04",
+   "category": "musique",
+   "question": "Qui chante « La Vie en rose » ?",
+   "answer": "Édith Piaf"
+  },
+  {
+   "id": "mus-05",
+   "category": "musique",
+   "question": "Quel chanteur était surnommé « le King » ?",
+   "answer": "Elvis Presley"
+  },
+  {
+   "id": "mus-06",
+   "category": "musique",
+   "question": "Quel groupe suédois a remporté l'Eurovision 1974 avec « Waterloo » ?",
+   "answer": "ABBA"
+  },
+  {
+   "id": "mus-07",
+   "category": "musique",
+   "question": "Qui était le chanteur du groupe Queen ?",
+   "answer": "Freddie Mercury"
+  },
+  {
+   "id": "mus-08",
+   "category": "musique",
+   "question": "Combien de cordes compte une guitare classique ?",
+   "answer": "Six"
+  },
+  {
+   "id": "mus-09",
+   "category": "musique",
+   "question": "Quel compositeur autrichien a écrit « La Flûte enchantée » ?",
+   "answer": "Wolfgang Amadeus Mozart"
+  },
+  {
+   "id": "mus-10",
+   "category": "musique",
+   "question": "Quel duo français casqué a sorti « Get Lucky » ?",
+   "answer": "Daft Punk"
+  },
+  {
+   "id": "mus-11",
+   "category": "musique",
+   "question": "Qui chante « Rolling in the Deep » ?",
+   "answer": "Adele"
+  },
+  {
+   "id": "mus-12",
+   "category": "musique",
+   "question": "Quel chanteur français était surnommé « l'idole des jeunes » ?",
+   "answer": "Johnny Hallyday"
+  },
+  {
+   "id": "mus-13",
+   "category": "musique",
+   "question": "De quel pays vient le chanteur Stromae ?",
+   "answer": "La Belgique"
+  },
+  {
+   "id": "mus-14",
+   "category": "musique",
+   "question": "Combien de lignes compte une portée musicale ?",
+   "answer": "Cinq"
+  },
+  {
+   "id": "mus-15",
+   "category": "musique",
+   "question": "Quel groupe a chanté « Smells Like Teen Spirit » ?",
+   "answer": "Nirvana"
+  },
+  {
+   "id": "mus-16",
+   "category": "musique",
+   "question": "Qui a composé « Les Quatre Saisons » ?",
+   "answer": "Antonio Vivaldi"
+  },
+  {
+   "id": "mus-17",
+   "category": "musique",
+   "question": "Quelle chanteuse est surnommée « Queen B » ?",
+   "answer": "Beyoncé"
+  },
+  {
+   "id": "mus-18",
+   "category": "musique",
+   "question": "Quel groupe français a chanté « L'Aventurier » ?",
+   "answer": "Indochine"
+  },
+  {
+   "id": "mus-19",
+   "category": "musique",
+   "question": "Quel compositeur français a écrit le « Boléro » ?",
+   "answer": "Maurice Ravel"
+  },
+  {
+   "id": "mus-20",
+   "category": "musique",
+   "question": "Quel rappeur américain s'appelle en réalité Marshall Mathers ?",
+   "answer": "Eminem"
+  },
+  {
+   "id": "mus-21",
+   "category": "musique",
+   "question": "Quel artiste a sorti l'album « Purple Rain » ?",
+   "answer": "Prince"
+  },
+  {
+   "id": "mus-22",
+   "category": "musique",
+   "question": "Quel groupe australien a sorti « Highway to Hell » ?",
+   "answer": "AC/DC"
+  },
+  {
+   "id": "mus-23",
+   "category": "musique",
+   "question": "Avec qui Jean-Jacques Goldman chante-t-il « Je te donne » ?",
+   "answer": "Michael Jones"
+  },
+  {
+   "id": "mus-24",
+   "category": "musique",
+   "question": "Quelle chanteuse a interprété « Like a Virgin » ?",
+   "answer": "Madonna"
+  },
+  {
+   "id": "mus-25",
+   "category": "musique",
+   "question": "Quel groupe a chanté « Wonderwall » ?",
+   "answer": "Oasis"
+  },
+  {
+   "id": "mus-26",
+   "category": "musique",
+   "question": "Qui chante « Ne me quitte pas » ?",
+   "answer": "Jacques Brel"
+  },
+  {
+   "id": "spo-01",
+   "category": "sport",
+   "question": "Combien de joueurs une équipe de football aligne-t-elle sur le terrain ?",
+   "answer": "Onze"
+  },
+  {
+   "id": "spo-02",
+   "category": "sport",
+   "question": "En quelle année la France a-t-elle remporté sa première Coupe du monde de football ?",
+   "answer": "1998"
+  },
+  {
+   "id": "spo-03",
+   "category": "sport",
+   "question": "Dans quel sport utilise-t-on un volant ?",
+   "answer": "Le badminton"
+  },
+  {
+   "id": "spo-04",
+   "category": "sport",
+   "question": "Quel joueur a remporté le plus de fois Roland-Garros ?",
+   "answer": "Rafael Nadal (14 titres)"
+  },
+  {
+   "id": "spo-05",
+   "category": "sport",
+   "question": "Combien de points vaut un essai au rugby à XV ?",
+   "answer": "Cinq"
+  },
+  {
+   "id": "spo-06",
+   "category": "sport",
+   "question": "Tous les combien d'années ont lieu les Jeux olympiques d'été ?",
+   "answer": "Tous les quatre ans"
+  },
+  {
+   "id": "spo-07",
+   "category": "sport",
+   "question": "Quelle ville a accueilli les Jeux olympiques d'été de 2024 ?",
+   "answer": "Paris"
+  },
+  {
+   "id": "spo-08",
+   "category": "sport",
+   "question": "Quel maillot porte le leader du classement général du Tour de France ?",
+   "answer": "Le maillot jaune"
+  },
+  {
+   "id": "spo-09",
+   "category": "sport",
+   "question": "Quel sprinteur jamaïcain détient le record du monde du 100 mètres ?",
+   "answer": "Usain Bolt"
+  },
+  {
+   "id": "spo-10",
+   "category": "sport",
+   "question": "Combien de trous compte un parcours de golf standard ?",
+   "answer": "Dix-huit"
+  },
+  {
+   "id": "spo-11",
+   "category": "sport",
+   "question": "Dans quel sport s'est illustré Michael Jordan ?",
+   "answer": "Le basket-ball"
+  },
+  {
+   "id": "spo-12",
+   "category": "sport",
+   "question": "Quel pays a remporté le plus de Coupes du monde de football ?",
+   "answer": "Le Brésil (5)"
+  },
+  {
+   "id": "spo-13",
+   "category": "sport",
+   "question": "Quelle est la distance d'un marathon ?",
+   "answer": "42,195 km"
+  },
+  {
+   "id": "spo-14",
+   "category": "sport",
+   "question": "Quel capitaine argentin a remporté la Coupe du monde 2022 ?",
+   "answer": "Lionel Messi"
+  },
+  {
+   "id": "spo-15",
+   "category": "sport",
+   "question": "Combien de joueurs une équipe de volley-ball aligne-t-elle sur le terrain ?",
+   "answer": "Six"
+  },
+  {
+   "id": "spo-16",
+   "category": "sport",
+   "question": "Quel nageur américain détient le record de médailles d'or olympiques ?",
+   "answer": "Michael Phelps"
+  },
+  {
+   "id": "spo-17",
+   "category": "sport",
+   "question": "Dans quel sport réussit-on un « strike » en renversant toutes les quilles d'un coup ?",
+   "answer": "Le bowling"
+  },
+  {
+   "id": "spo-18",
+   "category": "sport",
+   "question": "Combien de sets faut-il gagner pour remporter un match masculin de Grand Chelem ?",
+   "answer": "Trois"
+  },
+  {
+   "id": "spo-19",
+   "category": "sport",
+   "question": "Quelle course automobile d'endurance se court chaque année dans la Sarthe ?",
+   "answer": "Les 24 Heures du Mans"
+  },
+  {
+   "id": "spo-20",
+   "category": "sport",
+   "question": "Quel club de football joue au Parc des Princes ?",
+   "answer": "Le Paris Saint-Germain"
+  },
+  {
+   "id": "spo-21",
+   "category": "sport",
+   "question": "Quel art martial japonais signifie « la voie de la souplesse » ?",
+   "answer": "Le judo"
+  },
+  {
+   "id": "spo-22",
+   "category": "sport",
+   "question": "Quel pilote allemand a remporté sept titres de champion du monde de F1 ?",
+   "answer": "Michael Schumacher"
+  },
+  {
+   "id": "spo-23",
+   "category": "sport",
+   "question": "Quel tournoi du Grand Chelem se joue sur gazon à Londres ?",
+   "answer": "Wimbledon"
+  },
+  {
+   "id": "spo-24",
+   "category": "sport",
+   "question": "Combien de temps dure un match de football, hors prolongations ?",
+   "answer": "90 minutes"
+  },
+  {
+   "id": "spo-25",
+   "category": "sport",
+   "question": "Quel joueur français était surnommé « Zizou » ?",
+   "answer": "Zinédine Zidane"
+  },
+  {
+   "id": "spo-26",
+   "category": "sport",
+   "question": "Dans quel sport dispute-t-on le Tournoi des Six Nations ?",
+   "answer": "Le rugby"
+  },
+  {
+   "id": "pop-01",
+   "category": "pop",
+   "question": "Quel plombier moustachu est la mascotte de Nintendo ?",
+   "answer": "Mario"
+  },
+  {
+   "id": "pop-02",
+   "category": "pop",
+   "question": "Quel réseau social avait pour logo un oiseau bleu avant de devenir X ?",
+   "answer": "Twitter"
+  },
+  {
+   "id": "pop-03",
+   "category": "pop",
+   "question": "Quelle marque danoise fabrique des briques de construction en plastique ?",
+   "answer": "Lego"
+  },
+  {
+   "id": "pop-04",
+   "category": "pop",
+   "question": "Comment s'appelle le chien de Tintin ?",
+   "answer": "Milou"
+  },
+  {
+   "id": "pop-05",
+   "category": "pop",
+   "question": "Quel petit Gaulois résiste encore et toujours à l'envahisseur avec son ami Obélix ?",
+   "answer": "Astérix"
+  },
+  {
+   "id": "pop-06",
+   "category": "pop",
+   "question": "Quelle entreprise a créé l'iPhone ?",
+   "answer": "Apple"
+  },
+  {
+   "id": "pop-07",
+   "category": "pop",
+   "question": "Dans quel jeu vidéo empile-t-on des pièces qui tombent pour compléter des lignes ?",
+   "answer": "Tetris"
+  },
+  {
+   "id": "pop-08",
+   "category": "pop",
+   "question": "Quel super-héros protège Gotham City ?",
+   "answer": "Batman"
+  },
+  {
+   "id": "pop-09",
+   "category": "pop",
+   "question": "Quelle poupée Mattel a été lancée en 1959 ?",
+   "answer": "Barbie"
+  },
+  {
+   "id": "pop-10",
+   "category": "pop",
+   "question": "Quel Pokémon jaune accompagne Sacha ?",
+   "answer": "Pikachu"
+  },
+  {
+   "id": "pop-11",
+   "category": "pop",
+   "question": "Qui a cofondé Microsoft avec Paul Allen ?",
+   "answer": "Bill Gates"
+  },
+  {
+   "id": "pop-12",
+   "category": "pop",
+   "question": "Quel cow-boy « tire plus vite que son ombre » ?",
+   "answer": "Lucky Luke"
+  },
+  {
+   "id": "pop-13",
+   "category": "pop",
+   "question": "Dans quel jeu de société achète-t-on la rue de la Paix ?",
+   "answer": "Le Monopoly"
+  },
+  {
+   "id": "pop-14",
+   "category": "pop",
+   "question": "Quel super-héros a été mordu par une araignée radioactive ?",
+   "answer": "Spider-Man"
+  },
+  {
+   "id": "pop-15",
+   "category": "pop",
+   "question": "Quelle princesse Disney perd une pantoufle de verre ?",
+   "answer": "Cendrillon"
+  },
+  {
+   "id": "pop-16",
+   "category": "pop",
+   "question": "Quel héros de Nintendo, vêtu de vert, parcourt le royaume d'Hyrule ?",
+   "answer": "Link"
+  },
+  {
+   "id": "pop-17",
+   "category": "pop",
+   "question": "Quelle chaîne de fast-food a pour mascotte le clown Ronald ?",
+   "answer": "McDonald's"
+  },
+  {
+   "id": "pop-18",
+   "category": "pop",
+   "question": "Comment s'appellent les petits personnages bleus créés par Peyo ?",
+   "answer": "Les Schtroumpfs"
+  },
+  {
+   "id": "pop-19",
+   "category": "pop",
+   "question": "Quel est le moteur de recherche le plus utilisé au monde ?",
+   "answer": "Google"
+  },
+  {
+   "id": "pop-20",
+   "category": "pop",
+   "question": "Quelle saga oppose les Jedi aux Sith ?",
+   "answer": "Star Wars"
+  },
+  {
+   "id": "pop-21",
+   "category": "pop",
+   "question": "Quel héros de jeu vidéo est un hérisson bleu ?",
+   "answer": "Sonic"
+  },
+  {
+   "id": "pop-22",
+   "category": "pop",
+   "question": "Qui a fondé Facebook ?",
+   "answer": "Mark Zuckerberg"
+  },
+  {
+   "id": "pop-23",
+   "category": "pop",
+   "question": "Quel casse-tête cubique et coloré a été inventé en 1974 ?",
+   "answer": "Le Rubik's Cube"
+  },
+  {
+   "id": "pop-24",
+   "category": "pop",
+   "question": "Quel ogre vert de DreamWorks vit dans un marais ?",
+   "answer": "Shrek"
+  },
+  {
+   "id": "pop-25",
+   "category": "pop",
+   "question": "Quel jeu vidéo de Mojang se joue dans un monde fait de blocs ?",
+   "answer": "Minecraft"
+  },
+  {
+   "id": "pop-26",
+   "category": "pop",
+   "question": "Quel employé gaffeur de la BD belge travaille aux éditions Dupuis ?",
+   "answer": "Gaston Lagaffe"
+  }
+ ]
+}

@@ -1,0 +1,487 @@
+[
+ {
+  "name": "Titanic",
+  "status": "ok",
+  "album": "Titanic: Music from the Motion Picture Soundtrack — James Horner",
+  "albumId": 113048,
+  "tracks": 12
+ },
+ {
+  "name": "Le Seigneur des anneaux (The Lord of the Rings)",
+  "status": "ok",
+  "album": "The Lord of the Rings: The Fellowship of the Ring (Original Motion Picture Soundtrack) — Howard Shore",
+  "albumId": 1346734,
+  "tracks": 12
+ },
+ {
+  "name": "Le Hobbit (The Hobbit)",
+  "status": "ok",
+  "album": "The Hobbit: An Unexpected Journey (Original Motion Picture Soundtrack) — Howard Shore",
+  "albumId": 90192712,
+  "tracks": 12
+ },
+ {
+  "name": "Harry Potter",
+  "status": "ok",
+  "album": "Harry Potter and The Sorcerer's Stone Original Motion Picture Soundtrack — Various Artists",
+  "albumId": 80310,
+  "tracks": 12
+ },
+ {
+  "name": "Star Wars",
+  "status": "absent"
+ },
+ {
+  "name": "Jurassic Park",
+  "status": "ok",
+  "album": "Jurassic Park — John Williams",
+  "albumId": 228943,
+  "tracks": 12
+ },
+ {
+  "name": "Le Roi lion (The Lion King)",
+  "status": "ok",
+  "album": "The Lion King (Original Motion Picture Soundtrack) — Various Artists",
+  "albumId": 103027012,
+  "tracks": 12
+ },
+ {
+  "name": "Pirates des Caraïbes (Pirates of the Caribbean)",
+  "status": "ok",
+  "album": "Pirates of the Caribbean: The Curse of the Black Pearl (Original Motion Picture Soundtrack) — Klaus Badelt",
+  "albumId": 2313131,
+  "tracks": 12
+ },
+ {
+  "name": "Gladiator",
+  "status": "ok",
+  "album": "Gladiator: The Soundtrack Collection — Hans Zimmer",
+  "albumId": 906355442,
+  "tracks": 12
+ },
+ {
+  "name": "Interstellar",
+  "status": "douteux",
+  "album": "Interstellar (Deluxe) — Soothing Sonata",
+  "albumId": 721220391,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Inception",
+  "status": "ok",
+  "album": "Inception (Music from the Motion Picture) — Hans Zimmer",
+  "albumId": 601778,
+  "tracks": 12
+ },
+ {
+  "name": "The Dark Knight",
+  "status": "ok",
+  "album": "The Dark Knight (Original Motion Picture Soundtrack) — Hans Zimmer",
+  "albumId": 102197,
+  "tracks": 12
+ },
+ {
+  "name": "Retour vers le futur (Back to the Future)",
+  "status": "douteux",
+  "album": "Back To The Future — One Universe",
+  "albumId": 597412072,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Les Aventuriers de l'arche perdue (Indiana Jones)",
+  "status": "ok",
+  "album": "Raiders of the Lost Ark (Original Motion Picture Soundtrack) — John Williams",
+  "albumId": 66647842,
+  "tracks": 12
+ },
+ {
+  "name": "E.T. l'extra-terrestre",
+  "status": "ok",
+  "album": "E.T. The Extra-Terrestrial (Music From The Original Motion Picture Soundtrack) — John Williams",
+  "albumId": 9510820,
+  "tracks": 8
+ },
+ {
+  "name": "Les Dents de la mer (Jaws)",
+  "status": "ok",
+  "album": "Jaws (Original Motion Picture Score) — John Williams",
+  "albumId": 12707266,
+  "tracks": 12
+ },
+ {
+  "name": "Rocky",
+  "status": "ok",
+  "album": "Rocky (Original Motion Picture Score) — Bill Conti",
+  "albumId": 10145688,
+  "tracks": 12
+ },
+ {
+  "name": "Top Gun",
+  "status": "ok",
+  "album": "TOP GUN/SOUNDTRACK — Original Motion Picture Soundtrack",
+  "albumId": 6753825,
+  "tracks": 10
+ },
+ {
+  "name": "Top Gun: Maverick",
+  "status": "ok",
+  "album": "Top Gun: Maverick (Music From The Motion Picture) — Lady Gaga",
+  "albumId": 321440247,
+  "tracks": 11
+ },
+ {
+  "name": "Dirty Dancing",
+  "status": "ok",
+  "album": "Dirty Dancing (Original Motion Picture Soundtrack) — Various Artists",
+  "albumId": 1205035,
+  "tracks": 12
+ },
+ {
+  "name": "Grease",
+  "status": "douteux",
+  "album": "Grease - Original Danish Soundtrack — Nørrebros Teater",
+  "albumId": 176033,
+  "reason": "titre avec « danish » en plus du nom"
+ },
+ {
+  "name": "La Fièvre du samedi soir (Saturday Night Fever)",
+  "status": "ok",
+  "album": "Saturday Night Fever (The Original Movie Soundtrack Deluxe Edition) — Various Artists",
+  "albumId": 51429672,
+  "tracks": 12
+ },
+ {
+  "name": "Flashdance",
+  "status": "ok",
+  "album": "Flashdance (Original Soundtrack From The Motion Picture) — Various Artists",
+  "albumId": 70486742,
+  "tracks": 8
+ },
+ {
+  "name": "Footloose",
+  "status": "ok",
+  "album": "Footloose (Original Motion Picture Soundtrack) — Various Artists",
+  "albumId": 14282366,
+  "tracks": 8
+ },
+ {
+  "name": "Pretty Woman",
+  "status": "douteux",
+  "album": "Pretty Woman — Oscar Neall",
+  "albumId": 722720721,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Pulp Fiction",
+  "status": "douteux",
+  "album": "Pulp Fiction — Tarantino",
+  "albumId": 307889347,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Kill Bill",
+  "status": "douteux",
+  "album": "Kill Bill Vol. 1 — Stvy MAX",
+  "albumId": 375171377,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Le Bon, la Brute et le Truand",
+  "status": "douteux",
+  "album": "The Good, the Bad & the Ugly — Sonny Vincent",
+  "albumId": 367042,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Il était une fois dans l'Ouest",
+  "status": "douteux",
+  "album": "Once Upon a Time in the West — The White Buffalo",
+  "albumId": 14381194,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Le Parrain (The Godfather)",
+  "status": "ok",
+  "album": "The Godfather (Music From The Original Motion Picture Soundtrack) — Nino Rota",
+  "albumId": 294596,
+  "tracks": 12
+ },
+ {
+  "name": "Le Fabuleux Destin d'Amélie Poulain",
+  "status": "ok",
+  "album": "Le Fabuleux destin d'Amélie Poulain (Bande originale du film) — Yann Tiersen",
+  "albumId": 239166352,
+  "tracks": 12
+ },
+ {
+  "name": "Intouchables",
+  "status": "absent"
+ },
+ {
+  "name": "Les Choristes",
+  "status": "douteux",
+  "album": "Les choristes — S.o la g",
+  "albumId": 656108451,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Le Grand Bleu",
+  "status": "ok",
+  "album": "Le grand bleu (Version Longue) — Eric Serra",
+  "albumId": 103047782,
+  "tracks": 12
+ },
+ {
+  "name": "La La Land",
+  "status": "ok",
+  "album": "La La Land (Original Motion Picture Score) — Justin Hurwitz",
+  "albumId": 14781289,
+  "tracks": 12
+ },
+ {
+  "name": "The Greatest Showman",
+  "status": "ok",
+  "album": "The Greatest Showman (Original Motion Picture Soundtrack) — Various Artists",
+  "albumId": 52562662,
+  "tracks": 11
+ },
+ {
+  "name": "Mamma Mia!",
+  "status": "ok",
+  "album": "Mamma Mia! The Movie Soundtrack — Cast of Mamma Mia! The Movie",
+  "albumId": 161924,
+  "tracks": 12
+ },
+ {
+  "name": "Bohemian Rhapsody",
+  "status": "ok",
+  "album": "Bohemian Rhapsody (The Original Soundtrack) — Queen",
+  "albumId": 1007321401,
+  "tracks": 12
+ },
+ {
+  "name": "Les Gardiens de la Galaxie (Guardians of the Galaxy)",
+  "status": "absent"
+ },
+ {
+  "name": "Avengers",
+  "status": "ok",
+  "album": "The Avengers (Original Motion Picture Soundtrack) — Alan Silvestri",
+  "albumId": 1674608,
+  "tracks": 12
+ },
+ {
+  "name": "Black Panther",
+  "status": "ok",
+  "album": "Black Panther (Original Score) — Ludwig Goransson",
+  "albumId": 57078512,
+  "tracks": 12
+ },
+ {
+  "name": "La Reine des neiges (Frozen)",
+  "status": "ok",
+  "album": "Frozen (Original Motion Picture Soundtrack) — Various Artists",
+  "albumId": 7113713,
+  "tracks": 12
+ },
+ {
+  "name": "Aladdin",
+  "status": "ok",
+  "album": "Aladdin (Original Motion Picture Soundtrack) — Various Artists",
+  "albumId": 97532162,
+  "tracks": 12
+ },
+ {
+  "name": "La Petite Sirène (The Little Mermaid)",
+  "status": "ok",
+  "album": "The Little Mermaid (Original Motion Picture Soundtrack/Deluxe Edition) — Alan Menken",
+  "albumId": 443830295,
+  "tracks": 12
+ },
+ {
+  "name": "La Belle et la Bête (Beauty and the Beast)",
+  "status": "ok",
+  "album": "Beauty and the Beast (Original Motion Picture Soundtrack/Deluxe Edition) — Various Artists",
+  "albumId": 15623826,
+  "tracks": 12
+ },
+ {
+  "name": "Toy Story",
+  "status": "ok",
+  "album": "Toy Story (Original Motion Picture Soundtrack) — Randy Newman",
+  "albumId": 629211,
+  "tracks": 12
+ },
+ {
+  "name": "Shrek",
+  "status": "ok",
+  "album": "Shrek (Original Motion Picture Score) — Harry Gregson-Williams",
+  "albumId": 12223946,
+  "tracks": 12
+ },
+ {
+  "name": "Le Livre de la jungle (The Jungle Book)",
+  "status": "ok",
+  "album": "The Jungle Book (Original Motion Picture Soundtrack) — John Debney",
+  "albumId": 12865134,
+  "tracks": 12
+ },
+ {
+  "name": "Coco",
+  "status": "ok",
+  "album": "Coco (Original Motion Picture Soundtrack) — Various Artists",
+  "albumId": 51005402,
+  "tracks": 12
+ },
+ {
+  "name": "Vaiana (Moana)",
+  "status": "douteux",
+  "album": "Moana — Itto Pakarati",
+  "albumId": 8880857,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Encanto",
+  "status": "ok",
+  "album": "Encanto (Original Motion Picture Soundtrack) — Lin-Manuel Miranda",
+  "albumId": 272207802,
+  "tracks": 12
+ },
+ {
+  "name": "Mission impossible",
+  "status": "ok",
+  "album": "Mission Impossible (Music From The Original Motion Picture Score) — Danny Elfman",
+  "albumId": 239997,
+  "tracks": 12
+ },
+ {
+  "name": "Skyfall (James Bond)",
+  "status": "ok",
+  "album": "Skyfall — Thomas Newman",
+  "albumId": 6025412,
+  "tracks": 12
+ },
+ {
+  "name": "Matrix (The Matrix)",
+  "status": "ok",
+  "album": "The Matrix (Original Motion Picture Score / Deluxe Edition) — Don Davis",
+  "albumId": 189250552,
+  "tracks": 12
+ },
+ {
+  "name": "Requiem for a Dream",
+  "status": "ok",
+  "album": "Requiem for a Dream / OST — Clint Mansell",
+  "albumId": 496099,
+  "tracks": 12
+ },
+ {
+  "name": "Trainspotting",
+  "status": "douteux",
+  "album": "Trainspotting — The North",
+  "albumId": 736517711,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Drive",
+  "status": "ok",
+  "album": "Drive (Original Motion Picture Soundtrack) — Various Artists",
+  "albumId": 209587302,
+  "tracks": 12
+ },
+ {
+  "name": "Forrest Gump",
+  "status": "ok",
+  "album": "Forrest Gump - The Soundtrack — Original Motion Picture Soundtrack",
+  "albumId": 1634886,
+  "tracks": 12
+ },
+ {
+  "name": "SOS Fantômes (Ghostbusters)",
+  "status": "ok",
+  "album": "Ghostbusters (Original Motion Picture Score) — Elmer Bernstein",
+  "albumId": 97139342,
+  "tracks": 12
+ },
+ {
+  "name": "Twilight",
+  "status": "douteux",
+  "album": "Twilight — Future Of Forestry",
+  "albumId": 328752,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Hunger Games (The Hunger Games)",
+  "status": "douteux",
+  "album": "Safe & Sound (from The Hunger Games Soundtrack) — Taylor Swift",
+  "albumId": 1559487,
+  "reason": "titre avec « safe » en plus du nom"
+ },
+ {
+  "name": "Barbie",
+  "status": "douteux",
+  "album": "Barbie The Album — Various Artists",
+  "albumId": 465972055,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Oppenheimer",
+  "status": "ok",
+  "album": "Oppenheimer (Original Motion Picture Soundtrack) — Ludwig Goransson",
+  "albumId": 463516585,
+  "tracks": 12
+ },
+ {
+  "name": "Dune",
+  "status": "ok",
+  "album": "Dune (Original Motion Picture Soundtrack) — Hans Zimmer",
+  "albumId": 255370592,
+  "tracks": 12
+ },
+ {
+  "name": "Avatar",
+  "status": "douteux",
+  "album": "Theme from Avatar (Original Motion Picture Soundtrack) — Thomas Beckman",
+  "albumId": 540983602,
+  "reason": "seulement 1 piste(s)"
+ },
+ {
+  "name": "8 Mile",
+  "status": "douteux",
+  "album": "8 Mile — Toujour",
+  "albumId": 806612191,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "Spider-Man : New Generation (Into the Spider-Verse)",
+  "status": "ok",
+  "album": "Spider-Man: Into the Spider-Verse (Original Score) — Daniel Pemberton",
+  "albumId": 81761222,
+  "tracks": 12
+ },
+ {
+  "name": "Le Cinquième Élément (The Fifth Element)",
+  "status": "douteux",
+  "album": "The Fifth Element — V The Noble One",
+  "albumId": 7974534,
+  "reason": "pas de mention « soundtrack » / « OST »"
+ },
+ {
+  "name": "The Social Network",
+  "status": "ok",
+  "album": "The Social Network — Trent Reznor and Atticus Ross",
+  "albumId": 5604281,
+  "tracks": 12
+ },
+ {
+  "name": "Joker",
+  "status": "ok",
+  "album": "Joker (Original Motion Picture Soundtrack) — Hildur Guðnadóttir",
+  "albumId": 113252342,
+  "tracks": 12
+ },
+ {
+  "name": "Le Bal des Vampires",
+  "status": "absent"
+ }
+]

@@ -30,6 +30,8 @@ export const music = poolProvider<Track>({
     return (await import("../../data/music.json")).default as Track[];
   },
   key: (t) => String(t.id),
+  // Un style tiré à parts égales (rap, rock, dance, soul, variété, rétro, tubes), jamais deux fois de suite.
+  group: (t) => t.style,
   async toQuestion(track, id) {
     const fresh = await fetchFreshTrack(track.id);
     return {

@@ -1,12 +1,12 @@
 // Construit les pools de questions stables dans data/*.json.
-// Usage : npm run build-pools [-- countries shapes …]   (sans argument : tout)
+// Usage : npm run build-pools [-- countries shapes music games ost film-music series-music]   (sans argument : tout)
 import { readFile } from "node:fs/promises";
 import { loadEnv } from "../server/env.ts";
 import type { Country } from "../src/data/countries.ts";
 import { buildCountries } from "./pools/countries.ts";
 import { buildGames } from "./pools/games.ts";
 import { buildMusic } from "./pools/music.ts";
-import { buildOst } from "./pools/ost.ts";
+import { buildSoundtracks, SOUNDTRACK_POOLS } from "./pools/ost.ts";
 import { buildShapes } from "./pools/shapes.ts";
 
 loadEnv();
@@ -31,8 +31,9 @@ if (wants("games")) {
   console.log("Jeux vidéo (IGDB)…");
   await buildGames();
 }
-if (wants("ost")) {
-  console.log("OST de jeux vidéo (Deezer)…");
-  await buildOst();
+for (const [name, pool] of Object.entries(SOUNDTRACK_POOLS)) {
+  if (!wants(name)) continue;
+  console.log(`Musique des ${pool.label} (Deezer)…`);
+  await buildSoundtracks(pool);
 }
 console.log("Terminé.");

@@ -72,7 +72,8 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
     );
 
     const multi = (question?.answers.length ?? 0) > 1;
-    const stage = h("main", { class: `stage ${revealed ? "revealed" : ""} ${multi ? "multi" : ""}` });
+    const textQuestion = question?.media.type === "text";
+    const stage = h("main", { class: `stage ${revealed ? "revealed" : ""} ${multi ? "multi" : ""} ${textQuestion ? "text-question" : ""}` });
     if (phase === "loading" || !question || !round) {
       stage.append(
         session.waiting
@@ -168,5 +169,8 @@ function renderMedia(media: Media, onError: () => void): HTMLElement {
     }
     case "audio":
       return h("div", { class: "media media-audio", "aria-label": "Extrait audio" }, h("span", {}), h("span", {}), h("span", {}), h("span", {}), h("span", {}));
+    case "text":
+      // Question sans image : une carte avec sa catégorie ; la question elle-même est l'énoncé.
+      return h("div", { class: "media media-text" }, media.src);
   }
 }

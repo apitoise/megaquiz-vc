@@ -5,7 +5,8 @@
   "name": "Afghanistan",
   "de": "de l'Afghanistan",
   "capital": "Kaboul",
-  "area": 652230
+  "area": 652230,
+  "region": "Asia"
  },
  {
   "code": "ZA",
@@ -13,7 +14,8 @@
   "name": "Afrique du Sud",
   "de": "de l'Afrique du Sud",
   "capital": "Pretoria (aussi Le Cap et Bloemfontein)",
-  "area": 1221037
+  "area": 1221037,
+  "region": "Africa"
  },
  {
   "code": "AL",
@@ -21,7 +23,8 @@
   "name": "Albanie",
   "de": "de l'Albanie",
   "capital": "Tirana",
-  "area": 28748
+  "area": 28748,
+  "region": "Europe"
  },
  {
   "code": "DZ",
@@ -29,7 +32,8 @@
   "name": "Algérie",
   "de": "de l'Algérie",
   "capital": "Alger",
-  "area": 2381741
+  "area": 2381741,
+  "region": "Africa"
  },
  {
   "code": "DE",
@@ -37,7 +41,8 @@
   "name": "Allemagne",
   "de": "de l'Allemagne",
   "capital": "Berlin",
-  "area": 357114
+  "area": 357114,
+  "region": "Europe"
  },
  {
   "code": "AD",
@@ -45,7 +50,8 @@
   "name": "Andorre",
   "de": "d'Andorre",
   "capital": "Andorre-la-Vieille",
-  "area": 468
+  "area": 468,
+  "region": "Europe"
  },
  {
   "code": "AO",
@@ -53,7 +59,8 @@
   "name": "Angola",
   "de": "de l'Angola",
   "capital": "Luanda",
-  "area": 1246700
+  "area": 1246700,
+  "region": "Africa"
  },
  {
   "code": "AG",
@@ -61,7 +68,8 @@
   "name": "Antigua-et-Barbuda",
   "de": "d'Antigua-et-Barbuda",
   "capital": "Saint John's",
-  "area": 442
+  "area": 442,
+  "region": "Americas"
  },
  {
   "code": "SA",
@@ -69,7 +77,8 @@
   "name": "Arabie saoudite",
   "de": "de l'Arabie saoudite",
   "capital": "Riyad",
-  "area": 2149690
+  "area": 2149690,
+  "region": "Asia"
  },
  {
   "code": "AR",
@@ -77,7 +86,8 @@
   "name": "Argentine",
   "de": "de l'Argentine",
   "capital": "Buenos Aires",
-  "area": 2780400
+  "area": 2780400,
+  "region": "Americas"
  },
  {
   "code": "AM",
@@ -85,7 +95,8 @@
   "name": "Arménie",
   "de": "de l'Arménie",
   "capital": "Erevan",
-  "area": 29743
+  "area": 29743,
+  "region": "Asia"
  },
  {
   "code": "AU",
@@ -93,7 +104,8 @@
   "name": "Australie",
   "de": "de l'Australie",
   "capital": "Canberra",
-  "area": 7692024
+  "area": 7692024,
+  "region": "Oceania"
  },
  {
   "code": "AT",
@@ -101,7 +113,8 @@
   "name": "Autriche",
   "de": "de l'Autriche",
   "capital": "Vienne",
-  "area": 83871
+  "area": 83871,
+  "region": "Europe"
  },
  {
   "code": "AZ",
@@ -109,7 +122,8 @@
   "name": "Azerbaïdjan",
   "de": "de l'Azerbaïdjan",
   "capital": "Bakou",
-  "area": 86600
+  "area": 86600,
+  "region": "Asia"
  },
  {
   "code": "BS",
@@ -117,7 +131,8 @@
   "name": "Bahamas",
   "de": "des Bahamas",
   "capital": "Nassau",
-  "area": 13943
+  "area": 13943,
+  "region": "Americas"
  },
  {
   "code": "BH",
@@ -125,7 +140,8 @@
   "name": "Bahreïn",
   "de": "de Bahreïn",
   "capital": "Manama",
-  "area": 765
+  "area": 765,
+  "region": "Asia"
  },
  {
   "code": "BD",
@@ -133,7 +149,8 @@
   "name": "Bangladesh",
   "de": "du Bangladesh",
   "capital": "Dacca",
-  "area": 147570
+  "area": 147570,
+  "region": "Asia"
  },
  {
   "code": "BB",
@@ -141,7 +158,8 @@
   "name": "Barbade",
   "de": "de la Barbade",
   "capital": "Bridgetown",
-  "area": 430
+  "area": 430,
+  "region": "Americas"
  },
  {
   "code": "BE",
@@ -149,7 +167,8 @@
   "name": "Belgique",
   "de": "de la Belgique",
   "capital": "Bruxelles",
-  "area": 30528
+  "area": 30528,
+  "region": "Europe"
  },
  {
   "code": "BZ",
@@ -157,7 +176,8 @@
   "name": "Belize",
   "de": "du Belize",
   "capital": "Belmopan",
-  "area": 22966
+  "area": 22966,
+  "region": "Americas"
  },
  {
   "code": "BJ",
@@ -165,7 +185,8 @@
   "name": "Bénin",
   "de": "du Bénin",
   "capital": "Porto-Novo (siège du gouvernement : Cotonou)",
-  "area": 112622
+  "area": 112622,
+  "region": "Africa"
  },
  {
   "code": "BT",
@@ -173,7 +194,8 @@
   "name": "Bhoutan",
   "de": "du Bhoutan",
   "capital": "Thimphou",
-  "area": 38394
+  "area": 38394,
+  "region": "Asia"
  },
  {
   "code": "BY",
@@ -182,7 +204,8 @@
   "aka": "Bélarus",
   "de": "de la Biélorussie",
   "capital": "Minsk",
-  "area": 207600
+  "area": 207600,
+  "region": "Europe"
  },
  {
   "code": "MM",
@@ -191,7 +214,8 @@
   "aka": "Myanmar",
   "de": "de la Birmanie",
   "capital": "Naypyidaw",
-  "area": 676578
+  "area": 676578,
+  "region": "Asia"
  },
  {
   "code": "BO",
@@ -199,7 +223,8 @@
   "name": "Bolivie",
   "de": "de la Bolivie",
   "capital": "Sucre (siège du gouvernement : La Paz)",
-  "area": 1098581
+  "area": 1098581,
+  "region": "Americas"
  },
  {
   "code": "BA",
@@ -207,7 +232,8 @@
   "name": "Bosnie-Herzégovine",
   "de": "de la Bosnie-Herzégovine",
   "capital": "Sarajevo",
-  "area": 51209
+  "area": 51209,
+  "region": "Europe"
  },
  {
   "code": "BW",
@@ -215,7 +241,8 @@
   "name": "Botswana",
   "de": "du Botswana",
   "capital": "Gaborone",
-  "area": 582000
+  "area": 582000,
+  "region": "Africa"
  },
  {
   "code": "BR",
@@ -223,7 +250,8 @@
   "name": "Brésil",
   "de": "du Brésil",
   "capital": "Brasília",
-  "area": 8515767
+  "area": 8515767,
+  "region": "Americas"
  },
  {
   "code": "BN",
@@ -231,7 +259,8 @@
   "name": "Brunei",
   "de": "du Brunei",
   "capital": "Bandar Seri Begawan",
-  "area": 5765
+  "area": 5765,
+  "region": "Asia"
  },
  {
   "code": "BG",
@@ -239,7 +268,8 @@
   "name": "Bulgarie",
   "de": "de la Bulgarie",
   "capital": "Sofia",
-  "area": 110879
+  "area": 110879,
+  "region": "Europe"
  },
  {
   "code": "BF",
@@ -247,7 +277,8 @@
   "name": "Burkina Faso",
   "de": "du Burkina Faso",
   "capital": "Ouagadougou",
-  "area": 272967
+  "area": 272967,
+  "region": "Africa"
  },
  {
   "code": "BI",
@@ -255,7 +286,8 @@
   "name": "Burundi",
   "de": "du Burundi",
   "capital": "Gitega (avant 2019 : Bujumbura)",
-  "area": 27834
+  "area": 27834,
+  "region": "Africa"
  },
  {
   "code": "KH",
@@ -263,7 +295,8 @@
   "name": "Cambodge",
   "de": "du Cambodge",
   "capital": "Phnom Penh",
-  "area": 181035
+  "area": 181035,
+  "region": "Asia"
  },
  {
   "code": "CM",
@@ -271,7 +304,8 @@
   "name": "Cameroun",
   "de": "du Cameroun",
   "capital": "Yaoundé",
-  "area": 475442
+  "area": 475442,
+  "region": "Africa"
  },
  {
   "code": "CA",
@@ -279,7 +313,8 @@
   "name": "Canada",
   "de": "du Canada",
   "capital": "Ottawa",
-  "area": 9984670
+  "area": 9984670,
+  "region": "Americas"
  },
  {
   "code": "CV",
@@ -287,7 +322,8 @@
   "name": "Cap-Vert",
   "de": "du Cap-Vert",
   "capital": "Praia",
-  "area": 4033
+  "area": 4033,
+  "region": "Africa"
  },
  {
   "code": "CF",
@@ -296,7 +332,8 @@
   "aka": "République centrafricaine",
   "de": "de la Centrafrique",
   "capital": "Bangui",
-  "area": 622984
+  "area": 622984,
+  "region": "Africa"
  },
  {
   "code": "CL",
@@ -304,7 +341,8 @@
   "name": "Chili",
   "de": "du Chili",
   "capital": "Santiago",
-  "area": 756102
+  "area": 756102,
+  "region": "Americas"
  },
  {
   "code": "CN",
@@ -312,7 +350,8 @@
   "name": "Chine",
   "de": "de la Chine",
   "capital": "Pékin",
-  "area": 9706961
+  "area": 9706961,
+  "region": "Asia"
  },
  {
   "code": "CY",
@@ -320,7 +359,8 @@
   "name": "Chypre",
   "de": "de Chypre",
   "capital": "Nicosie",
-  "area": 9251
+  "area": 9251,
+  "region": "Europe"
  },
  {
   "code": "CO",
@@ -328,7 +368,8 @@
   "name": "Colombie",
   "de": "de la Colombie",
   "capital": "Bogota",
-  "area": 1141748
+  "area": 1141748,
+  "region": "Americas"
  },
  {
   "code": "KM",
@@ -336,7 +377,8 @@
   "name": "Comores",
   "de": "des Comores",
   "capital": "Moroni",
-  "area": 1862
+  "area": 1862,
+  "region": "Africa"
  },
  {
   "code": "KP",
@@ -344,7 +386,8 @@
   "name": "Corée du Nord",
   "de": "de la Corée du Nord",
   "capital": "Pyongyang",
-  "area": 120538
+  "area": 120538,
+  "region": "Asia"
  },
  {
   "code": "KR",
@@ -352,7 +395,8 @@
   "name": "Corée du Sud",
   "de": "de la Corée du Sud",
   "capital": "Séoul",
-  "area": 100210
+  "area": 100210,
+  "region": "Asia"
  },
  {
   "code": "CR",
@@ -360,7 +404,8 @@
   "name": "Costa Rica",
   "de": "du Costa Rica",
   "capital": "San José",
-  "area": 51100
+  "area": 51100,
+  "region": "Americas"
  },
  {
   "code": "CI",
@@ -368,7 +413,8 @@
   "name": "Côte d'Ivoire",
   "de": "de la Côte d'Ivoire",
   "capital": "Yamoussoukro (ville principale : Abidjan)",
-  "area": 322463
+  "area": 322463,
+  "region": "Africa"
  },
  {
   "code": "HR",
@@ -376,7 +422,8 @@
   "name": "Croatie",
   "de": "de la Croatie",
   "capital": "Zagreb",
-  "area": 56594
+  "area": 56594,
+  "region": "Europe"
  },
  {
   "code": "CU",
@@ -384,7 +431,8 @@
   "name": "Cuba",
   "de": "de Cuba",
   "capital": "La Havane",
-  "area": 109884
+  "area": 109884,
+  "region": "Americas"
  },
  {
   "code": "DK",
@@ -392,7 +440,8 @@
   "name": "Danemark",
   "de": "du Danemark",
   "capital": "Copenhague",
-  "area": 43094
+  "area": 43094,
+  "region": "Europe"
  },
  {
   "code": "DJ",
@@ -400,7 +449,8 @@
   "name": "Djibouti",
   "de": "de Djibouti",
   "capital": "Djibouti",
-  "area": 23200
+  "area": 23200,
+  "region": "Africa"
  },
  {
   "code": "DM",
@@ -408,7 +458,8 @@
   "name": "Dominique",
   "de": "de la Dominique",
   "capital": "Roseau",
-  "area": 751
+  "area": 751,
+  "region": "Americas"
  },
  {
   "code": "EG",
@@ -416,7 +467,8 @@
   "name": "Égypte",
   "de": "de l'Égypte",
   "capital": "Le Caire",
-  "area": 1002450
+  "area": 1002450,
+  "region": "Africa"
  },
  {
   "code": "AE",
@@ -424,7 +476,8 @@
   "name": "Émirats arabes unis",
   "de": "des Émirats arabes unis",
   "capital": "Abou Dabi",
-  "area": 83600
+  "area": 83600,
+  "region": "Asia"
  },
  {
   "code": "EC",
@@ -432,7 +485,8 @@
   "name": "Équateur",
   "de": "de l'Équateur",
   "capital": "Quito",
-  "area": 276841
+  "area": 276841,
+  "region": "Americas"
  },
  {
   "code": "ER",
@@ -440,7 +494,8 @@
   "name": "Érythrée",
   "de": "de l'Érythrée",
   "capital": "Asmara",
-  "area": 117600
+  "area": 117600,
+  "region": "Africa"
  },
  {
   "code": "ES",
@@ -448,7 +503,8 @@
   "name": "Espagne",
   "de": "de l'Espagne",
   "capital": "Madrid",
-  "area": 505992
+  "area": 505992,
+  "region": "Europe"
  },
  {
   "code": "EE",
@@ -456,7 +512,8 @@
   "name": "Estonie",
   "de": "de l'Estonie",
   "capital": "Tallinn",
-  "area": 45227
+  "area": 45227,
+  "region": "Europe"
  },
  {
   "code": "SZ",
@@ -465,7 +522,8 @@
   "aka": "Swaziland",
   "de": "de l'Eswatini",
   "capital": "Mbabane (capitale royale : Lobamba)",
-  "area": 17364
+  "area": 17364,
+  "region": "Africa"
  },
  {
   "code": "US",
@@ -473,7 +531,8 @@
   "name": "États-Unis",
   "de": "des États-Unis",
   "capital": "Washington",
-  "area": 9372610
+  "area": 9372610,
+  "region": "Americas"
  },
  {
   "code": "ET",
@@ -481,7 +540,8 @@
   "name": "Éthiopie",
   "de": "de l'Éthiopie",
   "capital": "Addis-Abeba",
-  "area": 1104300
+  "area": 1104300,
+  "region": "Africa"
  },
  {
   "code": "FJ",
@@ -489,7 +549,8 @@
   "name": "Fidji",
   "de": "des Fidji",
   "capital": "Suva",
-  "area": 18272
+  "area": 18272,
+  "region": "Oceania"
  },
  {
   "code": "FI",
@@ -497,7 +558,8 @@
   "name": "Finlande",
   "de": "de la Finlande",
   "capital": "Helsinki",
-  "area": 338424
+  "area": 338424,
+  "region": "Europe"
  },
  {
   "code": "FR",
@@ -505,7 +567,8 @@
   "name": "France",
   "de": "de la France",
   "capital": "Paris",
-  "area": 551695
+  "area": 551695,
+  "region": "Europe"
  },
  {
   "code": "GA",
@@ -513,7 +576,8 @@
   "name": "Gabon",
   "de": "du Gabon",
   "capital": "Libreville",
-  "area": 267668
+  "area": 267668,
+  "region": "Africa"
  },
  {
   "code": "GM",
@@ -521,7 +585,8 @@
   "name": "Gambie",
   "de": "de la Gambie",
   "capital": "Banjul",
-  "area": 10689
+  "area": 10689,
+  "region": "Africa"
  },
  {
   "code": "GE",
@@ -529,7 +594,8 @@
   "name": "Géorgie",
   "de": "de la Géorgie",
   "capital": "Tbilissi",
-  "area": 69700
+  "area": 69700,
+  "region": "Asia"
  },
  {
   "code": "GH",
@@ -537,7 +603,8 @@
   "name": "Ghana",
   "de": "du Ghana",
   "capital": "Accra",
-  "area": 238533
+  "area": 238533,
+  "region": "Africa"
  },
  {
   "code": "GR",
@@ -545,7 +612,8 @@
   "name": "Grèce",
   "de": "de la Grèce",
   "capital": "Athènes",
-  "area": 131990
+  "area": 131990,
+  "region": "Europe"
  },
  {
   "code": "GD",
@@ -553,7 +621,8 @@
   "name": "Grenade",
   "de": "de la Grenade",
   "capital": "Saint-George's",
-  "area": 344
+  "area": 344,
+  "region": "Americas"
  },
  {
   "code": "GT",
@@ -561,7 +630,8 @@
   "name": "Guatemala",
   "de": "du Guatemala",
   "capital": "Guatemala (Ciudad de Guatemala)",
-  "area": 108889
+  "area": 108889,
+  "region": "Americas"
  },
  {
   "code": "GN",
@@ -569,7 +639,8 @@
   "name": "Guinée",
   "de": "de la Guinée",
   "capital": "Conakry",
-  "area": 245857
+  "area": 245857,
+  "region": "Africa"
  },
  {
   "code": "GQ",
@@ -577,7 +648,8 @@
   "name": "Guinée équatoriale",
   "de": "de la Guinée équatoriale",
   "capital": "Malabo (transfert vers Ciudad de la Paz)",
-  "area": 28051
+  "area": 28051,
+  "region": "Africa"
  },
  {
   "code": "GW",
@@ -585,7 +657,8 @@
   "name": "Guinée-Bissau",
   "de": "de la Guinée-Bissau",
   "capital": "Bissau",
-  "area": 36125
+  "area": 36125,
+  "region": "Africa"
  },
  {
   "code": "GY",
@@ -593,7 +666,8 @@
   "name": "Guyana",
   "de": "du Guyana",
   "capital": "Georgetown",
-  "area": 214969
+  "area": 214969,
+  "region": "Americas"
  },
  {
   "code": "HT",
@@ -601,7 +675,8 @@
   "name": "Haïti",
   "de": "d'Haïti",
   "capital": "Port-au-Prince",
-  "area": 27750
+  "area": 27750,
+  "region": "Americas"
  },
  {
   "code": "HN",
@@ -609,7 +684,8 @@
   "name": "Honduras",
   "de": "du Honduras",
   "capital": "Tegucigalpa",
-  "area": 112492
+  "area": 112492,
+  "region": "Americas"
  },
  {
   "code": "HU",
@@ -617,7 +693,8 @@
   "name": "Hongrie",
   "de": "de la Hongrie",
   "capital": "Budapest",
-  "area": 93028
+  "area": 93028,
+  "region": "Europe"
  },
  {
   "code": "MH",
@@ -625,7 +702,8 @@
   "name": "Îles Marshall",
   "de": "des Îles Marshall",
   "capital": "Majuro",
-  "area": 181
+  "area": 181,
+  "region": "Oceania"
  },
  {
   "code": "SB",
@@ -633,7 +711,8 @@
   "name": "Îles Salomon",
   "de": "des Îles Salomon",
   "capital": "Honiara",
-  "area": 28896
+  "area": 28896,
+  "region": "Oceania"
  },
  {
   "code": "IN",
@@ -641,7 +720,8 @@
   "name": "Inde",
   "de": "de l'Inde",
   "capital": "New Delhi",
-  "area": 3287590
+  "area": 3287590,
+  "region": "Asia"
  },
  {
   "code": "ID",
@@ -649,7 +729,8 @@
   "name": "Indonésie",
   "de": "de l'Indonésie",
   "capital": "Jakarta (transfert en cours vers Nusantara)",
-  "area": 1904569
+  "area": 1904569,
+  "region": "Asia"
  },
  {
   "code": "IQ",
@@ -657,7 +738,8 @@
   "name": "Irak",
   "de": "de l'Irak",
   "capital": "Bagdad",
-  "area": 438317
+  "area": 438317,
+  "region": "Asia"
  },
  {
   "code": "IR",
@@ -665,7 +747,8 @@
   "name": "Iran",
   "de": "de l'Iran",
   "capital": "Téhéran",
-  "area": 1648195
+  "area": 1648195,
+  "region": "Asia"
  },
  {
   "code": "IE",
@@ -673,7 +756,8 @@
   "name": "Irlande",
   "de": "de l'Irlande",
   "capital": "Dublin",
-  "area": 70273
+  "area": 70273,
+  "region": "Europe"
  },
  {
   "code": "IS",
@@ -681,7 +765,8 @@
   "name": "Islande",
   "de": "de l'Islande",
   "capital": "Reykjavik",
-  "area": 103000
+  "area": 103000,
+  "region": "Europe"
  },
  {
   "code": "IL",
@@ -689,7 +774,8 @@
   "name": "Israël",
   "de": "d'Israël",
   "capital": "Jérusalem (non reconnue par la plupart des États ; Tel-Aviv)",
-  "area": 20770
+  "area": 20770,
+  "region": "Asia"
  },
  {
   "code": "IT",
@@ -697,7 +783,8 @@
   "name": "Italie",
   "de": "de l'Italie",
   "capital": "Rome",
-  "area": 301336
+  "area": 301336,
+  "region": "Europe"
  },
  {
   "code": "JM",
@@ -705,7 +792,8 @@
   "name": "Jamaïque",
   "de": "de la Jamaïque",
   "capital": "Kingston",
-  "area": 10991
+  "area": 10991,
+  "region": "Americas"
  },
  {
   "code": "JP",
@@ -713,7 +801,8 @@
   "name": "Japon",
   "de": "du Japon",
   "capital": "Tokyo",
-  "area": 377930
+  "area": 377930,
+  "region": "Asia"
  },
  {
   "code": "JO",
@@ -721,7 +810,8 @@
   "name": "Jordanie",
   "de": "de la Jordanie",
   "capital": "Amman",
-  "area": 89342
+  "area": 89342,
+  "region": "Asia"
  },
  {
   "code": "KZ",
@@ -729,7 +819,8 @@
   "name": "Kazakhstan",
   "de": "du Kazakhstan",
   "capital": "Astana",
-  "area": 2724900
+  "area": 2724900,
+  "region": "Asia"
  },
  {
   "code": "KE",
@@ -737,7 +828,8 @@
   "name": "Kenya",
   "de": "du Kenya",
   "capital": "Nairobi",
-  "area": 580367
+  "area": 580367,
+  "region": "Africa"
  },
  {
   "code": "KG",
@@ -745,7 +837,8 @@
   "name": "Kirghizistan",
   "de": "du Kirghizistan",
   "capital": "Bichkek",
-  "area": 199951
+  "area": 199951,
+  "region": "Asia"
  },
  {
   "code": "KI",
@@ -753,7 +846,8 @@
   "name": "Kiribati",
   "de": "des Kiribati",
   "capital": "Tarawa-Sud",
-  "area": 811
+  "area": 811,
+  "region": "Oceania"
  },
  {
   "code": "KW",
@@ -761,7 +855,8 @@
   "name": "Koweït",
   "de": "du Koweït",
   "capital": "Koweït",
-  "area": 17818
+  "area": 17818,
+  "region": "Asia"
  },
  {
   "code": "LA",
@@ -769,7 +864,8 @@
   "name": "Laos",
   "de": "du Laos",
   "capital": "Vientiane",
-  "area": 236800
+  "area": 236800,
+  "region": "Asia"
  },
  {
   "code": "LS",
@@ -777,7 +873,8 @@
   "name": "Lesotho",
   "de": "du Lesotho",
   "capital": "Maseru",
-  "area": 30355
+  "area": 30355,
+  "region": "Africa"
  },
  {
   "code": "LV",
@@ -785,7 +882,8 @@
   "name": "Lettonie",
   "de": "de la Lettonie",
   "capital": "Riga",
-  "area": 64559
+  "area": 64559,
+  "region": "Europe"
  },
  {
   "code": "LB",
@@ -793,7 +891,8 @@
   "name": "Liban",
   "de": "du Liban",
   "capital": "Beyrouth",
-  "area": 10452
+  "area": 10452,
+  "region": "Asia"
  },
  {
   "code": "LR",
@@ -801,7 +900,8 @@
   "name": "Liberia",
   "de": "du Liberia",
   "capital": "Monrovia",
-  "area": 111369
+  "area": 111369,
+  "region": "Africa"
  },
  {
   "code": "LY",
@@ -809,7 +909,8 @@
   "name": "Libye",
   "de": "de la Libye",
   "capital": "Tripoli",
-  "area": 1759540
+  "area": 1759540,
+  "region": "Africa"
  },
  {
   "code": "LI",
@@ -817,7 +918,8 @@
   "name": "Liechtenstein",
   "de": "du Liechtenstein",
   "capital": "Vaduz",
-  "area": 160
+  "area": 160,
+  "region": "Europe"
  },
  {
   "code": "LT",
@@ -825,7 +927,8 @@
   "name": "Lituanie",
   "de": "de la Lituanie",
   "capital": "Vilnius",
-  "area": 65300
+  "area": 65300,
+  "region": "Europe"
  },
  {
   "code": "LU",
@@ -833,7 +936,8 @@
   "name": "Luxembourg",
   "de": "du Luxembourg",
   "capital": "Luxembourg",
-  "area": 2586
+  "area": 2586,
+  "region": "Europe"
  },
  {
   "code": "MK",
@@ -841,7 +945,8 @@
   "name": "Macédoine du Nord",
   "de": "de la Macédoine du Nord",
   "capital": "Skopje",
-  "area": 25713
+  "area": 25713,
+  "region": "Europe"
  },
  {
   "code": "MG",
@@ -849,7 +954,8 @@
   "name": "Madagascar",
   "de": "de Madagascar",
   "capital": "Antananarivo",
-  "area": 587041
+  "area": 587041,
+  "region": "Africa"
  },
  {
   "code": "MY",
@@ -857,7 +963,8 @@
   "name": "Malaisie",
   "de": "de la Malaisie",
   "capital": "Kuala Lumpur (siège du gouvernement : Putrajaya)",
-  "area": 330803
+  "area": 330803,
+  "region": "Asia"
  },
  {
   "code": "MW",
@@ -865,7 +972,8 @@
   "name": "Malawi",
   "de": "du Malawi",
   "capital": "Lilongwe",
-  "area": 118484
+  "area": 118484,
+  "region": "Africa"
  },
  {
   "code": "MV",
@@ -873,7 +981,8 @@
   "name": "Maldives",
   "de": "des Maldives",
   "capital": "Malé",
-  "area": 300
+  "area": 300,
+  "region": "Asia"
  },
  {
   "code": "ML",
@@ -881,7 +990,8 @@
   "name": "Mali",
   "de": "du Mali",
   "capital": "Bamako",
-  "area": 1240192
+  "area": 1240192,
+  "region": "Africa"
  },
  {
   "code": "MT",
@@ -889,7 +999,8 @@
   "name": "Malte",
   "de": "de Malte",
   "capital": "La Valette",
-  "area": 316
+  "area": 316,
+  "region": "Europe"
  },
  {
   "code": "MA",
@@ -897,7 +1008,8 @@
   "name": "Maroc",
   "de": "du Maroc",
   "capital": "Rabat",
-  "area": 446550
+  "area": 446550,
+  "region": "Africa"
  },
  {
   "code": "MU",
@@ -906,7 +1018,8 @@
   "aka": "Île Maurice",
   "de": "de Maurice",
   "capital": "Port-Louis",
-  "area": 2040
+  "area": 2040,
+  "region": "Africa"
  },
  {
   "code": "MR",
@@ -914,7 +1027,8 @@
   "name": "Mauritanie",
   "de": "de la Mauritanie",
   "capital": "Nouakchott",
-  "area": 1030700
+  "area": 1030700,
+  "region": "Africa"
  },
  {
   "code": "MX",
@@ -922,7 +1036,8 @@
   "name": "Mexique",
   "de": "du Mexique",
   "capital": "Mexico",
-  "area": 1964375
+  "area": 1964375,
+  "region": "Americas"
  },
  {
   "code": "FM",
@@ -930,7 +1045,8 @@
   "name": "Micronésie",
   "de": "de la Micronésie",
   "capital": "Palikir",
-  "area": 702
+  "area": 702,
+  "region": "Oceania"
  },
  {
   "code": "MD",
@@ -938,7 +1054,8 @@
   "name": "Moldavie",
   "de": "de la Moldavie",
   "capital": "Chișinău",
-  "area": 33846
+  "area": 33846,
+  "region": "Europe"
  },
  {
   "code": "MC",
@@ -946,7 +1063,8 @@
   "name": "Monaco",
   "de": "de Monaco",
   "capital": "Monaco",
-  "area": 2.02
+  "area": 2.02,
+  "region": "Europe"
  },
  {
   "code": "MN",
@@ -954,7 +1072,8 @@
   "name": "Mongolie",
   "de": "de la Mongolie",
   "capital": "Oulan-Bator",
-  "area": 1564110
+  "area": 1564110,
+  "region": "Asia"
  },
  {
   "code": "ME",
@@ -962,7 +1081,8 @@
   "name": "Monténégro",
   "de": "du Monténégro",
   "capital": "Podgorica",
-  "area": 13812
+  "area": 13812,
+  "region": "Europe"
  },
  {
   "code": "MZ",
@@ -970,7 +1090,8 @@
   "name": "Mozambique",
   "de": "du Mozambique",
   "capital": "Maputo",
-  "area": 801590
+  "area": 801590,
+  "region": "Africa"
  },
  {
   "code": "NA",
@@ -978,7 +1099,8 @@
   "name": "Namibie",
   "de": "de la Namibie",
   "capital": "Windhoek",
-  "area": 825615
+  "area": 825615,
+  "region": "Africa"
  },
  {
   "code": "NR",
@@ -986,7 +1108,8 @@
   "name": "Nauru",
   "de": "de Nauru",
   "capital": "Yaren (pas de capitale officielle)",
-  "area": 21
+  "area": 21,
+  "region": "Oceania"
  },
  {
   "code": "NP",
@@ -994,7 +1117,8 @@
   "name": "Népal",
   "de": "du Népal",
   "capital": "Katmandou",
-  "area": 147181
+  "area": 147181,
+  "region": "Asia"
  },
  {
   "code": "NI",
@@ -1002,7 +1126,8 @@
   "name": "Nicaragua",
   "de": "du Nicaragua",
   "capital": "Managua",
-  "area": 130373
+  "area": 130373,
+  "region": "Americas"
  },
  {
   "code": "NE",
@@ -1010,7 +1135,8 @@
   "name": "Niger",
   "de": "du Niger",
   "capital": "Niamey",
-  "area": 1267000
+  "area": 1267000,
+  "region": "Africa"
  },
  {
   "code": "NG",
@@ -1018,7 +1144,8 @@
   "name": "Nigeria",
   "de": "du Nigeria",
   "capital": "Abuja",
-  "area": 923768
+  "area": 923768,
+  "region": "Africa"
  },
  {
   "code": "NO",
@@ -1026,7 +1153,8 @@
   "name": "Norvège",
   "de": "de la Norvège",
   "capital": "Oslo",
-  "area": 323802
+  "area": 323802,
+  "region": "Europe"
  },
  {
   "code": "NZ",
@@ -1034,7 +1162,8 @@
   "name": "Nouvelle-Zélande",
   "de": "de la Nouvelle-Zélande",
   "capital": "Wellington",
-  "area": 270467
+  "area": 270467,
+  "region": "Oceania"
  },
  {
   "code": "OM",
@@ -1042,7 +1171,8 @@
   "name": "Oman",
   "de": "d'Oman",
   "capital": "Mascate",
-  "area": 309500
+  "area": 309500,
+  "region": "Asia"
  },
  {
   "code": "UG",
@@ -1050,7 +1180,8 @@
   "name": "Ouganda",
   "de": "de l'Ouganda",
   "capital": "Kampala",
-  "area": 241550
+  "area": 241550,
+  "region": "Africa"
  },
  {
   "code": "UZ",
@@ -1058,7 +1189,8 @@
   "name": "Ouzbékistan",
   "de": "de l'Ouzbékistan",
   "capital": "Tachkent",
-  "area": 447400
+  "area": 447400,
+  "region": "Asia"
  },
  {
   "code": "PK",
@@ -1066,7 +1198,8 @@
   "name": "Pakistan",
   "de": "du Pakistan",
   "capital": "Islamabad",
-  "area": 881912
+  "area": 881912,
+  "region": "Asia"
  },
  {
   "code": "PW",
@@ -1075,7 +1208,8 @@
   "aka": "Palau",
   "de": "des Palaos",
   "capital": "Ngerulmud",
-  "area": 459
+  "area": 459,
+  "region": "Oceania"
  },
  {
   "code": "PS",
@@ -1083,7 +1217,8 @@
   "name": "Palestine",
   "de": "de la Palestine",
   "capital": "Jérusalem-Est (revendiquée ; siège : Ramallah)",
-  "area": 6220
+  "area": 6220,
+  "region": "Asia"
  },
  {
   "code": "PA",
@@ -1091,7 +1226,8 @@
   "name": "Panama",
   "de": "du Panama",
   "capital": "Panama",
-  "area": 75417
+  "area": 75417,
+  "region": "Americas"
  },
  {
   "code": "PG",
@@ -1099,7 +1235,8 @@
   "name": "Papouasie-Nouvelle-Guinée",
   "de": "de la Papouasie-Nouvelle-Guinée",
   "capital": "Port Moresby",
-  "area": 462840
+  "area": 462840,
+  "region": "Oceania"
  },
  {
   "code": "PY",
@@ -1107,7 +1244,8 @@
   "name": "Paraguay",
   "de": "du Paraguay",
   "capital": "Asunción",
-  "area": 406752
+  "area": 406752,
+  "region": "Americas"
  },
  {
   "code": "NL",
@@ -1115,7 +1253,8 @@
   "name": "Pays-Bas",
   "de": "des Pays-Bas",
   "capital": "Amsterdam (siège du gouvernement : La Haye)",
-  "area": 41850
+  "area": 41850,
+  "region": "Europe"
  },
  {
   "code": "PE",
@@ -1123,7 +1262,8 @@
   "name": "Pérou",
   "de": "du Pérou",
   "capital": "Lima",
-  "area": 1285216
+  "area": 1285216,
+  "region": "Americas"
  },
  {
   "code": "PH",
@@ -1131,7 +1271,8 @@
   "name": "Philippines",
   "de": "des Philippines",
   "capital": "Manille",
-  "area": 342353
+  "area": 342353,
+  "region": "Asia"
  },
  {
   "code": "PL",
@@ -1139,7 +1280,8 @@
   "name": "Pologne",
   "de": "de la Pologne",
   "capital": "Varsovie",
-  "area": 312679
+  "area": 312679,
+  "region": "Europe"
  },
  {
   "code": "PT",
@@ -1147,7 +1289,8 @@
   "name": "Portugal",
   "de": "du Portugal",
   "capital": "Lisbonne",
-  "area": 92090
+  "area": 92090,
+  "region": "Europe"
  },
  {
   "code": "QA",
@@ -1155,7 +1298,8 @@
   "name": "Qatar",
   "de": "du Qatar",
   "capital": "Doha",
-  "area": 11586
+  "area": 11586,
+  "region": "Asia"
  },
  {
   "code": "CD",
@@ -1164,7 +1308,8 @@
   "aka": "RDC",
   "de": "de la République démocratique du Congo",
   "capital": "Kinshasa",
-  "area": 2344858
+  "area": 2344858,
+  "region": "Africa"
  },
  {
   "code": "DO",
@@ -1172,7 +1317,8 @@
   "name": "République dominicaine",
   "de": "de la République dominicaine",
   "capital": "Saint-Domingue",
-  "area": 48671
+  "area": 48671,
+  "region": "Americas"
  },
  {
   "code": "CG",
@@ -1181,7 +1327,8 @@
   "aka": "Congo-Brazzaville",
   "de": "de la République du Congo",
   "capital": "Brazzaville",
-  "area": 342000
+  "area": 342000,
+  "region": "Africa"
  },
  {
   "code": "RO",
@@ -1189,7 +1336,8 @@
   "name": "Roumanie",
   "de": "de la Roumanie",
   "capital": "Bucarest",
-  "area": 238391
+  "area": 238391,
+  "region": "Europe"
  },
  {
   "code": "GB",
@@ -1197,7 +1345,8 @@
   "name": "Royaume-Uni",
   "de": "du Royaume-Uni",
   "capital": "Londres",
-  "area": 242900
+  "area": 242900,
+  "region": "Europe"
  },
  {
   "code": "RU",
@@ -1205,7 +1354,8 @@
   "name": "Russie",
   "de": "de la Russie",
   "capital": "Moscou",
-  "area": 17098242
+  "area": 17098242,
+  "region": "Europe"
  },
  {
   "code": "RW",
@@ -1213,7 +1363,8 @@
   "name": "Rwanda",
   "de": "du Rwanda",
   "capital": "Kigali",
-  "area": 26338
+  "area": 26338,
+  "region": "Africa"
  },
  {
   "code": "KN",
@@ -1222,7 +1373,8 @@
   "aka": "Saint-Kitts-et-Nevis",
   "de": "de Saint-Christophe-et-Niévès",
   "capital": "Basseterre",
-  "area": 261
+  "area": 261,
+  "region": "Americas"
  },
  {
   "code": "SM",
@@ -1230,7 +1382,8 @@
   "name": "Saint-Marin",
   "de": "de Saint-Marin",
   "capital": "Saint-Marin",
-  "area": 61
+  "area": 61,
+  "region": "Europe"
  },
  {
   "code": "VC",
@@ -1238,7 +1391,8 @@
   "name": "Saint-Vincent-et-les-Grenadines",
   "de": "de Saint-Vincent-et-les-Grenadines",
   "capital": "Kingstown",
-  "area": 389
+  "area": 389,
+  "region": "Americas"
  },
  {
   "code": "LC",
@@ -1246,7 +1400,8 @@
   "name": "Sainte-Lucie",
   "de": "de Sainte-Lucie",
   "capital": "Castries",
-  "area": 616
+  "area": 616,
+  "region": "Americas"
  },
  {
   "code": "SV",
@@ -1254,7 +1409,8 @@
   "name": "Salvador",
   "de": "du Salvador",
   "capital": "San Salvador",
-  "area": 21041
+  "area": 21041,
+  "region": "Americas"
  },
  {
   "code": "WS",
@@ -1262,7 +1418,8 @@
   "name": "Samoa",
   "de": "des Samoa",
   "capital": "Apia",
-  "area": 2842
+  "area": 2842,
+  "region": "Oceania"
  },
  {
   "code": "ST",
@@ -1270,7 +1427,8 @@
   "name": "Sao Tomé-et-Principe",
   "de": "de Sao Tomé-et-Principe",
   "capital": "Sao Tomé",
-  "area": 964
+  "area": 964,
+  "region": "Africa"
  },
  {
   "code": "SN",
@@ -1278,7 +1436,8 @@
   "name": "Sénégal",
   "de": "du Sénégal",
   "capital": "Dakar",
-  "area": 196722
+  "area": 196722,
+  "region": "Africa"
  },
  {
   "code": "RS",
@@ -1286,7 +1445,8 @@
   "name": "Serbie",
   "de": "de la Serbie",
   "capital": "Belgrade",
-  "area": 88361
+  "area": 88361,
+  "region": "Europe"
  },
  {
   "code": "SC",
@@ -1294,7 +1454,8 @@
   "name": "Seychelles",
   "de": "des Seychelles",
   "capital": "Victoria",
-  "area": 452
+  "area": 452,
+  "region": "Africa"
  },
  {
   "code": "SL",
@@ -1302,7 +1463,8 @@
   "name": "Sierra Leone",
   "de": "de la Sierra Leone",
   "capital": "Freetown",
-  "area": 71740
+  "area": 71740,
+  "region": "Africa"
  },
  {
   "code": "SG",
@@ -1310,7 +1472,8 @@
   "name": "Singapour",
   "de": "de Singapour",
   "capital": "Singapour",
-  "area": 710
+  "area": 710,
+  "region": "Asia"
  },
  {
   "code": "SK",
@@ -1318,7 +1481,8 @@
   "name": "Slovaquie",
   "de": "de la Slovaquie",
   "capital": "Bratislava",
-  "area": 49037
+  "area": 49037,
+  "region": "Europe"
  },
  {
   "code": "SI",
@@ -1326,7 +1490,8 @@
   "name": "Slovénie",
   "de": "de la Slovénie",
   "capital": "Ljubljana",
-  "area": 20273
+  "area": 20273,
+  "region": "Europe"
  },
  {
   "code": "SO",
@@ -1334,7 +1499,8 @@
   "name": "Somalie",
   "de": "de la Somalie",
   "capital": "Mogadiscio",
-  "area": 637657
+  "area": 637657,
+  "region": "Africa"
  },
  {
   "code": "SD",
@@ -1342,7 +1508,8 @@
   "name": "Soudan",
   "de": "du Soudan",
   "capital": "Khartoum",
-  "area": 1886068
+  "area": 1886068,
+  "region": "Africa"
  },
  {
   "code": "SS",
@@ -1350,7 +1517,8 @@
   "name": "Soudan du Sud",
   "de": "du Soudan du Sud",
   "capital": "Djouba",
-  "area": 619745
+  "area": 619745,
+  "region": "Africa"
  },
  {
   "code": "LK",
@@ -1358,7 +1526,8 @@
   "name": "Sri Lanka",
   "de": "du Sri Lanka",
   "capital": "Sri Jayawardenepura Kotte (ville principale : Colombo)",
-  "area": 65610
+  "area": 65610,
+  "region": "Asia"
  },
  {
   "code": "SE",
@@ -1366,7 +1535,8 @@
   "name": "Suède",
   "de": "de la Suède",
   "capital": "Stockholm",
-  "area": 450295
+  "area": 450295,
+  "region": "Europe"
  },
  {
   "code": "CH",
@@ -1374,7 +1544,8 @@
   "name": "Suisse",
   "de": "de la Suisse",
   "capital": "Berne",
-  "area": 41284
+  "area": 41284,
+  "region": "Europe"
  },
  {
   "code": "SR",
@@ -1382,7 +1553,8 @@
   "name": "Suriname",
   "de": "du Suriname",
   "capital": "Paramaribo",
-  "area": 163820
+  "area": 163820,
+  "region": "Americas"
  },
  {
   "code": "SY",
@@ -1390,7 +1562,8 @@
   "name": "Syrie",
   "de": "de la Syrie",
   "capital": "Damas",
-  "area": 185180
+  "area": 185180,
+  "region": "Asia"
  },
  {
   "code": "TJ",
@@ -1398,7 +1571,8 @@
   "name": "Tadjikistan",
   "de": "du Tadjikistan",
   "capital": "Douchanbé",
-  "area": 143100
+  "area": 143100,
+  "region": "Asia"
  },
  {
   "code": "TZ",
@@ -1406,7 +1580,8 @@
   "name": "Tanzanie",
   "de": "de la Tanzanie",
   "capital": "Dodoma (ville principale : Dar es Salaam)",
-  "area": 945087
+  "area": 945087,
+  "region": "Africa"
  },
  {
   "code": "TD",
@@ -1414,7 +1589,8 @@
   "name": "Tchad",
   "de": "du Tchad",
   "capital": "N'Djaména",
-  "area": 1284000
+  "area": 1284000,
+  "region": "Africa"
  },
  {
   "code": "CZ",
@@ -1423,7 +1599,8 @@
   "aka": "République tchèque",
   "de": "de la Tchéquie",
   "capital": "Prague",
-  "area": 78865
+  "area": 78865,
+  "region": "Europe"
  },
  {
   "code": "TH",
@@ -1431,7 +1608,8 @@
   "name": "Thaïlande",
   "de": "de la Thaïlande",
   "capital": "Bangkok",
-  "area": 513120
+  "area": 513120,
+  "region": "Asia"
  },
  {
   "code": "TL",
@@ -1440,7 +1618,8 @@
   "aka": "Timor-Leste",
   "de": "du Timor oriental",
   "capital": "Dili",
-  "area": 14874
+  "area": 14874,
+  "region": "Asia"
  },
  {
   "code": "TG",
@@ -1448,7 +1627,8 @@
   "name": "Togo",
   "de": "du Togo",
   "capital": "Lomé",
-  "area": 56785
+  "area": 56785,
+  "region": "Africa"
  },
  {
   "code": "TO",
@@ -1456,7 +1636,8 @@
   "name": "Tonga",
   "de": "des Tonga",
   "capital": "Nuku'alofa",
-  "area": 747
+  "area": 747,
+  "region": "Oceania"
  },
  {
   "code": "TT",
@@ -1464,7 +1645,8 @@
   "name": "Trinité-et-Tobago",
   "de": "de Trinité-et-Tobago",
   "capital": "Port-d'Espagne",
-  "area": 5130
+  "area": 5130,
+  "region": "Americas"
  },
  {
   "code": "TN",
@@ -1472,7 +1654,8 @@
   "name": "Tunisie",
   "de": "de la Tunisie",
   "capital": "Tunis",
-  "area": 163610
+  "area": 163610,
+  "region": "Africa"
  },
  {
   "code": "TM",
@@ -1480,7 +1663,8 @@
   "name": "Turkménistan",
   "de": "du Turkménistan",
   "capital": "Achgabat",
-  "area": 488100
+  "area": 488100,
+  "region": "Asia"
  },
  {
   "code": "TR",
@@ -1488,7 +1672,8 @@
   "name": "Turquie",
   "de": "de la Turquie",
   "capital": "Ankara",
-  "area": 783562
+  "area": 783562,
+  "region": "Asia"
  },
  {
   "code": "TV",
@@ -1496,7 +1681,8 @@
   "name": "Tuvalu",
   "de": "des Tuvalu",
   "capital": "Funafuti",
-  "area": 26
+  "area": 26,
+  "region": "Oceania"
  },
  {
   "code": "UA",
@@ -1504,7 +1690,8 @@
   "name": "Ukraine",
   "de": "de l'Ukraine",
   "capital": "Kiev (Kyiv)",
-  "area": 603500
+  "area": 603500,
+  "region": "Europe"
  },
  {
   "code": "UY",
@@ -1512,7 +1699,8 @@
   "name": "Uruguay",
   "de": "de l'Uruguay",
   "capital": "Montevideo",
-  "area": 181034
+  "area": 181034,
+  "region": "Americas"
  },
  {
   "code": "VU",
@@ -1520,7 +1708,8 @@
   "name": "Vanuatu",
   "de": "du Vanuatu",
   "capital": "Port-Vila",
-  "area": 12189
+  "area": 12189,
+  "region": "Oceania"
  },
  {
   "code": "VA",
@@ -1528,7 +1717,8 @@
   "name": "Vatican",
   "de": "du Vatican",
   "capital": "Cité du Vatican",
-  "area": 0.44
+  "area": 0.44,
+  "region": "Europe"
  },
  {
   "code": "VE",
@@ -1536,7 +1726,8 @@
   "name": "Venezuela",
   "de": "du Venezuela",
   "capital": "Caracas",
-  "area": 916445
+  "area": 916445,
+  "region": "Americas"
  },
  {
   "code": "VN",
@@ -1544,7 +1735,8 @@
   "name": "Viêt Nam",
   "de": "du Viêt Nam",
   "capital": "Hanoï",
-  "area": 331212
+  "area": 331212,
+  "region": "Asia"
  },
  {
   "code": "YE",
@@ -1552,7 +1744,8 @@
   "name": "Yémen",
   "de": "du Yémen",
   "capital": "Sanaa (gouvernement reconnu : Aden)",
-  "area": 527968
+  "area": 527968,
+  "region": "Asia"
  },
  {
   "code": "ZM",
@@ -1560,7 +1753,8 @@
   "name": "Zambie",
   "de": "de la Zambie",
   "capital": "Lusaka",
-  "area": 752612
+  "area": 752612,
+  "region": "Africa"
  },
  {
   "code": "ZW",
@@ -1568,6 +1762,7 @@
   "name": "Zimbabwe",
   "de": "du Zimbabwe",
   "capital": "Harare",
-  "area": 390757
+  "area": 390757,
+  "region": "Africa"
  }
 ]

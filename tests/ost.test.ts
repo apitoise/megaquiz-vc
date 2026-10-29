@@ -1,6 +1,6 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 import ostData from "../data/ost.json";
-import type { OstGame } from "../src/data/ost.ts";
+import type { Soundtrack } from "../src/data/ost.ts";
 import { judgeAlbums, residue, type AlbumCandidate } from "../src/music/ost-match.ts";
 import { ost } from "../src/providers/ost.ts";
 
@@ -61,7 +61,7 @@ describe("judgeAlbums", () => {
 });
 
 describe("data/ost.json", () => {
-  const games = ostData as OstGame[];
+  const games = ostData as Soundtrack[];
 
   it("contient les jeux validés, sans doublon, avec au moins 3 pistes", () => {
     expect(games.length).toBeGreaterThanOrEqual(50);
@@ -83,7 +83,7 @@ describe("thème OST", () => {
     );
     await ost.init();
     const q = await ost.next(new Set());
-    const game = (ostData as OstGame[]).find((g) => `ost:${g.slug}` === q.id)!;
+    const game = (ostData as Soundtrack[]).find((g) => `ost:${g.slug}` === q.id)!;
     expect(game.tracks.map((t) => `https://cdn.test/${t}.mp3`)).toContain(q.media.src);
     expect(q.answers).toEqual([{ label: "Jeu", value: game.name }]);
     expect(q.revealMedia).toBeUndefined();

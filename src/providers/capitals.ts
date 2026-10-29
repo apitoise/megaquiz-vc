@@ -7,6 +7,9 @@ export const capitals = poolProvider<Country>({
   label: "Capitales",
   load: async () => countriesData as Country[],
   key: (c) => c.code,
+  // Un continent tiré à parts égales, jamais deux fois de suite : l'Afrique (54 pays sur 195)
+  // ne domine plus, et les questions varient.
+  group: (c) => c.region,
   toQuestion: (c, id) => ({
     id,
     theme: "capitals",

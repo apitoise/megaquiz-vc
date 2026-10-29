@@ -7,6 +7,8 @@ export interface Track {
   artist: string;
   /** Popularité Deezer au moment de la construction du pool. */
   rank: number;
+  /** Style (rap, rock, variete…) : le tirage équilibre les styles. */
+  style: string;
 }
 
 /** Réponse simplifiée du proxy local /api/deezer/track/:id. */

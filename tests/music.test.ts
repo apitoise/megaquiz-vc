@@ -16,7 +16,7 @@ describe("data/music.json", () => {
 
   it("ne stocke pas d'URL d'extrait (elle expire) et a des titres déjà nettoyés", () => {
     for (const t of tracks) {
-      expect(Object.keys(t).sort()).toEqual(["artist", "id", "rank", "title"]);
+      expect(Object.keys(t).sort()).toEqual(["artist", "id", "rank", "style", "title"]);
       expect(cleanTitle(t.title)).toBe(t.title);
     }
   });

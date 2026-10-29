@@ -1,0 +1,1136 @@
+[
+ {
+  "slug": "titanic",
+  "name": "Titanic",
+  "album": {
+   "id": 113048,
+   "title": "Titanic: Music from the Motion Picture Soundtrack",
+   "artist": "James Horner"
+  },
+  "tracks": [
+   13143672,
+   1031226,
+   1031156,
+   1031052,
+   1031217,
+   1031224,
+   1031227,
+   1031219,
+   1031225,
+   1031215,
+   1031222,
+   1031221
+  ]
+ },
+ {
+  "slug": "le-seigneur-des-anneaux-the-lord-of-the-rings",
+  "name": "Le Seigneur des anneaux (The Lord of the Rings)",
+  "album": {
+   "id": 1346734,
+   "title": "The Lord of the Rings: The Fellowship of the Ring (Original Motion Picture Soundtrack)",
+   "artist": "Howard Shore"
+  },
+  "tracks": [
+   14628832,
+   14628816,
+   14628831,
+   14628827,
+   14628824,
+   14628821,
+   14628823,
+   14628815,
+   14628825,
+   14628817,
+   14628828,
+   14628819
+  ]
+ },
+ {
+  "slug": "le-hobbit-the-hobbit",
+  "name": "Le Hobbit (The Hobbit)",
+  "album": {
+   "id": 90192712,
+   "title": "The Hobbit: An Unexpected Journey (Original Motion Picture Soundtrack)",
+   "artist": "Howard Shore"
+  },
+  "tracks": [
+   647856972,
+   647856942,
+   647857172,
+   647857002,
+   647856992,
+   647857102,
+   647856932,
+   647856982,
+   647857012,
+   647856962,
+   647857022,
+   647856952
+  ]
+ },
+ {
+  "slug": "harry-potter",
+  "name": "Harry Potter",
+  "album": {
+   "id": 80310,
+   "title": "Harry Potter and The Sorcerer's Stone Original Motion Picture Soundtrack",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   661779,
+   661749,
+   661747,
+   661767,
+   661760,
+   661777,
+   661750,
+   661775,
+   661754,
+   661752,
+   661757,
+   661756
+  ]
+ },
+ {
+  "slug": "jurassic-park",
+  "name": "Jurassic Park",
+  "album": {
+   "id": 228943,
+   "title": "Jurassic Park",
+   "artist": "John Williams"
+  },
+  "tracks": [
+   2296192,
+   2296197,
+   2296206,
+   2296194,
+   2296200,
+   2296193,
+   2296195,
+   2296198,
+   2296199,
+   2296196,
+   2296205,
+   2296202
+  ]
+ },
+ {
+  "slug": "le-roi-lion-the-lion-king",
+  "name": "Le Roi lion (The Lion King)",
+  "album": {
+   "id": 103027012,
+   "title": "The Lion King (Original Motion Picture Soundtrack)",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   709612582,
+   709612512,
+   709612552,
+   709612432,
+   709612542,
+   709612462,
+   709612532,
+   709612602,
+   709612522,
+   709612592,
+   709612482,
+   709612452
+  ]
+ },
+ {
+  "slug": "pirates-des-caraibes-pirates-of-the-caribbean",
+  "name": "Pirates des Caraïbes (Pirates of the Caribbean)",
+  "album": {
+   "id": 2313131,
+   "title": "Pirates of the Caribbean: The Curse of the Black Pearl (Original Motion Picture Soundtrack)",
+   "artist": "Klaus Badelt"
+  },
+  "tracks": [
+   24206311,
+   24206451,
+   24206361,
+   24206331,
+   24206381,
+   24206321,
+   24206441,
+   24206401,
+   24206371,
+   24206421,
+   24206301,
+   24206351
+  ]
+ },
+ {
+  "slug": "gladiator",
+  "name": "Gladiator",
+  "album": {
+   "id": 906355442,
+   "title": "Gladiator: The Soundtrack Collection",
+   "artist": "Hans Zimmer"
+  },
+  "tracks": [
+   3807152412,
+   3807152592,
+   3807152402,
+   3807152392,
+   3807152292,
+   3807152272,
+   3807152442,
+   3807152452,
+   3807152252,
+   3807152332,
+   3807152432,
+   3807152302
+  ]
+ },
+ {
+  "slug": "inception",
+  "name": "Inception",
+  "album": {
+   "id": 601778,
+   "title": "Inception (Music from the Motion Picture)",
+   "artist": "Hans Zimmer"
+  },
+  "tracks": [
+   6524423,
+   6524407,
+   6524414,
+   6524412,
+   6524416,
+   6524405,
+   6524406,
+   6524408,
+   6524409,
+   6524411,
+   6524420,
+   6524418
+  ]
+ },
+ {
+  "slug": "the-dark-knight",
+  "name": "The Dark Knight",
+  "album": {
+   "id": 102197,
+   "title": "The Dark Knight (Original Motion Picture Soundtrack)",
+   "artist": "Hans Zimmer"
+  },
+  "tracks": [
+   904641,
+   904635,
+   904629,
+   904628,
+   904631,
+   904637,
+   904636,
+   904640,
+   904639,
+   904630,
+   904634,
+   904633
+  ]
+ },
+ {
+  "slug": "les-aventuriers-de-l-arche-perdue-indiana-jones",
+  "name": "Les Aventuriers de l'arche perdue (Indiana Jones)",
+  "album": {
+   "id": 66647842,
+   "title": "Raiders of the Lost Ark (Original Motion Picture Soundtrack)",
+   "artist": "John Williams"
+  },
+  "tracks": [
+   518486042,
+   518485842,
+   518485852,
+   518485832,
+   518485932,
+   518485982,
+   518485902,
+   518485882,
+   518485912,
+   518485892,
+   518485872,
+   518485962
+  ]
+ },
+ {
+  "slug": "e-t-l-extra-terrestre",
+  "name": "E.T. l'extra-terrestre",
+  "album": {
+   "id": 9510820,
+   "title": "E.T. The Extra-Terrestrial (Music From The Original Motion Picture Soundtrack)",
+   "artist": "John Williams"
+  },
+  "tracks": [
+   93631702,
+   93631694,
+   93631706,
+   93631708,
+   93631698,
+   93631696,
+   93631704,
+   93631700
+  ]
+ },
+ {
+  "slug": "les-dents-de-la-mer-jaws",
+  "name": "Les Dents de la mer (Jaws)",
+  "album": {
+   "id": 12707266,
+   "title": "Jaws (Original Motion Picture Score)",
+   "artist": "John Williams"
+  },
+  "tracks": [
+   121590094,
+   121590152,
+   121590158,
+   121590122,
+   121590134,
+   121590144,
+   121590112,
+   121590118,
+   121590132,
+   121590146,
+   121590148,
+   121590128
+  ]
+ },
+ {
+  "slug": "rocky",
+  "name": "Rocky",
+  "album": {
+   "id": 10145688,
+   "title": "Rocky (Original Motion Picture Score)",
+   "artist": "Bill Conti"
+  },
+  "tracks": [
+   99127212,
+   99127208,
+   99127230,
+   99127210,
+   99127214,
+   99127228,
+   99127224,
+   99127232,
+   99127222,
+   99127220,
+   99127218,
+   99127226
+  ]
+ },
+ {
+  "slug": "top-gun",
+  "name": "Top Gun",
+  "album": {
+   "id": 6753825,
+   "title": "TOP GUN/SOUNDTRACK",
+   "artist": "Original Motion Picture Soundtrack"
+  },
+  "tracks": [
+   69313279,
+   69312958,
+   69312990,
+   69312984,
+   69312985,
+   68933893,
+   69312999,
+   69312998,
+   69312986,
+   69312987
+  ]
+ },
+ {
+  "slug": "top-gun-maverick",
+  "name": "Top Gun: Maverick",
+  "album": {
+   "id": 321440247,
+   "title": "Top Gun: Maverick (Music From The Motion Picture)",
+   "artist": "Lady Gaga"
+  },
+  "tracks": [
+   1764283667,
+   1764283697,
+   1764283647,
+   1764283617,
+   1764283717,
+   1764283727,
+   1764283637,
+   1764283657,
+   1764283687,
+   1764283677,
+   1764283707
+  ]
+ },
+ {
+  "slug": "dirty-dancing",
+  "name": "Dirty Dancing",
+  "album": {
+   "id": 1205035,
+   "title": "Dirty Dancing (Original Motion Picture Soundtrack)",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   13128250,
+   13128241,
+   13128242,
+   13128244,
+   14876868,
+   13128243,
+   13128248,
+   13128246,
+   14876869,
+   13128247,
+   13128245,
+   13128249
+  ]
+ },
+ {
+  "slug": "la-fievre-du-samedi-soir-saturday-night-fever",
+  "name": "La Fièvre du samedi soir (Saturday Night Fever)",
+  "album": {
+   "id": 51429672,
+   "title": "Saturday Night Fever (The Original Movie Soundtrack Deluxe Edition)",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   427219192,
+   427219162,
+   427219352,
+   427219182,
+   427219332,
+   427219322,
+   427219342,
+   427219282,
+   427219362,
+   427219222,
+   427219172,
+   427219202
+  ]
+ },
+ {
+  "slug": "flashdance",
+  "name": "Flashdance",
+  "album": {
+   "id": 70486742,
+   "title": "Flashdance (Original Soundtrack From The Motion Picture)",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   540168502,
+   540168452,
+   540168492,
+   540168432,
+   540168442,
+   540168422,
+   540168482,
+   540168462
+  ]
+ },
+ {
+  "slug": "footloose",
+  "name": "Footloose",
+  "album": {
+   "id": 14282366,
+   "title": "Footloose (Original Motion Picture Soundtrack)",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   134012978,
+   134012980,
+   134012984,
+   134012988,
+   134012982,
+   134012994,
+   134012986,
+   134012990
+  ]
+ },
+ {
+  "slug": "le-parrain-the-godfather",
+  "name": "Le Parrain (The Godfather)",
+  "album": {
+   "id": 294596,
+   "title": "The Godfather (Music From The Original Motion Picture Soundtrack)",
+   "artist": "Nino Rota"
+  },
+  "tracks": [
+   3040782,
+   3040776,
+   3040783,
+   3040787,
+   3040784,
+   3040781,
+   3040785,
+   3040777,
+   3040779,
+   3040780,
+   3040778,
+   3040786
+  ]
+ },
+ {
+  "slug": "le-fabuleux-destin-d-amelie-poulain",
+  "name": "Le Fabuleux Destin d'Amélie Poulain",
+  "album": {
+   "id": 239166352,
+   "title": "Le Fabuleux destin d'Amélie Poulain (Bande originale du film)",
+   "artist": "Yann Tiersen"
+  },
+  "tracks": [
+   1412033732,
+   1412033722,
+   1412033802,
+   1412033772,
+   1412033712,
+   1412033762,
+   1412033742,
+   1412033752,
+   1412033832,
+   1412033822,
+   1412033792,
+   1412033852
+  ]
+ },
+ {
+  "slug": "le-grand-bleu",
+  "name": "Le Grand Bleu",
+  "album": {
+   "id": 103047782,
+   "title": "Le grand bleu (Version Longue)",
+   "artist": "Eric Serra"
+  },
+  "tracks": [
+   709829632,
+   709829672,
+   709829652,
+   709829642,
+   709829732,
+   709829812,
+   709829662,
+   709829712,
+   709829682,
+   709829742,
+   709829692,
+   709829842
+  ]
+ },
+ {
+  "slug": "la-la-land",
+  "name": "La La Land",
+  "album": {
+   "id": 14781289,
+   "title": "La La Land (Original Motion Picture Score)",
+   "artist": "Justin Hurwitz"
+  },
+  "tracks": [
+   137728471,
+   137728457,
+   137728515,
+   137728517,
+   137728441,
+   137728509,
+   137728449,
+   137728495,
+   137728447,
+   137728453,
+   137728467,
+   137728465
+  ]
+ },
+ {
+  "slug": "the-greatest-showman",
+  "name": "The Greatest Showman",
+  "album": {
+   "id": 52562662,
+   "title": "The Greatest Showman (Original Motion Picture Soundtrack)",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   435175502,
+   435175552,
+   435175522,
+   435175452,
+   435175462,
+   435175512,
+   435175492,
+   435175482,
+   435175532,
+   435175472,
+   435175542
+  ]
+ },
+ {
+  "slug": "mamma-mia",
+  "name": "Mamma Mia!",
+  "album": {
+   "id": 161924,
+   "title": "Mamma Mia! The Movie Soundtrack",
+   "artist": "Cast of Mamma Mia! The Movie"
+  },
+  "tracks": [
+   1579003,
+   1578995,
+   1578992,
+   1579002,
+   1578993,
+   1578994,
+   1578990,
+   1578997,
+   1578991,
+   1578996,
+   1579001,
+   1579000
+  ]
+ },
+ {
+  "slug": "bohemian-rhapsody",
+  "name": "Bohemian Rhapsody",
+  "album": {
+   "id": 1007321401,
+   "title": "Bohemian Rhapsody (The Original Soundtrack)",
+   "artist": "Queen"
+  },
+  "tracks": [
+   4091936611,
+   4091936641,
+   4091936691,
+   4091936761,
+   4091936711,
+   4091936671,
+   4091936831,
+   4091936741,
+   4091936841,
+   4091936751,
+   4091936781,
+   4091936811
+  ]
+ },
+ {
+  "slug": "avengers",
+  "name": "Avengers",
+  "album": {
+   "id": 1674608,
+   "title": "The Avengers (Original Motion Picture Soundtrack)",
+   "artist": "Alan Silvestri"
+  },
+  "tracks": [
+   17840804,
+   17840799,
+   17840787,
+   17840803,
+   17840791,
+   17840794,
+   17840788,
+   17840792,
+   17840802,
+   17840800,
+   17840798,
+   17840797
+  ]
+ },
+ {
+  "slug": "black-panther",
+  "name": "Black Panther",
+  "album": {
+   "id": 57078512,
+   "title": "Black Panther (Original Score)",
+   "artist": "Ludwig Goransson"
+  },
+  "tracks": [
+   462106672,
+   462106722,
+   462106702,
+   462106892,
+   462106712,
+   462106682,
+   462106922,
+   462106662,
+   462106652,
+   462106832,
+   462106862,
+   462106792
+  ]
+ },
+ {
+  "slug": "la-reine-des-neiges-frozen",
+  "name": "La Reine des neiges (Frozen)",
+  "album": {
+   "id": 7113713,
+   "title": "Frozen (Original Motion Picture Soundtrack)",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   72371930,
+   72371923,
+   72371928,
+   72371918,
+   72371927,
+   72371935,
+   72371938,
+   72371942,
+   72371933,
+   72371945,
+   72371941,
+   72371948
+  ]
+ },
+ {
+  "slug": "aladdin",
+  "name": "Aladdin",
+  "album": {
+   "id": 97532162,
+   "title": "Aladdin (Original Motion Picture Soundtrack)",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   682608532,
+   682608642,
+   682608572,
+   682608582,
+   682608592,
+   682608542,
+   682608802,
+   682608622,
+   682608562,
+   682608632,
+   682608612,
+   682608552
+  ]
+ },
+ {
+  "slug": "la-petite-sirene-the-little-mermaid",
+  "name": "La Petite Sirène (The Little Mermaid)",
+  "album": {
+   "id": 443830295,
+   "title": "The Little Mermaid (Original Motion Picture Soundtrack/Deluxe Edition)",
+   "artist": "Alan Menken"
+  },
+  "tracks": [
+   2292112605,
+   2292112685,
+   2292112625,
+   2292112565,
+   2292112585,
+   2292112655,
+   2292112635,
+   2292112665,
+   2292112615,
+   2292112595,
+   2292112695,
+   2292112805
+  ]
+ },
+ {
+  "slug": "la-belle-et-la-bete-beauty-and-the-beast",
+  "name": "La Belle et la Bête (Beauty and the Beast)",
+  "album": {
+   "id": 15623826,
+   "title": "Beauty and the Beast (Original Motion Picture Soundtrack/Deluxe Edition)",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   144130194,
+   144130214,
+   144130192,
+   144130224,
+   144130206,
+   144130196,
+   144130212,
+   144130216,
+   144130218,
+   144130210,
+   144130222,
+   144130226
+  ]
+ },
+ {
+  "slug": "toy-story",
+  "name": "Toy Story",
+  "album": {
+   "id": 629211,
+   "title": "Toy Story (Original Motion Picture Soundtrack)",
+   "artist": "Randy Newman"
+  },
+  "tracks": [
+   6813638,
+   6813639,
+   6813640,
+   6813653,
+   6813644,
+   6813641,
+   6813652,
+   6813645,
+   6813642,
+   6813643,
+   6813646,
+   6813648
+  ]
+ },
+ {
+  "slug": "shrek",
+  "name": "Shrek",
+  "album": {
+   "id": 12223946,
+   "title": "Shrek (Original Motion Picture Score)",
+   "artist": "Harry Gregson-Williams"
+  },
+  "tracks": [
+   117725782,
+   117725818,
+   117725784,
+   117725788,
+   117725834,
+   117725808,
+   117725786,
+   117725790,
+   117725816,
+   117725810,
+   117725814,
+   117725802
+  ]
+ },
+ {
+  "slug": "le-livre-de-la-jungle-the-jungle-book",
+  "name": "Le Livre de la jungle (The Jungle Book)",
+  "album": {
+   "id": 12865134,
+   "title": "The Jungle Book (Original Motion Picture Soundtrack)",
+   "artist": "John Debney"
+  },
+  "tracks": [
+   122886568,
+   122886570,
+   122886512,
+   122886510,
+   122886528,
+   122886554,
+   122886562,
+   122886514,
+   122886544,
+   122886566,
+   122886546,
+   122886518
+  ]
+ },
+ {
+  "slug": "coco",
+  "name": "Coco",
+  "album": {
+   "id": 51005402,
+   "title": "Coco (Original Motion Picture Soundtrack)",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   424600072,
+   424600042,
+   424600202,
+   424600092,
+   424600082,
+   424600182,
+   424600192,
+   424600172,
+   424600212,
+   424600152,
+   424600122,
+   424600142
+  ]
+ },
+ {
+  "slug": "encanto",
+  "name": "Encanto",
+  "album": {
+   "id": 272207802,
+   "title": "Encanto (Original Motion Picture Soundtrack)",
+   "artist": "Lin-Manuel Miranda"
+  },
+  "tracks": [
+   1550821762,
+   1550821752,
+   1550821732,
+   1550821742,
+   1550821782,
+   1550821772,
+   1550821792,
+   1550821812,
+   1550821822,
+   1550821802,
+   1550821832,
+   1550821842
+  ]
+ },
+ {
+  "slug": "mission-impossible",
+  "name": "Mission impossible",
+  "album": {
+   "id": 239997,
+   "title": "Mission Impossible (Music From The Original Motion Picture Score)",
+   "artist": "Danny Elfman"
+  },
+  "tracks": [
+   2436630,
+   2436629,
+   2436631,
+   2436632,
+   2436634,
+   2436635,
+   2436633,
+   2436637,
+   2436639,
+   2436641,
+   2436636,
+   2436646
+  ]
+ },
+ {
+  "slug": "skyfall-james-bond",
+  "name": "Skyfall (James Bond)",
+  "album": {
+   "id": 6025412,
+   "title": "Skyfall",
+   "artist": "Thomas Newman"
+  },
+  "tracks": [
+   61489832,
+   61489826,
+   61489856,
+   61489837,
+   61489839,
+   61489830,
+   61489831,
+   61489869,
+   61489838,
+   61489836,
+   61489846,
+   61489829
+  ]
+ },
+ {
+  "slug": "matrix-the-matrix",
+  "name": "Matrix (The Matrix)",
+  "album": {
+   "id": 189250552,
+   "title": "The Matrix (Original Motion Picture Score / Deluxe Edition)",
+   "artist": "Don Davis"
+  },
+  "tracks": [
+   1156994762,
+   1156994942,
+   1156994772,
+   1156994812,
+   1156994782,
+   1156994802,
+   1156994792,
+   1156994862,
+   1156995042,
+   1156994822,
+   1156995052,
+   1156994902
+  ]
+ },
+ {
+  "slug": "requiem-for-a-dream",
+  "name": "Requiem for a Dream",
+  "album": {
+   "id": 496099,
+   "title": "Requiem for a Dream / OST",
+   "artist": "Clint Mansell"
+  },
+  "tracks": [
+   5416678,
+   5416647,
+   5416666,
+   5416659,
+   5416649,
+   5416676,
+   5416662,
+   5416652,
+   5416657,
+   5416675,
+   5416667,
+   5416677
+  ]
+ },
+ {
+  "slug": "drive",
+  "name": "Drive",
+  "album": {
+   "id": 209587302,
+   "title": "Drive (Original Motion Picture Soundtrack)",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   1252497672,
+   1252497682,
+   1252497662,
+   1252497702,
+   1252497692,
+   1252497712,
+   1252497722,
+   1252497732,
+   1252497752,
+   1252497742,
+   1252497762,
+   1252497772
+  ]
+ },
+ {
+  "slug": "forrest-gump",
+  "name": "Forrest Gump",
+  "album": {
+   "id": 1634886,
+   "title": "Forrest Gump - The Soundtrack",
+   "artist": "Original Motion Picture Soundtrack"
+  },
+  "tracks": [
+   17479889,
+   17479922,
+   17479904,
+   17479920,
+   17479907,
+   17479910,
+   17479905,
+   17479906,
+   17479908,
+   17479909,
+   17479898,
+   17479918
+  ]
+ },
+ {
+  "slug": "sos-fantomes-ghostbusters",
+  "name": "SOS Fantômes (Ghostbusters)",
+  "album": {
+   "id": 97139342,
+   "title": "Ghostbusters (Original Motion Picture Score)",
+   "artist": "Elmer Bernstein"
+  },
+  "tracks": [
+   681002032,
+   681002042,
+   681002252,
+   681002102,
+   681002082,
+   681002072,
+   681002062,
+   681002142,
+   681002392,
+   681002302,
+   681002222,
+   681002112
+  ]
+ },
+ {
+  "slug": "oppenheimer",
+  "name": "Oppenheimer",
+  "album": {
+   "id": 463516585,
+   "title": "Oppenheimer (Original Motion Picture Soundtrack)",
+   "artist": "Ludwig Goransson"
+  },
+  "tracks": [
+   2364462315,
+   2364462335,
+   2364462345,
+   2364462385,
+   2364462375,
+   2364462305,
+   2364462325,
+   2364462525,
+   2364462355,
+   2364462365,
+   2364462535,
+   2364462415
+  ]
+ },
+ {
+  "slug": "dune",
+  "name": "Dune",
+  "album": {
+   "id": 255370592,
+   "title": "Dune (Original Motion Picture Soundtrack)",
+   "artist": "Hans Zimmer"
+  },
+  "tracks": [
+   1480164982,
+   1480164932,
+   1480164942,
+   1480165002,
+   1480164962,
+   1480164952,
+   1480164972,
+   1480164992,
+   1480165022,
+   1480165012,
+   1480165082,
+   1480165142
+  ]
+ },
+ {
+  "slug": "spider-man-new-generation-into-the-spider-verse",
+  "name": "Spider-Man : New Generation (Into the Spider-Verse)",
+  "album": {
+   "id": 81761222,
+   "title": "Spider-Man: Into the Spider-Verse (Original Score)",
+   "artist": "Daniel Pemberton"
+  },
+  "tracks": [
+   604380152,
+   604380332,
+   604380062,
+   604380482,
+   604380422,
+   604380462,
+   604380052,
+   604380412,
+   604380222,
+   604380472,
+   604380162,
+   604380112
+  ]
+ },
+ {
+  "slug": "the-social-network",
+  "name": "The Social Network",
+  "album": {
+   "id": 5604281,
+   "title": "The Social Network",
+   "artist": "Trent Reznor and Atticus Ross"
+  },
+  "tracks": [
+   57428311,
+   57428321,
+   57428351,
+   57428331,
+   57428341,
+   57428381,
+   57428421,
+   57428361,
+   57428471,
+   57428481,
+   57428371,
+   57428391
+  ]
+ },
+ {
+  "slug": "joker",
+  "name": "Joker",
+  "album": {
+   "id": 113252342,
+   "title": "Joker (Original Motion Picture Soundtrack)",
+   "artist": "Hildur Guðnadóttir"
+  },
+  "tracks": [
+   767121772,
+   767121662,
+   767121812,
+   767121752,
+   767121762,
+   767121702,
+   767121652,
+   767121692,
+   767121672,
+   767121722,
+   767121712,
+   767121682
+  ]
+ }
+]

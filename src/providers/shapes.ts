@@ -4,6 +4,8 @@ import { poolProvider } from "./pool.ts";
 
 /** Pays plus petits que ça (km²) exclus : micro-États et petites îles ne sont pas reconnaissables. */
 export const MIN_SHAPE_AREA_KM2 = 5000;
+/** Continents retenus pour les silhouettes (Amériques = Nord, Centre, Caraïbes et Sud). */
+export const SHAPE_REGIONS: ReadonlySet<Country["region"]> = new Set(["Europe", "Americas"]);
 
 type ShapeCountry = Country & { path: string };
 
@@ -14,10 +16,11 @@ export const shapes = poolProvider<ShapeCountry>({
     // ~700 Ko : chargé seulement si le thème est coché.
     const paths = (await import("../../data/shapes.json")).default as Record<string, string>;
     return (countriesData as Country[])
-      .filter((c) => c.area >= MIN_SHAPE_AREA_KM2 && paths[c.code])
+      .filter((c) => SHAPE_REGIONS.has(c.region) && c.area >= MIN_SHAPE_AREA_KM2 && paths[c.code])
       .map((c) => ({ ...c, path: paths[c.code] }));
   },
   key: (c) => c.code,
+  group: (c) => c.region,
   toQuestion: (c, id) => ({
     id,
     theme: "shapes",

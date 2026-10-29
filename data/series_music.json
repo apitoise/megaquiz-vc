@@ -1,0 +1,586 @@
+[
+ {
+  "slug": "stranger-things",
+  "name": "Stranger Things",
+  "album": {
+   "id": 50414792,
+   "title": "Stranger Things (Soundtrack from the Netflix Original Series)",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   420896182,
+   420896412,
+   420896312,
+   420896362,
+   420896202,
+   420896302,
+   420896372
+  ]
+ },
+ {
+  "slug": "breaking-bad",
+  "name": "Breaking Bad",
+  "album": {
+   "id": 6846948,
+   "title": "Breaking Bad: Original Score from the Television Series",
+   "artist": "Dave Porter"
+  },
+  "tracks": [
+   69838319,
+   69838320,
+   69838323,
+   69838322,
+   69838321,
+   69838335,
+   69838327,
+   69838332,
+   69838328,
+   69838324,
+   69838325,
+   69838336
+  ]
+ },
+ {
+  "slug": "better-call-saul",
+  "name": "Better Call Saul",
+  "album": {
+   "id": 345641497,
+   "title": "Better Call Saul, Vol. 3 (Original Score from the TV Series)",
+   "artist": "Dave Porter"
+  },
+  "tracks": [
+   1863438787,
+   1863438627,
+   1863438697,
+   1863438557,
+   1863438667,
+   1863438777,
+   1863438757,
+   1863438587,
+   1863438647,
+   1863438567,
+   1863438637,
+   1863438797
+  ]
+ },
+ {
+  "slug": "the-witcher",
+  "name": "The Witcher",
+  "album": {
+   "id": 127162962,
+   "title": "The Witcher (Music from the Netflix Original Series)",
+   "artist": "Sonya Belousova"
+  },
+  "tracks": [
+   854475212,
+   854475262,
+   854475202,
+   854475232,
+   854475252,
+   854475222,
+   854475742,
+   854475442,
+   854475242,
+   854475452,
+   854475332,
+   854475302
+  ]
+ },
+ {
+  "slug": "friends",
+  "name": "Friends",
+  "album": {
+   "id": 608932,
+   "title": "Friends Soundtrack",
+   "artist": "The Rembrandts"
+  },
+  "tracks": [
+   6587015,
+   6587027
+  ]
+ },
+ {
+  "slug": "x-files",
+  "name": "X-Files",
+  "album": {
+   "id": 364899,
+   "title": "The Truth And The Light: Music From The X-Files",
+   "artist": "Mark Snow"
+  },
+  "tracks": [
+   3910006,
+   3910012,
+   3910005,
+   3910009,
+   3910008,
+   3910019,
+   3910010,
+   3910014,
+   3910017,
+   3910007,
+   3910022,
+   3910015
+  ]
+ },
+ {
+  "slug": "twin-peaks",
+  "name": "Twin Peaks",
+  "album": {
+   "id": 677360,
+   "title": "Soundtrack From Twin Peaks",
+   "artist": "Twin Peaks"
+  },
+  "tracks": [
+   7337260,
+   7337261,
+   7337263,
+   7337270,
+   7337268,
+   7337262,
+   7337266,
+   7337265,
+   7337264,
+   7337269,
+   7337267
+  ]
+ },
+ {
+  "slug": "dr-house-house",
+  "name": "Dr House (House)",
+  "album": {
+   "id": 303593,
+   "title": "Teardrop",
+   "artist": "Massive Attack"
+  },
+  "tracks": [
+   3157612,
+   3153556,
+   3387709701
+  ]
+ },
+ {
+  "slug": "les-soprano-the-sopranos",
+  "name": "Les Soprano (The Sopranos)",
+  "album": {
+   "id": 537849522,
+   "title": "La Peste",
+   "artist": "Alabama 3"
+  },
+  "tracks": [
+   2629600512,
+   2629699902,
+   2629633412
+  ]
+ },
+ {
+  "slug": "narcos",
+  "name": "Narcos",
+  "album": {
+   "id": 78600082,
+   "title": "Tuyo (Narcos Theme) [Extended Version] (A Netflix Original Series Soundtrack)",
+   "artist": "Rodrigo Amarante"
+  },
+  "tracks": [
+   585426702,
+   573659482,
+   2167049477
+  ]
+ },
+ {
+  "slug": "the-big-bang-theory",
+  "name": "The Big Bang Theory",
+  "album": {
+   "id": 1263301,
+   "title": "Hits from Yesterday & the Day Before",
+   "artist": "Barenaked Ladies"
+  },
+  "tracks": [
+   13805986,
+   124994580
+  ]
+ },
+ {
+  "slug": "scrubs",
+  "name": "Scrubs",
+  "album": {
+   "id": 836710,
+   "title": "All The Time In The World",
+   "artist": "Lazlo Bane"
+  },
+  "tracks": [
+   9125239
+  ]
+ },
+ {
+  "slug": "arcane",
+  "name": "Arcane",
+  "album": {
+   "id": 268731422,
+   "title": "Enemy (from the series Arcane League of Legends)",
+   "artist": "Imagine Dragons"
+  },
+  "tracks": [
+   1535046792,
+   1543744602,
+   2377630735
+  ]
+ },
+ {
+  "slug": "true-detective",
+  "name": "True Detective",
+  "album": {
+   "id": 14381884,
+   "title": "Singing Bones",
+   "artist": "The Handsome Family"
+  },
+  "tracks": [
+   134819392,
+   105572014
+  ]
+ },
+ {
+  "slug": "vikings",
+  "name": "Vikings",
+  "album": {
+   "id": 6761034,
+   "title": "If I Had a Heart",
+   "artist": "Fever Ray"
+  },
+  "tracks": [
+   69001869,
+   86157073,
+   86157071
+  ]
+ },
+ {
+  "slug": "deux-flics-a-miami-miami-vice",
+  "name": "Deux flics à Miami (Miami Vice)",
+  "album": {
+   "id": 102388,
+   "title": "'80s Pop #1's",
+   "artist": "Jan Hammer"
+  },
+  "tracks": [
+   906590,
+   508094702
+  ]
+ },
+ {
+  "slug": "mad-men",
+  "name": "Mad Men",
+  "album": {
+   "id": 193431,
+   "title": "Magnificent City Instrumentals",
+   "artist": "RJD2"
+  },
+  "tracks": [
+   1885522,
+   796294332,
+   10320223
+  ]
+ },
+ {
+  "slug": "sherlock",
+  "name": "Sherlock",
+  "album": {
+   "id": 804491731,
+   "title": "Sherlock (Soundtrack from the TV series)",
+   "artist": "David Arnold"
+  },
+  "tracks": [
+   3507519751,
+   3507519791,
+   3507519861,
+   3507519761,
+   3507519781,
+   3507519841,
+   3507519881,
+   3507519851,
+   3507519871,
+   3507519911,
+   3507519771,
+   3507519921
+  ]
+ },
+ {
+  "slug": "doctor-who",
+  "name": "Doctor Who",
+  "album": {
+   "id": 804439801,
+   "title": "Doctor Who (Original Television Soundtrack)",
+   "artist": "Murray Gold"
+  },
+  "tracks": [
+   3507374051,
+   3507373811,
+   3507373971,
+   3507373931,
+   3507373921,
+   3507374091,
+   3507374081,
+   3507373801,
+   3507373851,
+   3507373821,
+   3507373831,
+   3507374031
+  ]
+ },
+ {
+  "slug": "lupin",
+  "name": "Lupin",
+  "album": {
+   "id": 489398905,
+   "title": "Lupin, Pt. 3 (Soundtrack from the Netflix Series)",
+   "artist": "Mathieu Lamboley"
+  },
+  "tracks": [
+   2459632515,
+   2459632635,
+   2459632525,
+   2459632535,
+   2459632495,
+   2459632625,
+   2459632605,
+   2459632555,
+   2459632565,
+   2459632645,
+   2459632585,
+   2459632545
+  ]
+ },
+ {
+  "slug": "mercredi-wednesday",
+  "name": "Mercredi (Wednesday)",
+  "album": {
+   "id": 373465237,
+   "title": "Wednesday (Original Series Soundtrack)",
+   "artist": "Danny Elfman"
+  },
+  "tracks": [
+   2005660777,
+   2005660867,
+   2005661247,
+   2005660787,
+   2005660857,
+   2005660837,
+   2005660797,
+   2005660907,
+   2005660887,
+   2005660847,
+   2005660807,
+   2005661127
+  ]
+ },
+ {
+  "slug": "euphoria",
+  "name": "Euphoria",
+  "album": {
+   "id": 112295182,
+   "title": "Euphoria (Original Score from the HBO Series)",
+   "artist": "Labrinth"
+  },
+  "tracks": [
+   761653142,
+   761653242,
+   761653162,
+   761653362,
+   761653182,
+   761653202,
+   761653292,
+   761653132,
+   761653172,
+   761653332,
+   761653342,
+   761653222
+  ]
+ },
+ {
+  "slug": "lost-les-disparus-lost",
+  "name": "Lost : Les Disparus (Lost)",
+  "album": {
+   "id": 12494378,
+   "title": "Lost: Season 1 (Original Television Soundtrack)",
+   "artist": "Michael Giacchino"
+  },
+  "tracks": [
+   119872742,
+   119872710,
+   119872740,
+   119872754,
+   119872734,
+   119872706,
+   119872756,
+   119872724,
+   119872728,
+   119872708,
+   119872718,
+   119872716
+  ]
+ },
+ {
+  "slug": "desperate-housewives",
+  "name": "Desperate Housewives",
+  "album": {
+   "id": 394971,
+   "title": "Desperate Housewives (TV Soundtrack)",
+   "artist": "Various Artists"
+  },
+  "tracks": [
+   4242601,
+   4242603,
+   4242615,
+   4242617
+  ]
+ },
+ {
+  "slug": "the-last-of-us-serie",
+  "name": "The Last of Us (série)",
+  "album": {
+   "id": 409638277,
+   "title": "The Last of Us: Season 1 (Soundtrack from the HBO Original Series)",
+   "artist": "Gustavo Santaolalla"
+  },
+  "tracks": [
+   2158164587,
+   2158164157,
+   2158164277,
+   2158164577,
+   2158164567,
+   2158164367,
+   2158164477,
+   2158164767,
+   2158164177,
+   2158164187,
+   2158164397,
+   2158164647
+  ]
+ },
+ {
+  "slug": "la-chronique-des-bridgerton-bridgerton",
+  "name": "La Chronique des Bridgerton (Bridgerton)",
+  "album": {
+   "id": 192859872,
+   "title": "Bridgerton (Music from the Netflix Original Series)",
+   "artist": "Kris Bowers"
+  },
+  "tracks": [
+   1175345762,
+   1175345742,
+   1175345912,
+   1175345922,
+   1175345782,
+   1175345822,
+   1175345832,
+   1175345772,
+   1175345752,
+   1175345862,
+   1175345792,
+   1175345802
+  ]
+ },
+ {
+  "slug": "kaamelott",
+  "name": "Kaamelott",
+  "album": {
+   "id": 268967622,
+   "title": "Kaamelott Sessions",
+   "artist": "Alexandre Astier"
+  },
+  "tracks": [
+   1536179702,
+   1536179692
+  ]
+ },
+ {
+  "slug": "les-revenants",
+  "name": "Les Revenants",
+  "album": {
+   "id": 6301592,
+   "title": "Les Revenants Soundtrack",
+   "artist": "Mogwai"
+  },
+  "tracks": [
+   64321040,
+   64321053,
+   64321041,
+   64321043,
+   64321046,
+   64321049,
+   64321048,
+   64321047,
+   64321044,
+   64321042,
+   64321045,
+   64321050
+  ]
+ },
+ {
+  "slug": "le-bureau-des-legendes",
+  "name": "Le Bureau des légendes",
+  "album": {
+   "id": 139310672,
+   "title": "Le Bureau des Légendes - Saison 5 (Original Series Soundtrack)",
+   "artist": "Rob"
+  },
+  "tracks": [
+   918311572,
+   918311592,
+   918311632,
+   918311542,
+   918311522,
+   918311582,
+   918311512,
+   918311672,
+   918311662,
+   918311652,
+   918311642,
+   918311622
+  ]
+ },
+ {
+  "slug": "the-walking-dead",
+  "name": "The Walking Dead",
+  "album": {
+   "id": 49380482,
+   "title": "The Walking Dead (Original Television Soundtrack)",
+   "artist": "Bear McCreary"
+  },
+  "tracks": [
+   414308552,
+   414308332,
+   414308402,
+   414308542,
+   414308382,
+   414308342,
+   414308512,
+   414308392,
+   414308412,
+   414308522,
+   414308452,
+   414308492
+  ]
+ },
+ {
+  "slug": "twin-peaks-the-return",
+  "name": "Twin Peaks : The Return",
+  "album": {
+   "id": 47358422,
+   "title": "Twin Peaks (Limited Event Series Soundtrack)",
+   "artist": "Twin Peaks (Limited Event Series Soundtrack)"
+  },
+  "tracks": [
+   401894892,
+   401894872,
+   401894992,
+   401894942,
+   401894922,
+   401894902,
+   401894972,
+   401894932,
+   401895032,
+   401894952,
+   401894982,
+   401895012
+  ]
+ }
+]

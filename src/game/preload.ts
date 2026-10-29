@@ -47,6 +47,7 @@ export async function preloadQuestion(question: Question): Promise<Prepared> {
     case "audio":
       return { question, audio: await loadAudio(media.src, media.startAt ?? 0) };
     case "svg":
+    case "text":
       return { question };
   }
 }

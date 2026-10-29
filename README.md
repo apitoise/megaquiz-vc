@@ -31,16 +31,21 @@ Les pools stables sont versionnés dans `data/` ; `npm run build-pools` les rég
 | Fichier | Contenu | Source |
 |---|---|---|
 | `data/capitals_fr.json` | **curé à la main** : noms, « de… », capitales en français ; champ `doubt` pour les cas litigieux | — |
-| `data/countries.json` | 193 membres de l'ONU + Vatican et Palestine | [mledoze/countries](https://github.com/mledoze/countries) + fichier curé |
+| `data/countries.json` | 193 membres de l'ONU + Vatican et Palestine, avec leur continent | [mledoze/countries](https://github.com/mledoze/countries) + fichier curé |
 | `data/shapes.json` | silhouettes SVG pré-projetées | `world-atlas` (Natural Earth 50m), `d3-geo` |
 | `data/games.json` | ~440 jeux connus (≥ 400 notes IGDB, jeux principaux et remakes), ids de jaquette et de screenshots | IGDB (token Twitch) |
 | `data/ost_games.json` | **curé à la main** : jeux candidats au thème OST (`match` pour préciser le titre attendu, `album` pour imposer un album Deezer) | — |
 | `data/ost.json` / `data/ost_coverage.json` | albums d'OST validés et pistes ; rapport de couverture (ok / douteux / absent) | recherche d'albums Deezer |
-| `data/music.json` | ~2 900 tubes (id Deezer, titre nettoyé, artiste, popularité) | chart + playlists éditoriales Deezer (liste dans `scripts/pools/music.ts`) |
+| `data/music.json` | ~3 400 tubes en 7 styles (rap, rock, dance, soul, variété, rétro, tubes) | chart + playlists éditoriales Deezer (liste dans `scripts/pools/music.ts`) |
+| `data/trivia_fr.json` | **rédigé à la main** : ~240 questions de culture générale en 9 catégories | — |
+| `data/ost_films.json`, `data/ost_series.json` | **curés à la main** : films et séries candidats (`match`, `album`, ou `track` pour un générique précis) | — |
+| `data/film_music.json`, `data/series_music.json` (+ `_coverage`) | musiques de films et séries validées, rapport de couverture | recherche Deezer |
 
 Jeux vidéo : IGDB n'est appelé que par `npm run build-pools -- games` (identifiants Twitch du `.env`, token mis en cache et renouvelé dans `server/igdb.ts`). En partie, les images viennent directement de `images.igdb.com`, sans clé. Le seuil est `MIN_RATING_COUNT` dans `scripts/pools/games.ts`. Beaucoup de jaquettes affichent le nom du jeu : défaut accepté.
 
-OST : un album n'est retenu que si son titre est le nom du jeu + une mention d'OST (pas de film, série, reprise, single). Les jeux « douteux » ou « absents » sont exclus ; pour en valider un à la main, ajouter `"album": <id Deezer>` à son entrée dans `data/ost_games.json` puis `npm run build-pools -- ost`.
+Tirage équilibré : les capitales alternent les continents, la musique les styles, la culture générale les catégories (un groupe tiré à parts égales, jamais deux fois de suite). Les formes de pays se limitent à l'Europe et aux Amériques (`SHAPE_REGIONS` dans `src/providers/shapes.ts`).
+
+OST (jeux, films, séries) : un album n'est retenu que si son titre est le nom de l'œuvre + une mention d'OST (pas de reprise, ni d'œuvre d'un autre type ; pour les films et séries, pas d'artiste générique type « … Orchestra »). Les séries peuvent viser un générique précis (`track`). Les jeux « douteux » ou « absents » sont exclus ; pour en valider un à la main, ajouter `"album": <id Deezer>` à son entrée dans `data/ost_games.json` puis `npm run build-pools -- ost`.
 
 Musique : l'URL d'extrait Deezer est signée et expire en ~15 min ; elle n'est jamais stockée, le jeu en demande une fraîche au proxy local (`/api/deezer/track/:id`) au moment de précharger la question. Le seuil de popularité est `MIN_RANK` dans `scripts/pools/music.ts`.
 
