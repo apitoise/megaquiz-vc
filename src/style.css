@@ -583,3 +583,77 @@ kbd {
     transform: translateY(8px);
   }
 }
+
+/* ---------- Relecture des jaquettes ---------- */
+
+.review {
+  width: min(1600px, 100% - 32px);
+  margin: 2vh auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+.review h1 {
+  font-size: clamp(28px, 3vw, 56px);
+  margin: 0;
+}
+.review-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+.cover-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr));
+  gap: 1em;
+}
+.cover-card {
+  background: var(--panel);
+  border: 3px solid transparent;
+  border-radius: var(--radius);
+  padding: 0.6em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  font-size: 0.8em;
+}
+.cover-card.in-game {
+  border-color: color-mix(in srgb, #5fd38d 60%, transparent);
+}
+.cover-card.out {
+  opacity: 0.85;
+}
+.cover-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4em;
+}
+.cover-pair img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 6px;
+  background: var(--panel-2);
+}
+.cover-card h3 {
+  margin: 0;
+  font-size: 1.1em;
+}
+.cover-flags,
+.cover-state {
+  margin: 0;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+}
+.cover-flags .flag {
+  background: var(--panel-2);
+  color: var(--accent);
+  border-radius: 6px;
+  padding: 0 0.4em;
+}
+.cover-actions {
+  display: flex;
+  gap: 0.4em;
+}

@@ -1,5 +1,6 @@
 // Serveur proxy local. Lié à 127.0.0.1 uniquement : il ne doit jamais être exposé sur le réseau.
 import { createServer } from "node:http";
+import { getReviews, postReview } from "./covers.ts";
 import { deezerTrack } from "./deezer.ts";
 import { loadEnv } from "./env.ts";
 import { HttpError, sendJson, type Handler } from "./respond.ts";
@@ -17,6 +18,8 @@ const routes: [string, RegExp, Handler][] = [
   ["GET", /^\/api\/deezer\/track\/(\d{1,20})$/, deezerTrack],
   ["GET", /^\/api\/results$/, getResults],
   ["POST", /^\/api\/results$/, postResult],
+  ["GET", /^\/api\/covers\/review$/, getReviews],
+  ["POST", /^\/api\/covers\/review$/, postReview],
 ];
 
 const server = createServer(async (req, res) => {

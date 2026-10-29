@@ -29,6 +29,8 @@ export interface QuestionProvider {
   init(): Promise<void>;
   /** Renvoie une question dont l'id n'est pas dans `exclude`. Lève `PoolExhaustedError` si impossible. */
   next(exclude: Set<string>): Promise<Question>;
+  /** Oublie le pool chargé : le prochain init() le reconstruit (ex. après la relecture des jaquettes). */
+  invalidate?(): void;
 }
 
 export class PoolExhaustedError extends Error {

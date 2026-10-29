@@ -1,0 +1,3 @@
+# Anonymisation des jaquettes (scripts/covers/anonymize.py). PyTorch est installé à part
+# (build CUDA) par `npm run covers:setup` ; LaMa est embarqué (scripts/covers/lama.py).
+easyocr==1.7.2

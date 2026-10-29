@@ -2,7 +2,11 @@ node_modules/
 dist/
 .env
 .cache/
-# Résultats des parties (classement), propres à cette machine.
+# Résultats des parties (classement) et relecture des jaquettes, propres à cette machine.
 saves/
+# Environnement Python et jaquettes anonymisées (régénérables : npm run covers:anonymize).
+.venv/
+public/covers/
+__pycache__/
 *.log
 .claude/

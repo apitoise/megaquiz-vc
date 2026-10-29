@@ -52,6 +52,17 @@ Drapeaux : `https://flagcdn.com/w640/{code}.png`, chargés en direct. Le seuil d
 
 Chaque action existe aussi en bouton. L'écran de configuration permet aussi de remettre en jeu les questions retirées et d'oublier l'historique des 3 dernières parties.
 
+## Jaquettes anonymisées
+
+Beaucoup de jaquettes affichent le nom du jeu. Un traitement local efface le texte : EasyOCR repère le texte, LaMa reconstitue le décor (GPU recommandé ; ~1 min pour 443 jaquettes sur une RTX 3060 Ti).
+
+```sh
+npm run covers:setup       # une fois : environnement Python .venv (PyTorch CUDA + EasyOCR, ~6 Go)
+npm run covers:anonymize   # jaquettes → public/covers/ (hors git) ; -- --force pour tout refaire
+```
+
+Chaque jaquette est classée **sûre** (le nom du jeu a été lu puis effacé) ou **à vérifier** (nom non repéré, encore lisible, ou grande zone effacée). En partie, les sûres sont posées dans leur version anonymisée ; celles à vérifier attendent d'être validées dans **Configuration → Relire les jaquettes**, qui montre l'originale et la version anonymisée côte à côte. Une jaquette rejetée n'est jamais posée. L'OCR ne lit pas tous les lettrages stylisés : quelques « sûres » gardent un reste de titre, d'où la relecture (onglet « Sûres ») et la touche `X` en partie. À la révélation, la jaquette d'origine s'affiche en vignette. Sans anonymisation lancée, le thème utilise les jaquettes originales.
+
 ## Classement
 
 Chaque partie terminée est enregistrée par le serveur local dans `saves/results.json` (hors git, propre à cette machine). Le classement compte, par joueur : parties jouées, victoires, nuls, défaites, points marqués / encaissés et **différence de points cumulée** ; il est trié par victoires, puis différence, puis points marqués. Il s'affiche en fin de partie et via le bouton « Classement » de la configuration, avec l'historique des dernières parties et leur écart.

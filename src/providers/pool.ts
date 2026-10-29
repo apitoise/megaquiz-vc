@@ -21,6 +21,9 @@ export function poolProvider<T>(options: PoolOptions<T>): QuestionProvider {
     async init() {
       pool ??= await options.load();
     },
+    invalidate() {
+      pool = null;
+    },
     async next(exclude) {
       if (!pool) throw new Error(`Thème « ${options.id} » non initialisé`);
       const item = pickExcluding(pool, questionId, exclude);

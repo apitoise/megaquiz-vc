@@ -3,7 +3,9 @@ import { preloadQuestion } from "./game/preload.ts";
 import { GameSession } from "./game/session.ts";
 import { QuestionSource } from "./game/source.ts";
 import { GameStorage, memoryStore, type KeyValueStore } from "./game/storage.ts";
+import { covers, loadCoverManifest, loadCoverReviews, saveCoverReview } from "./providers/covers.ts";
 import { providers } from "./providers/index.ts";
+import { renderCoverReview } from "./ui/cover-review.ts";
 import type { QuestionProvider, Settings } from "./types.ts";
 import { h, toast } from "./ui/dom.ts";
 import { loadResults, saveResult } from "./game/results-api.ts";
@@ -48,6 +50,29 @@ function showSetup(): void {
     },
     async showLeaderboard() {
       renderLeaderboard(root, await loadResults(), showSetup);
+    },
+    showCoverReview: () => void showCoverReview(),
+  });
+}
+
+async function showCoverReview(): Promise<void> {
+  const [manifest, reviews] = await Promise.all([loadCoverManifest(), loadCoverReviews()]);
+  renderCoverReview(root, {
+    manifest,
+    reviews,
+    async decide(imageId, decision) {
+      try {
+        return await saveCoverReview(imageId, decision);
+      } catch {
+        toast("Décision non enregistrée : serveur local injoignable.");
+        return loadCoverReviews();
+      }
+    },
+    back() {
+      // Les décisions s'appliquent dès la prochaine partie.
+      covers.invalidate?.();
+      initialized.delete(covers.id);
+      showSetup();
     },
   });
 }

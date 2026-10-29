@@ -9,6 +9,7 @@ export interface SetupOptions {
   clearBlacklist(): void;
   clearHistory(): void;
   showLeaderboard(): void;
+  showCoverReview(): void;
 }
 
 /** Écran de configuration. Appelle `options.start` avec les réglages validés. */
@@ -49,6 +50,7 @@ export function renderSetup(root: HTMLElement, providers: QuestionProvider[], in
       "div",
       { class: "setup-tools" },
       actionButton(null, "Classement", options.showLeaderboard, "small"),
+      actionButton(null, "Relire les jaquettes", options.showCoverReview, "small ghost"),
       actionButton(null, "Plein écran", toggleFullscreen, "small ghost"),
       h(
         "span",

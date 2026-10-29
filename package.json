@@ -10,6 +10,8 @@
     "dev": "node scripts/dev.mjs",
     "server": "node --watch server/index.ts",
     "build-pools": "node scripts/build-pools.ts",
+    "covers:setup": "python3 -m venv .venv && .venv/bin/pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126 && .venv/bin/pip install -r scripts/covers/requirements.txt",
+    "covers:anonymize": ".venv/bin/python scripts/covers/anonymize.py",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"
