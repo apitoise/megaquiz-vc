@@ -25,7 +25,10 @@ Les pools stables sont versionnés dans `data/` ; `npm run build-pools` les rég
 | `data/capitals_fr.json` | **curé à la main** : noms, « de… », capitales en français ; champ `doubt` pour les cas litigieux | — |
 | `data/countries.json` | 193 membres de l'ONU + Vatican et Palestine | [mledoze/countries](https://github.com/mledoze/countries) + fichier curé |
 | `data/shapes.json` | silhouettes SVG pré-projetées | `world-atlas` (Natural Earth 50m), `d3-geo` |
+| `data/games.json` | ~440 jeux connus (≥ 400 notes IGDB, jeux principaux et remakes), ids de jaquette et de screenshots | IGDB (token Twitch) |
 | `data/music.json` | ~2 900 tubes (id Deezer, titre nettoyé, artiste, popularité) | chart + playlists éditoriales Deezer (liste dans `scripts/pools/music.ts`) |
+
+Jeux vidéo : IGDB n'est appelé que par `npm run build-pools -- games` (identifiants Twitch du `.env`, token mis en cache et renouvelé dans `server/igdb.ts`). En partie, les images viennent directement de `images.igdb.com`, sans clé. Le seuil est `MIN_RATING_COUNT` dans `scripts/pools/games.ts`. Beaucoup de jaquettes affichent le nom du jeu : défaut accepté.
 
 Musique : l'URL d'extrait Deezer est signée et expire en ~15 min ; elle n'est jamais stockée, le jeu en demande une fraîche au proxy local (`/api/deezer/track/:id`) au moment de précharger la question. Le seuil de popularité est `MIN_RANK` dans `scripts/pools/music.ts`.
 

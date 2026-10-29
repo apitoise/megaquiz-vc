@@ -1,11 +1,14 @@
 // Construit les pools de questions stables dans data/*.json.
 // Usage : npm run build-pools [-- countries shapes …]   (sans argument : tout)
 import { readFile } from "node:fs/promises";
+import { loadEnv } from "../server/env.ts";
 import type { Country } from "../src/data/countries.ts";
 import { buildCountries } from "./pools/countries.ts";
+import { buildGames } from "./pools/games.ts";
 import { buildMusic } from "./pools/music.ts";
 import { buildShapes } from "./pools/shapes.ts";
 
+loadEnv();
 const requested = new Set(process.argv.slice(2));
 const wants = (name: string) => requested.size === 0 || requested.has(name);
 
@@ -22,5 +25,9 @@ if (wants("shapes")) {
 if (wants("music")) {
   console.log("Musique (Deezer)…");
   await buildMusic();
+}
+if (wants("games")) {
+  console.log("Jeux vidéo (IGDB)…");
+  await buildGames();
 }
 console.log("Terminé.");

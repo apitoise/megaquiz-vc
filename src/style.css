@@ -249,8 +249,8 @@ kbd {
   max-width: 100%;
 }
 .media {
-  max-width: min(90vw, 1100px);
-  max-height: 48vh;
+  max-width: min(90vw, 1400px);
+  max-height: 60vh;
   border-radius: 8px;
 }
 .revealed .media,
