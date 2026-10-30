@@ -1,4 +1,4 @@
-import { pickExcluding, randomInt, type Rng } from "../game/random.ts";
+import { leastRecent, pickExcluding, randomInt, type Rng } from "../game/random.ts";
 import { PoolExhaustedError, type Question, type QuestionProvider } from "../types.ts";
 
 export interface PoolOptions<T> {
@@ -15,6 +15,8 @@ export interface PoolOptions<T> {
    * dominent plus la partie, et on évite deux questions d'affilée du même groupe.
    */
   group?(item: T): string;
+  /** Œuvre commune à plusieurs thèmes (ex. un film en affiche, en image et en musique). */
+  subject?(item: T): string;
 }
 
 /** Thème fondé sur un pool d'éléments : tirage aléatoire hors exclusions. */
@@ -31,18 +33,22 @@ export function poolProvider<T>(options: PoolOptions<T>): QuestionProvider {
     invalidate() {
       pool = null;
     },
-    async next(exclude) {
+    async next(exclude, lastAsked = new Map()) {
       if (!pool) throw new Error(`Thème « ${options.id} » non initialisé`);
+      const available = pool.filter((item) => !exclude.has(questionId(item)) && !(options.subject && exclude.has(options.subject(item))));
+      // Les questions jamais posées d'abord, puis celles posées il y a le plus longtemps.
+      const fresh = leastRecent(available, questionId, lastAsked);
       let item: T | undefined;
       if (options.group) {
-        const picked = pickBalanced(pool, questionId, options.group, exclude, lastGroup);
+        const picked = pickBalanced(fresh, questionId, options.group, new Set(), lastGroup);
         item = picked?.item;
         lastGroup = picked?.group ?? lastGroup;
       } else {
-        item = pickExcluding(pool, questionId, exclude);
+        item = pickExcluding(fresh, questionId, new Set());
       }
       if (item === undefined) throw new PoolExhaustedError(options.id);
-      return options.toQuestion(item, questionId(item));
+      const question = await options.toQuestion(item, questionId(item));
+      return options.subject ? { ...question, subject: options.subject(item) } : question;
     },
   };
 }
@@ -71,4 +77,15 @@ export function pickBalanced<T>(
   const chosen = groups[randomInt(groups.length, rng)];
   const candidates = byGroup.get(chosen)!;
   return { item: candidates[randomInt(candidates.length, rng)], group: chosen };
+}
+
+/** Sujet commun d'une œuvre (« film:titanic ») : même œuvre en affiche, en image ou en musique. */
+export function workSubject(kind: "film" | "series" | "game", name: string): string {
+  const slug = name
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+  return `${kind}:${slug}`;
 }

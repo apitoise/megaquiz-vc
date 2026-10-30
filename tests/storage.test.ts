@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { DEFAULT_SETTINGS, GameStorage, HISTORY_GAMES, memoryStore } from "../src/game/storage.ts";
+import { DEFAULT_SETTINGS, GameStorage, memoryStore } from "../src/game/storage.ts";
 
 describe("GameStorage", () => {
   it("renvoie les réglages par défaut (50 questions, 20 s, Arthur et Marie)", () => {
@@ -27,18 +27,43 @@ describe("GameStorage", () => {
     store.setItem("megaquiz.history", '"oups"');
     const storage = new GameStorage(store);
     expect(storage.loadSettings()).toEqual(DEFAULT_SETTINGS);
-    expect(storage.recentQuestionIds().size).toBe(0);
+    expect(storage.lastAsked().size).toBe(0);
   });
 
-  it(`ne garde que les ${HISTORY_GAMES} dernières parties`, () => {
+  it("retient, pour chaque question, la dernière partie où elle a été posée", () => {
     const storage = new GameStorage(memoryStore());
-    for (let game = 1; game <= HISTORY_GAMES + 1; game++) {
+    for (let game = 1; game <= 10; game++) {
       storage.startGame();
       storage.recordAsked(`q${game}`);
     }
-    const recent = storage.recentQuestionIds();
-    expect(recent.has("q1")).toBe(false);
-    for (let game = 2; game <= HISTORY_GAMES + 1; game++) expect(recent.has(`q${game}`)).toBe(true);
+    storage.startGame();
+    storage.recordAsked("q1");
+    const lastAsked = storage.lastAsked();
+    expect(lastAsked.size).toBe(10);
+    expect(lastAsked.get("q1")).toBe(11);
+    expect(lastAsked.get("q2")).toBe(2);
+  });
+
+  it("une partie abandonnée n'efface pas l'historique", () => {
+    const storage = new GameStorage(memoryStore());
+    storage.startGame();
+    storage.recordAsked("q1");
+    for (let i = 0; i < 5; i++) storage.startGame();
+    expect(storage.lastAsked().get("q1")).toBe(1);
+  });
+
+  it("reprend l'ancien historique (une liste d'ids par partie)", () => {
+    const store = memoryStore();
+    store.setItem("megaquiz.history", JSON.stringify([["a", "b"], ["c"]]));
+    const storage = new GameStorage(store);
+    expect([...storage.lastAsked()]).toEqual([
+      ["a", 1],
+      ["b", 1],
+      ["c", 2],
+    ]);
+    storage.startGame();
+    storage.recordAsked("d");
+    expect(storage.lastAsked().get("d")).toBe(3);
   });
 
   it("gère la blacklist", () => {
@@ -56,6 +81,6 @@ describe("GameStorage", () => {
     storage.clearBlacklist();
     storage.clearHistory();
     expect(storage.blacklist().size).toBe(0);
-    expect(storage.recentQuestionIds().size).toBe(0);
+    expect(storage.lastAsked().size).toBe(0);
   });
 });

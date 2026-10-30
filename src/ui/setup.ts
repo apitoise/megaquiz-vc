@@ -105,8 +105,8 @@ export function renderSetup(root: HTMLElement, providers: QuestionProvider[], in
       h(
         "span",
         {},
-        `${options.historySize} question(s) évitée(s) (3 dernières parties)`,
-        options.historySize ? actionButton(null, "Oublier", () => confirmThen("Oublier l'historique des dernières parties ?", options.clearHistory), "small ghost") : null,
+        `${options.historySize} question(s) déjà posée(s) : elles ne reviennent qu'une fois les autres épuisées`,
+        options.historySize ? actionButton(null, "Oublier", () => confirmThen("Oublier les questions déjà posées ?", options.clearHistory), "small ghost") : null,
       ),
     ),
   );

@@ -14,7 +14,7 @@ function setup(providers: QuestionProvider[], count = 3, players = settings.play
     providers,
     count,
     preload: okPreload,
-    recent: storage.recentQuestionIds(),
+    lastAsked: storage.lastAsked(),
     blacklist: storage.blacklist(),
     rng: seededRng(1),
   });
@@ -171,7 +171,7 @@ describe("GameSession", () => {
   it("enregistre les questions posées dans l'historique", async () => {
     const { session, storage } = setup([fakeProvider("a", 10)], 1);
     await session.start();
-    expect(storage.recentQuestionIds().has(session.current!.question.id)).toBe(true);
+    expect(storage.lastAsked().has(session.current!.question.id)).toBe(true);
   });
 
   it("« Terminer » conserve les questions déjà jugées", async () => {
@@ -194,7 +194,7 @@ describe("GameSession", () => {
       providers: [provider],
       count: 1,
       preload: async (q) => ({ question: { ...q, media: { type: "audio", src: "x.mp3", startAt: 7 } }, audio }),
-      recent: new Set(),
+      lastAsked: new Map(),
       blacklist: new Set(),
     });
     const session = new GameSession(settings, source, storage, { now: () => Date.now() });
@@ -227,7 +227,7 @@ describe("GameSession", () => {
       providers: [fakeProvider("music", 5, 2)],
       count: 2,
       preload: async (q) => ({ question: { ...q, media: { type: "audio", src: "x.mp3", startAt: 3 } }, audio }),
-      recent: new Set(),
+      lastAsked: new Map(),
       blacklist: new Set(),
     });
     const notices: string[] = [];

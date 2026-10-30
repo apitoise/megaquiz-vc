@@ -35,7 +35,7 @@ describe("culture générale toutes les 5 questions", () => {
       providers: [fakeProvider("trivia", 50), fakeProvider("a", 50), fakeProvider("b", 50)],
       count: 20,
       preload: okPreload,
-      recent: new Set(),
+      lastAsked: new Map(),
       blacklist: new Set(),
       rng: seededRng(4),
       rhythm: { theme: "trivia", every: 5 },

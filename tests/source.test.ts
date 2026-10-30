@@ -1,12 +1,13 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { seededRng } from "../src/game/random.ts";
 import { QuestionSource, RETRY_DELAY_MS, SUSPEND_MS, type SourceOptions } from "../src/game/source.ts";
-import { fakeProvider, okPreload } from "./helpers.ts";
+import { poolProvider, workSubject } from "../src/providers/pool.ts";
+import { fakeProvider, okPreload, question } from "./helpers.ts";
 
 function source(options: Partial<SourceOptions> & Pick<SourceOptions, "providers" | "count">) {
   return new QuestionSource({
     preload: okPreload,
-    recent: new Set(),
+    lastAsked: new Map(),
     blacklist: new Set(),
     rng: seededRng(42),
     ...options,
@@ -27,16 +28,42 @@ describe("QuestionSource", () => {
     expect(ids.filter((id) => id.startsWith("a:"))).toHaveLength(25);
   });
 
-  it("évite l'historique récent tant que le pool le permet", async () => {
-    const recent = new Set(["a:0", "a:1", "a:2"]);
-    const ids = await drain(source({ providers: [fakeProvider("a", 10)], count: 7, recent }));
-    expect(ids.some((id) => recent.has(id))).toBe(false);
+  it("pose les questions jamais posées avant celles déjà vues", async () => {
+    const lastAsked = new Map([
+      ["a:0", 1],
+      ["a:1", 2],
+      ["a:2", 3],
+    ]);
+    const ids = await drain(source({ providers: [fakeProvider("a", 10)], count: 7, lastAsked }));
+    expect(ids.some((id) => lastAsked.has(id))).toBe(false);
   });
 
-  it("retombe sur l'historique récent si le pool est trop petit", async () => {
-    const recent = new Set(["a:0", "a:1", "a:2"]);
-    const ids = await drain(source({ providers: [fakeProvider("a", 5)], count: 5, recent }));
-    expect(new Set(ids).size).toBe(5);
+  it("une fois le pool épuisé, ressort les questions les plus anciennes d'abord", async () => {
+    const lastAsked = new Map([
+      ["a:0", 3],
+      ["a:1", 1],
+      ["a:2", 2],
+    ]);
+    const ids = await drain(source({ providers: [fakeProvider("a", 5)], count: 5, lastAsked }));
+    expect(ids.slice(2)).toEqual(["a:1", "a:2", "a:0"]);
+  });
+
+  it("ne pose pas deux fois la même œuvre dans une partie, même dans deux thèmes", async () => {
+    const films = ["Titanic", "Alien"];
+    const theme = (id: string) =>
+      poolProvider<string>({
+        id,
+        label: id,
+        load: async () => films,
+        key: (name) => name,
+        subject: (name) => workSubject("film", name),
+        toQuestion: (name, qid) => ({ ...question(id, name), id: qid }),
+      });
+    const providers = [theme("posters"), theme("images")];
+    await Promise.all(providers.map((p) => p.init()));
+    const ids = await drain(source({ providers, count: 4 }));
+    expect(ids).toHaveLength(2);
+    expect(new Set(ids.map((id) => id.split(":")[1]))).toEqual(new Set(films));
   });
 
   it("n'utilise jamais la blacklist", async () => {

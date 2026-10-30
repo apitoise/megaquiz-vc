@@ -1,6 +1,6 @@
 import { screenshotUrl, type Game } from "../data/games.ts";
 import { randomInt } from "../game/random.ts";
-import { poolProvider } from "./pool.ts";
+import { poolProvider, workSubject } from "./pool.ts";
 
 /** Un jeu ne revient qu'une fois par partie ; le screenshot est tiré au hasard parmi les siens. */
 export const screenshots = poolProvider<Game>({
@@ -8,6 +8,7 @@ export const screenshots = poolProvider<Game>({
   label: "Jeux vidéo : screenshots",
   load: async () => ((await import("../../data/games.json")).default as Game[]).filter((g) => g.screenshots.length > 0),
   key: (g) => String(g.id),
+  subject: (g) => workSubject("game", g.name),
   toQuestion: (g, id) => ({
     id,
     theme: "screenshots",

@@ -1,13 +1,14 @@
 import { backdropUrl, posterUrl, type ScreenWork } from "../data/screen.ts";
 import { randomInt } from "../game/random.ts";
 import type { QuestionProvider } from "../types.ts";
-import { poolProvider } from "./pool.ts";
+import { poolProvider, workSubject } from "./pool.ts";
 
 interface ScreenTheme {
   id: string;
   label: string;
   prompt: string;
   answerLabel: string;
+  kind: "film" | "series";
   load(): Promise<ScreenWork[]>;
   /** Image posée (affiche sans texte, ou image de scène tirée au hasard), ou null si l'œuvre n'en a pas. */
   image(work: ScreenWork): string | null;
@@ -20,6 +21,7 @@ function screenProvider(theme: ScreenTheme): QuestionProvider {
     label: theme.label,
     load: async () => (await theme.load()).filter((w) => theme.image(w) !== null),
     key: (w) => String(w.id),
+    subject: (w) => workSubject(theme.kind, w.name),
     toQuestion: (w, id) => ({
       id,
       theme: theme.id,
@@ -41,6 +43,7 @@ export const filmPosters = screenProvider({
   label: "Films : affiches",
   prompt: "De quel film est cette affiche ?",
   answerLabel: "Film",
+  kind: "film",
   load: loadFilms,
   image: textlessPoster,
 });
@@ -50,6 +53,7 @@ export const filmImages = screenProvider({
   label: "Films : images",
   prompt: "De quel film est cette image ?",
   answerLabel: "Film",
+  kind: "film",
   load: loadFilms,
   image: randomBackdrop,
 });
@@ -59,6 +63,7 @@ export const seriesPosters = screenProvider({
   label: "Séries : affiches",
   prompt: "De quelle série est cette affiche ?",
   answerLabel: "Série",
+  kind: "series",
   load: loadSeries,
   image: textlessPoster,
 });
@@ -68,6 +73,7 @@ export const seriesImages = screenProvider({
   label: "Séries : images",
   prompt: "De quelle série est cette image ?",
   answerLabel: "Série",
+  kind: "series",
   load: loadSeries,
   image: randomBackdrop,
 });

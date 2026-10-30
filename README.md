@@ -87,7 +87,7 @@ Drapeaux : `https://flagcdn.com/w640/{code}.png`, chargés en direct. Le seuil d
 | Plein écran | `F` |
 | Couper / rétablir les sons | `S` |
 
-Chaque action existe aussi en bouton. L'écran de configuration permet aussi de remettre en jeu les questions retirées et d'oublier l'historique des 3 dernières parties.
+Chaque action existe aussi en bouton. L'écran de configuration permet aussi de remettre en jeu les questions retirées et d'oublier l'historique des questions posées. Les questions jamais posées passent toujours en premier, puis celles posées il y a le plus longtemps : une question ne revient qu'une fois toutes les autres de son thème posées. Une même œuvre (film, série, jeu) ne sort jamais deux fois dans une partie, même dans deux thèmes différents (affiche puis musique, par exemple).
 
 ## Jaquettes anonymisées
 

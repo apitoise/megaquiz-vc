@@ -15,6 +15,8 @@ export interface Question {
   /** Identifiant stable (préfixé par le thème), pour l'historique et la blacklist. */
   id: string;
   theme: string;
+  /** Œuvre ou sujet commun à plusieurs thèmes (« film:titanic ») : jamais deux fois dans une partie. */
+  subject?: string;
   prompt: string;
   media: Media;
   /** Média affiché en plus à la révélation (ex. pochette d'album). */
@@ -27,8 +29,11 @@ export interface QuestionProvider {
   id: string;
   label: string;
   init(): Promise<void>;
-  /** Renvoie une question dont l'id n'est pas dans `exclude`. Lève `PoolExhaustedError` si impossible. */
-  next(exclude: Set<string>): Promise<Question>;
+  /**
+   * Renvoie une question dont ni l'id ni le sujet ne sont dans `exclude`, en prenant les moins
+   * récemment posées d'après `lastAsked` (id → numéro de partie). Lève `PoolExhaustedError` si impossible.
+   */
+  next(exclude: Set<string>, lastAsked?: ReadonlyMap<string, number>): Promise<Question>;
   /** Oublie le pool chargé : le prochain init() le reconstruit (ex. après la relecture des jaquettes). */
   invalidate?(): void;
 }

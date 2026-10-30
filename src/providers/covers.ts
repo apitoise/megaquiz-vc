@@ -1,6 +1,6 @@
 import { anonymizedCoverUrl, coverChoice, type CoverDecision, type CoverManifest, type CoverReviews } from "../data/covers.ts";
 import { coverUrl, type Game } from "../data/games.ts";
-import { poolProvider } from "./pool.ts";
+import { poolProvider, workSubject } from "./pool.ts";
 
 type CoverGame = Game & { cover: string; src: string };
 
@@ -54,6 +54,7 @@ export const covers = poolProvider<CoverGame>({
     });
   },
   key: (g) => String(g.id),
+  subject: (g) => workSubject("game", g.name),
   toQuestion: (g, id) => ({
     id,
     theme: "covers",

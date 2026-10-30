@@ -3,7 +3,7 @@ import type { Soundtrack } from "../data/ost.ts";
 import { randomInt, shuffle } from "../game/random.ts";
 import type { QuestionProvider } from "../types.ts";
 import { checkLocalServer, fetchFreshTrack, MAX_START_OFFSET_S } from "./music.ts";
-import { poolProvider } from "./pool.ts";
+import { poolProvider, workSubject } from "./pool.ts";
 
 /** Pistes essayées pour une même œuvre avant d'abandonner la question (extrait retiré, réseau…). */
 const TRACK_ATTEMPTS = 3;
@@ -13,6 +13,7 @@ interface SoundtrackTheme {
   label: string;
   prompt: string;
   answerLabel: string;
+  kind: "film" | "series" | "game";
   load(): Promise<Soundtrack[]>;
 }
 
@@ -26,6 +27,7 @@ function soundtrackProvider(theme: SoundtrackTheme): QuestionProvider {
       return theme.load();
     },
     key: (w) => w.slug,
+    subject: (w) => workSubject(theme.kind, w.name),
     async toQuestion(work, id) {
       // L'œuvre ne revient qu'une fois par partie ; la piste est tirée au hasard dans son album.
       let fresh: FreshTrack | null = null;
@@ -56,6 +58,7 @@ export const ost = soundtrackProvider({
   label: "Jeux vidéo : OST",
   prompt: "De quel jeu vient cette musique ?",
   answerLabel: "Jeu",
+  kind: "game",
   load: async () => (await import("../../data/ost.json")).default as Soundtrack[],
 });
 
@@ -64,6 +67,7 @@ export const filmMusic = soundtrackProvider({
   label: "Films : musique",
   prompt: "De quel film vient cette musique ?",
   answerLabel: "Film",
+  kind: "film",
   load: async () => (await import("../../data/film_music.json")).default as Soundtrack[],
 });
 
@@ -72,5 +76,6 @@ export const seriesMusic = soundtrackProvider({
   label: "Séries : musique",
   prompt: "De quelle série vient cette musique ?",
   answerLabel: "Série",
+  kind: "series",
   load: async () => (await import("../../data/series_music.json")).default as Soundtrack[],
 });

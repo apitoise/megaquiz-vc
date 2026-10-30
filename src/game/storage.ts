@@ -9,18 +9,22 @@ export interface KeyValueStore {
 
 const KEYS = {
   settings: "megaquiz.settings",
-  history: "megaquiz.history",
+  /** Ancien format (ids des 3 dernières parties), repris au premier chargement. */
+  legacyHistory: "megaquiz.history",
+  asked: "megaquiz.asked",
   blacklist: "megaquiz.blacklist",
   preferences: "megaquiz.preferences",
 } as const;
+
+interface AskedHistory {
+  game: number;
+  asked: Record<string, number>;
+}
 
 /** Nom proposé pour le n-ième joueur (0-based) quand on augmente le nombre de joueurs. */
 export function defaultPlayerName(index: number): string {
   return DEFAULT_SETTINGS.players[index] ?? `Joueur ${index + 1}`;
 }
-
-/** Nombre de parties récentes dont on évite de reposer les questions. */
-export const HISTORY_GAMES = 3;
 
 export const DEFAULT_SETTINGS: Settings = {
   themes: [],
@@ -78,29 +82,36 @@ export class GameStorage {
     writeJson(this.store, KEYS.preferences, preferences);
   }
 
-  /** Historique : une liste d'ids de questions par partie, la plus récente en dernier. */
-  private loadHistory(): string[][] {
-    const history = readJson<unknown>(this.store, KEYS.history, []);
-    return Array.isArray(history) ? history.filter(Array.isArray) : [];
+  /** Historique : numéro de la partie en cours et, par id, la dernière partie où la question a été posée. */
+  private loadAsked(): AskedHistory {
+    const saved = readJson<Partial<AskedHistory> | null>(this.store, KEYS.asked, null);
+    if (saved && typeof saved === "object" && saved.asked && typeof saved.asked === "object") {
+      return { game: positiveInt(saved.game, 0), asked: { ...saved.asked } };
+    }
+    // Ancien historique (une liste d'ids par partie, la plus récente en dernier) : on le reprend.
+    const legacy = readJson<unknown>(this.store, KEYS.legacyHistory, []);
+    const games = Array.isArray(legacy) ? legacy.filter(Array.isArray) : [];
+    const asked: Record<string, number> = {};
+    games.forEach((ids, i) => ids.forEach((id) => (asked[String(id)] = i + 1)));
+    return { game: games.length, asked };
   }
 
-  /** Ouvre une nouvelle entrée d'historique (on ne garde que les dernières parties). */
+  /** Commence une nouvelle partie (une partie abandonnée n'efface rien de l'historique). */
   startGame(): void {
-    const history = [...this.loadHistory(), []].slice(-HISTORY_GAMES);
-    writeJson(this.store, KEYS.history, history);
+    const history = this.loadAsked();
+    writeJson(this.store, KEYS.asked, { ...history, game: history.game + 1 });
   }
 
-  /** Ajoute une question posée à la partie en cours. */
+  /** Note qu'une question vient d'être posée dans la partie en cours. */
   recordAsked(questionId: string): void {
-    const history = this.loadHistory();
-    if (!history.length) history.push([]);
-    history[history.length - 1].push(questionId);
-    writeJson(this.store, KEYS.history, history.slice(-HISTORY_GAMES));
+    const history = this.loadAsked();
+    history.asked[questionId] = Math.max(history.game, 1);
+    writeJson(this.store, KEYS.asked, history);
   }
 
-  /** Ids posés lors des dernières parties (partie en cours comprise). */
-  recentQuestionIds(): Set<string> {
-    return new Set(this.loadHistory().flat());
+  /** Par id, le numéro de la dernière partie où la question a été posée (absent = jamais posée). */
+  lastAsked(): Map<string, number> {
+    return new Map(Object.entries(this.loadAsked().asked).filter(([, game]) => typeof game === "number"));
   }
 
   blacklist(): Set<string> {
@@ -119,7 +130,8 @@ export class GameStorage {
   }
 
   clearHistory(): void {
-    writeJson(this.store, KEYS.history, []);
+    writeJson(this.store, KEYS.asked, { game: 0, asked: {} });
+    writeJson(this.store, KEYS.legacyHistory, []);
   }
 }
 

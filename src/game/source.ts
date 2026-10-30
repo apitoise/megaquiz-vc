@@ -31,8 +31,8 @@ export interface SourceOptions {
   providers: QuestionProvider[];
   count: number;
   preload: Preloader;
-  /** Ids à éviter si possible (historique des dernières parties). */
-  recent: Set<string>;
+  /** Numéro de la dernière partie où chaque id a été posé : les moins récents sont tirés d'abord. */
+  lastAsked: ReadonlyMap<string, number>;
   /** Ids à ne jamais reposer (blacklist). */
   blacklist: Set<string>;
   onNotice?: (message: string) => void;
@@ -148,6 +148,7 @@ export class QuestionSource {
         continue;
       }
       this.used.add(question.id);
+      if (question.subject) this.used.add(question.subject);
       try {
         return await this.options.preload(question);
       } catch (err) {
@@ -157,15 +158,9 @@ export class QuestionSource {
     return "failed";
   }
 
-  /** Tire en évitant l'historique récent ; si le pool est trop petit, on le tolère. */
-  private async draw(provider: QuestionProvider): Promise<Question> {
-    const hard = new Set([...this.used, ...this.options.blacklist]);
-    try {
-      return await provider.next(new Set([...hard, ...this.options.recent]));
-    } catch (err) {
-      if (!(err instanceof PoolExhaustedError)) throw err;
-      return provider.next(hard);
-    }
+  /** Tire hors partie en cours et blacklist, les questions les moins récemment posées d'abord. */
+  private draw(provider: QuestionProvider): Promise<Question> {
+    return provider.next(new Set([...this.used, ...this.options.blacklist]), this.options.lastAsked);
   }
 
   private dropTheme(themeId: string): void {

@@ -41,7 +41,7 @@ function showSetup(): void {
       void play(settings);
     },
     blacklistSize: storage.blacklist().size,
-    historySize: storage.recentQuestionIds().size,
+    historySize: storage.lastAsked().size,
     clearBlacklist() {
       storage.clearBlacklist();
       toast("Questions retirées : liste remise à zéro.");
@@ -49,7 +49,7 @@ function showSetup(): void {
     },
     clearHistory() {
       storage.clearHistory();
-      toast("Historique des dernières parties effacé.");
+      toast("Historique effacé : toutes les questions redeviennent nouvelles.");
       showSetup();
     },
     async showLeaderboard() {
@@ -150,7 +150,7 @@ async function startGame(settings: Settings): Promise<void> {
     providers: ready,
     count: settings.questionCount,
     preload: (question) => preloadQuestion(question, volumeOf(preferences, question.theme)),
-    recent: storage.recentQuestionIds(),
+    lastAsked: storage.lastAsked(),
     blacklist: storage.blacklist(),
     onNotice: toast,
     // Si le thème est coché : une question de culture générale toutes les 5 questions.

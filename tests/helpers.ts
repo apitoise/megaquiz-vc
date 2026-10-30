@@ -1,4 +1,4 @@
-import { pickExcluding } from "../src/game/random.ts";
+import { leastRecent, pickExcluding } from "../src/game/random.ts";
 import type { Prepared } from "../src/game/source.ts";
 import { PoolExhaustedError, type Question, type QuestionProvider } from "../src/types.ts";
 
@@ -20,9 +20,9 @@ export function fakeProvider(id: string, size: number, answers = 1): QuestionPro
     label: id,
     calls: 0,
     async init() {},
-    async next(exclude) {
+    async next(exclude, lastAsked = new Map()) {
       this.calls++;
-      const q = pickExcluding(pool, (x) => x.id, exclude);
+      const q = pickExcluding(leastRecent(pool.filter((x) => !exclude.has(x.id)), (x) => x.id, lastAsked), (x) => x.id, exclude);
       if (!q) throw new PoolExhaustedError(id);
       return q;
     },
