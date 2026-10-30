@@ -6,7 +6,7 @@
 // Les œuvres encore protégées par le droit d'auteur n'ont pas d'image sur Wikipédia : elles sont exclues.
 import { readFile } from "node:fs/promises";
 import { normalize, slugify } from "../../src/data/ost.ts";
-import type { Artwork, Landmark } from "../../src/data/wiki.ts";
+import type { Artwork, Dish, Landmark, Person } from "../../src/data/wiki.ts";
 import { fetchJson, writeJson } from "./http.ts";
 
 const USER_AGENT = "MegaQuiz/1.0 (quiz local personnel ; https://github.com/apitoise/megaquiz-vc)";
@@ -151,6 +151,57 @@ export async function buildArt(): Promise<void> {
   }
   await writeJson("data/art.json", art);
   report("œuvres", coverage);
+}
+
+/** Personnalités : l'élément Wikidata doit être un être humain (P31 = Q5), pas un homonyme (film, album…). */
+export async function buildPeople(): Promise<void> {
+  const curated = (
+    JSON.parse(await readFile("data/people_curated.json", "utf8")) as (Omit<Curated<{ name: string; category: string }>, "wiki"> & { wiki?: string })[]
+  ).filter((c) => !c.exclude);
+  const title = (c: { name: string; wiki?: string }) => c.wiki ?? c.name;
+  const found = await pages(curated.map(title));
+  const items = await entities([...new Set([...found.values()].map((p) => p.pageprops?.wikibase_item).filter((x): x is string => !!x))]);
+
+  const people: Person[] = [];
+  const coverage: Coverage[] = [];
+  for (const c of curated) {
+    const page = found.get(title(c));
+    const problem = pageProblem(page) ?? (refs(items.get(page!.pageprops!.wikibase_item!), "P31").includes("Q5") ? null : "pas une personne (homonyme ?)");
+    if (problem) {
+      coverage.push({ name: c.name, status: "absent", reason: problem });
+      continue;
+    }
+    people.push({ slug: slugify(c.name), name: c.name, category: c.category, image: imageUrl(page!) });
+    coverage.push({ name: c.name, status: "ok", article: page!.title });
+  }
+  await writeJson("data/people.json", people);
+  report("personnalités", coverage);
+}
+
+/** Plats : image de l'article, sans autre vérification (une liste curée suffit à écarter les homonymes). */
+export async function buildDishes(): Promise<void> {
+  const curated = (
+    JSON.parse(await readFile("data/dishes_curated.json", "utf8")) as (Omit<Curated<{ name: string; country: string; region: string }>, "wiki"> & {
+      wiki?: string;
+    })[]
+  ).filter((c) => !c.exclude);
+  const title = (c: { name: string; wiki?: string }) => c.wiki ?? c.name;
+  const found = await pages(curated.map(title));
+
+  const dishes: Dish[] = [];
+  const coverage: Coverage[] = [];
+  for (const c of curated) {
+    const page = found.get(title(c));
+    const problem = pageProblem(page);
+    if (problem) {
+      coverage.push({ name: c.name, status: "absent", reason: problem });
+      continue;
+    }
+    dishes.push({ slug: slugify(c.name), name: c.name, country: c.country, region: c.region, image: imageUrl(page!) });
+    coverage.push({ name: c.name, status: "ok", article: page!.title });
+  }
+  await writeJson("data/dishes.json", dishes);
+  report("plats", coverage);
 }
 
 export async function buildLandmarks(): Promise<void> {

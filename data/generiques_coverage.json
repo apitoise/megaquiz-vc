@@ -1,0 +1,657 @@
+[
+ {
+  "name": "Les Chevaliers du Zodiaque",
+  "status": "ok",
+  "track": "Les chevaliers du zodiaque — Bernard Minet (8134110)"
+ },
+ {
+  "name": "Dragon Ball Z",
+  "status": "ok",
+  "track": "Dragon Ball et Dragon Ball Z — Bernard Minet (97642098)"
+ },
+ {
+  "name": "Dragon Ball",
+  "status": "ok",
+  "track": "Dragon Ball (Générique version 1995) — Ariane (97642090)"
+ },
+ {
+  "name": "Les Musclés",
+  "status": "ok",
+  "track": "La fête au village — Les Musclés (6429174)"
+ },
+ {
+  "name": "Goldorak",
+  "status": "ok",
+  "track": "Goldorak — Noam (77387395)"
+ },
+ {
+  "name": "Albator",
+  "status": "ok",
+  "track": "Albator, le corsaire de l'espace (Bande originale du feuilleton) — Éric Charden (38892081)"
+ },
+ {
+  "name": "Capitaine Flam",
+  "status": "ok",
+  "track": "Capitaine Flam — Compilation Générique TV (3773393)"
+ },
+ {
+  "name": "Candy",
+  "status": "ok",
+  "track": "La chanson de Candy — Dorothée (130861654)"
+ },
+ {
+  "name": "Les Mystérieuses Cités d'or",
+  "status": "ok",
+  "track": "Les mystérieuses cités d'or — Jacques Cardona (81670594)"
+ },
+ {
+  "name": "Ulysse 31",
+  "status": "ok",
+  "track": "Ulysse 31 (Générique original d'ouverture du dessin animé) — Lionel Leroy (81670602)"
+ },
+ {
+  "name": "Il était une fois… la Vie",
+  "status": "ok",
+  "track": "Générique Hymne à la vie — Michel Legrand (1181039152)"
+ },
+ {
+  "name": "Inspecteur Gadget",
+  "status": "ok",
+  "track": "Inspecteur Gadget (Générique original du dessin animé) — Jacques Cardona (81670580)"
+ },
+ {
+  "name": "Les Schtroumpfs",
+  "status": "ok",
+  "track": "Générique Schtroumpfs TV — Henri Seroka (3739251)"
+ },
+ {
+  "name": "Maya l'abeille",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Princesse Sarah",
+  "status": "ok",
+  "track": "Princesse Sarah — Le Club des Juniors (84793893)"
+ },
+ {
+  "name": "Juliette je t'aime",
+  "status": "ok",
+  "track": "Juliette je t'aime — Le Club des Juniors (84793891)"
+ },
+ {
+  "name": "Jeanne et Serge",
+  "status": "ok",
+  "track": "Jeanne et Serge — Bernard Minet (872371062)"
+ },
+ {
+  "name": "Olive et Tom",
+  "status": "ok",
+  "track": "Olive et Tom — Bernard Minet (872371022)"
+ },
+ {
+  "name": "Nicky Larson",
+  "status": "ok",
+  "track": "Nicky Larson (Générique) — Jean-Paul Césari (97792162)"
+ },
+ {
+  "name": "Ken le Survivant",
+  "status": "ok",
+  "track": "Ken le survivant — Bernard Minet (872371102)"
+ },
+ {
+  "name": "Sailor Moon",
+  "status": "ok",
+  "track": "Sailor Moon (Générique) — Bernard Minet (96816986)"
+ },
+ {
+  "name": "Les Tortues Ninja",
+  "status": "ok",
+  "track": "Teenage Mutant Ninja Turtles Cartoon Opening Theme (1987) — Teenage Mutant Ninja Turtles (108475686)"
+ },
+ {
+  "name": "Bioman",
+  "status": "ok",
+  "track": "Bioman (Générique) — Bernard Minet (95460130)"
+ },
+ {
+  "name": "Pokémon",
+  "status": "ok",
+  "track": "Attrapez les tous ! — Romain Ughetto (1912436017)"
+ },
+ {
+  "name": "Digimon",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "One Piece",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Naruto",
+  "status": "ok",
+  "track": "Haruka Kanata — ASIAN KUNG-FU GENERATION (1100592452)"
+ },
+ {
+  "name": "Hamtaro",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Les Minikeums",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Barbapapa",
+  "status": "ok",
+  "track": "Voici venir les Barbapapa — Ricet Barrier (108479442)"
+ },
+ {
+  "name": "Babar",
+  "status": "ok",
+  "track": "La Chanson De Babar — Top TV 80 (1437124)"
+ },
+ {
+  "name": "Tintin",
+  "status": "ok",
+  "track": "Les Aventures de Tintin (Thème du générique) — Ciné-Trio (69778929)"
+ },
+ {
+  "name": "Astérix",
+  "status": "ok",
+  "track": "Astérix est là — Plastic Bertrand (93114550)"
+ },
+ {
+  "name": "Lucky Luke",
+  "status": "ok",
+  "track": "I'm a Poor Lonesome Cowboy (Final) — Claude Bolling (3610914682)"
+ },
+ {
+  "name": "Les Simpson",
+  "status": "ok",
+  "track": "The Simpsons-Theme from the Television Series (Danny Elfman) Single — Dominik Hauser (45272561)"
+ },
+ {
+  "name": "Les Razmoket",
+  "status": "ok",
+  "track": "Rugrats Theme (From \"Rugrats\") — Just Kids (848552422)"
+ },
+ {
+  "name": "Bob l'éponge",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Totally Spies!",
+  "status": "ok",
+  "track": "Here we go - Totally spies — Válogatás (3189214)"
+ },
+ {
+  "name": "Code Lyoko",
+  "status": "ok",
+  "track": "Un monde sans danger — Justine Sainte (617551662)"
+ },
+ {
+  "name": "Oggy et les Cafards",
+  "status": "ok",
+  "track": "Générique — Hugues Le Bars (417705542)"
+ },
+ {
+  "name": "Les Zinzins de l'espace",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Titeuf",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Kid Paddle",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Martin Mystère",
+  "status": "ok",
+  "track": "Générique Martin Mystère — Martin Mystère les histoires audio (2466652525)"
+ },
+ {
+  "name": "Miraculous",
+  "status": "ok",
+  "track": "Miraculous (Générique de la série TV) — Lou (412379012)"
+ },
+ {
+  "name": "Il était une fois… l'Homme",
+  "status": "ok",
+  "track": "Générique Toccata et Fugue en Ré mineur — Hello Maestro (1186037482)"
+ },
+ {
+  "name": "Les Bisounours",
+  "status": "ok",
+  "track": "Bisous bisous gentil Bisounours (Générique) — Magali (96808652)"
+ },
+ {
+  "name": "Casimir (L'Île aux enfants)",
+  "status": "ok",
+  "track": "L'île aux enfants — Anne Germain (18002284)"
+ },
+ {
+  "name": "Bouba",
+  "status": "ok",
+  "track": "Bouba, le petit ourson — Chantal Goya (428745442)"
+ },
+ {
+  "name": "Rémi sans famille",
+  "status": "ok",
+  "track": "Remi sans famille (Générique VF) — Cyrille (1205075042)"
+ },
+ {
+  "name": "Heidi",
+  "status": "ok",
+  "track": "La chanson d'Heidi (Générique original d'ouverture du dessin animé) — Alexandra (97891482)"
+ },
+ {
+  "name": "Tom-Tom et Nana",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Docteur Who",
+  "status": "ok",
+  "track": "Doctor Who Theme (TV Version) — Murray Gold (3507373791)"
+ },
+ {
+  "name": "Le Club Dorothée",
+  "status": "ok",
+  "track": "Hou la menteuse — Dorothée (6043248)"
+ },
+ {
+  "name": "Récré A2",
+  "status": "ok",
+  "track": "Enfin Récré A2 — Dorothée (130861604)"
+ },
+ {
+  "name": "Ça Cartoon",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Les Tuniques bleues",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Bip Bip et Coyote (Looney Tunes)",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "La Panthère rose",
+  "status": "ok",
+  "track": "The Pink Panther Theme — Henry Mancini (3197062)"
+ },
+ {
+  "name": "Scooby-Doo",
+  "status": "ok",
+  "track": "Quoi d'neuf Scooby-Doo ? — Romain Ughetto (2443769155)"
+ },
+ {
+  "name": "Les Pierrafeu",
+  "status": "ok",
+  "track": "The Flintstones — TV Themes (3629981282)"
+ },
+ {
+  "name": "La Famille Addams",
+  "status": "ok",
+  "track": "The Addams Family Theme — Vic Mizzy & His Orchestra (10395828)"
+ },
+ {
+  "name": "Les Mondes engloutis",
+  "status": "ok",
+  "track": "Les mondes engloutis (Générique) — Vladimir Cosma (93111672)"
+ },
+ {
+  "name": "Les Entrechats",
+  "status": "ok",
+  "track": "Les entrechats sont là! (Générique original du dessin animé) — Noam (97879694)"
+ },
+ {
+  "name": "Rahan",
+  "status": "ok",
+  "track": "Rahan — Vladimir Cosma (3267439321)"
+ },
+ {
+  "name": "Clémentine",
+  "status": "ok",
+  "track": "Clémentine — Dorothée (739429432)"
+ },
+ {
+  "name": "Creamy, merveilleuse Creamy",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Le Collège fou fou fou",
+  "status": "ok",
+  "track": "Le collège fou, fou, fou (Générique) — Bernard Minet (97792168)"
+ },
+ {
+  "name": "Les Aventures de Winnie l'ourson",
+  "status": "ok",
+  "track": "C'est Winnie l'Ourson — Winnie l'Ourson et le Coffre aux Merveilles (2647581662)"
+ },
+ {
+  "name": "Chip 'n Dale : Rescue Rangers (Tic et Tac)",
+  "status": "ok",
+  "track": "Tic et Tac, les rangers du risque — Les Costauds (3917266211)"
+ },
+ {
+  "name": "La Bande à Picsou",
+  "status": "ok",
+  "track": "La bande à picsou — Captain Sparks & Royal Company (1988829467)"
+ },
+ {
+  "name": "Gargoyles",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Les Animaniacs",
+  "status": "ok",
+  "track": "Animaniacs (Opening Title) — Animaniacs (1127264222)"
+ },
+ {
+  "name": "Pinky et le Cerveau",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Batman, la série animée",
+  "status": "ok",
+  "track": "The Batman Theme — Danny Elfman (722927)"
+ },
+ {
+  "name": "X-Men (série animée)",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Spider-Man (dessin animé de 1967)",
+  "status": "ok",
+  "track": "Spiderman l'araignée — Noam (377433141)"
+ },
+ {
+  "name": "Les Maîtres de l'univers (Musclor)",
+  "status": "ok",
+  "track": "Les maîtres de l'univers — H. Saban (391122162)"
+ },
+ {
+  "name": "Transformers",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Cosmocats",
+  "status": "ok",
+  "track": "Cosmocats (Générique VF) — Jean-Claude Corbel (1205075402)"
+ },
+ {
+  "name": "Les Fous du volant",
+  "status": "ok",
+  "track": "Les fous du volant (Theme from Wacky Races) — Fred Pallem (3048367361)"
+ },
+ {
+  "name": "Les Aventures de Tom Sawyer",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Shin-chan",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Kirikou",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Les Mystères de l'Ouest",
+  "status": "ok",
+  "track": "The Wild Wild West-Theme from the CBS television series (Single) — Dominik Hauser (53361451)"
+ },
+ {
+  "name": "Fort Boyard",
+  "status": "ok",
+  "track": "Fort Boyard — Paul Koulak (98315850)"
+ },
+ {
+  "name": "Questions pour un champion",
+  "status": "ok",
+  "track": "Questions pour un Champion (Générique début) — Alain Wisniak (71380369)"
+ },
+ {
+  "name": "Des chiffres et des lettres",
+  "status": "ok",
+  "track": "Des chiffres & des lettres — Compilation Générique TV (3773389)"
+ },
+ {
+  "name": "Qui veut gagner des millions ?",
+  "status": "ok",
+  "track": "Let's Play for One Million! — Keith Strachan (1133049172)"
+ },
+ {
+  "name": "Le Maillon faible",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Intervilles",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Koh-Lanta",
+  "status": "ok",
+  "track": "Koh Lanta Aventuri (Le Générique Original) — Koh Lanta (2271234)"
+ },
+ {
+  "name": "Thalassa",
+  "status": "ok",
+  "track": "Thalassa — Génériques De Séries Télé / TV (10569035)"
+ },
+ {
+  "name": "Ushuaïa Nature",
+  "status": "ok",
+  "track": "Ushuaia (Theme) - Original — Cathodic Orchestra (1908095)"
+ },
+ {
+  "name": "Le Juste Prix",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "La Roue de la fortune",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Motus",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Les Guignols de l'info",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Le Bigdil",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Les Enfants du rock",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Téléfoot",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Le Journal de 20 h (TF1)",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Les Feux de l'amour",
+  "status": "ok",
+  "track": "Nadia's Theme (The Young And The Restless) — Barry De Vorzon (4262365811)"
+ },
+ {
+  "name": "Mission impossible",
+  "status": "ok",
+  "track": "Mission: Impossible Theme — Lalo Schifrin & John E. Davis (7695292)"
+ },
+ {
+  "name": "Mac Gyver",
+  "status": "ok",
+  "track": "MacGyver - Theme from the TV Series — Charles Fernandez (25237021)"
+ },
+ {
+  "name": "Arnold et Willy",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Le Prince de Bel-Air",
+  "status": "ok",
+  "track": "The Fresh Prince of Bel-Air — DJ Jazzy Jeff & The Fresh Prince (831350)"
+ },
+ {
+  "name": "Sauvés par le gong",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Hélène et les Garçons",
+  "status": "ok",
+  "track": "Pour l'amour d'un garçon (Générique de la série TV \"Hélène et les garçons\") — Hélène Rolles (16558913)"
+ },
+ {
+  "name": "Le Miel et les Abeilles",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Premiers Baisers",
+  "status": "ok",
+  "track": "Premier baiser (Générique de la série TV \"Premiers Baisers\") — Emmanuelle (99314696)"
+ },
+ {
+  "name": "Alerte à Malibu",
+  "status": "ok",
+  "track": "I'm Always Here — Jimi Jamison (11344488)"
+ },
+ {
+  "name": "K 2000",
+  "status": "ok",
+  "track": "Knight Rider Theme from the TV Series — Dominik Hauser (18164453)"
+ },
+ {
+  "name": "L'Agence tous risques",
+  "status": "ok",
+  "track": "The A-Team - Theme from the TV Series — Dominik Hauser (17955553)"
+ },
+ {
+  "name": "Starsky et Hutch",
+  "status": "ok",
+  "track": "Gotcha (Theme From \"Starsky & Hutch\") (Album Version) — Tom Scott (1080232)"
+ },
+ {
+  "name": "Navarro",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Joséphine, ange gardien",
+  "status": "exclu",
+  "reason": "aucune version fiable sur Deezer (reprise, remix ou autre morceau)"
+ },
+ {
+  "name": "Le Prisonnier",
+  "status": "ok",
+  "track": "Le Prisonnier — Génériques De Séries Télé / TV (10569005)"
+ },
+ {
+  "name": "Chapeau melon et bottes de cuir",
+  "status": "ok",
+  "track": "Theme From \"The Avengers\" — The Laurie Johnson Orchestra (3813134182)"
+ },
+ {
+  "name": "Zorro",
+  "status": "ok",
+  "track": "Zorro est arrivé — Henri Salvador (3130426)"
+ },
+ {
+  "name": "Thierry la Fronde",
+  "status": "ok",
+  "track": "Thierry La Fronde — Jacques Loussier (70311165)"
+ },
+ {
+  "name": "Bonne nuit les petits",
+  "status": "ok",
+  "track": "Bonne nuit les petits — Compilation Générique TV (3773412)"
+ },
+ {
+  "name": "X-Or",
+  "status": "ok",
+  "track": "X-Or — Jean-Pierre Savelli (541233242)"
+ },
+ {
+  "name": "La Maison de Mickey",
+  "status": "ok",
+  "track": "La Maison de Mickey, le générique — Karine Costa (113469026)"
+ },
+ {
+  "name": "Amicalement vôtre",
+  "status": "ok",
+  "track": "Amicalement Vôtre — Génériques De Séries Télé / TV (10568995)"
+ },
+ {
+  "name": "Batman (série des années 60)",
+  "status": "ok",
+  "track": "Batman (Générique Des Années 60) — Génériques De Séries Télé / TV (10568972)"
+ },
+ {
+  "name": "Drôles de dames",
+  "status": "ok",
+  "track": "Drôles de dames — Compilation Générique TV (3773338)"
+ },
+ {
+  "name": "Le Saint",
+  "status": "ok",
+  "track": "Le Saint — Compilation Générique TV (3773336)"
+ },
+ {
+  "name": "Denver, le dernier dinosaure",
+  "status": "ok",
+  "track": "Denver — Les Génériques De Notre Enfance (16978484)"
+ },
+ {
+  "name": "Foot 2 rue",
+  "status": "ok",
+  "track": "Foot 2 rue — Kool Shen (5652261)"
+ },
+ {
+  "name": "Les Trois Mousquetaires (dessin animé)",
+  "status": "ok",
+  "track": "Les trois mousquetaires (Générique) — Paul Misraki (93113434)"
+ }
+]

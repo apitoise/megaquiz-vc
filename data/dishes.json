@@ -1,0 +1,891 @@
+[
+ {
+  "slug": "b-uf-bourguignon",
+  "name": "Bœuf bourguignon",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Boeuf_Bourguignon_2022.jpg/1280px-Boeuf_Bourguignon_2022.jpg"
+ },
+ {
+  "slug": "ratatouille",
+  "name": "Ratatouille",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Ratatouille_001.jpg/1280px-Ratatouille_001.jpg"
+ },
+ {
+  "slug": "cassoulet",
+  "name": "Cassoulet",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Cassoulet.cuit.jpg/1280px-Cassoulet.cuit.jpg"
+ },
+ {
+  "slug": "choucroute-garnie",
+  "name": "Choucroute garnie",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Choucroute_d%27Alsace_004.jpg/1280px-Choucroute_d%27Alsace_004.jpg"
+ },
+ {
+  "slug": "tartiflette",
+  "name": "Tartiflette",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Tartiflette.jpg/1280px-Tartiflette.jpg"
+ },
+ {
+  "slug": "raclette",
+  "name": "Raclette",
+  "country": "Suisse / France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Raclette_20040817_140816.jpg/1280px-Raclette_20040817_140816.jpg"
+ },
+ {
+  "slug": "fondue-savoyarde",
+  "name": "Fondue savoyarde",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Fondue_p1150668.jpg/1280px-Fondue_p1150668.jpg"
+ },
+ {
+  "slug": "bouillabaisse",
+  "name": "Bouillabaisse",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Bouillabaisse_01.jpg/1280px-Bouillabaisse_01.jpg"
+ },
+ {
+  "slug": "blanquette-de-veau",
+  "name": "Blanquette de veau",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Blanquette_de_veau_%C3%A0_l%27ancienne_04.jpg/1280px-Blanquette_de_veau_%C3%A0_l%27ancienne_04.jpg"
+ },
+ {
+  "slug": "pot-au-feu",
+  "name": "Pot-au-feu",
+  "country": "France",
+  "region": "france",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Pot-au-feu2.jpg"
+ },
+ {
+  "slug": "quiche-lorraine",
+  "name": "Quiche lorraine",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/54._Quiche_lorraine.jpg/1280px-54._Quiche_lorraine.jpg"
+ },
+ {
+  "slug": "croque-monsieur",
+  "name": "Croque-monsieur",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Sandwich-Mixto.jpg/1280px-Sandwich-Mixto.jpg"
+ },
+ {
+  "slug": "gratin-dauphinois",
+  "name": "Gratin dauphinois",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Gratin_dauphinois.jpg/1280px-Gratin_dauphinois.jpg"
+ },
+ {
+  "slug": "coq-au-vin",
+  "name": "Coq au vin",
+  "country": "France",
+  "region": "france",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Coq_au_vin_rouge.jpg"
+ },
+ {
+  "slug": "crepe",
+  "name": "Crêpe",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Crepes_dsc07085.jpg/1280px-Crepes_dsc07085.jpg"
+ },
+ {
+  "slug": "aligot",
+  "name": "Aligot",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Bol_d%27aligot.jpg/1280px-Bol_d%27aligot.jpg"
+ },
+ {
+  "slug": "escargots-de-bourgogne",
+  "name": "Escargots de Bourgogne",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Escargot_de_Bourgogne_017.jpg/1280px-Escargot_de_Bourgogne_017.jpg"
+ },
+ {
+  "slug": "salade-nicoise",
+  "name": "Salade niçoise",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Salade_ni%C3%A7oise_001.jpg/1280px-Salade_ni%C3%A7oise_001.jpg"
+ },
+ {
+  "slug": "soupe-a-l-oignon",
+  "name": "Soupe à l'oignon",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Soupe_%C3%A0_l%27oignon_01.JPG/1280px-Soupe_%C3%A0_l%27oignon_01.JPG"
+ },
+ {
+  "slug": "hachis-parmentier",
+  "name": "Hachis parmentier",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Hachis_parmentier_01.jpg/1280px-Hachis_parmentier_01.jpg"
+ },
+ {
+  "slug": "tarte-tatin",
+  "name": "Tarte Tatin",
+  "country": "France",
+  "region": "france",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Tarte_Tatin_a_la_Michalak.jpg"
+ },
+ {
+  "slug": "creme-brulee",
+  "name": "Crème brûlée",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Creme_brul%C3%A9e.jpg/1280px-Creme_brul%C3%A9e.jpg"
+ },
+ {
+  "slug": "macaron",
+  "name": "Macaron",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Macarons%2C_French_made_mini_cakes.JPG/1280px-Macarons%2C_French_made_mini_cakes.JPG"
+ },
+ {
+  "slug": "eclair",
+  "name": "Éclair",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Eclairs_with_chocolate_icing_at_Cafe_Blue_Hills.jpg/1280px-Eclairs_with_chocolate_icing_at_Cafe_Blue_Hills.jpg"
+ },
+ {
+  "slug": "paris-brest",
+  "name": "Paris-brest",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Paris-Brest_IMG_0875.JPG/1280px-Paris-Brest_IMG_0875.JPG"
+ },
+ {
+  "slug": "mille-feuille",
+  "name": "Mille-feuille",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Mille-feuille_02.jpg/1280px-Mille-feuille_02.jpg"
+ },
+ {
+  "slug": "croissant",
+  "name": "Croissant",
+  "country": "France",
+  "region": "france",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Croissant-newspaper-and-tea.jpg"
+ },
+ {
+  "slug": "canele",
+  "name": "Canelé",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Caneles_stemilion.jpg/1280px-Caneles_stemilion.jpg"
+ },
+ {
+  "slug": "kouign-amann",
+  "name": "Kouign-amann",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Kouignamann.JPG/1280px-Kouignamann.JPG"
+ },
+ {
+  "slug": "profiterole",
+  "name": "Profiterole",
+  "country": "France",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Profiterole_choc.jpg/1280px-Profiterole_choc.jpg"
+ },
+ {
+  "slug": "pizza-margherita",
+  "name": "Pizza margherita",
+  "country": "Italie",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Neapolitan_pizza_at_Trappica_%2848701940197%29.jpg/1280px-Neapolitan_pizza_at_Trappica_%2848701940197%29.jpg"
+ },
+ {
+  "slug": "lasagnes",
+  "name": "Lasagnes",
+  "country": "Italie",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Lasagne_-_stonesoup.jpg/1280px-Lasagne_-_stonesoup.jpg"
+ },
+ {
+  "slug": "risotto",
+  "name": "Risotto",
+  "country": "Italie",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg/1280px-Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg"
+ },
+ {
+  "slug": "spaghetti-alla-carbonara",
+  "name": "Spaghetti alla carbonara",
+  "country": "Italie",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Spaghetti_alla_Carbonara_%28Madrid%29.JPG/1280px-Spaghetti_alla_Carbonara_%28Madrid%29.JPG"
+ },
+ {
+  "slug": "tiramisu",
+  "name": "Tiramisu",
+  "country": "Italie",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Tiramisu_-_Raffaele_Diomede.jpg/1280px-Tiramisu_-_Raffaele_Diomede.jpg"
+ },
+ {
+  "slug": "osso-buco",
+  "name": "Osso buco",
+  "country": "Italie",
+  "region": "europe",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Osobuco_-_2010-10-20_2.jpg"
+ },
+ {
+  "slug": "panna-cotta",
+  "name": "Panna cotta",
+  "country": "Italie",
+  "region": "europe",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Panna_cotta_with_chocolate_mousse.jpg"
+ },
+ {
+  "slug": "gnocchi",
+  "name": "Gnocchi",
+  "country": "Italie",
+  "region": "europe",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/86/Gnocchi_di_ricotta_burro_e_salvia.jpg"
+ },
+ {
+  "slug": "bruschetta",
+  "name": "Bruschetta",
+  "country": "Italie",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/2014_Bruschetta_The_Larder_Chiang_Mai.jpg/1280px-2014_Bruschetta_The_Larder_Chiang_Mai.jpg"
+ },
+ {
+  "slug": "arancini",
+  "name": "Arancini",
+  "country": "Italie",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Arancini_002.jpg/1280px-Arancini_002.jpg"
+ },
+ {
+  "slug": "cannoli",
+  "name": "Cannoli",
+  "country": "Italie",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Cannoli_siciliani_al_Caff%C3%A8_Impero%2C_ad_Alcamo.jpg/1280px-Cannoli_siciliani_al_Caff%C3%A8_Impero%2C_ad_Alcamo.jpg"
+ },
+ {
+  "slug": "paella",
+  "name": "Paella",
+  "country": "Espagne",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Paella_amb_caragols_a_un_restaurant_de_la_Patacona%2C_Alboraia.jpg/1280px-Paella_amb_caragols_a_un_restaurant_de_la_Patacona%2C_Alboraia.jpg"
+ },
+ {
+  "slug": "gaspacho",
+  "name": "Gaspacho",
+  "country": "Espagne",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Gaspacho.jpg/1280px-Gaspacho.jpg"
+ },
+ {
+  "slug": "tortilla-de-patatas",
+  "name": "Tortilla de patatas",
+  "country": "Espagne",
+  "region": "europe",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Tortilla-de-patatas.jpg"
+ },
+ {
+  "slug": "churros",
+  "name": "Churros",
+  "country": "Espagne",
+  "region": "europe",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Churros_Madrid.jpg"
+ },
+ {
+  "slug": "jamon-iberico",
+  "name": "Jamón ibérico",
+  "country": "Espagne",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Jam%C3%B3n_ib%C3%A9rico%2C_Set%C3%BAbal%2C_Portugal%2C_2012-05-11%2C_DD_01.JPG/1280px-Jam%C3%B3n_ib%C3%A9rico%2C_Set%C3%BAbal%2C_Portugal%2C_2012-05-11%2C_DD_01.JPG"
+ },
+ {
+  "slug": "pastel-de-nata",
+  "name": "Pastel de nata",
+  "country": "Portugal",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Pasteis_de_nata_%28Lissabon_2016%29_%2826069956686%29.jpg/1280px-Pasteis_de_nata_%28Lissabon_2016%29_%2826069956686%29.jpg"
+ },
+ {
+  "slug": "fish-and-chips",
+  "name": "Fish and chips",
+  "country": "Royaume-Uni",
+  "region": "europe",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Fish_and_chips.jpg"
+ },
+ {
+  "slug": "haggis",
+  "name": "Haggis",
+  "country": "Écosse",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Haggis.JPG/1280px-Haggis.JPG"
+ },
+ {
+  "slug": "moules-frites",
+  "name": "Moules-frites",
+  "country": "Belgique",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Moules_marini%C3%A8res_01.jpg/1280px-Moules_marini%C3%A8res_01.jpg"
+ },
+ {
+  "slug": "gaufre-de-liege",
+  "name": "Gaufre de Liège",
+  "country": "Belgique",
+  "region": "europe",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Gaufre_liege.jpg"
+ },
+ {
+  "slug": "stoemp",
+  "name": "Stoemp",
+  "country": "Belgique",
+  "region": "europe",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Cod_and_stoemp.jpg"
+ },
+ {
+  "slug": "rosti",
+  "name": "Rösti",
+  "country": "Suisse",
+  "region": "europe",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Roesti.jpg"
+ },
+ {
+  "slug": "bretzel",
+  "name": "Bretzel",
+  "country": "Allemagne",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/BrezelnSalz02_%28cropped%29.JPG/1280px-BrezelnSalz02_%28cropped%29.JPG"
+ },
+ {
+  "slug": "currywurst",
+  "name": "Currywurst",
+  "country": "Allemagne",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Currywurst_%26_Pommes_frites.jpg/1280px-Currywurst_%26_Pommes_frites.jpg"
+ },
+ {
+  "slug": "foret-noire",
+  "name": "Forêt-Noire",
+  "country": "Allemagne",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Black_Forest_gateau.jpg/1280px-Black_Forest_gateau.jpg"
+ },
+ {
+  "slug": "wiener-schnitzel",
+  "name": "Wiener Schnitzel",
+  "country": "Autriche",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Wiener-Schnitzel02.jpg/1280px-Wiener-Schnitzel02.jpg"
+ },
+ {
+  "slug": "strudel",
+  "name": "Strudel",
+  "country": "Autriche",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Strudel.jpg/1280px-Strudel.jpg"
+ },
+ {
+  "slug": "goulache",
+  "name": "Goulache",
+  "country": "Hongrie",
+  "region": "europe",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Gulyas080.jpg"
+ },
+ {
+  "slug": "pierogi",
+  "name": "Pierogi",
+  "country": "Pologne",
+  "region": "europe",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/04565_Christmas_dumplings_with_dried_plums.JPG"
+ },
+ {
+  "slug": "bortsch",
+  "name": "Bortsch",
+  "country": "Ukraine / Russie",
+  "region": "europe",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Russian_borscht_with_beef_and_sour_cream.jpg"
+ },
+ {
+  "slug": "b-uf-stroganov",
+  "name": "Bœuf Stroganov",
+  "country": "Russie",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Boeuf_Stroganov_001.jpg/1280px-Boeuf_Stroganov_001.jpg"
+ },
+ {
+  "slug": "blinis",
+  "name": "Blinis",
+  "country": "Russie",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Blini_Tanya.jpg/1280px-Blini_Tanya.jpg"
+ },
+ {
+  "slug": "moussaka",
+  "name": "Moussaka",
+  "country": "Grèce",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Mousakas.jpg/1280px-Mousakas.jpg"
+ },
+ {
+  "slug": "tzatziki",
+  "name": "Tzatziki",
+  "country": "Grèce",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Tzatziki_IMGP1480.jpg/1280px-Tzatziki_IMGP1480.jpg"
+ },
+ {
+  "slug": "gyros",
+  "name": "Gyros",
+  "country": "Grèce",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Gyros.jpg/1280px-Gyros.jpg"
+ },
+ {
+  "slug": "baklava",
+  "name": "Baklava",
+  "country": "Turquie",
+  "region": "afrique-orient",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Baklava%281%29.png"
+ },
+ {
+  "slug": "kebab-doner",
+  "name": "Kebab (döner)",
+  "country": "Turquie",
+  "region": "afrique-orient",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/D%C3%B6ner_kebab_slicing.jpg"
+ },
+ {
+  "slug": "houmous",
+  "name": "Houmous",
+  "country": "Proche-Orient",
+  "region": "afrique-orient",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Houmous.jpg/1280px-Houmous.jpg"
+ },
+ {
+  "slug": "falafel",
+  "name": "Falafel",
+  "country": "Proche-Orient",
+  "region": "afrique-orient",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Falafels_2.jpg/1280px-Falafels_2.jpg"
+ },
+ {
+  "slug": "taboule",
+  "name": "Taboulé",
+  "country": "Liban",
+  "region": "afrique-orient",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Tabouleh_1.JPG/1280px-Tabouleh_1.JPG"
+ },
+ {
+  "slug": "couscous",
+  "name": "Couscous",
+  "country": "Maghreb",
+  "region": "afrique-orient",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Moroccan_cuscus%2C_from_Casablanca%2C_September_2018.jpg"
+ },
+ {
+  "slug": "tajine",
+  "name": "Tajine",
+  "country": "Maroc",
+  "region": "afrique-orient",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Tajine_008.JPG/1280px-Tajine_008.JPG"
+ },
+ {
+  "slug": "pastilla",
+  "name": "Pastilla",
+  "country": "Maroc",
+  "region": "afrique-orient",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bisteeya.jpg"
+ },
+ {
+  "slug": "chakchouka",
+  "name": "Chakchouka",
+  "country": "Maghreb",
+  "region": "afrique-orient",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Shakshuka_by_Calliopejen1.jpg/1280px-Shakshuka_by_Calliopejen1.jpg"
+ },
+ {
+  "slug": "mafe",
+  "name": "Mafé",
+  "country": "Afrique de l'Ouest",
+  "region": "afrique-orient",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Maf%C3%A9_s%C3%A9n%C3%A9galais.jpg/1280px-Maf%C3%A9_s%C3%A9n%C3%A9galais.jpg"
+ },
+ {
+  "slug": "thieboudienne",
+  "name": "Thiéboudienne",
+  "country": "Sénégal",
+  "region": "afrique-orient",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Thi%C3%A9boudi%C3%A8ne_Boukhonk_with_tamarind.jpg"
+ },
+ {
+  "slug": "poulet-yassa",
+  "name": "Poulet yassa",
+  "country": "Sénégal",
+  "region": "afrique-orient",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Poulet_yassa_03.jpg/1280px-Poulet_yassa_03.jpg"
+ },
+ {
+  "slug": "injera",
+  "name": "Injera",
+  "country": "Éthiopie",
+  "region": "afrique-orient",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Alicha_1.jpg"
+ },
+ {
+  "slug": "sushi",
+  "name": "Sushi",
+  "country": "Japon",
+  "region": "asie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Nigiri_Sushi_%2826478725732%29.jpg/1280px-Nigiri_Sushi_%2826478725732%29.jpg"
+ },
+ {
+  "slug": "ramen",
+  "name": "Ramen",
+  "country": "Japon",
+  "region": "asie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Charsiu_ramen_02.jpg/1280px-Charsiu_ramen_02.jpg"
+ },
+ {
+  "slug": "tempura",
+  "name": "Tempura",
+  "country": "Japon",
+  "region": "asie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tempura_01.jpg/1280px-Tempura_01.jpg"
+ },
+ {
+  "slug": "okonomiyaki",
+  "name": "Okonomiyaki",
+  "country": "Japon",
+  "region": "asie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Okonomiyaki_001.jpg/1280px-Okonomiyaki_001.jpg"
+ },
+ {
+  "slug": "takoyaki",
+  "name": "Takoyaki",
+  "country": "Japon",
+  "region": "asie",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Takoyaki_by_yomi955.jpg"
+ },
+ {
+  "slug": "mochi",
+  "name": "Mochi",
+  "country": "Japon",
+  "region": "asie",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Rice_Cake.jpg"
+ },
+ {
+  "slug": "onigiri",
+  "name": "Onigiri",
+  "country": "Japon",
+  "region": "asie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Onigiri_002.jpg/1280px-Onigiri_002.jpg"
+ },
+ {
+  "slug": "canard-laque-de-pekin",
+  "name": "Canard laqué de Pékin",
+  "country": "Chine",
+  "region": "asie",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Peking_Duck_1.jpg"
+ },
+ {
+  "slug": "dim-sum",
+  "name": "Dim sum",
+  "country": "Chine",
+  "region": "asie",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/80/Dimsum_breakfast_in_Hong_Kong.jpg"
+ },
+ {
+  "slug": "raviolis-chinois-jiaozi",
+  "name": "Raviolis chinois (jiaozi)",
+  "country": "Chine",
+  "region": "asie",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/65/S%E1%BB%A7i_c%E1%BA%A3o_%E6%B0%B4%E9%A4%83_t%E1%BA%A1i_Qu%E1%BA%A3ng_Ch%C3%A2u_%E5%BB%A3%E5%B7%9E_%282019%29_%E2%80%93_1.jpg"
+ },
+ {
+  "slug": "riz-cantonais",
+  "name": "Riz cantonais",
+  "country": "Chine",
+  "region": "asie",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Yeung_Chow_Fried_Rice.jpg"
+ },
+ {
+  "slug": "kimchi",
+  "name": "Kimchi",
+  "country": "Corée du Sud",
+  "region": "asie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Korean_cuisine-Kimchi-08.jpg/1280px-Korean_cuisine-Kimchi-08.jpg"
+ },
+ {
+  "slug": "bibimbap",
+  "name": "Bibimbap",
+  "country": "Corée du Sud",
+  "region": "asie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Korean.food-Bibimbap-02.jpg/1280px-Korean.food-Bibimbap-02.jpg"
+ },
+ {
+  "slug": "pho",
+  "name": "Phở",
+  "country": "Viêt Nam",
+  "region": "asie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg/1280px-Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg"
+ },
+ {
+  "slug": "banh-mi",
+  "name": "Bánh mì",
+  "country": "Viêt Nam",
+  "region": "asie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Banh_mi_and_cuon.jpg/1280px-Banh_mi_and_cuon.jpg"
+ },
+ {
+  "slug": "pad-thai",
+  "name": "Pad thaï",
+  "country": "Thaïlande",
+  "region": "asie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Phat_Thai_kung_Chang_Khien_street_stall.jpg/1280px-Phat_Thai_kung_Chang_Khien_street_stall.jpg"
+ },
+ {
+  "slug": "tom-yam",
+  "name": "Tom yam",
+  "country": "Thaïlande",
+  "region": "asie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Tom_yam_kung_maphrao_on_nam_khon.jpg/1280px-Tom_yam_kung_maphrao_on_nam_khon.jpg"
+ },
+ {
+  "slug": "curry-vert-thai",
+  "name": "Curry vert thaï",
+  "country": "Thaïlande",
+  "region": "asie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Thai_green_chicken_curry_and_roti.jpg/1280px-Thai_green_chicken_curry_and_roti.jpg"
+ },
+ {
+  "slug": "nasi-goreng",
+  "name": "Nasi goreng",
+  "country": "Indonésie",
+  "region": "asie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Nasi_Goreng_Sosis.jpg/1280px-Nasi_Goreng_Sosis.jpg"
+ },
+ {
+  "slug": "biryani",
+  "name": "Biryani",
+  "country": "Inde",
+  "region": "asie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Chicken_Biryani_in_Chennai.jpg/1280px-Chicken_Biryani_in_Chennai.jpg"
+ },
+ {
+  "slug": "poulet-tikka-masala",
+  "name": "Poulet tikka masala",
+  "country": "Inde / Royaume-Uni",
+  "region": "asie",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Chicken_Tikka_Masala.jpg/1280px-Chicken_Tikka_Masala.jpg"
+ },
+ {
+  "slug": "naan",
+  "name": "Naan",
+  "country": "Inde",
+  "region": "asie",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Naan_shiva.jpg"
+ },
+ {
+  "slug": "samoussa",
+  "name": "Samoussa",
+  "country": "Inde",
+  "region": "asie",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Samosachutney.jpg"
+ },
+ {
+  "slug": "hamburger",
+  "name": "Hamburger",
+  "country": "États-Unis",
+  "region": "ameriques",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/RedDot_Burger.jpg/1280px-RedDot_Burger.jpg"
+ },
+ {
+  "slug": "hot-dog",
+  "name": "Hot-dog",
+  "country": "États-Unis",
+  "region": "ameriques",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hot_dog_allemand.jpg/1280px-Hot_dog_allemand.jpg"
+ },
+ {
+  "slug": "cheesecake",
+  "name": "Cheesecake",
+  "country": "États-Unis",
+  "region": "ameriques",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Cheesecake_mit_Beeren.jpg/1280px-Cheesecake_mit_Beeren.jpg"
+ },
+ {
+  "slug": "brownie",
+  "name": "Brownie",
+  "country": "États-Unis",
+  "region": "ameriques",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Ultimate_Vegan_Brownies_with_walnuts%2C_mjune_2010.jpg/1280px-Ultimate_Vegan_Brownies_with_walnuts%2C_mjune_2010.jpg"
+ },
+ {
+  "slug": "donut",
+  "name": "Donut",
+  "country": "États-Unis",
+  "region": "ameriques",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/A_delicious_donut.jpg/1280px-A_delicious_donut.jpg"
+ },
+ {
+  "slug": "pancakes",
+  "name": "Pancakes",
+  "country": "États-Unis",
+  "region": "ameriques",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Pancakes_%2862621545%29.jpeg/1280px-Pancakes_%2862621545%29.jpeg"
+ },
+ {
+  "slug": "mac-and-cheese",
+  "name": "Mac and cheese",
+  "country": "États-Unis",
+  "region": "ameriques",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Flickr_wordridden_3397802319--Macaroni_and_cheese.jpg/1280px-Flickr_wordridden_3397802319--Macaroni_and_cheese.jpg"
+ },
+ {
+  "slug": "poutine",
+  "name": "Poutine",
+  "country": "Canada (Québec)",
+  "region": "ameriques",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Poutine_Qu%C3%A9b%C3%A9coise.jpg/1280px-Poutine_Qu%C3%A9b%C3%A9coise.jpg"
+ },
+ {
+  "slug": "tacos",
+  "name": "Tacos",
+  "country": "Mexique",
+  "region": "ameriques",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg/1280px-001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg"
+ },
+ {
+  "slug": "guacamole",
+  "name": "Guacamole",
+  "country": "Mexique",
+  "region": "ameriques",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/El_tango_guacamole.jpg/1280px-El_tango_guacamole.jpg"
+ },
+ {
+  "slug": "burrito",
+  "name": "Burrito",
+  "country": "Mexique",
+  "region": "ameriques",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Basic_burrito.jpg"
+ },
+ {
+  "slug": "chili-con-carne",
+  "name": "Chili con carne",
+  "country": "Mexique / États-Unis",
+  "region": "ameriques",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Bowl_of_chili.jpg/1280px-Bowl_of_chili.jpg"
+ },
+ {
+  "slug": "enchilada",
+  "name": "Enchilada",
+  "country": "Mexique",
+  "region": "ameriques",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Festival_de_la_Enchilada_59.jpg/1280px-Festival_de_la_Enchilada_59.jpg"
+ },
+ {
+  "slug": "nachos",
+  "name": "Nachos",
+  "country": "Mexique",
+  "region": "ameriques",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Nachos-cheese.jpg/1280px-Nachos-cheese.jpg"
+ },
+ {
+  "slug": "ceviche",
+  "name": "Ceviche",
+  "country": "Pérou",
+  "region": "ameriques",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Cebiche_de_corvina.JPG/1280px-Cebiche_de_corvina.JPG"
+ },
+ {
+  "slug": "feijoada",
+  "name": "Feijoada",
+  "country": "Brésil",
+  "region": "ameriques",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Feijoada_%C3%A0_transmontada.jpg"
+ },
+ {
+  "slug": "empanada",
+  "name": "Empanada",
+  "country": "Amérique latine",
+  "region": "ameriques",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Empanada_de_carne_guisada.jpg/1280px-Empanada_de_carne_guisada.jpg"
+ },
+ {
+  "slug": "asado",
+  "name": "Asado",
+  "country": "Argentine",
+  "region": "ameriques",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Asado_argentino_en_parrilla_a_carb%C3%B3n.jpg"
+ },
+ {
+  "slug": "pavlova",
+  "name": "Pavlova",
+  "country": "Australie / Nouvelle-Zélande",
+  "region": "ameriques",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Pavlova_strawberry_and_mango.jpg/1280px-Pavlova_strawberry_and_mango.jpg"
+ },
+ {
+  "slug": "colombo",
+  "name": "Colombo",
+  "country": "Antilles",
+  "region": "france",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Colombo_004.jpg/1280px-Colombo_004.jpg"
+ },
+ {
+  "slug": "rougail-saucisse",
+  "name": "Rougail saucisse",
+  "country": "La Réunion",
+  "region": "france",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Carri-poulet.jpg"
+ },
+ {
+  "slug": "sm-rrebr-d",
+  "name": "Smørrebrød",
+  "country": "Danemark",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Smorrebrod.jpg/1280px-Smorrebrod.jpg"
+ },
+ {
+  "slug": "gravlax",
+  "name": "Gravlax",
+  "country": "Scandinavie",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Gravlax_02.jpg/1280px-Gravlax_02.jpg"
+ },
+ {
+  "slug": "kottbullar",
+  "name": "Köttbullar",
+  "country": "Suède",
+  "region": "europe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/K%C3%B6ttbullar_och_potatismos_fr%C3%A5n_Cronwalls_gatuk%C3%B6k_i_Falk%C3%B6ping_8579.jpg/1280px-K%C3%B6ttbullar_och_potatismos_fr%C3%A5n_Cronwalls_gatuk%C3%B6k_i_Falk%C3%B6ping_8579.jpg"
+ },
+ {
+  "slug": "kanelbulle",
+  "name": "Kanelbulle",
+  "country": "Suède",
+  "region": "europe",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Kanelbulle.jpg"
+ }
+]

@@ -199,12 +199,12 @@ export function mountGame(root: HTMLElement, session: GameSession, themeLabels: 
 function renderMedia(media: Media, onError: () => void): HTMLElement {
   switch (media.type) {
     case "image": {
-      const img = h("img", { class: "media", src: media.src, alt: "" });
+      const img = h("img", { class: ["media", media.blur && "blurred", media.light && "light"].filter(Boolean).join(" "), src: media.src, alt: "" });
       img.addEventListener("error", onError, { once: true });
       return img;
     }
     case "svg": {
-      const box = h("div", { class: "media media-svg" });
+      const box = h("div", { class: media.wide ? "media media-svg wide" : "media media-svg" });
       box.innerHTML = media.src; // SVG généré localement par le thème
       return box;
     }

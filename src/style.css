@@ -326,6 +326,28 @@ kbd {
   aspect-ratio: 1;
   color: var(--text);
 }
+.media-svg.wide {
+  width: min(96vh, 90vw);
+  aspect-ratio: 1.6;
+}
+.revealed .media-svg.wide {
+  width: min(48vh, 90vw);
+}
+.media.light {
+  background: #f2f2f2;
+  padding: 3vh;
+  box-sizing: border-box;
+  object-fit: contain;
+}
+.media.blurred {
+  filter: blur(22px);
+  /* Le flou déborde : on le garde dans le cadre de l'image. */
+  clip-path: inset(0 round 8px);
+}
+.revealed .media.blurred {
+  filter: none;
+  transition: filter 0.4s;
+}
 .media-svg svg {
   width: 100%;
   height: 100%;

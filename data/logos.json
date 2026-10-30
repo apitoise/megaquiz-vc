@@ -1,0 +1,457 @@
+[
+ {
+  "slug": "apple",
+  "name": "Apple",
+  "category": "tech",
+  "file": "Apple logo black.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/960px-Apple_logo_black.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "windows",
+  "name": "Windows",
+  "category": "tech",
+  "file": "Windows logo - 2012.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/960px-Windows_logo_-_2012.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "android",
+  "name": "Android",
+  "category": "tech",
+  "file": "Android robot.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/960px-Android_robot.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "google-chrome",
+  "name": "Google Chrome",
+  "category": "tech",
+  "file": "Google Chrome icon (February 2022).svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/960px-Google_Chrome_icon_%28February_2022%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "mozilla-firefox",
+  "name": "Mozilla Firefox",
+  "category": "tech",
+  "file": "Firefox logo, 2019.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/960px-Firefox_logo%2C_2019.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "whatsapp",
+  "name": "WhatsApp",
+  "category": "tech",
+  "file": "WhatsApp.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/960px-WhatsApp.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "instagram",
+  "name": "Instagram",
+  "category": "tech",
+  "file": "Instagram.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Instagram.svg/960px-Instagram.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "facebook",
+  "name": "Facebook",
+  "category": "tech",
+  "file": "2023 Facebook icon.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/960px-2023_Facebook_icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "twitter-oiseau",
+  "name": "Twitter (oiseau)",
+  "category": "tech",
+  "file": "Logo of Twitter.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/960px-Logo_of_Twitter.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "x-ex-twitter",
+  "name": "X (ex-Twitter)",
+  "category": "tech",
+  "file": "X logo 2023.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/960px-X_logo_2023.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "tiktok",
+  "name": "TikTok",
+  "category": "tech",
+  "file": "Tiktok icon.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Tiktok_icon.svg/960px-Tiktok_icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "youtube",
+  "name": "YouTube",
+  "category": "tech",
+  "file": "YouTube full-color icon (2024).svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/YouTube_full-color_icon_%282024%29.svg/960px-YouTube_full-color_icon_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "spotify",
+  "name": "Spotify",
+  "category": "tech",
+  "file": "Spotify logo without text.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/960px-Spotify_logo_without_text.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "telegram",
+  "name": "Telegram",
+  "category": "tech",
+  "file": "Telegram 2019 simple logo.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Telegram_2019_simple_logo.svg/960px-Telegram_2019_simple_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "messenger",
+  "name": "Messenger",
+  "category": "tech",
+  "file": "Facebook Messenger logo 2020.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Facebook_Messenger_logo_2020.svg/960px-Facebook_Messenger_logo_2020.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "linkedin",
+  "name": "LinkedIn",
+  "category": "tech",
+  "file": "LinkedIn icon.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/960px-LinkedIn_icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "pinterest",
+  "name": "Pinterest",
+  "category": "tech",
+  "file": "Pinterest.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Pinterest.svg/960px-Pinterest.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "twitch",
+  "name": "Twitch",
+  "category": "tech",
+  "file": "Twitch Glitch Logo Purple.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Twitch_Glitch_Logo_Purple.svg/960px-Twitch_Glitch_Logo_Purple.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "dropbox",
+  "name": "Dropbox",
+  "category": "tech",
+  "file": "Dropbox Icon.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Dropbox_Icon.svg/960px-Dropbox_Icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "shazam",
+  "name": "Shazam",
+  "category": "tech",
+  "file": "Shazam icon.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Shazam_icon.svg/960px-Shazam_icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "wikipedia",
+  "name": "Wikipédia",
+  "category": "tech",
+  "file": "Wikipedia's W.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Wikipedia%27s_W.svg/960px-Wikipedia%27s_W.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "bluetooth",
+  "name": "Bluetooth",
+  "category": "tech",
+  "file": "Ic bluetooth 48px.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Ic_bluetooth_48px.svg/960px-Ic_bluetooth_48px.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "usb",
+  "name": "USB",
+  "category": "tech",
+  "file": "USB icon.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/USB_icon.svg/960px-USB_icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "linux-tux",
+  "name": "Linux (Tux)",
+  "category": "tech",
+  "file": "Tux.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/960px-Tux.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "playstation",
+  "name": "PlayStation",
+  "category": "tech",
+  "file": "PlayStation logo.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/PlayStation_logo.svg/960px-PlayStation_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "xbox",
+  "name": "Xbox",
+  "category": "tech",
+  "file": "Xbox one logo.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/960px-Xbox_one_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "nintendo-switch",
+  "name": "Nintendo Switch",
+  "category": "tech",
+  "file": "Nintendo Switch Logo (without text).svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Nintendo_Switch_Logo_%28without_text%29.svg/960px-Nintendo_Switch_Logo_%28without_text%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "steam",
+  "name": "Steam",
+  "category": "tech",
+  "file": "Steam icon logo.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/960px-Steam_icon_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "mitsubishi",
+  "name": "Mitsubishi",
+  "category": "tech",
+  "file": "Mitsubishi logo.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Mitsubishi_logo.svg/960px-Mitsubishi_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "nike",
+  "name": "Nike",
+  "category": "mode",
+  "file": "Logo NIKE.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/960px-Logo_NIKE.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "adidas",
+  "name": "Adidas",
+  "category": "mode",
+  "file": "Adidas 2022 logo.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Adidas_2022_logo.svg/960px-Adidas_2022_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "reebok",
+  "name": "Reebok",
+  "category": "mode",
+  "file": "Reebok red logo.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Reebok_red_logo.svg/960px-Reebok_red_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "jordan-jumpman",
+  "name": "Jordan (Jumpman)",
+  "category": "mode",
+  "file": "Air Jordan.jpg",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Air_Jordan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+ },
+ {
+  "slug": "mercedes-benz",
+  "name": "Mercedes-Benz",
+  "category": "auto",
+  "file": "Mercedes-Logo.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/960px-Mercedes-Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "audi",
+  "name": "Audi",
+  "category": "auto",
+  "file": "Audi-Logo 2016.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Audi-Logo_2016.svg/960px-Audi-Logo_2016.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "volkswagen",
+  "name": "Volkswagen",
+  "category": "auto",
+  "file": "Volkswagen logo 2019.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Volkswagen_logo_2019.svg/960px-Volkswagen_logo_2019.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "renault",
+  "name": "Renault",
+  "category": "auto",
+  "file": "Renault 2021.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Renault_2021.svg/960px-Renault_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "citroen",
+  "name": "Citroën",
+  "category": "auto",
+  "file": "Logo-citroen-1919.png",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Logo-citroen-1919.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+ },
+ {
+  "slug": "tesla",
+  "name": "Tesla",
+  "category": "auto",
+  "file": "Tesla T symbol.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Tesla_T_symbol.svg/960px-Tesla_T_symbol.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "michelin-bibendum",
+  "name": "Michelin (Bibendum)",
+  "category": "auto",
+  "file": "Michelin mascot, 2010 Brno WSR.jpg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Michelin_mascot%2C_2010_Brno_WSR.jpg/960px-Michelin_mascot%2C_2010_Brno_WSR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "mcdonald-s",
+  "name": "McDonald's",
+  "category": "conso",
+  "file": "McDonald's square 2020.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/McDonald%27s_square_2020.svg/960px-McDonald%27s_square_2020.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "domino-s",
+  "name": "Domino's",
+  "category": "conso",
+  "file": "Domino's pizza logo.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Domino%27s_pizza_logo.svg/960px-Domino%27s_pizza_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "lufthansa",
+  "name": "Lufthansa",
+  "category": "conso",
+  "file": "Lufthansa Logo 2018 crane.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Lufthansa_Logo_2018_crane.svg/960px-Lufthansa_Logo_2018_crane.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "croix-rouge",
+  "name": "Croix-Rouge",
+  "category": "conso",
+  "file": "Red Cross, Red Crescent, Red Crystal logo.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Red_Cross%2C_Red_Crescent%2C_Red_Crystal_logo.svg/960px-Red_Cross%2C_Red_Crescent%2C_Red_Crystal_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "jeux-olympiques-anneaux",
+  "name": "Jeux olympiques (anneaux)",
+  "category": "conso",
+  "file": "Olympic rings on the Eiffel Tower 2024 (21).jpg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Olympic_rings_on_the_Eiffel_Tower_2024_%2821%29.jpg/960px-Olympic_rings_on_the_Eiffel_Tower_2024_%2821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "netflix",
+  "name": "Netflix",
+  "category": "medias",
+  "file": "Netflix icon.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Netflix_icon.svg/960px-Netflix_icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "dc-comics",
+  "name": "DC Comics",
+  "category": "medias",
+  "file": "DC Comics logo.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/DC_Comics_logo.svg/960px-DC_Comics_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "france-2",
+  "name": "France 2",
+  "category": "medias",
+  "file": "France 2 2018.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/960px-France_2_2018.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "batman-logo",
+  "name": "Batman (logo)",
+  "category": "medias",
+  "file": "Batman yellow oval logo with DC copyright.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Batman_yellow_oval_logo_with_DC_copyright.svg/960px-Batman_yellow_oval_logo_with_DC_copyright.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "superman-logo",
+  "name": "Superman (logo)",
+  "category": "medias",
+  "file": "Superman shield.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Superman_shield.svg/960px-Superman_shield.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "pokemon-poke-ball",
+  "name": "Pokémon (Poké Ball)",
+  "category": "medias",
+  "file": "Poké Ball icon.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/960px-Pok%C3%A9_Ball_icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "star-wars-alliance-rebelle",
+  "name": "Star Wars (Alliance rebelle)",
+  "category": "medias",
+  "file": "Rebel Alliance logo.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Rebel_Alliance_logo.svg/960px-Rebel_Alliance_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "olympique-de-marseille",
+  "name": "Olympique de Marseille",
+  "category": "sport",
+  "file": "Olympique Marseille logo.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Olympique_Marseille_logo.svg/960px-Olympique_Marseille_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "juventus",
+  "name": "Juventus",
+  "category": "sport",
+  "file": "Juventus FC - logo black (Italy, 2020).svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg/960px-Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "formule-1",
+  "name": "Formule 1",
+  "category": "sport",
+  "file": "F1.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/F1.svg/960px-F1.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "microsoft-edge",
+  "name": "Microsoft Edge",
+  "category": "tech",
+  "file": "Microsoft Edge logo (2019).svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Microsoft_Edge_logo_%282019%29.svg/960px-Microsoft_Edge_logo_%282019%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "gmail",
+  "name": "Gmail",
+  "category": "tech",
+  "file": "Gmail icon (2020).svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/960px-Gmail_icon_%282020%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "google-maps",
+  "name": "Google Maps",
+  "category": "tech",
+  "file": "Google Maps icon (2020).svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Google_Maps_icon_%282020%29.svg/960px-Google_Maps_icon_%282020%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "google-drive",
+  "name": "Google Drive",
+  "category": "tech",
+  "file": "Google Drive icon (2020).svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/960px-Google_Drive_icon_%282020%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "visual-studio-code",
+  "name": "Visual Studio Code",
+  "category": "tech",
+  "file": "Visual Studio Code 1.35 icon.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/960px-Visual_Studio_Code_1.35_icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "python",
+  "name": "Python",
+  "category": "tech",
+  "file": "Python-logo-notext.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/960px-Python-logo-notext.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "bitcoin",
+  "name": "Bitcoin",
+  "category": "tech",
+  "file": "Bitcoin.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/960px-Bitcoin.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "opera",
+  "name": "Opera",
+  "category": "tech",
+  "file": "Opera 2015 icon.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Opera_2015_icon.svg/960px-Opera_2015_icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "signal",
+  "name": "Signal",
+  "category": "tech",
+  "file": "Signal-Logo.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Signal-Logo.svg/960px-Signal-Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "slug": "apple-music",
+  "name": "Apple Music",
+  "category": "tech",
+  "file": "Apple Music icon.svg",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Apple_Music_icon.svg/960px-Apple_Music_icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ }
+]

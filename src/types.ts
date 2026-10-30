@@ -4,6 +4,12 @@ export interface Media {
   src: string;
   /** Offset de départ de l'extrait audio, en secondes. */
   startAt?: number;
+  /** SVG au format paysage (16:10) plutôt que carré. */
+  wide?: boolean;
+  /** Image floutée pendant la question, nette à la révélation (le texte d'une pochette n'aide plus). */
+  blur?: boolean;
+  /** Image transparente (logo) posée sur un fond clair, sinon un logo noir disparaît sur le fond sombre. */
+  light?: boolean;
 }
 
 export interface Answer {

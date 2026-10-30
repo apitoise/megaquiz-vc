@@ -47,6 +47,12 @@ Les pools stables sont versionnés dans `data/` ; `npm run build-pools` les rég
 | `data/art.json`, `data/landmarks.json` | ~150 œuvres et ~150 lieux célèbres, images vérifiées (créateur Wikidata = artiste attendu ; coordonnées pour un lieu) | Wikipédia FR + Wikidata (sans clé) |
 | `data/ost_films.json`, `data/ost_series.json` | **curés à la main** : films et séries candidats (`match`, `album`, ou `track` pour un générique précis) | — |
 | `data/film_music.json`, `data/series_music.json` (+ `_coverage`) | musiques de films et séries validées, rapport de couverture | recherche Deezer |
+| `data/world_map.json` | carte du monde pré-projetée (Natural Earth) : fond, tracé et cadre de ~170 pays | `world-atlas` (Natural Earth 50m), `d3-geo` |
+| `data/albums_curated.json` → `data/albums.json` | **curé à la main** : ~210 albums célèbres ; pochette Deezer (artiste identique, titre qui commence par celui attendu, `id` pour imposer un album) | recherche d'albums Deezer |
+| `data/generiques_curated.json` → `data/generiques.json` (+ `_coverage`) | **curé à la main** : ~95 génériques de dessins animés, séries et émissions (`id` impose un morceau Deezer, `exclude` écarte une entrée sans version fiable) | recherche de morceaux Deezer |
+| `data/people_curated.json`, `data/dishes_curated.json` → `data/people.json`, `data/dishes.json` | **curés à la main** : ~250 personnalités (élément Wikidata = être humain) et ~125 plats avec leur pays ; images relues à l'œil (`exclude`) | Wikipédia FR + Wikidata |
+| `data/logos_curated.json` → `data/logos.json` | **curé à la main** : ~65 logos **sans le nom de la marque** (icône Wikidata, ou fichier Commons imposé par `file`) ; relus à l'œil, `exclude` écarte ceux qui écrivent le nom | Wikidata + Wikimedia Commons |
+| `data/emojis_fr.json`, `data/quotes_fr.json` | **rédigés à la main** : ~190 titres en emojis et ~150 répliques cultes (VF pour les œuvres étrangères) | — |
 
 Films et séries : TMDB n'est appelé que par `npm run build-pools -- films series` (jeton `TMDB_READ_TOKEN` du `.env`, à créer sur themoviedb.org → Paramètres → API). TMDB classe « sans langue » les affiches et images sans texte : le thème affiches n'utilise que celles-là (pas besoin d'anonymisation). Les séries jeunesse, téléréalité, talk-shows, soaps et l'anime sont écartés. En partie, les images viennent directement de `image.tmdb.org`, sans clé ; à la révélation, l'affiche officielle s'affiche en vignette.
 
@@ -54,9 +60,17 @@ Jeux vidéo : IGDB n'est appelé que par `npm run build-pools -- games` (identif
 
 Sons : tic-tac pendant le timer (pas sur les questions musicales), son de révélation et de jugement, synthétisés dans le navigateur (Web Audio, aucun fichier). Bouton « Son » ou touche `S` pour couper.
 
-Réglages (bouton de l'écran de configuration, enregistrés dans le navigateur) : disposition du clavier (AZERTY ou QWERTY : les raccourcis suivent les lettres imprimées sur les touches, via `event.code`, même si le système est réglé dans une autre langue) et volume de chaque canal sonore : sons du jeu, Musique (65 % par défaut, les titres radio étant plus forts), OST de jeux, musiques de films et de séries.
+Réglages (bouton de l'écran de configuration, enregistrés dans le navigateur) : disposition du clavier (AZERTY ou QWERTY : les raccourcis suivent les lettres imprimées sur les touches, via `event.code`, même si le système est réglé dans une autre langue) et volume de chaque canal sonore : sons du jeu, Musique (65 % par défaut, les titres radio étant plus forts), OST de jeux, musiques de films et de séries, génériques.
 
 Le juste prix : chacun annonce un chiffre à l'oral, on attribue le point au plus proche (ou « Les deux »).
+
+Année de sortie : même principe que le juste prix (le plus proche marque), sur l'affiche d'un film ou d'une série ou la jaquette d'un jeu (pools TMDB et IGDB existants).
+
+Pays sur la carte : la vue zoome autour du pays surligné (au moins 3,5 fois sa taille), un cercle signale les pays minuscules ; pays de plus de 2 000 km² (`MIN_MAP_AREA_KM2` dans `scripts/pools/world-map.ts`). `npm run build-pools -- world-map`.
+
+Pochettes d'album : la pochette est floutée pendant la question (son texte ne doit pas aider), nette à la révélation ; deux lignes à juger (album, artiste). Logos : posés sur un fond clair. Une même œuvre (film, série, jeu) ne revient pas dans deux thèmes d'une même partie (affiche, année de sortie, musique…).
+
+Génériques, personnalités, plats, logos : `npm run build-pools -- generiques people dishes logos`. Les choix automatiques sont relus (rapport `data/generiques_coverage.json` pour les génériques) ; une entrée fausse est corrigée par un `id` / `file` imposé ou écartée par `exclude` avec sa raison.
 
 Capitales : les pays de moins de 10 000 km² hors Europe sont écartés (`MIN_CAPITAL_AREA_KM2` dans `src/providers/capitals.ts`).
 

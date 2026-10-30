@@ -79,3 +79,12 @@ export const seriesMusic = soundtrackProvider({
   kind: "series",
   load: async () => (await import("../../data/series_music.json")).default as Soundtrack[],
 });
+
+export const generiques = soundtrackProvider({
+  id: "generiques",
+  label: "Génériques (dessins animés, séries, émissions)",
+  prompt: "De quel dessin animé, de quelle série ou de quelle émission est ce générique ?",
+  answerLabel: "Programme",
+  kind: "series",
+  load: async () => (await import("../../data/generiques.json")).default as Soundtrack[],
+});

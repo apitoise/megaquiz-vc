@@ -1,0 +1,1508 @@
+[
+ {
+  "slug": "brad-pitt",
+  "name": "Brad Pitt",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Brad_Pitt-69858.jpg/1280px-Brad_Pitt-69858.jpg"
+ },
+ {
+  "slug": "leonardo-dicaprio",
+  "name": "Leonardo DiCaprio",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/LeoPTABFI191125-28_%28cropped%29.jpg"
+ },
+ {
+  "slug": "tom-cruise",
+  "name": "Tom Cruise",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Tom_Cruise_at_Saturn_Awards_2026_01.jpg/1280px-Tom_Cruise_at_Saturn_Awards_2026_01.jpg"
+ },
+ {
+  "slug": "tom-hanks",
+  "name": "Tom Hanks",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/TomHanksJan2009_cropped.jpg"
+ },
+ {
+  "slug": "johnny-depp",
+  "name": "Johnny Depp",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/Johnny_Depp_Deauville_2019.jpg"
+ },
+ {
+  "slug": "morgan-freeman",
+  "name": "Morgan Freeman",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Morgan_Freeman_at_The_Pentagon_on_2_August_2023_-_230802-D-PM193-3363_%28cropped%29.jpg/1280px-Morgan_Freeman_at_The_Pentagon_on_2_August_2023_-_230802-D-PM193-3363_%28cropped%29.jpg"
+ },
+ {
+  "slug": "denzel-washington",
+  "name": "Denzel Washington",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Denzel_Washington_at_the_2025_Cannes_Film_Festival.jpg/1280px-Denzel_Washington_at_the_2025_Cannes_Film_Festival.jpg"
+ },
+ {
+  "slug": "will-smith",
+  "name": "Will Smith",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/TechCrunch_Disrupt_2019_%2848834434641%29_%28cropped%29.jpg"
+ },
+ {
+  "slug": "keanu-reeves",
+  "name": "Keanu Reeves",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Keanu_Reeves_%E2%80%93_Dogstar_%E2%80%93_Tons_of_Rock_2026-3.jpg/1280px-Keanu_Reeves_%E2%80%93_Dogstar_%E2%80%93_Tons_of_Rock_2026-3.jpg"
+ },
+ {
+  "slug": "robert-de-niro",
+  "name": "Robert De Niro",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Robert_de_Niro-9578.jpg/1280px-Robert_de_Niro-9578.jpg"
+ },
+ {
+  "slug": "al-pacino",
+  "name": "Al Pacino",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Al_Pacino_in_2016.jpg/1280px-Al_Pacino_in_2016.jpg"
+ },
+ {
+  "slug": "meryl-streep",
+  "name": "Meryl Streep",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Meryl_Streep-_Press_conference_for_the_film_%22The_Devil_Wears_Prada_2%22_-_55194765350_%28cropped1%29.jpg/1280px-Meryl_Streep-_Press_conference_for_the_film_%22The_Devil_Wears_Prada_2%22_-_55194765350_%28cropped1%29.jpg"
+ },
+ {
+  "slug": "julia-roberts",
+  "name": "Julia Roberts",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Julia_Roberts_2025.jpg/1280px-Julia_Roberts_2025.jpg"
+ },
+ {
+  "slug": "nicole-kidman",
+  "name": "Nicole Kidman",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/MKr384262_Nicole_Kidman_%28Women_In_Motion%2C_Cannes_2025%29.jpg/1280px-MKr384262_Nicole_Kidman_%28Women_In_Motion%2C_Cannes_2025%29.jpg"
+ },
+ {
+  "slug": "scarlett-johansson",
+  "name": "Scarlett Johansson",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Scarlett_Johansson-8588.jpg/1280px-Scarlett_Johansson-8588.jpg"
+ },
+ {
+  "slug": "angelina-jolie",
+  "name": "Angelina Jolie",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Angelina_Jolie.png"
+ },
+ {
+  "slug": "natalie-portman",
+  "name": "Natalie Portman",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/NataliePortman.jpg/1280px-NataliePortman.jpg"
+ },
+ {
+  "slug": "margot-robbie",
+  "name": "Margot Robbie",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Margot_Robbie_at_the_Paris_premiere_of_%22Wuthering_Heights%22.jpg/1280px-Margot_Robbie_at_the_Paris_premiere_of_%22Wuthering_Heights%22.jpg"
+ },
+ {
+  "slug": "emma-watson",
+  "name": "Emma Watson",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Emma_Watson_ONU_2017.jpg"
+ },
+ {
+  "slug": "daniel-radcliffe",
+  "name": "Daniel Radcliffe",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/DanielRadcliffe-byPhilipRomano.jpg/1280px-DanielRadcliffe-byPhilipRomano.jpg"
+ },
+ {
+  "slug": "harrison-ford",
+  "name": "Harrison Ford",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Harrison_Ford_by_Gage_Skidmore_2.jpg/1280px-Harrison_Ford_by_Gage_Skidmore_2.jpg"
+ },
+ {
+  "slug": "arnold-schwarzenegger",
+  "name": "Arnold Schwarzenegger",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg/1280px-Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg"
+ },
+ {
+  "slug": "sylvester-stallone",
+  "name": "Sylvester Stallone",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/P20251206DT-0472_%28cropped%3B_Sylvester_Stallone%29_%28less_headroom%29.jpg"
+ },
+ {
+  "slug": "jackie-chan",
+  "name": "Jackie Chan",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Jackie_Chan.jpg"
+ },
+ {
+  "slug": "dwayne-johnson",
+  "name": "Dwayne Johnson",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Dwayne_Johnson-1809_%28cropped%29.jpg/1280px-Dwayne_Johnson-1809_%28cropped%29.jpg"
+ },
+ {
+  "slug": "ryan-gosling",
+  "name": "Ryan Gosling",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/GoslingBFI081223_%2810_of_30%29_%2853389077811%29_%28cropped%29.jpg/1280px-GoslingBFI081223_%2810_of_30%29_%2853389077811%29_%28cropped%29.jpg"
+ },
+ {
+  "slug": "zendaya",
+  "name": "Zendaya",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Zendaya-byPhilipRomano.jpg/1280px-Zendaya-byPhilipRomano.jpg"
+ },
+ {
+  "slug": "timothee-chalamet",
+  "name": "Timothée Chalamet",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Timoth%C3%A9e_Chalamet_2025_2_%28cropped%29.jpg/1280px-Timoth%C3%A9e_Chalamet_2025_2_%28cropped%29.jpg"
+ },
+ {
+  "slug": "marilyn-monroe",
+  "name": "Marilyn Monroe",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Monroe_1953_publicity.jpg/1280px-Monroe_1953_publicity.jpg"
+ },
+ {
+  "slug": "audrey-hepburn",
+  "name": "Audrey Hepburn",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/AudreyKHepburn.jpg"
+ },
+ {
+  "slug": "charlie-chaplin",
+  "name": "Charlie Chaplin",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Charlie_Chaplin_portrait_Getty_1739411952.jpg/1280px-Charlie_Chaplin_portrait_Getty_1739411952.jpg"
+ },
+ {
+  "slug": "steven-spielberg",
+  "name": "Steven Spielberg",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/MKr25402_Steven_Spielberg_%28Berlinale_2023%29_%283x4_cropped%29.jpg/1280px-MKr25402_Steven_Spielberg_%28Berlinale_2023%29_%283x4_cropped%29.jpg"
+ },
+ {
+  "slug": "quentin-tarantino",
+  "name": "Quentin Tarantino",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Quentin_Tarantino_by_Gage_Skidmore.jpg/1280px-Quentin_Tarantino_by_Gage_Skidmore.jpg"
+ },
+ {
+  "slug": "alfred-hitchcock",
+  "name": "Alfred Hitchcock",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Hitchcock%2C_Alfred_02.jpg"
+ },
+ {
+  "slug": "jean-dujardin",
+  "name": "Jean Dujardin",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Christophe_Lambert_et_Jean_Dujardin_%28Cropped%29.jpg"
+ },
+ {
+  "slug": "marion-cotillard",
+  "name": "Marion Cotillard",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Marion_Cotillard-1061_%28cropped%29.jpg/1280px-Marion_Cotillard-1061_%28cropped%29.jpg"
+ },
+ {
+  "slug": "gerard-depardieu",
+  "name": "Gérard Depardieu",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/G%C3%A9rard_Depardieu_Cannes_2010.jpg"
+ },
+ {
+  "slug": "catherine-deneuve",
+  "name": "Catherine Deneuve",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/La_costanza_della_ragione_-_Catherine_Deneuve.jpg"
+ },
+ {
+  "slug": "brigitte-bardot",
+  "name": "Brigitte Bardot",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Brigitte_Bardot_-_1962.jpg"
+ },
+ {
+  "slug": "jean-paul-belmondo",
+  "name": "Jean-Paul Belmondo",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Belmondo_1960.jpg"
+ },
+ {
+  "slug": "alain-delon",
+  "name": "Alain Delon",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Alain_Delon_1959_Rome.jpg"
+ },
+ {
+  "slug": "louis-de-funes",
+  "name": "Louis de Funès",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Louis_de_Fun%C3%A8s_%E2%80%94_L%27Homme_orchestre_%281970%29_%28recadr%C3%A9%29.jpg/1280px-Louis_de_Fun%C3%A8s_%E2%80%94_L%27Homme_orchestre_%281970%29_%28recadr%C3%A9%29.jpg"
+ },
+ {
+  "slug": "jean-reno",
+  "name": "Jean Reno",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Jean_Reno_Cannes_2016.jpg"
+ },
+ {
+  "slug": "audrey-tautou",
+  "name": "Audrey Tautou",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Audrey_Tautou_janvier_2016.jpg"
+ },
+ {
+  "slug": "sophie-marceau",
+  "name": "Sophie Marceau",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Sophie_Marceau_Cannes_2015_2.jpg"
+ },
+ {
+  "slug": "christian-clavier",
+  "name": "Christian Clavier",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Christian_Clavier_Cannes_2013.jpg"
+ },
+ {
+  "slug": "dany-boon",
+  "name": "Dany Boon",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Dany_Boon_C%C3%A9sar_2018.jpg"
+ },
+ {
+  "slug": "gad-elmaleh",
+  "name": "Gad Elmaleh",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Gad_Elmaleh_apr%C3%A8s_son_spectacle_%C3%A0_Montr%C3%A9al%2C_Septembre_2006.jpg"
+ },
+ {
+  "slug": "jamel-debbouze",
+  "name": "Jamel Debbouze",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Festival_des_Vieilles_Charrues_2019_-_Jamel_Debbouze_-_010.jpg/1280px-Festival_des_Vieilles_Charrues_2019_-_Jamel_Debbouze_-_010.jpg"
+ },
+ {
+  "slug": "lea-seydoux",
+  "name": "Léa Seydoux",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/L%C3%A9a_Seydoux_-_ALPHAGANG_-_TIFF_2026.jpg/1280px-L%C3%A9a_Seydoux_-_ALPHAGANG_-_TIFF_2026.jpg"
+ },
+ {
+  "slug": "michael-jackson",
+  "name": "Michael Jackson",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Michael_Jackson_with_Grammy_Awards_in_1984.jpg/1280px-Michael_Jackson_with_Grammy_Awards_in_1984.jpg"
+ },
+ {
+  "slug": "madonna",
+  "name": "Madonna",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/MadonnaO2171023_%285_of_133%29_%2853270847219%29_%28cropped%29.jpg"
+ },
+ {
+  "slug": "elvis-presley",
+  "name": "Elvis Presley",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Elvis_Presley_promoting_Jailhouse_Rock.jpg/1280px-Elvis_Presley_promoting_Jailhouse_Rock.jpg"
+ },
+ {
+  "slug": "freddie-mercury",
+  "name": "Freddie Mercury",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Freddie_Mercury_performing_in_New_Haven%2C_CT%2C_November_1977.jpg/1280px-Freddie_Mercury_performing_in_New_Haven%2C_CT%2C_November_1977.jpg"
+ },
+ {
+  "slug": "david-bowie",
+  "name": "David Bowie",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg"
+ },
+ {
+  "slug": "john-lennon",
+  "name": "John Lennon",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/John_Lennon_%22Walls_and_Bridges%22_1974_press_photo_2_%28color%29_%28cropped%29.jpg/1280px-John_Lennon_%22Walls_and_Bridges%22_1974_press_photo_2_%28color%29_%28cropped%29.jpg"
+ },
+ {
+  "slug": "paul-mccartney",
+  "name": "Paul McCartney",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/Paul_McCartney_2021_%28cropped%29.jpg"
+ },
+ {
+  "slug": "bob-marley",
+  "name": "Bob Marley",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Bob_Marley_circa_1976_%28cropped%29.jpg/1280px-Bob_Marley_circa_1976_%28cropped%29.jpg"
+ },
+ {
+  "slug": "elton-john",
+  "name": "Elton John",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/EltonDocBFILFF101024_%284_of_17%29_%28cropped%29.jpg"
+ },
+ {
+  "slug": "prince",
+  "name": "Prince",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Prince_at_Coachella_%28cropped%29.jpg/1280px-Prince_at_Coachella_%28cropped%29.jpg"
+ },
+ {
+  "slug": "whitney-houston",
+  "name": "Whitney Houston",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/02/Whitney_Houston_Welcome_Heroes_7a.JPEG"
+ },
+ {
+  "slug": "beyonce",
+  "name": "Beyoncé",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/HSnE5IOWkAA1R8q.jpg/1280px-HSnE5IOWkAA1R8q.jpg"
+ },
+ {
+  "slug": "rihanna",
+  "name": "Rihanna",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Rihanna_Fenty_2018.png"
+ },
+ {
+  "slug": "lady-gaga",
+  "name": "Lady Gaga",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Lady_Gaga_at_Mayhem_Requiem_premiere_2_%28cropped_2%29.png/1280px-Lady_Gaga_at_Mayhem_Requiem_premiere_2_%28cropped_2%29.png"
+ },
+ {
+  "slug": "taylor-swift",
+  "name": "Taylor Swift",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_4.png/1280px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_4.png"
+ },
+ {
+  "slug": "ed-sheeran",
+  "name": "Ed Sheeran",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Ed_Sheeran_%288508826576%29.jpg"
+ },
+ {
+  "slug": "billie-eilish",
+  "name": "Billie Eilish",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/BillieEilishO2140725-66_-_54666402736_%28cropped%29.jpg/1280px-BillieEilishO2140725-66_-_54666402736_%28cropped%29.jpg"
+ },
+ {
+  "slug": "snoop-dogg",
+  "name": "Snoop Dogg",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Snoop_Dogg_2019_by_Glenn_Francis.jpg/1280px-Snoop_Dogg_2019_by_Glenn_Francis.jpg"
+ },
+ {
+  "slug": "kanye-west",
+  "name": "Kanye West",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Kanye_West_at_the_Met_Gala_in_2019.png"
+ },
+ {
+  "slug": "kurt-cobain",
+  "name": "Kurt Cobain",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Photo_of_Kurt_Cobain_from_US_Embassy_in_Bern.jpg"
+ },
+ {
+  "slug": "amy-winehouse",
+  "name": "Amy Winehouse",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Amy_Winehouse_4August2007_%28cropped%29.jpg/1280px-Amy_Winehouse_4August2007_%28cropped%29.jpg"
+ },
+ {
+  "slug": "stromae",
+  "name": "Stromae",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Stromae_2011_cropped.jpg"
+ },
+ {
+  "slug": "johnny-hallyday",
+  "name": "Johnny Hallyday",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Johnny_Hallyday_avp_2014_%28cropped%29.jpg"
+ },
+ {
+  "slug": "edith-piaf",
+  "name": "Édith Piaf",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Piaf_Harcourt_1946_2.jpg"
+ },
+ {
+  "slug": "serge-gainsbourg",
+  "name": "Serge Gainsbourg",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Serge_Gainsbourg_par_Claude_Truong-Ngoc_1981.jpg/1280px-Serge_Gainsbourg_par_Claude_Truong-Ngoc_1981.jpg"
+ },
+ {
+  "slug": "jacques-brel",
+  "name": "Jacques Brel",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Jacques_Brel_%281962%29.jpg/1280px-Jacques_Brel_%281962%29.jpg"
+ },
+ {
+  "slug": "charles-aznavour",
+  "name": "Charles Aznavour",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/2014.06.23._Charles_Aznavour_Fot_Mariusz_Kubik_01.jpg"
+ },
+ {
+  "slug": "celine-dion",
+  "name": "Céline Dion",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/C%C3%A9line_Dion_2012.jpg"
+ },
+ {
+  "slug": "mylene-farmer",
+  "name": "Mylène Farmer",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Myl%C3%A8ne_farmer_Live_2019_%28cropped%29.jpg"
+ },
+ {
+  "slug": "jean-jacques-goldman",
+  "name": "Jean-Jacques Goldman",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Jean-Jacques_Goldman_-_may_2002.jpg"
+ },
+ {
+  "slug": "aya-nakamura",
+  "name": "Aya Nakamura",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Aya_Nakamura.jpg"
+ },
+ {
+  "slug": "angele",
+  "name": "Angèle",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/P2NAngele_2.jpg/1280px-P2NAngele_2.jpg"
+ },
+ {
+  "slug": "indila",
+  "name": "Indila",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Indila_-_EBBA_2015.jpg/1280px-Indila_-_EBBA_2015.jpg"
+ },
+ {
+  "slug": "zinedine-zidane",
+  "name": "Zinédine Zidane",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg"
+ },
+ {
+  "slug": "kylian-mbappe",
+  "name": "Kylian Mbappé",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/1280px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg"
+ },
+ {
+  "slug": "lionel-messi",
+  "name": "Lionel Messi",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/1280px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg"
+ },
+ {
+  "slug": "cristiano-ronaldo",
+  "name": "Cristiano Ronaldo",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/1280px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg"
+ },
+ {
+  "slug": "pele",
+  "name": "Pelé",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Pele_con_brasil_%28cropped%29.jpg"
+ },
+ {
+  "slug": "diego-maradona",
+  "name": "Diego Maradona",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Argentina_celebrando_copa_%28cropped%29.jpg"
+ },
+ {
+  "slug": "antoine-griezmann",
+  "name": "Antoine Griezmann",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Antoine_Griezmann_World_Cup_Trophy.jpg"
+ },
+ {
+  "slug": "thierry-henry",
+  "name": "Thierry Henry",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Thierry_Henry_%2851649035951%29_%28cropped%29.jpg"
+ },
+ {
+  "slug": "karim-benzema",
+  "name": "Karim Benzema",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Karim_Benzema_wearing_Real_Madrid_home_kit_2021-2022.jpg/1280px-Karim_Benzema_wearing_Real_Madrid_home_kit_2021-2022.jpg"
+ },
+ {
+  "slug": "didier-deschamps",
+  "name": "Didier Deschamps",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Didier_Deschamps_France_v_Senegal_16_June_2026-294.jpg/1280px-Didier_Deschamps_France_v_Senegal_16_June_2026-294.jpg"
+ },
+ {
+  "slug": "michael-jordan",
+  "name": "Michael Jordan",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Michael_Jordan_in_2014.jpg"
+ },
+ {
+  "slug": "lebron-james",
+  "name": "LeBron James",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Lebron_James_2022small.jpg"
+ },
+ {
+  "slug": "tony-parker",
+  "name": "Tony Parker",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Tony_Parker_France_20260628_%285%29.jpg/1280px-Tony_Parker_France_20260628_%285%29.jpg"
+ },
+ {
+  "slug": "victor-wembanyama",
+  "name": "Victor Wembanyama",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Victor_Wembanyama_San_Antonio_Spurs_2024.jpg/1280px-Victor_Wembanyama_San_Antonio_Spurs_2024.jpg"
+ },
+ {
+  "slug": "usain-bolt",
+  "name": "Usain Bolt",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Usain_Bolt_Rio_100m_final_2016i-cr.jpg/1280px-Usain_Bolt_Rio_100m_final_2016i-cr.jpg"
+ },
+ {
+  "slug": "muhammad-ali",
+  "name": "Muhammad Ali",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/1280px-Muhammad_Ali_NYWTS.jpg"
+ },
+ {
+  "slug": "mike-tyson",
+  "name": "Mike Tyson",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Mike_Tyson_Photo_Op_GalaxyCon_Austin_2023.jpg"
+ },
+ {
+  "slug": "roger-federer",
+  "name": "Roger Federer",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Roger_Federer_%2826_June_2009%2C_Wimbledon%29_2.jpg/1280px-Roger_Federer_%2826_June_2009%2C_Wimbledon%29_2.jpg"
+ },
+ {
+  "slug": "rafael-nadal",
+  "name": "Rafael Nadal",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Rafael_Nadal_2011_Roland_Garros_2011.jpg/1280px-Rafael_Nadal_2011_Roland_Garros_2011.jpg"
+ },
+ {
+  "slug": "novak-djokovic",
+  "name": "Novak Djokovic",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Novak_Djokovic_Paris_2024_Olympic_Games_%28cropped%29.jpg/1280px-Novak_Djokovic_Paris_2024_Olympic_Games_%28cropped%29.jpg"
+ },
+ {
+  "slug": "serena-williams",
+  "name": "Serena Williams",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Serena_Williams_at_the_2025_International_Tennis_Hall_of_Fame_Induction_Ceremony_Press_Conference_%28cropped%29.jpg/1280px-Serena_Williams_at_the_2025_International_Tennis_Hall_of_Fame_Induction_Ceremony_Press_Conference_%28cropped%29.jpg"
+ },
+ {
+  "slug": "yannick-noah",
+  "name": "Yannick Noah",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Pause_Guitare_2015_ven_0331.jpg/1280px-Pause_Guitare_2015_ven_0331.jpg"
+ },
+ {
+  "slug": "tiger-woods",
+  "name": "Tiger Woods",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Tiger_Woods_in_May_2019.jpg"
+ },
+ {
+  "slug": "lewis-hamilton",
+  "name": "Lewis Hamilton",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Prime_Minister_Keir_Starmer_meets_Sir_Lewis_Hamilton_%2854566928382%29_%28cropped%29.jpg/1280px-Prime_Minister_Keir_Starmer_meets_Sir_Lewis_Hamilton_%2854566928382%29_%28cropped%29.jpg"
+ },
+ {
+  "slug": "michael-schumacher",
+  "name": "Michael Schumacher",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Michael_Schumacher%2C_September_2005.jpg"
+ },
+ {
+  "slug": "ayrton-senna",
+  "name": "Ayrton Senna",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Ayrton_Senna_8_-_Cropped.jpg"
+ },
+ {
+  "slug": "teddy-riner",
+  "name": "Teddy Riner",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Teddy_Riner_Cannes_2016.jpg"
+ },
+ {
+  "slug": "leon-marchand",
+  "name": "Léon Marchand",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/L%C3%A9on_Marchand%2C_2023_Pac-12_Championships%2C_400_yard_individual_medley_preliminaries_-_3_March_2023.jpg/1280px-L%C3%A9on_Marchand%2C_2023_Pac-12_Championships%2C_400_yard_individual_medley_preliminaries_-_3_March_2023.jpg"
+ },
+ {
+  "slug": "michael-phelps",
+  "name": "Michael Phelps",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Michael_Phelps_Rio_Olympics_2016.jpg"
+ },
+ {
+  "slug": "antoine-dupont",
+  "name": "Antoine Dupont",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Antoine_Dupont_February_2023.jpg"
+ },
+ {
+  "slug": "martin-fourcade",
+  "name": "Martin Fourcade",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Martin_Fourcade_octobre_2017.jpg/1280px-Martin_Fourcade_octobre_2017.jpg"
+ },
+ {
+  "slug": "napoleon-ier",
+  "name": "Napoléon Ier",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project_2.jpg/1280px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project_2.jpg"
+ },
+ {
+  "slug": "charles-de-gaulle",
+  "name": "Charles de Gaulle",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/De_Gaulle-OWI_%283x4_cropped%29_%282%29.jpg/1280px-De_Gaulle-OWI_%283x4_cropped%29_%282%29.jpg"
+ },
+ {
+  "slug": "louis-xiv",
+  "name": "Louis XIV",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Louis_XIV_of_France.jpg/1280px-Louis_XIV_of_France.jpg"
+ },
+ {
+  "slug": "marie-antoinette",
+  "name": "Marie-Antoinette",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Marie-Antoinette%3B_koningin_der_FransenFXD.jpg/1280px-Marie-Antoinette%3B_koningin_der_FransenFXD.jpg"
+ },
+ {
+  "slug": "winston-churchill",
+  "name": "Winston Churchill",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Sir_Winston_Churchill_-_19086236948_%28restored%29.jpg/1280px-Sir_Winston_Churchill_-_19086236948_%28restored%29.jpg"
+ },
+ {
+  "slug": "abraham-lincoln",
+  "name": "Abraham Lincoln",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Abraham_Lincoln_O-77_matte_collodion_print.jpg/1280px-Abraham_Lincoln_O-77_matte_collodion_print.jpg"
+ },
+ {
+  "slug": "john-fitzgerald-kennedy",
+  "name": "John Fitzgerald Kennedy",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/1280px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg"
+ },
+ {
+  "slug": "martin-luther-king",
+  "name": "Martin Luther King",
+  "category": "histoire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Martin_Luther_King%2C_Jr..jpg"
+ },
+ {
+  "slug": "nelson-mandela",
+  "name": "Nelson Mandela",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Nelson_Mandela_1994.jpg/1280px-Nelson_Mandela_1994.jpg"
+ },
+ {
+  "slug": "gandhi",
+  "name": "Gandhi",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/1280px-Mahatma-Gandhi%2C_studio%2C_1931.jpg"
+ },
+ {
+  "slug": "che-guevara",
+  "name": "Che Guevara",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/CheHigh.jpg/1280px-CheHigh.jpg"
+ },
+ {
+  "slug": "fidel-castro",
+  "name": "Fidel Castro",
+  "category": "histoire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Fidel_Castro_1950s.jpg"
+ },
+ {
+  "slug": "elisabeth-ii",
+  "name": "Élisabeth II",
+  "category": "histoire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Elizabeth_II_in_Berlin_2015_%28cropped%29.JPG"
+ },
+ {
+  "slug": "lady-di-diana-spencer",
+  "name": "Lady Di (Diana Spencer)",
+  "category": "histoire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Diana%2C_Princess_of_Wales_1997_%282%29.jpg"
+ },
+ {
+  "slug": "barack-obama",
+  "name": "Barack Obama",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/1280px-President_Barack_Obama.jpg"
+ },
+ {
+  "slug": "donald-trump",
+  "name": "Donald Trump",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/1280px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+ },
+ {
+  "slug": "emmanuel-macron",
+  "name": "Emmanuel Macron",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Emmanuel_Macron_2025_%28cropped%29.jpg/1280px-Emmanuel_Macron_2025_%28cropped%29.jpg"
+ },
+ {
+  "slug": "jacques-chirac",
+  "name": "Jacques Chirac",
+  "category": "histoire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Jacques_Chirac_%281997%29_%28cropped%29.jpg"
+ },
+ {
+  "slug": "francois-mitterrand",
+  "name": "François Mitterrand",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/President_Mitterand_bij_slotzitting_Europa_Congres_Mitterand%2C_kop%2C_Bestanddeelnr_934-2444_%28portrait_crop%29.jpg/1280px-President_Mitterand_bij_slotzitting_Europa_Congres_Mitterand%2C_kop%2C_Bestanddeelnr_934-2444_%28portrait_crop%29.jpg"
+ },
+ {
+  "slug": "nicolas-sarkozy",
+  "name": "Nicolas Sarkozy",
+  "category": "histoire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Nicolas_Sarkozy_20220927.jpg"
+ },
+ {
+  "slug": "angela-merkel",
+  "name": "Angela Merkel",
+  "category": "histoire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Angela_Merkel_2023_%28cropped_2%29.jpg"
+ },
+ {
+  "slug": "vladimir-poutine",
+  "name": "Vladimir Poutine",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2808-03-2024%29_%28cropped%29_%28higher_res%29.jpg/1280px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2808-03-2024%29_%28cropped%29_%28higher_res%29.jpg"
+ },
+ {
+  "slug": "simone-veil",
+  "name": "Simone Veil",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Official_portrait_of_Simone_Veil_%28cropped%29.jpg/1280px-Official_portrait_of_Simone_Veil_%28cropped%29.jpg"
+ },
+ {
+  "slug": "mere-teresa",
+  "name": "Mère Teresa",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Mutter_Teresa_von_Kalkutta.jpg/1280px-Mutter_Teresa_von_Kalkutta.jpg"
+ },
+ {
+  "slug": "le-pape-francois",
+  "name": "Le pape François",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Pope_Francis_Korea_Haemi_Castle_19.jpg/1280px-Pope_Francis_Korea_Haemi_Castle_19.jpg"
+ },
+ {
+  "slug": "le-dalai-lama-tenzin-gyatso",
+  "name": "Le dalaï-lama (Tenzin Gyatso)",
+  "category": "histoire",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/The_Dalai_Lama_in_2012.jpg/1280px-The_Dalai_Lama_in_2012.jpg"
+ },
+ {
+  "slug": "albert-einstein",
+  "name": "Albert Einstein",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Albert_Einstein_Head_cleaned.jpg/1280px-Albert_Einstein_Head_cleaned.jpg"
+ },
+ {
+  "slug": "marie-curie",
+  "name": "Marie Curie",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Marie_Curie_c1920.jpg/1280px-Marie_Curie_c1920.jpg"
+ },
+ {
+  "slug": "isaac-newton",
+  "name": "Isaac Newton",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/GodfreyKneller-IsaacNewton-1689.jpg/1280px-GodfreyKneller-IsaacNewton-1689.jpg"
+ },
+ {
+  "slug": "charles-darwin",
+  "name": "Charles Darwin",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Charles_Darwin_portrait.jpg"
+ },
+ {
+  "slug": "stephen-hawking",
+  "name": "Stephen Hawking",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Stephen_Hawking.StarChild.jpg"
+ },
+ {
+  "slug": "louis-pasteur",
+  "name": "Louis Pasteur",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Louis_Pasteur_%281822_-_1895%29%2C_microbiologist_and_chemist_Wellcome_V0026980.jpg/1280px-Louis_Pasteur_%281822_-_1895%29%2C_microbiologist_and_chemist_Wellcome_V0026980.jpg"
+ },
+ {
+  "slug": "nikola-tesla",
+  "name": "Nikola Tesla",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/Tesla_circa_1890.jpeg"
+ },
+ {
+  "slug": "thomas-edison",
+  "name": "Thomas Edison",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/1280px-Thomas_Edison2.jpg"
+ },
+ {
+  "slug": "sigmund-freud",
+  "name": "Sigmund Freud",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg/1280px-Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg"
+ },
+ {
+  "slug": "galilee",
+  "name": "Galilée",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Justus_Sustermans_-_Portrait_of_Galileo_Galilei%2C_1636.jpg/1280px-Justus_Sustermans_-_Portrait_of_Galileo_Galilei%2C_1636.jpg"
+ },
+ {
+  "slug": "neil-armstrong",
+  "name": "Neil Armstrong",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Neil_Armstrong_pose.jpg/1280px-Neil_Armstrong_pose.jpg"
+ },
+ {
+  "slug": "thomas-pesquet",
+  "name": "Thomas Pesquet",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Thomas_Pesquet%2C_official_portrait_in_EMU_%282020%29_cropped.jpg/1280px-Thomas_Pesquet%2C_official_portrait_in_EMU_%282020%29_cropped.jpg"
+ },
+ {
+  "slug": "jacques-yves-cousteau",
+  "name": "Jacques-Yves Cousteau",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cousteau1972_%28cropped%29.jpg"
+ },
+ {
+  "slug": "steve-jobs",
+  "name": "Steve Jobs",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Steve_Jobs_Headshot_2010-CROP2.jpg/1280px-Steve_Jobs_Headshot_2010-CROP2.jpg"
+ },
+ {
+  "slug": "bill-gates",
+  "name": "Bill Gates",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Bill_Gates_-_Nov._8%2C_2019.jpg"
+ },
+ {
+  "slug": "mark-zuckerberg",
+  "name": "Mark Zuckerberg",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/F20250904AH-2915_%2854778607243%29_%28cropped%29.jpg"
+ },
+ {
+  "slug": "elon-musk",
+  "name": "Elon Musk",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/The_White_House_-_54409525537_%28cropped%29_%28cropped%29.jpg"
+ },
+ {
+  "slug": "victor-hugo",
+  "name": "Victor Hugo",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Victor_Hugo_001.jpg"
+ },
+ {
+  "slug": "moliere",
+  "name": "Molière",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Moli%C3%A8re_-_Nicolas_Mignard_%281658%29.jpg/1280px-Moli%C3%A8re_-_Nicolas_Mignard_%281658%29.jpg"
+ },
+ {
+  "slug": "voltaire",
+  "name": "Voltaire",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg/1280px-Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg"
+ },
+ {
+  "slug": "william-shakespeare",
+  "name": "William Shakespeare",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/1280px-Shakespeare.jpg"
+ },
+ {
+  "slug": "charles-baudelaire",
+  "name": "Charles Baudelaire",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/%C3%89tienne_Carjat%2C_Portrait_of_Charles_Baudelaire%2C_circa_1862.jpg/1280px-%C3%89tienne_Carjat%2C_Portrait_of_Charles_Baudelaire%2C_circa_1862.jpg"
+ },
+ {
+  "slug": "arthur-rimbaud",
+  "name": "Arthur Rimbaud",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Rimbaud.PNG"
+ },
+ {
+  "slug": "albert-camus",
+  "name": "Albert Camus",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg"
+ },
+ {
+  "slug": "jean-paul-sartre",
+  "name": "Jean-Paul Sartre",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flickr_-_Government_Press_Office_%28GPO%29_-_Jean_Paul_Sartre_and_Simone_De_Beauvoir_welcomed_by_Avraham_Shlonsky_and_Leah_Goldberg_%28cropped%29.jpg"
+ },
+ {
+  "slug": "simone-de-beauvoir",
+  "name": "Simone de Beauvoir",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Simone_de_Beauvoir2.png"
+ },
+ {
+  "slug": "ernest-hemingway",
+  "name": "Ernest Hemingway",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/ErnestHemingway.jpg/1280px-ErnestHemingway.jpg"
+ },
+ {
+  "slug": "agatha-christie",
+  "name": "Agatha Christie",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Agatha_Christie_in_Nederland_%28detectiveschrijfster%29%2C_bij_aankomst_op_Schiphol_me%2C_Bestanddeelnr_916-8898_%28cropped%29.jpg/1280px-Agatha_Christie_in_Nederland_%28detectiveschrijfster%29%2C_bij_aankomst_op_Schiphol_me%2C_Bestanddeelnr_916-8898_%28cropped%29.jpg"
+ },
+ {
+  "slug": "j-k-rowling",
+  "name": "J. K. Rowling",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/J._K._Rowling_2010.jpg/1280px-J._K._Rowling_2010.jpg"
+ },
+ {
+  "slug": "pablo-picasso",
+  "name": "Pablo Picasso",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Pablo_picasso_1.jpg"
+ },
+ {
+  "slug": "salvador-dali",
+  "name": "Salvador Dalí",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Salvador_Dal%C3%AD_1939.jpg/1280px-Salvador_Dal%C3%AD_1939.jpg"
+ },
+ {
+  "slug": "frida-kahlo",
+  "name": "Frida Kahlo",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg"
+ },
+ {
+  "slug": "vincent-van-gogh",
+  "name": "Vincent van Gogh",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Self-Portrait_with_a_Straw_Hat_%28obverse-_The_Potato_Peeler%29_MET_ep67.187.70A.R.jpg"
+ },
+ {
+  "slug": "andy-warhol",
+  "name": "Andy Warhol",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Andy_Warhol_1977.jpg"
+ },
+ {
+  "slug": "wolfgang-amadeus-mozart",
+  "name": "Wolfgang Amadeus Mozart",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Mozart_%28unfinished%29_by_Lange_1782.jpg/1280px-Mozart_%28unfinished%29_by_Lange_1782.jpg"
+ },
+ {
+  "slug": "ludwig-van-beethoven",
+  "name": "Ludwig van Beethoven",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg"
+ },
+ {
+  "slug": "coco-chanel",
+  "name": "Coco Chanel",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/Coco_Chanel_in_Los_Angeles%2C_1931_%28cropped%29.jpg"
+ },
+ {
+  "slug": "karl-lagerfeld",
+  "name": "Karl Lagerfeld",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Karl_Lagerfeld_2014.jpg"
+ },
+ {
+  "slug": "walt-disney",
+  "name": "Walt Disney",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/df/Walt_Disney_1946.JPG"
+ },
+ {
+  "slug": "herge",
+  "name": "Hergé",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Herge-Italie-1965-Linus.png"
+ },
+ {
+  "slug": "stan-lee",
+  "name": "Stan Lee",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Stan_Lee_by_Gage_Skidmore_2.jpg/1280px-Stan_Lee_by_Gage_Skidmore_2.jpg"
+ },
+ {
+  "slug": "hayao-miyazaki",
+  "name": "Hayao Miyazaki",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/HayaoMiyazakiCCJuly09.jpg"
+ },
+ {
+  "slug": "shigeru-miyamoto",
+  "name": "Shigeru Miyamoto",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Shigeru_Miyamoto_20150610_%28cropped%29.jpg"
+ },
+ {
+  "slug": "philippe-etchebest",
+  "name": "Philippe Etchebest",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Philippe_Etchebest_in_2018.png"
+ },
+ {
+  "slug": "cyril-lignac",
+  "name": "Cyril Lignac",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Salon_chocolat_Paris_2017_Cyril_Lignac_2949c.jpg/1280px-Salon_chocolat_Paris_2017_Cyril_Lignac_2949c.jpg"
+ },
+ {
+  "slug": "paul-bocuse",
+  "name": "Paul Bocuse",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Paul_Bocuse_2007_-2.jpg"
+ },
+ {
+  "slug": "cyril-hanouna",
+  "name": "Cyril Hanouna",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/86/Pieds_dans_le_plat_hanouna_2_%28cropped%29.jpg"
+ },
+ {
+  "slug": "nagui",
+  "name": "Nagui",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Nagui_Cannes_2019.jpg"
+ },
+ {
+  "slug": "jean-pierre-foucault",
+  "name": "Jean-Pierre Foucault",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Jean-Pierre_Foucault_en_2018.jpg"
+ },
+ {
+  "slug": "michel-drucker",
+  "name": "Michel Drucker",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/MichelDrucker-StudioHarcourt-1987.png"
+ },
+ {
+  "slug": "stephane-bern",
+  "name": "Stéphane Bern",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/St%C3%A9phane_Bern_Luxembourg_Royal_Wedding_2012.jpg"
+ },
+ {
+  "slug": "mimie-mathy",
+  "name": "Mimie Mathy",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Mimie_Mathy_Cannes.jpg"
+ },
+ {
+  "slug": "kev-adams",
+  "name": "Kev Adams",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Kev_Adams_Cannes_2016.jpg"
+ },
+ {
+  "slug": "florence-foresti",
+  "name": "Florence Foresti",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Florence_Foresti_Cannes_2017.jpg"
+ },
+ {
+  "slug": "squeezie",
+  "name": "Squeezie",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Squeezie_Zack_en_Roue_Libre_2025.png"
+ },
+ {
+  "slug": "norman-thavaud",
+  "name": "Norman Thavaud",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Norman_Thavaud_Cannes_2015.jpg"
+ },
+ {
+  "slug": "cyprien-iov",
+  "name": "Cyprien Iov",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Cyprien_en_2022.jpg"
+ },
+ {
+  "slug": "kim-kardashian",
+  "name": "Kim Kardashian",
+  "category": "culture",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Kim_Kardashian_Met_Gala_2017.jpg"
+ },
+ {
+  "slug": "oprah-winfrey",
+  "name": "Oprah Winfrey",
+  "category": "culture",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Public_Swearing_In_%2852644838925%29_%28cropped%29.jpg/1280px-Public_Swearing_In_%2852644838925%29_%28cropped%29.jpg"
+ },
+ {
+  "slug": "pierre-niney",
+  "name": "Pierre Niney",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Pierre_Niney_2024.jpg/1280px-Pierre_Niney_2024.jpg"
+ },
+ {
+  "slug": "gilles-lellouche",
+  "name": "Gilles Lellouche",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Gilles_Lellouche_at_the_2026_Cannes_Film_Festival_2026_%28cropped%29.jpg/1280px-Gilles_Lellouche_at_the_2026_Cannes_Film_Festival_2026_%28cropped%29.jpg"
+ },
+ {
+  "slug": "isabelle-huppert",
+  "name": "Isabelle Huppert",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Isabelle_Huppert_at_Berlinale_2026-1.jpg"
+ },
+ {
+  "slug": "juliette-binoche",
+  "name": "Juliette Binoche",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Juliette_Binoche_at_Berlinale_2026-2.jpg/1280px-Juliette_Binoche_at_Berlinale_2026-2.jpg"
+ },
+ {
+  "slug": "christopher-nolan",
+  "name": "Christopher Nolan",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/ChristopherNolan-byPhilipRomano.jpg/1280px-ChristopherNolan-byPhilipRomano.jpg"
+ },
+ {
+  "slug": "martin-scorsese",
+  "name": "Martin Scorsese",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Martin_Scorsese_Taxi_Driver_Tribeca_Festival_2026-7.jpg/1280px-Martin_Scorsese_Taxi_Driver_Tribeca_Festival_2026-7.jpg"
+ },
+ {
+  "slug": "clint-eastwood",
+  "name": "Clint Eastwood",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Clint_Eastwood-Rawhide_publicity.JPG"
+ },
+ {
+  "slug": "sean-connery",
+  "name": "Sean Connery",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/SeanConnery.jpg"
+ },
+ {
+  "slug": "daniel-craig",
+  "name": "Daniel Craig",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Daniel_Craig_TIFF_2025_Red_Carpet_%28cropped%29.jpg/1280px-Daniel_Craig_TIFF_2025_Red_Carpet_%28cropped%29.jpg"
+ },
+ {
+  "slug": "hugh-jackman",
+  "name": "Hugh Jackman",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Hugh_Jackman_Is_This_Thing_On-68_%28cropped%29.jpg/1280px-Hugh_Jackman_Is_This_Thing_On-68_%28cropped%29.jpg"
+ },
+ {
+  "slug": "robert-downey-jr",
+  "name": "Robert Downey Jr.",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/RobertDowneyJr-byPhilipRomano7_%28cropped%29.jpg/1280px-RobertDowneyJr-byPhilipRomano7_%28cropped%29.jpg"
+ },
+ {
+  "slug": "jennifer-lawrence",
+  "name": "Jennifer Lawrence",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Jennifer_Lawrence%2C_Cannes_Film_Festival_2025.jpg"
+ },
+ {
+  "slug": "jennifer-aniston",
+  "name": "Jennifer Aniston",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/JenniferAnistonHWoFFeb2012.jpg"
+ },
+ {
+  "slug": "bruce-willis",
+  "name": "Bruce Willis",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bruce_Willis_by_Gage_Skidmore_3.jpg/1280px-Bruce_Willis_by_Gage_Skidmore_3.jpg"
+ },
+ {
+  "slug": "jim-carrey",
+  "name": "Jim Carrey",
+  "category": "cinema",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Jim_Carrey_2020_cropped.jpg/1280px-Jim_Carrey_2020_cropped.jpg"
+ },
+ {
+  "slug": "mathieu-kassovitz",
+  "name": "Mathieu Kassovitz",
+  "category": "cinema",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Mathieu_Kassovitz_Cannes_2017.jpg"
+ },
+ {
+  "slug": "vanessa-paradis",
+  "name": "Vanessa Paradis",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/VANESSA_PARADIS_DEAUVILLE_2020.jpg"
+ },
+ {
+  "slug": "renaud",
+  "name": "Renaud",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Renaud%2C_2017_%28cropped%29.jpg"
+ },
+ {
+  "slug": "francis-cabrel",
+  "name": "Francis Cabrel",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Francis_Cabrel_Brussels.jpg/1280px-Francis_Cabrel_Brussels.jpg"
+ },
+ {
+  "slug": "matthieu-chedid",
+  "name": "Matthieu Chedid",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Festival_des_Vieilles_Charrues_2022_-_-M-_-_009.jpg/1280px-Festival_des_Vieilles_Charrues_2022_-_-M-_-_009.jpg"
+ },
+ {
+  "slug": "shakira",
+  "name": "Shakira",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg/1280px-2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg"
+ },
+ {
+  "slug": "dua-lipa",
+  "name": "Dua Lipa",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Dua_Lipa-69798_%28cropped%29.jpg/1280px-Dua_Lipa-69798_%28cropped%29.jpg"
+ },
+ {
+  "slug": "bruno-mars",
+  "name": "Bruno Mars",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Bruno_Mars_-_24K_Magic_Tour_%2837320927992%29.jpg/1280px-Bruno_Mars_-_24K_Magic_Tour_%2837320927992%29.jpg"
+ },
+ {
+  "slug": "justin-bieber",
+  "name": "Justin Bieber",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/P20260719DT-1213_President_Donald_J._Trump_and_First_Lady_Melania_Trump_attend_the_FIFA_World_Cup_Final_%28cropped_2%29.jpg"
+ },
+ {
+  "slug": "britney-spears",
+  "name": "Britney Spears",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Britney_Spears_2013_%28Straighten_Crop%29.jpg"
+ },
+ {
+  "slug": "bob-dylan",
+  "name": "Bob Dylan",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Bob_Dylan_1984_Barcelona.jpg"
+ },
+ {
+  "slug": "jimi-hendrix",
+  "name": "Jimi Hendrix",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Jimi_Hendrix_experience_1968_%28cropped%29.jpg"
+ },
+ {
+  "slug": "frank-sinatra",
+  "name": "Frank Sinatra",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Frank_Sinatra_%281957_Pal_Joey_publicity_photo%29.jpg/1280px-Frank_Sinatra_%281957_Pal_Joey_publicity_photo%29.jpg"
+ },
+ {
+  "slug": "louis-armstrong",
+  "name": "Louis Armstrong",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Louis_Armstrong_in_Color_%28restored%29.jpg/1280px-Louis_Armstrong_in_Color_%28restored%29.jpg"
+ },
+ {
+  "slug": "tina-turner",
+  "name": "Tina Turner",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Tina_Turner_Breaks_All_the_Rules.png/1280px-Tina_Turner_Breaks_All_the_Rules.png"
+ },
+ {
+  "slug": "dalida",
+  "name": "Dalida",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Dalida19673_%28cropped%29.jpg/1280px-Dalida19673_%28cropped%29.jpg"
+ },
+ {
+  "slug": "claude-francois",
+  "name": "Claude François",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Claude_Fran%C3%A7ois_%281965%29.jpg/1280px-Claude_Fran%C3%A7ois_%281965%29.jpg"
+ },
+ {
+  "slug": "michel-sardou",
+  "name": "Michel Sardou",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Michel_Sardou_2014.jpg"
+ },
+ {
+  "slug": "gims",
+  "name": "Gims",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/NDLE2025Gims_1.jpg"
+ },
+ {
+  "slug": "jul",
+  "name": "Jul",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/JUL_-_Julien_Mari_2018.jpg"
+ },
+ {
+  "slug": "booba",
+  "name": "Booba",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Festival_des_Vieilles_Charrues_2019_-_Booba_-_038.jpg"
+ },
+ {
+  "slug": "nekfeu",
+  "name": "Nekfeu",
+  "category": "musique",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Nekfeu_avp.jpg"
+ },
+ {
+  "slug": "soprano",
+  "name": "Soprano",
+  "category": "musique",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Portrait_de_Soprano_lors_du_festival_des_Alpagas_bleus_%C3%A0_Saverne_en_2026.jpg/1280px-Portrait_de_Soprano_lors_du_festival_des_Alpagas_bleus_%C3%A0_Saverne_en_2026.jpg"
+ },
+ {
+  "slug": "simone-biles",
+  "name": "Simone Biles",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Simone_Biles_National_Team_2024.jpg/1280px-Simone_Biles_National_Team_2024.jpg"
+ },
+ {
+  "slug": "kevin-mayer",
+  "name": "Kevin Mayer",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/Kevin_Mayer_%28cropped%29_en_2019.jpg"
+ },
+ {
+  "slug": "zlatan-ibrahimovic",
+  "name": "Zlatan Ibrahimović",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Zlatan_Ibrahimovi%C4%87_June_2018.jpg"
+ },
+ {
+  "slug": "neymar",
+  "name": "Neymar",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg/1280px-Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg"
+ },
+ {
+  "slug": "erling-haaland",
+  "name": "Erling Haaland",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Erling_Haaland_France_v_Norway_26_June_26-008.jpg/1280px-Erling_Haaland_France_v_Norway_26_June_26-008.jpg"
+ },
+ {
+  "slug": "franck-ribery",
+  "name": "Franck Ribéry",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Franck_Ribery_2019_%28cropped%29.jpg"
+ },
+ {
+  "slug": "michel-platini",
+  "name": "Michel Platini",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Platini_panini_calciatori.jpg"
+ },
+ {
+  "slug": "eric-cantona",
+  "name": "Eric Cantona",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Eric_Cantona_Cannes_2009.jpg"
+ },
+ {
+  "slug": "sebastien-loeb",
+  "name": "Sébastien Loeb",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Dakar_2016_-_Conf%C3%A9rence_de_presse_-_20151118_-_079.jpg/1280px-Dakar_2016_-_Conf%C3%A9rence_de_presse_-_20151118_-_079.jpg"
+ },
+ {
+  "slug": "kobe-bryant",
+  "name": "Kobe Bryant",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Kobe_Bryant_2015.jpg"
+ },
+ {
+  "slug": "stephen-curry",
+  "name": "Stephen Curry",
+  "category": "sport",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Stephen_Curry_Shooting_%28cropped%29.jpg/1280px-Stephen_Curry_Shooting_%28cropped%29.jpg"
+ },
+ {
+  "slug": "amelie-mauresmo",
+  "name": "Amélie Mauresmo",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Amelie_Mauresmo_Australian_Open_2005_%28cropped%29.jpg"
+ },
+ {
+  "slug": "laure-manaudou",
+  "name": "Laure Manaudou",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Image_Laure_Manaudou.png"
+ },
+ {
+  "slug": "marie-jose-perec",
+  "name": "Marie-José Pérec",
+  "category": "sport",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Marie-Jos%C3%A9_P%C3%A9rec_Cannes_2016.jpg"
+ }
+]

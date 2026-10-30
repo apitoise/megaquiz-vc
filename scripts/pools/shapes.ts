@@ -3,7 +3,7 @@
 // (Russie, Fidji) et une déformation minimale, même pour les très grands pays.
 import { readFile } from "node:fs/promises";
 import { createRequire } from "node:module";
-import { geoArea, geoAzimuthalEqualArea, geoCentroid, geoDistance, geoPath } from "d3-geo";
+import { geoArea, geoAzimuthalEqualArea, geoCentroid, geoDistance, geoPath, type GeoPermissibleObjects, type GeoProjection } from "d3-geo";
 import type { Feature, MultiPolygon, Polygon, Position } from "geojson";
 import { merge } from "topojson-client";
 import type { GeometryCollection, Topology } from "topojson-specification";
@@ -56,7 +56,7 @@ export async function buildShapes(countries: Country[]): Promise<void> {
 }
 
 /** Garde la partie principale du pays et les îles proches (regroupement de proche en proche). */
-function mainland(geometry: MultiPolygon): { polygons: Position[][][]; dropped: number } {
+export function mainland(geometry: MultiPolygon): { polygons: Position[][][]; dropped: number } {
   const total = geoArea(geometry);
   const parts = geometry.coordinates
     .map((coords) => ({ coords, area: geoArea({ type: "Polygon", coordinates: coords }), sample: sampleRing(coords[0]) }))
@@ -105,6 +105,11 @@ export function toSvgPath(country: Feature<Polygon | MultiPolygon>): string {
       country,
     );
 
+  return svgPath(projection, country);
+}
+
+/** Chemin SVG d'un objet GeoJSON projeté : points arrondis au dixième, simplifiés (pas minimal `minStep` px). */
+export function svgPath(projection: GeoProjection, object: GeoPermissibleObjects, minStep = MIN_STEP_PX): string {
   let out = "";
   let last: [number, number] | null = null;
   let ringStart = out.length;
@@ -118,7 +123,7 @@ export function toSvgPath(country: Feature<Polygon | MultiPolygon>): string {
       last = [x, y];
     },
     lineTo(x: number, y: number) {
-      if (last && Math.hypot(x - last[0], y - last[1]) < MIN_STEP_PX) return;
+      if (last && Math.hypot(x - last[0], y - last[1]) < minStep) return;
       out += `L${fmt(x)} ${fmt(y)}`;
       last = [x, y];
       ringPoints++;
@@ -131,6 +136,6 @@ export function toSvgPath(country: Feature<Polygon | MultiPolygon>): string {
     },
     arc() {},
   };
-  geoPath(projection, context as never)(country);
+  geoPath(projection, context as never)(object);
   return out;
 }

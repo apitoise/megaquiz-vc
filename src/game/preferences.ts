@@ -5,7 +5,7 @@ export type KeyboardLayout = "azerty" | "qwerty";
 /** Canal de volume : les sons du jeu (« effects ») ou un thème qui joue de l'audio (par son id). */
 export const EFFECTS = "effects";
 /** Thèmes dont les questions sont des extraits audio. */
-export const AUDIO_THEMES = ["music", "ost", "film-music", "series-music"] as const;
+export const AUDIO_THEMES = ["music", "ost", "film-music", "series-music", "generiques"] as const;
 
 export interface Preferences {
   keyboard: KeyboardLayout;
@@ -22,6 +22,7 @@ export const DEFAULT_PREFERENCES: Preferences = {
     ost: 100,
     "film-music": 100,
     "series-music": 100,
+    generiques: 100,
   },
 };
 

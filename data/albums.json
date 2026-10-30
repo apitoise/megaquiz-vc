@@ -1,0 +1,1280 @@
+[
+ {
+  "slug": "pink-floyd-the-dark-side-of-the-moon",
+  "title": "The Dark Side of the Moon",
+  "artist": "Pink Floyd",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/e635a8510c1a74bc089b3566ebbb9cb8/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "pink-floyd-the-wall",
+  "title": "The Wall",
+  "artist": "Pink Floyd",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/2bea643b92a8fc6b19a23756f718cbd4/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "pink-floyd-wish-you-were-here",
+  "title": "Wish You Were Here",
+  "artist": "Pink Floyd",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/cb029c785b8d0cd624ddee9d4127ceff/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-beatles-abbey-road",
+  "title": "Abbey Road",
+  "artist": "The Beatles",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/aa94ab293730bb7845d2aa8c672b2c29/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-beatles-sgt-pepper-s-lonely-hearts-club-band",
+  "title": "Sgt. Pepper's Lonely Hearts Club Band",
+  "artist": "The Beatles",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/4fcb73352b17d47429a273c5112632b0/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-beatles-let-it-be",
+  "title": "Let It Be",
+  "artist": "The Beatles",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/fcf05300b7c17ec77a6d01028a4bef61/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-beatles-revolver",
+  "title": "Revolver",
+  "artist": "The Beatles",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/6e1e24a3e4311371abd2c888b1f0e13e/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "nirvana-nevermind",
+  "title": "Nevermind",
+  "artist": "Nirvana",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/f0282817b697279e56df13909962a54a/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "nirvana-in-utero",
+  "title": "In Utero",
+  "artist": "Nirvana",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/4d0dfaf6d522f5323aebcc85903d92ac/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "michael-jackson-thriller",
+  "title": "Thriller",
+  "artist": "Michael Jackson",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/f01e09ceb8ad1e96707c1b4aadb5911b/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "michael-jackson-bad",
+  "title": "Bad",
+  "artist": "Michael Jackson",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/cad261eafd0c6c15811200d5039b5b50/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "michael-jackson-dangerous",
+  "title": "Dangerous",
+  "artist": "Michael Jackson",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/d61de6d2173124f6cc53328a4668a3de/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "queen-a-night-at-the-opera",
+  "title": "A Night at the Opera",
+  "artist": "Queen",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/0b56f4eee05fa1ea753c5654b2cdb70c/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "queen-news-of-the-world",
+  "title": "News of the World",
+  "artist": "Queen",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/7a423dd31a478954f492c560ae90559d/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "queen-innuendo",
+  "title": "Innuendo",
+  "artist": "Queen",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/1ae58b7b789c2f0dec6e879820147617/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "ac-dc-back-in-black",
+  "title": "Back in Black",
+  "artist": "AC/DC",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/41041b14873956eff0459c8ea2c296a8/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "ac-dc-highway-to-hell",
+  "title": "Highway to Hell",
+  "artist": "AC/DC",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/de48d988a82fc401f4b9bafc2639f7d0/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "led-zeppelin-led-zeppelin-iv",
+  "title": "Led Zeppelin IV",
+  "artist": "Led Zeppelin",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/2047754dc07232def42ec26a9a854544/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "led-zeppelin-houses-of-the-holy",
+  "title": "Houses of the Holy",
+  "artist": "Led Zeppelin",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/87df66f7805c5bd5fdf353def5c3425f/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-rolling-stones-sticky-fingers",
+  "title": "Sticky Fingers",
+  "artist": "The Rolling Stones",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/cf61e42ee4036325e8d151489e6f38f7/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-velvet-underground-the-velvet-underground-and-nico",
+  "title": "The Velvet Underground & Nico",
+  "artist": "The Velvet Underground",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/f5e3bdb447ff459bc7d585352a92a6f5/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-clash-london-calling",
+  "title": "London Calling",
+  "artist": "The Clash",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/1dbb7d7bee08ed2b18deabffd675bd36/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "sex-pistols-never-mind-the-bollocks",
+  "title": "Never Mind the Bollocks",
+  "artist": "Sex Pistols",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/575828a67a039569e32cc217c50e3346/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "ramones-ramones",
+  "title": "Ramones",
+  "artist": "Ramones",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/5e4fa09fd2de120d601098123f43e328/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "david-bowie-aladdin-sane",
+  "title": "Aladdin Sane",
+  "artist": "David Bowie",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/c3353282382a26c00787ff239cba0eb8/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "david-bowie-the-rise-and-fall-of-ziggy-stardust",
+  "title": "The Rise and Fall of Ziggy Stardust",
+  "artist": "David Bowie",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/23bdeda0503dec55e7ba6a9f56d0c3c2/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "david-bowie-heroes",
+  "title": "Heroes",
+  "artist": "David Bowie",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/5fb91018679f65199308256be3c584ab/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "fleetwood-mac-rumours",
+  "title": "Rumours",
+  "artist": "Fleetwood Mac",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/9732751ce91d786dcf30069853697078/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "eagles-hotel-california",
+  "title": "Hotel California",
+  "artist": "Eagles",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/ef02459f8e72f33acef71617a97d3999/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "bruce-springsteen-born-in-the-u-s-a",
+  "title": "Born in the U.S.A.",
+  "artist": "Bruce Springsteen",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/106f651bf559796879b90e83c50b3e96/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "bruce-springsteen-born-to-run",
+  "title": "Born to Run",
+  "artist": "Bruce Springsteen",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/9d240cdc757dceab4428aa434b11ed23/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "prince-purple-rain",
+  "title": "Purple Rain",
+  "artist": "Prince",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/526d2d27a16da94b6f46fa4e786a34c9/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "madonna-like-a-virgin",
+  "title": "Like a Virgin",
+  "artist": "Madonna",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/3836708e2d450cdaa61341112b972228/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "madonna-ray-of-light",
+  "title": "Ray of Light",
+  "artist": "Madonna",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/b75d884b15db9c2b3376f93caa059a93/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "u2-the-joshua-tree",
+  "title": "The Joshua Tree",
+  "artist": "U2",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/b255afa51b3c1af7872acb56da319c2d/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "u2-war",
+  "title": "War",
+  "artist": "U2",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/c66b126bb3afe75c7fedd62f9df4956b/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "guns-n-roses-appetite-for-destruction",
+  "title": "Appetite for Destruction",
+  "artist": "Guns N' Roses",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/75c0f08e23dca1c8e25b298ee67a41d1/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "metallica-metallica",
+  "title": "Metallica",
+  "artist": "Metallica",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/4f2093c9d25852c8f1937ae5a47b99a6/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "metallica-master-of-puppets",
+  "title": "Master of Puppets",
+  "artist": "Metallica",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/291e2af9295ca885b154eee75dfa0432/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "iron-maiden-the-number-of-the-beast",
+  "title": "The Number of the Beast",
+  "artist": "Iron Maiden",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/7ed7d6130119c3a0afa60499ae8e9599/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "black-sabbath-paranoid",
+  "title": "Paranoid",
+  "artist": "Black Sabbath",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/bb3b4d0378c91d2fca5204bac48f5e71/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "bon-jovi-slippery-when-wet",
+  "title": "Slippery When Wet",
+  "artist": "Bon Jovi",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/1f0365311a9d03c267f175e0ef79f40c/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "dire-straits-brothers-in-arms",
+  "title": "Brothers in Arms",
+  "artist": "Dire Straits",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/07348a1ee308434ec12bd86a8eccadc6/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-police-synchronicity",
+  "title": "Synchronicity",
+  "artist": "The Police",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/e9d3dbc325eebdaf6bc442c2f9a05daa/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "joy-division-unknown-pleasures",
+  "title": "Unknown Pleasures",
+  "artist": "Joy Division",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/013c601da70bf83a0fea61bd9c526449/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "new-order-power-corruption-and-lies",
+  "title": "Power, Corruption & Lies",
+  "artist": "New Order",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/08d515a96171ce611eeea453018d5873/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-cure-disintegration",
+  "title": "Disintegration",
+  "artist": "The Cure",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/6695e76996cb8ef9529ff70a654f4329/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-smiths-the-queen-is-dead",
+  "title": "The Queen Is Dead",
+  "artist": "The Smiths",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/7ca9c4c9988765720bf3b722e101d2c3/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "depeche-mode-violator",
+  "title": "Violator",
+  "artist": "Depeche Mode",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/2632e326fac7c48c2fbef198f295995a/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "radiohead-ok-computer",
+  "title": "OK Computer",
+  "artist": "Radiohead",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/05a186e0a859a36f9cd51cdae2158fe1/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "radiohead-kid-a",
+  "title": "Kid A",
+  "artist": "Radiohead",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/e5925065cdb1cefbc3bd75af4a1f1801/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "radiohead-in-rainbows",
+  "title": "In Rainbows",
+  "artist": "Radiohead",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/a175af9b7d329bc678cb4d26fc13d6de/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "oasis-what-s-the-story-morning-glory",
+  "title": "(What's the Story) Morning Glory?",
+  "artist": "Oasis",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/ddb062c517401ee74d8a4df6f895d75e/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "oasis-definitely-maybe",
+  "title": "Definitely Maybe",
+  "artist": "Oasis",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/c2ba6e9c72949c33df02ce5fac4580f8/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "blur-parklife",
+  "title": "Parklife",
+  "artist": "Blur",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/98f245ad2e96e9a3d80f5a4ed085d3cf/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "pulp-different-class",
+  "title": "Different Class",
+  "artist": "Pulp",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/cf8eb9734663d0b36a12582d3ac10331/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-verve-urban-hymns",
+  "title": "Urban Hymns",
+  "artist": "The Verve",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/ecc7727e897198892b98e7c019fba45f/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "red-hot-chili-peppers-californication",
+  "title": "Californication",
+  "artist": "Red Hot Chili Peppers",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/5e61e8290a4d1d64ca58920656c9602d/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "red-hot-chili-peppers-blood-sugar-sex-magik",
+  "title": "Blood Sugar Sex Magik",
+  "artist": "Red Hot Chili Peppers",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/5d7af03204d679ef877b9033d279d8bd/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "pearl-jam-ten",
+  "title": "Ten",
+  "artist": "Pearl Jam",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/00ee8c40862fb4e258fcbeaa17d7199e/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "rage-against-the-machine-rage-against-the-machine",
+  "title": "Rage Against the Machine",
+  "artist": "Rage Against the Machine",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/a3a5690b75d3b43e3b676d7e33ccb111/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "green-day-american-idiot",
+  "title": "American Idiot",
+  "artist": "Green Day",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/9e17c202b5ab081171f31c81eb32dc5d/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "green-day-dookie",
+  "title": "Dookie",
+  "artist": "Green Day",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/1e17054b7bfa6576f64ea867b71ef479/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-offspring-smash",
+  "title": "Smash",
+  "artist": "The Offspring",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/7199697566542a1b1d7918e3cb381899/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "blink-182-enema-of-the-state",
+  "title": "Enema of the State",
+  "artist": "blink-182",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/c25db71db5267c6919391c5f6d8b0d37/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "linkin-park-hybrid-theory",
+  "title": "Hybrid Theory",
+  "artist": "Linkin Park",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/033a271b5ec10842c287827c39244fb5/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "linkin-park-meteora",
+  "title": "Meteora",
+  "artist": "Linkin Park",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/882448ab63952aa16e502c82db2df160/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "system-of-a-down-toxicity",
+  "title": "Toxicity",
+  "artist": "System of a Down",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/6baa3ad626e859f67bbddae6528fd949/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "muse-absolution",
+  "title": "Absolution",
+  "artist": "Muse",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/a945951c77d915a810b163059e486a13/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "muse-black-holes-and-revelations",
+  "title": "Black Holes and Revelations",
+  "artist": "Muse",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/fc457d27a8c0b7fc6f9b56fb94e22a0d/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "coldplay-parachutes",
+  "title": "Parachutes",
+  "artist": "Coldplay",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/970dce98eeea6729244c0ae71707a83d/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "coldplay-a-rush-of-blood-to-the-head",
+  "title": "A Rush of Blood to the Head",
+  "artist": "Coldplay",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/5ba1787e1ec36dbbca38ff01fea8fb21/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "coldplay-viva-la-vida",
+  "title": "Viva la Vida",
+  "artist": "Coldplay",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/eede3cd0dc3a5a87c7a5b1085b022e2d/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-strokes-is-this-it",
+  "title": "Is This It",
+  "artist": "The Strokes",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/700f0375d5ac8570f16a2c7eb128303f/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-white-stripes-elephant",
+  "title": "Elephant",
+  "artist": "The White Stripes",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/370483b6b448fafeeff053a1556467da/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "arctic-monkeys-am",
+  "title": "AM",
+  "artist": "Arctic Monkeys",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/64e54e307bd5e2bdb27ffeb662fd910d/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "arctic-monkeys-whatever-people-say-i-am-that-s-what-i-m-not",
+  "title": "Whatever People Say I Am, That's What I'm Not",
+  "artist": "Arctic Monkeys",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/f7a0a1ca91431861989efe5a22aad557/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "franz-ferdinand-franz-ferdinand",
+  "title": "Franz Ferdinand",
+  "artist": "Franz Ferdinand",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/f274cdbda80d97a785e001848378dd29/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-killers-hot-fuss",
+  "title": "Hot Fuss",
+  "artist": "The Killers",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/38bb1c3329d465a3e6d4ebfe579df121/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "gorillaz-demon-days",
+  "title": "Demon Days",
+  "artist": "Gorillaz",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/3dc29a565149240729afc08e1f251b46/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "gorillaz-gorillaz",
+  "title": "Gorillaz",
+  "artist": "Gorillaz",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/f4d581f4b86c869547704d7db9aa2c43/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "tame-impala-currents",
+  "title": "Currents",
+  "artist": "Tame Impala",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/de5b9b704cd4ec36f8bf49beb3e17ba2/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "daft-punk-discovery",
+  "title": "Discovery",
+  "artist": "Daft Punk",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/5718f7c81c27e0b2417e2a4c45224f8a/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "daft-punk-random-access-memories",
+  "title": "Random Access Memories",
+  "artist": "Daft Punk",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/311bba0fc112d15f72c8b5a65f0456c1/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "daft-punk-homework",
+  "title": "Homework",
+  "artist": "Daft Punk",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/b870579c8650cd59b1cce656dde2ef17/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "justice-cross",
+  "title": "† (Cross)",
+  "artist": "Justice",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/d779ba5bc3bb32475a78909d97cf8964/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "air-moon-safari",
+  "title": "Moon Safari",
+  "artist": "Air",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/1ccd5dc034bd7ad4f59ab540378ae1f5/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "moby-play",
+  "title": "Play",
+  "artist": "Moby",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/b72d7a70617245409b2a1927a7a02488/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-prodigy-the-fat-of-the-land",
+  "title": "The Fat of the Land",
+  "artist": "The Prodigy",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/ca2a015f912887a634e2a0a124acb05a/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "massive-attack-mezzanine",
+  "title": "Mezzanine",
+  "artist": "Massive Attack",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/85abbdc3ed4a7b94ace97f868fe70f63/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "portishead-dummy",
+  "title": "Dummy",
+  "artist": "Portishead",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/5942b88996f33c82790023d5d99395d3/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "bjork-homogenic",
+  "title": "Homogenic",
+  "artist": "Björk",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/767ed9448afc5f293cd951da92ae5b3d/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "kraftwerk-the-man-machine",
+  "title": "The Man-Machine",
+  "artist": "Kraftwerk",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/34abb4ebbf3a7784757a5c94ebee6c4e/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "jean-michel-jarre-oxygene",
+  "title": "Oxygène",
+  "artist": "Jean-Michel Jarre",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/3b3c47faaf7ed6a6ba50fd34d9c430ef/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "marvin-gaye-what-s-going-on",
+  "title": "What's Going On",
+  "artist": "Marvin Gaye",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/dd5e37f720256949a07a7e1a91754550/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "stevie-wonder-songs-in-the-key-of-life",
+  "title": "Songs in the Key of Life",
+  "artist": "Stevie Wonder",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/ed7d05fc8407ff367c7fe39bd0d28a56/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "bob-marley-and-the-wailers-legend",
+  "title": "Legend",
+  "artist": "Bob Marley & The Wailers",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/7ef360d8df760038e0330664ead31e55/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "bob-marley-and-the-wailers-exodus",
+  "title": "Exodus",
+  "artist": "Bob Marley & The Wailers",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/4a8376ef313d132ca7b434fe82309f47/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "miles-davis-kind-of-blue",
+  "title": "Kind of Blue",
+  "artist": "Miles Davis",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/fb9fbd93db667e24d4f5dee781e83f7d/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "simon-and-garfunkel-bridge-over-troubled-water",
+  "title": "Bridge over Troubled Water",
+  "artist": "Simon & Garfunkel",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/6f7036f2c3632d9e1df142f1078cb5c1/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "elton-john-goodbye-yellow-brick-road",
+  "title": "Goodbye Yellow Brick Road",
+  "artist": "Elton John",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/b34f389d15bcc5842d140c9c29e3bbd5/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "whitney-houston-whitney-houston",
+  "title": "Whitney Houston",
+  "artist": "Whitney Houston",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/e5712b346f0ca0f167da8ffd7588db3f/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "amy-winehouse-back-to-black",
+  "title": "Back to Black",
+  "artist": "Amy Winehouse",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/5772b495f0dcdf660d0fc88c4c38a3fa/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "adele-21",
+  "title": "21",
+  "artist": "Adele",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/dc1ce848d830ecc93521be5a78350364/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "adele-25",
+  "title": "25",
+  "artist": "Adele",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/eaeadce7932a97533fe495881d2fcd7a/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "beyonce-lemonade",
+  "title": "Lemonade",
+  "artist": "Beyoncé",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/bb119e6869e38e386abf276eef6fe1c2/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "beyonce-dangerously-in-love",
+  "title": "Dangerously in Love",
+  "artist": "Beyoncé",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/1ea1a631aa5235bbd0063643beb96fa8/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "rihanna-good-girl-gone-bad",
+  "title": "Good Girl Gone Bad",
+  "artist": "Rihanna",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/91276466fbc876d96be9e6926060af60/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "rihanna-anti",
+  "title": "Anti",
+  "artist": "Rihanna",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/4fc5f387624c25de0ec96b4719e3a36d/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "lady-gaga-the-fame",
+  "title": "The Fame",
+  "artist": "Lady Gaga",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/cc24d60a998e1a296f0c22efa8ddffd2/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "lady-gaga-born-this-way",
+  "title": "Born This Way",
+  "artist": "Lady Gaga",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/0f256c4bebac58a7c4122e0e639303a8/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "britney-spears-baby-one-more-time",
+  "title": "...Baby One More Time",
+  "artist": "Britney Spears",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/f685d32254a59b6162be0d1082ff8805/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "katy-perry-teenage-dream",
+  "title": "Teenage Dream",
+  "artist": "Katy Perry",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/11d43ee0b1fe44d8fb028bbf2d2d33ea/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "taylor-swift-1989",
+  "title": "1989",
+  "artist": "Taylor Swift",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/5aad85c12f4c5370d3bbb2e3549d07d9/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "taylor-swift-folklore",
+  "title": "Folklore",
+  "artist": "Taylor Swift",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/290abe93bdda84bb8b170f30a4998c4c/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "taylor-swift-midnights",
+  "title": "Midnights",
+  "artist": "Taylor Swift",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/5cd9afe3078d7916dcbc566dbb979b97/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "billie-eilish-when-we-all-fall-asleep-where-do-we-go",
+  "title": "When We All Fall Asleep, Where Do We Go?",
+  "artist": "Billie Eilish",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/6630083f454d48eadb6a9b53f035d734/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "billie-eilish-happier-than-ever",
+  "title": "Happier Than Ever",
+  "artist": "Billie Eilish",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/9955047483278bd0f93420951226ac44/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "lana-del-rey-born-to-die",
+  "title": "Born to Die",
+  "artist": "Lana Del Rey",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/29d25102cd063abf1affa69143966918/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "lorde-pure-heroine",
+  "title": "Pure Heroine",
+  "artist": "Lorde",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/7bb0b356418fbb275c0c3db7259128d7/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "dua-lipa-future-nostalgia",
+  "title": "Future Nostalgia",
+  "artist": "Dua Lipa",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/f8364f090ba04f1b19b381ec0390f3e4/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "harry-styles-harry-s-house",
+  "title": "Harry's House",
+  "artist": "Harry Styles",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/7ca460e8c5b01391f1bdb316aff7419f/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "harry-styles-fine-line",
+  "title": "Fine Line",
+  "artist": "Harry Styles",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/346c524c15ecccbc4a8a78e8972a352c/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "ed-sheeran",
+  "title": "÷",
+  "artist": "Ed Sheeran",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/000a9228cecfcc7c2093d9cd7bb66447/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "ed-sheeran-x",
+  "title": "x",
+  "artist": "Ed Sheeran",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/b1d763da698c38bde6a526c8220ca0ea/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-weeknd-after-hours",
+  "title": "After Hours",
+  "artist": "The Weeknd",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/fd00ebd6d30d7253f813dba3bb1c66a9/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-weeknd-starboy",
+  "title": "Starboy",
+  "artist": "The Weeknd",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/134778e4c4f19ea71c82408300925a9a/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "bruno-mars-24k-magic",
+  "title": "24K Magic",
+  "artist": "Bruno Mars",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/012b27906b430a37ec1d8f793d5c4fa6/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "justin-timberlake-justified",
+  "title": "Justified",
+  "artist": "Justin Timberlake",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/7cba368fa8466d72d149264577cb19d7/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "olivia-rodrigo-sour",
+  "title": "SOUR",
+  "artist": "Olivia Rodrigo",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/e68da86fd7976135c2d2d1715afaef7c/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "frank-ocean-blonde",
+  "title": "Blonde",
+  "artist": "Frank Ocean",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/aa7e6de00b0810f5051aa60b489f58d8/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "frank-ocean-channel-orange",
+  "title": "Channel Orange",
+  "artist": "Frank Ocean",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/519400e29d268f449cf00af879e71af6/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "kanye-west-graduation",
+  "title": "Graduation",
+  "artist": "Kanye West",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/8c6578a2099561992fb7544e6826f767/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "kanye-west-my-beautiful-dark-twisted-fantasy",
+  "title": "My Beautiful Dark Twisted Fantasy",
+  "artist": "Kanye West",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/742aba8510ba803bea51d304cf2ca786/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "kanye-west-the-college-dropout",
+  "title": "The College Dropout",
+  "artist": "Kanye West",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/069a5dba671436da9301aad36fc9a983/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "kendrick-lamar-good-kid-m-a-a-d-city",
+  "title": "good kid, m.A.A.d city",
+  "artist": "Kendrick Lamar",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/b5be27644d505bad7bdb516fe4165475/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "kendrick-lamar-to-pimp-a-butterfly",
+  "title": "To Pimp a Butterfly",
+  "artist": "Kendrick Lamar",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/00dd0da365a94b1829302d6b7fec70e6/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "kendrick-lamar-damn",
+  "title": "DAMN.",
+  "artist": "Kendrick Lamar",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/7ce6b8452fae425557067db6e6a1cad5/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "eminem-the-marshall-mathers-lp",
+  "title": "The Marshall Mathers LP",
+  "artist": "Eminem",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/941c2d3c366affdc662956559e078a4e/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "eminem-the-eminem-show",
+  "title": "The Eminem Show",
+  "artist": "Eminem",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "eminem-the-slim-shady-lp",
+  "title": "The Slim Shady LP",
+  "artist": "Eminem",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/83c5dc5ab4d1781ed3bb01c43956d71e/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "dr-dre-2001",
+  "title": "2001",
+  "artist": "Dr. Dre",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/0d9a24d054cbc5ab11843beed9f1422b/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "nas-illmatic",
+  "title": "Illmatic",
+  "artist": "Nas",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/1bd8913c9577f0c1535ba0e82eddcf45/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "the-notorious-b-i-g-ready-to-die",
+  "title": "Ready to Die",
+  "artist": "The Notorious B.I.G.",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/7143c2cd04a78c9c969d230c69465a03/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "2pac-all-eyez-on-me",
+  "title": "All Eyez on Me",
+  "artist": "2Pac",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/7856515f9e28265943f125fad02f63b1/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "jay-z-the-blueprint",
+  "title": "The Blueprint",
+  "artist": "Jay-Z",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/27a4b0d7294fb555d1d23d666f8fb8fe/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "lauryn-hill-the-miseducation-of-lauryn-hill",
+  "title": "The Miseducation of Lauryn Hill",
+  "artist": "Lauryn Hill",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/1322b9d5248a55034f098802072cfac4/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "outkast-speakerboxxx-the-love-below",
+  "title": "Speakerboxxx/The Love Below",
+  "artist": "OutKast",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/f81783b6cc6030733cd475f820855562/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "50-cent-get-rich-or-die-tryin",
+  "title": "Get Rich or Die Tryin'",
+  "artist": "50 Cent",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/8f4dd4d8abf85ceda96b6b4adf217590/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "drake-views",
+  "title": "Views",
+  "artist": "Drake",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/56bdb7a86a27fadb96332c0c8f1b8e81/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "drake-take-care",
+  "title": "Take Care",
+  "artist": "Drake",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/6e7a6c8f36669dcd11abe7e7c3222e91/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "travis-scott-astroworld",
+  "title": "Astroworld",
+  "artist": "Travis Scott",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/0b08015216f975dc7fb5be3d5dcc4d88/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "post-malone-beerbongs-and-bentleys",
+  "title": "Beerbongs & Bentleys",
+  "artist": "Post Malone",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/c000a4d39f31f3716bf3f11aa5fab080/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "tyler-the-creator-igor",
+  "title": "IGOR",
+  "artist": "Tyler, The Creator",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/041ab5ceb6fb6ebf9512966835be9e1b/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "childish-gambino-awaken-my-love",
+  "title": "Awaken, My Love!",
+  "artist": "Childish Gambino",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/57ae3715e73c0486616bab8c2d6c6159/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "bad-bunny-un-verano-sin-ti",
+  "title": "Un Verano Sin Ti",
+  "artist": "Bad Bunny",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/b29d1070377b784384c2456093f96a66/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "stromae-racine-carree",
+  "title": "Racine carrée",
+  "artist": "Stromae",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/914db9146f330d0a2969d157872da5eb/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "stromae-cheese",
+  "title": "Cheese",
+  "artist": "Stromae",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/43bd78a4753df33da9efc2207c4286ee/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "stromae-multitude",
+  "title": "Multitude",
+  "artist": "Stromae",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/07d285aac432f1d6452da1a7694f6bf3/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "angele-brol",
+  "title": "Brol",
+  "artist": "Angèle",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/4a2360324af313f73b56fd1f7faaac88/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "christine-and-the-queens-chaleur-humaine",
+  "title": "Chaleur humaine",
+  "artist": "Christine and the Queens",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/d9fcaf9ab19436cce27af945d86eea98/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "indochine-paradize",
+  "title": "Paradize",
+  "artist": "Indochine",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/9675b4e3f8831b8dd027b78d97903727/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "indochine-3",
+  "title": "3",
+  "artist": "Indochine",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/edb5390d290e09baafdd6efba6173b6e/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "telephone-dure-limite",
+  "title": "Dure limite",
+  "artist": "Téléphone",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/ab7e95cada539e2cc9abdef4c46b225b/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "noir-desir-tostaky",
+  "title": "Tostaky",
+  "artist": "Noir Désir",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/3f9cfbb5bd268b2145b5ad8ab2380db4/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "noir-desir-666-667-club",
+  "title": "666.667 Club",
+  "artist": "Noir Désir",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/feb2b367b05b4701600c50e707b90b0b/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "serge-gainsbourg-histoire-de-melody-nelson",
+  "title": "Histoire de Melody Nelson",
+  "artist": "Serge Gainsbourg",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/e54c2017b99dcbf247115e41d0bf0bbd/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "serge-gainsbourg-aux-armes-et-caetera",
+  "title": "Aux armes et caetera",
+  "artist": "Serge Gainsbourg",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/b8368dd95ef93a9942d897e485178925/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "jacques-brel-les-marquises",
+  "title": "Les Marquises",
+  "artist": "Jacques Brel",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/1a05bb7cd5c7caec934ea5a0a3c34b4d/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "edith-piaf-la-vie-en-rose",
+  "title": "La Vie en rose",
+  "artist": "Édith Piaf",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/df9152b33fe78e6919bea9e29bb8b812/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "jean-jacques-goldman-entre-gris-clair-et-gris-fonce",
+  "title": "Entre gris clair et gris foncé",
+  "artist": "Jean-Jacques Goldman",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/24a55072848c478137621f3b79fc43db/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "johnny-hallyday-sang-pour-sang",
+  "title": "Sang pour sang",
+  "artist": "Johnny Hallyday",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/ce8f860ab625698ba5a93f53f478ab1a/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "mylene-farmer-ainsi-soit-je",
+  "title": "Ainsi soit je...",
+  "artist": "Mylène Farmer",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/5506b1158ca20ba164b93a87d7d553ee/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "mylene-farmer-anamorphosee",
+  "title": "Anamorphosée",
+  "artist": "Mylène Farmer",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/af6887d3a0472a03f894ee72dfa394b4/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "alain-bashung-fantaisie-militaire",
+  "title": "Fantaisie militaire",
+  "artist": "Alain Bashung",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/7875b83b6760e3fec6d9f6d935fe85c7/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "renaud-morgane-de-toi",
+  "title": "Morgane de toi",
+  "artist": "Renaud",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/87d0dca8554707fa4b05ce0777bd6e91/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "francis-cabrel-samedi-soir-sur-la-terre",
+  "title": "Samedi soir sur la Terre",
+  "artist": "Francis Cabrel",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/69988ee2f58c5d7f513e8a50ef87dfe4/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "manu-chao-clandestino",
+  "title": "Clandestino",
+  "artist": "Manu Chao",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/d8799322e229f514cc543874e7726517/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "zazie-rodeo",
+  "title": "Rodéo",
+  "artist": "Zazie",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/47ba6f6e29bcda2bbf99959afcf76ad4/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "louise-attaque-louise-attaque",
+  "title": "Louise Attaque",
+  "artist": "Louise Attaque",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/0b2be6637d8afd3dfc1bc77d5585054f/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "matmatah-la-ouache",
+  "title": "La Ouache",
+  "artist": "Matmatah",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/5471f44044e20d9f59d98c411892f09a/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "phoenix-wolfgang-amadeus-phoenix",
+  "title": "Wolfgang Amadeus Phoenix",
+  "artist": "Phoenix",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/c3bb90a6b2f333c1510a876236bacf0c/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "m83-hurry-up-we-re-dreaming",
+  "title": "Hurry Up, We're Dreaming",
+  "artist": "M83",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/c82449a6fb6a40d947b79a2328ae0eb6/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "david-guetta-one-love",
+  "title": "One Love",
+  "artist": "David Guetta",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/c335e48e42697df84efaac76fc2538dc/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "iam-l-ecole-du-micro-d-argent",
+  "title": "L'École du micro d'argent",
+  "artist": "IAM",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/564dd3853a925bcd433b4e9846e78d09/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "supreme-ntm-paris-sous-les-bombes",
+  "title": "Paris sous les bombes",
+  "artist": "Suprême NTM",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/f572996349d358208e6e82c07cae08e7/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "mc-solaar-prose-combat",
+  "title": "Prose combat",
+  "artist": "MC Solaar",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/61bfb3f396bf4c008e8384eee6988348/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "diam-s-dans-ma-bulle",
+  "title": "Dans ma bulle",
+  "artist": "Diam's",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/07b9bd18c051a2bde54110104938c639/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "booba-temps-mort",
+  "title": "Temps mort",
+  "artist": "Booba",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/6155066c2ef574b4b3f49feb671d3cc8/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "booba-ouest-side",
+  "title": "Ouest Side",
+  "artist": "Booba",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/7fa62027aafd910591ac2ab292fbfbf3/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "pnl-dans-la-legende",
+  "title": "Dans la légende",
+  "artist": "PNL",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/3722b6f876813ecf4bdf75443bf02da1/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "pnl-deux-freres",
+  "title": "Deux frères",
+  "artist": "PNL",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/6e14fef7ed2c5684a36badd00b693036/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "nekfeu-feu",
+  "title": "Feu",
+  "artist": "Nekfeu",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/beb388822ee34e78a0e30c0436c6a299/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "nekfeu-cyborg",
+  "title": "Cyborg",
+  "artist": "Nekfeu",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/bac0ea75cfad929e85de82ee823cd638/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "orelsan-la-fete-est-finie",
+  "title": "La fête est finie",
+  "artist": "Orelsan",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/a73297e3ab7ccacfba29d7b958a28fe6/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "orelsan-civilisation",
+  "title": "Civilisation",
+  "artist": "Orelsan",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/974e863966461c44768f0732752695c9/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "damso-ipseite",
+  "title": "Ipséité",
+  "artist": "Damso",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/79ba3cd515942d1dc62f49f859a374fd/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "damso-lithopedion",
+  "title": "Lithopédion",
+  "artist": "Damso",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/d4aa1da7ceffc0a98974d1e6ba12173a/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "jul-my-world",
+  "title": "My World",
+  "artist": "Jul",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/2a67a4f85fef016ef6d5022930bff57b/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "sch-jvlivs",
+  "title": "JVLIVS",
+  "artist": "SCH",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/18ae33fae9a42188c315da68815ae836/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "ninho-destin",
+  "title": "Destin",
+  "artist": "Ninho",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/ac0ec199892ba83b2f8969a592530a79/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "aya-nakamura-nakamura",
+  "title": "Nakamura",
+  "artist": "Aya Nakamura",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/0092a895979e7311749b0282f1eb8fe6/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "sexion-d-assaut-l-apogee",
+  "title": "L'Apogée",
+  "artist": "Sexion d'Assaut",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/8039cea315e3ee29bb5c06b05c54d0a8/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "maitre-gims-subliminal",
+  "title": "Subliminal",
+  "artist": "Maître Gims",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/a48a99f7fd9c42d9de770de4543b4b86/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "bigflo-and-oli-la-vraie-vie",
+  "title": "La Vraie Vie",
+  "artist": "Bigflo & Oli",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/488600fe310b0efbd91f6f99fb176032/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "lomepal-jeannine",
+  "title": "Jeannine",
+  "artist": "Lomepal",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/a3fe9416859bed917f91aaa720aab1a5/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "soprano-cosmopolitanie",
+  "title": "Cosmopolitanie",
+  "artist": "Soprano",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/61a126ecfaebe0a924e4c894928e0583/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "celine-dion-d-eux",
+  "title": "D'eux",
+  "artist": "Céline Dion",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/783b08b576d4500ce8ee4f5de08d38b2/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "celine-dion-falling-into-you",
+  "title": "Falling into You",
+  "artist": "Céline Dion",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/348692abbdb9950a998c8d58cbba78b7/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "julien-dore-and",
+  "title": "&",
+  "artist": "Julien Doré",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/a587dce212f2d74edeecbb40a6f4fc32/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "zaz-zaz",
+  "title": "Zaz",
+  "artist": "Zaz",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/e1b8d63c75b2e36eaa5586ca9b8da1dd/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "clara-luciani-sainte-victoire",
+  "title": "Sainte-Victoire",
+  "artist": "Clara Luciani",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/4a20ea17623e6c255f5a1bd923dd0df0/1000x1000-000000-80-0-0.jpg"
+ },
+ {
+  "slug": "m-qui-de-nous-deux",
+  "title": "Qui de nous deux",
+  "artist": "-M-",
+  "cover": "https://cdn-images.dzcdn.net/images/cover/1e2faae14c7a7d6f0c2b0e35a41bce2f/1000x1000-000000-80-0-0.jpg"
+ }
+]
